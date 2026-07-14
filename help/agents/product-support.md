@@ -1,17 +1,10 @@
 ---
 title: Agente di supporto prodotto
 description: Scopri come utilizzare l’agente di supporto del prodotto in AI Assistant per semplificare la risoluzione dei problemi e il processo di archiviazione dei ticket di assistenza clienti.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -21,7 +14,7 @@ ht-degree: 100%
 # Agente di supporto prodotto
 
 <!--
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3mZjNhpwZ-o
 -->
 
 L’agente di supporto del prodotto è una funzionalità self-service di debug e risoluzione dei problemi di AI Assistant che puoi utilizzare per le funzioni e le applicazioni di Adobe Experience Platform.
@@ -71,5 +64,5 @@ Dopo aver completato questi passaggi, tutti gli amministratori del supporto nell
 
 Per ulteriori informazioni, guarda il video seguente e scopri come utilizzare l’agente di supporto del prodotto per risolvere facilmente i problemi senza uscire dai flussi di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443191?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
