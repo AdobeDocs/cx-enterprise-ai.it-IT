@@ -40,9 +40,9 @@ L&#39;idoneità del cliente alla sperimentazione è completamente a discrezione 
 I clienti idonei ricevono un diritto iniziale una tantum fino a 10.000 crediti AI da utilizzare per:
 
 - Chat collaboratore: input immessi nella chat collaboratore. Per un periodo introduttivo limitato, gli input consumano crediti di IA a un tasso di 25 crediti di IA per input. Questa tariffa è disponibile solo per un periodo limitato e soggetta a modifiche.
-- Agenti Experience Platform: qualsiasi combinazione di processi eseguiti utilizzando gli agenti Experience Platform (a seconda delle licenze esistenti per le applicazioni CX Enterprise) elencati nella [Tabella consumo credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Agenti Experience Platform: qualsiasi combinazione di processi eseguiti utilizzando gli agenti Experience Platform (a seconda delle licenze esistenti per le applicazioni CX Enterprise) elencati nella [Tabella consumo credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
 
 Il dashboard Monitoraggio di IA per l’analisi dell’agente offre una chiara visibilità dell’adozione e dell’utilizzo di IA per l’analisi dell’agente nell’organizzazione. Gli utenti autorizzati possono tracciare facilmente il coinvolgimento, raccogliere feedback, monitorare l’utilizzo del credito AI e rivedere le metriche chiave. Utilizza queste informazioni per scoprire le opportunità di ottimizzazione e supportare le tue attività di governance e adozione. Per ulteriori informazioni, consulta la [Guida al monitoraggio dell&#39;utilizzo di IA per l&#39;agente](https://experienceleague.adobe.com/it/docs/core-services/interface/features/monitoring).
 
@@ -102,7 +102,7 @@ La versione di prova viene distribuita in più fasi ad alcuni clienti idonei di 
 
 ### Quanti crediti IA ottengo e cosa succede quando questi crediti AI vengono utilizzati?
 
-I clienti idonei ricevono fino a 10.000 crediti IA per la prova, utilizzati come Chat collaboratore (o agenti Experience Platform) per eseguire attività. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+I clienti idonei ricevono fino a 10.000 crediti IA per la prova, utilizzati come Chat collaboratore (o agenti Experience Platform) per eseguire attività. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Questo costa qualcosa?
 
@@ -110,7 +110,7 @@ Questa versione di prova non richiede alcun acquisto aggiuntivo. Non esiste una 
 
 ### Chi può vedere l’utilizzo e come?
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage). Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
 
 I clienti mantengono il controllo su chi può visualizzare le informazioni sull’utilizzo e sul reporting. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare queste informazioni.
 
