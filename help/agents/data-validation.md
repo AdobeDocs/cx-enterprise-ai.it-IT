@@ -1,7 +1,7 @@
 ---
 title: Convalidare I Dati Nell’Assistente Ai
 description: Scopri come utilizzare la convalida dei dati basata su Agent Orchestrator nell’Assistente all’intelligenza artificiale per eseguire convalide statistiche e semantiche sui set di dati.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Utilizza **AI Assistant** in Adobe CX Enterprise per convalidare i dati. L’Ass
 
 ### Avvia convalida
 
-![Pagina principale dell&#39;Assistente AI con il campo del prompt che mostra una richiesta di convalida del set di dati, il selettore dell&#39;ambiente Experience Platform e il controllo Send.](./images/validation/home.png)
+![Pagina principale dell&#39;Assistente AI con il campo del prompt che mostra una richiesta di convalida del set di dati, il selettore dell&#39;ambiente Experience Platform e il controllo Send.](./assets/validation/home.png)
 
 Nel menu di navigazione a sinistra, selezionare **[!UICONTROL Assistente AI]**. Quindi, utilizza il selettore dell&#39;ambiente e scegli l&#39;organizzazione Experience Platform o la sandbox in cui si trova il set di dati (ad esempio, **[!UICONTROL Experience Platform - Prod]**). Nel campo prompt, digita una richiesta di convalida (ad esempio, chiedi di convalidare un set di dati per nome). Seleziona **[!UICONTROL Invia]** per inviare la richiesta.
 
@@ -48,7 +48,7 @@ Nel menu di navigazione a sinistra, selezionare **[!UICONTROL Assistente AI]**. 
 
 ### Leggi il riepilogo dei set di dati e la tabella dei campi
 
-![Risposta dell&#39;Assistente IA con Motivazione completata, riepilogo di convalida e tabella di riepilogo dei campi in cui sono elencati percorsi dei campi, tipi e valori validi.](./images/validation/answer.png)
+![Risposta dell&#39;Assistente IA con Motivazione completata, riepilogo di convalida e tabella di riepilogo dei campi in cui sono elencati percorsi dei campi, tipi e valori validi.](./assets/validation/answer.png)
 
 Consenti a Agent Orchestrator di completare l&#39;esecuzione (**Motivazione completata**). Al termine dell’esecuzione, leggi il riepilogo per il nome del set di dati, quanti campi sono stati convalidati e la dimensione del campione (in genere fino a circa 1.000 righe).
 
@@ -58,7 +58,7 @@ Selezionare **[!UICONTROL Mostra tutti i risultati]** quando sono necessarie col
 
 ### Operazioni in visualizzazione divisa
 
-![Visualizzazione suddivisa con commenti e statistiche di convalida a sinistra e visualizzazione con grafico espanso dei valori validi a destra.](./images/validation/split-screen.png)
+![Visualizzazione suddivisa con commenti e statistiche di convalida a sinistra e visualizzazione con grafico espanso dei valori validi a destra.](./assets/validation/split-screen.png)
 
 Nella visualizzazione espansa, utilizza il layout diviso: statistiche dettagliate e narrazioni su un lato e il grafico sull’altro.
 
@@ -69,19 +69,19 @@ Utilizza **[!UICONTROL Suggerimenti correlati]** o il campo del prompt nella par
 
 ### Utilizzare un suggerimento correlato per un follow-up
 
-![Suggerimenti correlati sotto il campo del prompt, con un suggerimento selezionato per convalidare un campo specifico nel set di dati.](./images/validation/related-suggestion.png)
+![Suggerimenti correlati sotto il campo del prompt, con un suggerimento selezionato per convalidare un campo specifico nel set di dati.](./assets/validation/related-suggestion.png)
 
 Dopo una risposta, trova **[!UICONTROL Suggerimenti correlati]** sotto la conversazione. Seleziona un suggerimento (ad esempio, convalida un campo specifico sullo stesso set di dati) per caricarlo nel campo del prompt. Se necessario, regola il testo, conferma l&#39;ambiente, quindi seleziona **[!UICONTROL Invia]** per eseguire il completamento.
 
 ### Convalida a livello di campo
 
-![Scheda dei risultati di convalida per un singolo campo nella visualizzazione grafico, che mostra un grafico ad anello di validità e l&#39;azione Mostra in visualizzazione espansa.](./images/validation/single-field.png)
+![Scheda dei risultati di convalida per un singolo campo nella visualizzazione grafico, che mostra un grafico ad anello di validità e l&#39;azione Mostra in visualizzazione espansa.](./assets/validation/single-field.png)
 
 Apri una scheda **[!UICONTROL Risultati convalida]** a livello di campo (ad esempio, dopo la convalida di un singolo campo). Utilizzare i controlli di visualizzazione per passare a **Grafico** (o altra visualizzazione) quando si desidera un riepilogo visivo anziché una tabella. Durante questo passaggio è possibile selezionare **[!UICONTROL Proprietà]** per visualizzare ulteriori informazioni sul campo.
 
 Selezionare **[!UICONTROL Mostra in visualizzazione espansa]** per aprire una visualizzazione più ampia e dettagliata della convalida del campo.
 
-![Visualizzazione espansa con statistiche dettagliate di convalida a livello di campo e visualizzazione grafico.](./images/validation/expanded-view.png)
+![Visualizzazione espansa con statistiche dettagliate di convalida a livello di campo e visualizzazione grafico.](./assets/validation/expanded-view.png)
 
 La visualizzazione espansa consente di visualizzare un elenco dettagliato dell&#39;intero campo, basato su un campione di un massimo di 1000 record per il campo specificato. È possibile utilizzare questa funzionalità per recuperare informazioni sui valori validi, distinti e nulli.
 
@@ -161,9 +161,9 @@ Per ogni campo e set di dati vengono eseguiti i seguenti tipi di convalida:
 - **Controlli di distribuzione**: primi valori univoci e relative distribuzioni, rilevamento ad alta cardinalità.
 - **Controlli semantici rispetto allo schema**: utilizza il nome, il tipo e la descrizione del campo XDM per dedurre l&#39;aspetto di &quot;valido&quot;, quindi contrassegna le anomalie.
 - **Controlli in base al tipo di dati** (se applicabile):
-   - E-mail: formato e plausibilità del dominio
-   - Telefono: preparazione al formato (ad esempio, E.164)
-   - Date/marche temporali: integrità del formato di base (ad esempio, ISO-8601)
+  - E-mail: formato e plausibilità del dominio
+  - Telefono: preparazione al formato (ad esempio, E.164)
+  - Date/marche temporali: integrità del formato di base (ad esempio, ISO-8601)
 - **Controlli relativi all&#39;identità** (futuri/estesi): univocità dei campi di identità candidati o delle chiavi composite.
 
 Questi controlli combinano le statistiche deterministiche con la convalida semantica assistita da LLM per rilevare i valori che &quot;sembrano errati&quot; anche quando tecnicamente corrispondono allo schema.

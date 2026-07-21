@@ -2,7 +2,7 @@
 title: Eseguire analisi dei dati di Customer Journey Analytics con il collaboratore
 description: Scopri come eseguire l’analisi dei dati di Customer Journey Analytics con Coworker.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Prima di iniziare l&#39;analisi, accedi a Chat con il tuo account CX Enterprise,
 
    1. Seleziona l&#39;icona MCP nella barra a sinistra, quindi accertati che [!UICONTROL **cja-mcp**] sia disponibile nell&#39;elenco dei server MCP connessi.
 
-      ![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Condizionale) Se [!UICONTROL **cja-mcp**] non è ancora connesso, selezionare [!UICONTROL **Aggiungi server MCP**], specificare cja nel campo [!UICONTROL **Nome server**] e selezionarlo quando viene visualizzato, quindi selezionare [!UICONTROL **Aggiungi server**].
 
@@ -85,7 +85,7 @@ La chat di Coworker contiene una funzione di memoria che ti consente di fornire 
 
 1. Nella sezione Preferenze memorizzate della pagina Memoria, specifica una o più visualizzazioni dati da utilizzare nelle chat di Collaborator Chat.
 
-   ![Sezione memoria nella barra a sinistra](images/data-validation-aa-cja/coworker-memory.png)
+   ![Sezione memoria nella barra a sinistra](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Caso d’uso: individuare il punto di partenza dei clienti
 
@@ -125,7 +125,7 @@ Tieni presente che Chat con i collaboratori sceglie la visualizzazione corretta,
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response.png)
+![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Questa è una domanda di funnel — lasciate che esegua il funnel di conversione per vedere dove avviene il drop-off sul percorso di acquisto.
 
@@ -176,7 +176,7 @@ Ok, suddividiamo per canale di marketing
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 È presente una dimensione **Canale di marketing** personalizzata. Lasciate che prenda il funnel in questo modo, poi calcoli i tassi di conversione per canale e identifichi dove ogni canale perde.
 
@@ -227,7 +227,7 @@ Interessante. Proviamo a suddividerci per tipo di dispositivo.
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Trovato: il checkout mobile è interrotto**
 

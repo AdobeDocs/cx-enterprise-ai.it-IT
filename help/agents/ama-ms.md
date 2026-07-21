@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Scopri come utilizzare Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Prima di poter utilizzare Adobe Marketing Agent per [!DNL Microsoft 365 Copilot]
 - [!DNL Microsoft 365] con [!DNL Microsoft Teams] o [!DNL Microsoft Copilot Chat].
 - Experience Platform e almeno uno dei seguenti: Real-Time CDP, Adobe Journey Optimizer e/o Customer Journey Analytics.
 - Adesione a Experience Platform Agent Orchestrator e agli agenti.
-- Accedi all’account Adobe Experience Cloud della tua organizzazione (accesso e autorizzazioni ai prodotti) per le soluzioni e i dati che utilizzi. Se non disponi dell’accesso ad Adobe, contatta il tuo amministratore Adobe.
+- Accesso all&#39;account aziendale Adobe CX della tua organizzazione (accesso e autorizzazioni ai prodotti) per le soluzioni e i dati utilizzati. Se non disponi dell’accesso ad Adobe, contatta il tuo amministratore Adobe.
 
 ## Abilita l&#39;agente per la tua organizzazione {#enable-the-agent-for-your-organization}
 
@@ -67,45 +67,45 @@ Per i passaggi dell&#39;amministratore e le opzioni dei criteri nel centro di am
 
 Dopo che la tua organizzazione ha abilitato l&#39;agente (vedi [Abilita l&#39;agente per la tua organizzazione](#enable-the-agent-for-your-organization)), passa a [!DNL Microsoft 365 Copilot] nell&#39;applicazione scelta e utilizza la barra di navigazione a sinistra per selezionare **[!DNL All Agents]**.
 
-![Microsoft 365 Copilot ha lasciato la navigazione con tutti gli agenti selezionati.](../agents/images/ama/all-agents.png)
+![Microsoft 365 Copilot ha lasciato la navigazione con tutti gli agenti selezionati.](../agents/assets/ama/all-agents.png)
 
 Individuare la scheda di [!DNL Adobe Marketing Agent] o utilizzare la barra di ricerca per cercare manualmente l&#39;agente. Una volta che hai l&#39;agente, seleziona la scheda.
 
-![Scheda Adobe Marketing Agent o risultato della ricerca nella raccolta agenti.](../agents/images/ama/select-ama.png)
+![Scheda Adobe Marketing Agent o risultato della ricerca nella raccolta agenti.](../agents/assets/ama/select-ama.png)
 
 Utilizza la finestra pop-up per ulteriori informazioni sull&#39;agente. Quando sei pronto, seleziona **[!DNL Add]**.
 
-![Finestra a comparsa dei dettagli di Adobe Marketing Agent con il pulsante Aggiungi evidenziato.](../agents/images/ama/add-ama.png)
+![Finestra a comparsa dei dettagli di Adobe Marketing Agent con il pulsante Aggiungi evidenziato.](../agents/assets/ama/add-ama.png)
 
 Il dashboard di [!DNL Microsoft 365 Copilot] viene aggiornato con il marchio [!DNL Adobe Marketing Agent] ora nella pagina principale.
 
-![Home page Microsoft 365 Copilot che mostra Adobe Marketing Agent nel dashboard principale.](../agents/images/ama/home.png)
+![Home page Microsoft 365 Copilot che mostra Adobe Marketing Agent nel dashboard principale.](../agents/assets/ama/home.png)
 
 ### Accedi e imposta il contesto
 
 Quindi, richiedi all&#39;agente di accedere e segui i passaggi successivi necessari per autenticare il tuo account. Durante questo passaggio, dovrai copiare un codice numerico restituito dall’agente e quindi accedere alla tua organizzazione Adobe. Se non riesci a completare l&#39;accesso o se non hai accesso alle soluzioni Adobe per la tua organizzazione, contatta il tuo **amministratore Adobe**.
 
-![Passaggio di accesso ad Adobe che mostra un codice numerico da copiare e le istruzioni per l&#39;autenticazione nell&#39;organizzazione Adobe.](../agents/images/ama/sign-in.png)
+![Passaggio di accesso ad Adobe che mostra un codice numerico da copiare e le istruzioni per l&#39;autenticazione nell&#39;organizzazione Adobe.](../agents/assets/ama/sign-in.png)
 
 In caso di esito positivo, utilizza il setter di contesto per stabilire l’origine della documentazione, la sandbox e la visualizzazione dati da utilizzare per le query.
 
-![Interfaccia utente di impostazione contesto per scegliere l&#39;origine della documentazione, la sandbox e la visualizzazione dati per le query.](../agents/images/ama/context.png)
+![Interfaccia utente di impostazione contesto per scegliere l&#39;origine della documentazione, la sandbox e la visualizzazione dati per le query.](../agents/assets/ama/context.png)
 
 ### Utilizza l’agente per recuperare informazioni operative
 
 Una volta effettuato l&#39;accesso, puoi utilizzare le richieste fornite nella pagina principale per iniziare. Puoi anche sfruttare un prompt iniziale che può essere esteso all’analisi dei tipi di pubblico di marketing, alla revisione delle prestazioni della campagna e al monitoraggio dei percorsi di campagne. Selezionare ad esempio **[!DNL Review campaign performance]** e quindi **[!DNL Analyze engagement - Show web visitors for top 10 products last week]**.
 
-![Richieste di avvio nella home page dell&#39;agente, incluse le opzioni Verifica prestazioni campagna e Analizza coinvolgimento.](../agents/images/ama/starter-guide.png)
+![Richieste di avvio nella home page dell&#39;agente, incluse le opzioni Verifica prestazioni campagna e Analizza coinvolgimento.](../agents/assets/ama/starter-guide.png)
 
 Consenti all&#39;agente di calcolare per qualche istante, quindi l&#39;agente risponde con una rappresentazione visiva dei dati. È possibile utilizzare il grafico a barre presentato oppure selezionare **[!DNL View data]** per visualizzare i dati nelle tabelle.
 
-![Risposta dell&#39;agente con un grafico a barre che visualizza i visitatori Web per i prodotti principali e l&#39;opzione Visualizza dati.](../agents/images/ama/response.png)
+![Risposta dell&#39;agente con un grafico a barre che visualizza i visitatori Web per i prodotti principali e l&#39;opzione Visualizza dati.](../agents/assets/ama/response.png)
 
-![Stesse informazioni visualizzate come tabella dati dopo aver selezionato Visualizza dati.](../agents/images/ama/tables.png)
+![Stesse informazioni visualizzate come tabella dati dopo aver selezionato Visualizza dati.](../agents/assets/ama/tables.png)
 
 Puoi approfondire l&#39;analisi selezionando le domande di follow-up che l&#39;agente ti consiglia. In alternativa, puoi eseguire il pivot e provare diversi prompt iniziali, verificare le fonti di informazioni a cui fa riferimento l’agente o fornire feedback utilizzando il meccanismo di feedback.
 
-![Domande di follow-up suggerite sotto la risposta dell&#39;agente per ulteriori indagini.](../agents/images/ama/follow-up.png)
+![Domande di follow-up suggerite sotto la risposta dell&#39;agente per ulteriori indagini.](../agents/assets/ama/follow-up.png)
 
 Per ulteriori informazioni sulle funzionalità dell&#39;interfaccia utente dell&#39;Assistente di intelligenza artificiale, leggere la guida in [utilizzo dell&#39;Assistente di intelligenza artificiale](../ai-assistant/ai-assistant-ui.md).
 
@@ -125,7 +125,7 @@ La versione iniziale è disponibile in lingua inglese. Le funzionalità sono lim
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent richiama diversi agenti e processi di Adobe a seconda dei prompt inviati. Questo agente Adobe sottostante che viene richiamato utilizza crediti IA come indicato nella pagina [Processi agente Adobe Experience Platform e consumo crediti AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
+>Adobe Marketing Agent richiama diversi agenti e processi di Adobe a seconda dei prompt inviati. Questo agente Adobe sottostante che viene richiamato utilizza crediti IA come indicato nella pagina [Processi agente Adobe Experience Platform e consumo crediti AI](../overview/ai-credit-consumption.md).
 
 ## Appendice
 

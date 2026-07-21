@@ -2,24 +2,13 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: Scopri Adobe Experience Platform Agent Orchestrator.
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 966
-ht-degree: 18%
+source-wordcount: 956
+ht-degree: 19%
 
 ---
 
@@ -37,11 +26,11 @@ Leggi questo documento per scoprire di più su Agent Orchestrator.
 
 Agent Orchestrator è costituito da diversi componenti chiave, tra cui l’interfaccia di conversazione dell’Assistente di intelligenza artificiale, un motore di ragionamento per il processo decisionale e la pianificazione, agenti Adobe Experience Platform specializzati e una knowledge base che fornisce l’accesso alle informazioni rilevanti.
 
-![Architettura di marketing di Agent Orchestrator.](./images/agent-orchestrator/agentic-architecture.png)
+![Architettura di marketing di Agent Orchestrator.](./assets/agent-orchestrator/agentic-architecture.png)
 
 ### Interfaccia conversazionale dell’Assistente IA {#ai-assistant}
 
-AI Assistant è un’esperienza di conversazione intelligente e in linguaggio naturale che consente ai professionisti che utilizzano applicazioni Experience Cloud abilitate di sfruttare le funzionalità GenAI e Agentic AI, la cui ampiezza dipende dalle applicazioni Experience Cloud concesse in licenza dai clienti. Per sbloccare l&#39;accesso, leggere [la guida all&#39;accesso all&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/access).
+AI Assistant è un&#39;esperienza di conversazione intelligente e naturale che consente ai professionisti che utilizzano applicazioni CX Enterprise abilitate di sfruttare le funzionalità GenAI e Agentic AI, la cui ampiezza dipende dalle applicazioni CX Enterprise concesse in licenza dai clienti. Per sbloccare l&#39;accesso, leggere [la guida all&#39;accesso all&#39;Assistente AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -51,7 +40,7 @@ Il motore di ragionamento interpreta i tuoi obiettivi in base alle richieste del
 
 ### Agenti Adobe Experience Platform {#agents}
 
-Gli agenti Adobe Experience Platform sono un raggruppamento appositamente creato di agenti IA esperti nella distribuzione di processi comuni tra i domini di esperienza del cliente. Di seguito è riportato l’elenco degli agenti Adobe Experience Platform attualmente disponibili nelle applicazioni Experience Cloud:
+Gli agenti Adobe Experience Platform sono un raggruppamento appositamente creato di agenti IA esperti nella distribuzione di processi comuni tra i domini di esperienza del cliente. Di seguito è riportato l&#39;elenco degli agenti Adobe Experience Platform attualmente disponibili nelle applicazioni CX Enterprise:
 
 | Agente | Dettagli | Applicazioni supportate |
 | --- | --- | --- |
@@ -61,7 +50,7 @@ Gli agenti Adobe Experience Platform sono un raggruppamento appositamente creato
 | [Journey Agent](./ajo-agent.md) | Journey Agent consente agli utenti di Adobe Journey Optimizer di creare, analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, puoi creare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o di pubblico, analizzare le prestazioni e i punti di abbandono e identificare percorsi dalle prestazioni migliori da replicare per le campagne future. Consente di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione dei percorsi. | Adobe Journey Optimizer |
 | [Agente di supporto del prodotto](product-support.md) | Product Support Agent è una funzionalità self-service di debug e risoluzione dei problemi che consente di risolvere i problemi relativi alle funzioni e alle applicazioni di Adobe Experience Platform senza uscire dai flussi di lavoro. Gli amministratori del supporto possono creare ticket di assistenza clienti con il contesto delle interazioni dell’Assistente IA e controllare gli aggiornamenti dei ticket tramite l’Assistente IA. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-Per ulteriori informazioni sulla disponibilità degli agenti nelle applicazioni Experience Cloud, consulta la [IA per l&#39;agente nella documentazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/agentic-ai).
+Per ulteriori informazioni sulla disponibilità degli agenti nelle applicazioni CX Enterprise, consultare [Agentic AI nella documentazione di CX Enterprise](../overview/agentic-ai.md).
 
 ### Knowledge base {#knowledge-base}
 
@@ -81,7 +70,7 @@ Tutti gli utenti possono accedere all’Assistente AI e agli agenti Experience P
 
 * **Adobe Experience Manager**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
-* **Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati.
+* **Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati.
 
 >[!NOTE]
 >
