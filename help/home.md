@@ -1,6 +1,6 @@
 ---
-title: IA nelle applicazioni Experience Cloud
-description: Scopri come le applicazioni Experience Cloud utilizzano l’IA generativa (GenAI), l’Assistente IA e l’IA agentica.
+title: IA nelle applicazioni aziendali CX
+description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Collaborator e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,125 +15,84 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 17%
+source-wordcount: 766
+ht-degree: 2%
 
 ---
 
-# IA in Experience Cloud
+# IA in CX Enterprise
 
-Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza artificiale nelle applicazioni Adobe Experience Cloud. Questa documentazione illustra come gli agenti AI, AI Assistant e Adobe generativi vengono integrati nei flussi di lavoro di Experience Cloud per accelerare la produttività e migliorare il processo decisionale.
+Questa guida descrive le funzionalità di intelligenza artificiale disponibili nelle applicazioni Adobe CX Enterprise: intelligenza artificiale generativa e Assistente all’intelligenza artificiale per la conoscenza dei prodotti e le informazioni operative, Agent Orchestrator e Experience Platform Agents per l’automazione dei processi, CX Enterprise Coworker per un’esperienza completamente conversazionale, agent-first e MCP per la connessione dei propri strumenti di intelligenza artificiale ai dati CX Enterprise.
 
-## Elementi inclusi in questa guida
+## Informazioni sull&#39;intelligenza artificiale in CX Enterprise
 
-### Assistente IA
+Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza artificiale in CX Enterprise:
 
-[L&#39;Assistente AI](./ai-assistant/ai-assistant-ui.md) è uno strumento intelligente di IA conversazionale e generativo che aumenterà la produttività e ridefinirà il lavoro nelle applicazioni basate su Adobe Experience Platform. Gli utenti possono acquisire conoscenze sui prodotti, risolvere i problemi e ottenere informazioni operative attraverso messaggi in linguaggio naturale. È inoltre possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
+- [Generative AI](./overview/generative-ai.md) descrive quali applicazioni CX Enterprise supportano Generative AI e AI Assistant e come si confrontano.
+- [Agentic AI](./overview/agentic-ai.md) spiega come gli agenti Experience Platform funzionano sia nelle applicazioni CX Enterprise esistenti che nelle applicazioni AI-first ed elenca gli agenti disponibili in ognuna di esse.
+- [Il monitoraggio di IA per l&#39;agente](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte dell&#39;agente.
+- [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md) spiega come i crediti IA vengono utilizzati dai processi agente, con tassi di consumo stimati per agente e tipo di processo.
 
-**Funzioni chiave:**
+## Assistente IA
 
-- **Interfaccia conversazionale**: puoi scegliere tra un&#39;interfaccia a schermo intero e un&#39;interfaccia di visualizzazione della barra per adattarsi alle preferenze del flusso di lavoro.
-- **Prompt di individuazione**: l&#39;Assistente IA fornisce prompt preconfigurati organizzati per categorie quali Apprendi, Analizza e Ottimizza.
-- **Impostazione contesto**: è possibile configurare le impostazioni di applicazione, sandbox e visualizzazione dati per ricevere risposte personalizzate alle proprie esigenze.
-- **Visualizzazione dati**: lo strumento fornisce grafici e grafici interattivi che consentono di ottenere informazioni dai dati.
-- **Verifica risposta**: tutte le risposte includono citazioni di origine, spiegazioni del ragionamento dell&#39;intelligenza artificiale e meccanismi per fornire feedback.
+[L&#39;Assistente AI](./ai-assistant/ai-assistant-ui.md) è uno strumento di IA conversazionale e generativo disponibile nelle applicazioni basate su Adobe Experience Platform. Utilizzalo per acquisire conoscenze sul prodotto, risolvere problemi, trovare informazioni operative e accedere agli agenti Experience Platform, il tutto attraverso prompt del linguaggio naturale in un’interfaccia a schermo intero o con visualizzazione a barra.
 
+Per informazioni su come esplorare l&#39;interfaccia, leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente di IA](./ai-assistant/ai-assistant-ui.md) e la [libreria di prompt](./ai-assistant/prompt-library.md), ad esempio i prompt dell&#39;agente.
 
-### Agent Orchestrator
+## Agenti Agent Orchestrator e Experience Platform
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) è il nuovo livello agente in Adobe Experience Platform. Progettato per sfruttare la ricca disponibilità di dati e le conoscenze della clientela della piattaforma, Agent Orchestrator di Experience Platform potenzia le informazioni e il ragionamento alla base degli Agenti esperti di Adobe Experience Platform appositamente creati, consentendo loro di eseguire complesse attività decisionali e di risoluzione dei problemi in modo rapido e su larga scala, sempre con intervento umano. Quando poni domande o richiedi assistenza tramite il linguaggio naturale in un’interfaccia conversazionale come l’Assistente IA, Agent Orchestrator richiama automaticamente ad agenti specializzati per ottenere le risposte giuste. Agent Orchestrator ricorda la cronologia delle conversazioni consentendoti di fare riferimento alle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina gli insight provenienti da più agenti per fornire risposte chiare e unificate.
+[Agent Orchestrator](./agents/agent-orchestrator.md) è il livello agente che attiva gli agenti Experience Platform. Quando fai una domanda all’Assistente AI, Agent Orchestrator pianifica il lavoro, chiama gli agenti specializzati necessari per rispondervi e restituisce una risposta unificata, il tutto con una supervisione umana.
 
-**Componenti core:**
+I seguenti agenti Experience Platform sono documentati in questa guida:
 
-- **Motore di ragionamento**: crea piani dettagliati e regola gli approcci in base alle esigenze
-- **Agenti specializzati**: agenti appositamente creati per attività e domini specifici
-- **Knowledge Base**: accesso sicuro alle informazioni e alla documentazione di business intelligence
+- [Agente Audience](./agents/audience.md)
+- [Data Insights Agent](./agents/cja-data-insights-agent.md)
+- [Agente di sperimentazione](./agents/agent-experiment.md)
+- [Agente di individuazione campi](./agents/field-discovery-agent.md)
+- [Journey Agent](./agents/ajo-agent.md)
+- [Agente notifiche](./agents/notifications.md)
+- [Agente di supporto prodotto](./agents/product-support.md)
+- [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
 
-### Agenti specializzati
+Per l&#39;elenco completo degli agenti, delle applicazioni supportate da ciascuno e dei requisiti di idoneità, vedere [Agentic AI in CX Enterprise](./overview/agentic-ai.md).
 
-#### Agente Audience
+## Collaboratore aziendale CX
 
-Audience Agent fornisce informazioni approfondite sui tipi di pubblico, tra cui:
+CX Enterprise Coworker è un&#39;evoluzione dell&#39;Assistente all&#39;intelligenza artificiale basata su un agente. Invece di porre una domanda alla volta, descrivi un obiettivo in linguaggio naturale e Collaboratore pianifica il lavoro, lo esegue nell’Adobe e nei sistemi connessi, convalida i risultati e restituisce il lavoro finito per la tua approvazione. Il collega include:
 
-- Rilevamento di cambiamenti significativi nelle dimensioni del pubblico.
-- Identificazione di tipi di pubblico duplicati.
-- Esplorazione dell’inventario del pubblico.
-- Recupero dimensioni pubblico.
+- **Chat collaboratore**: interfaccia di conversazione per l&#39;esplorazione dei dati, la convalida di tipi di pubblico e percorsi e il completamento di attività in più passaggi nelle applicazioni CX Enterprise.
+- **Campagne per collaboratori**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione di percorsi e la verifica in un&#39;unica esperienza di conversazione.
 
-Per ulteriori informazioni, consulta la [documentazione di Audience Agent](./agents/audience.md).
+I clienti idonei vengono gradualmente trasferiti da Assistente AI e Agenti Experience Platform a Chat per collaboratori. Leggi la [prova di CX Enterprise Collaborator](./agents/trial.md) per scoprire l&#39;idoneità alla prova, l&#39;utilizzo del credito AI e come ottenere l&#39;accesso.
 
-#### Data Insights Agent
+Per visualizzare la chat di Coworker in azione, segui [Chat di Coworker in Playground](./coworker/playground-coworker-chat.md), oppure leggi casi d&#39;uso reali come [Convalidare i dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md) e [Analizzare l&#39;abbandono delle conversioni](./coworker/analytics-chat.md).
 
-Disponibile in Customer Journey Analytics, il Data Insights Agent:
+## MCP
 
-- Risponde a domande sui dati utilizzando il linguaggio naturale.
-- Genera visualizzazioni rilevanti in Analysis Workspace.
-- Utilizza componenti dalla visualizzazione dati e dati effettivi.
+[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto autorizzati dalla tua organizzazione, inclusi Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics e Adobe Analytics.
 
-#### Agente analisi percorso
-
-L’agente di analisi del Percorso consente agli utenti di Adobe Journey Optimizer di:
-
-- Analizzare e ottimizzare i percorsi utilizzando il linguaggio naturale.
-- Rileva e risolvi i conflitti di pianificazione o pubblico.
-- Analizzare le prestazioni e i punti di rilascio.
-
-Per ulteriori informazioni, leggere la [documentazione di Journey Agent](./agents/ajo-agent.md).
-
-#### Agente di supporto prodotto
-
-Utilizzare il Product Support Agent per il debug self-service e la risoluzione dei problemi:
-
-- Risolvere i problemi relativi alle funzioni di Adobe Experience Platform senza uscire dai flussi di lavoro.
-- Crea ticket di supporto con il contesto dalle interazioni dell’Assistente IA.
-- Controlla gli aggiornamenti dei ticket tramite l’Assistente AI.
-
-Per ulteriori informazioni, leggere la [documentazione dell&#39;agente di supporto tecnico](./agents/product-support.md).
-
-<!--
-#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
-
-Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
-
-- Make faster, data-driven marketing decisions.
-- Reduce time spent switching between tools.
-- Simplify access to audience and journey insights across teams.
-
-Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
--->
-
-## Guida introduttiva
+## Introduzione
 
 ### Requisiti di accesso
 
-Per utilizzare l’Assistente AI e gli agenti Experience Platform, l’amministratore Adobe deve impostare le autorizzazioni appropriate:
-
-- Per utilizzare l’Assistente AI in Real-Time CDP e Adobe Journey Optimizer, è necessario disporre dell’autorizzazione &quot;Abilita Assistente AI&quot; e dell’autorizzazione &quot;Visualizza informazioni operative&quot; per accedere alle domande operative.
-- L’accesso a AI Assistant in Customer Journey Analytics viene gestito tramite Customer Journey Analytics Access Control, che consente di porre domande relative sia alla conoscenza del prodotto che all’approfondimento dei dati.
-- Per Adobe Experience Manager, puoi accedere all’Assistente AI tramite le autorizzazioni impostate in Adobe Admin Console.
+Prima di poter utilizzare l’Assistente IA e gli agenti Experience Platform, l’amministratore di Adobe deve concedere le autorizzazioni appropriate. I requisiti variano a seconda dell&#39;applicazione. Per ulteriori informazioni, vedere [Accesso](./agents/agent-orchestrator.md#access) nella guida di Agent Orchestrator.
 
 ### Privacy e sicurezza
 
-L’Assistente per l’intelligenza artificiale è stato creato con privacy, sicurezza e governance in prima linea:
-
-- Nessun dato personale viene utilizzato per la formazione.
-- Vengono rispettati tutti i criteri di controllo di accesso esistenti.
-- Compatibile con HIPAA se utilizzato con Adobe Experience Platform Healthcare Shield.
-- Regole di conservazione di 30 giorni per i registri di interazione.
-- Isolamento dei dati specifico per la sandbox.
+Gli assistenti AI e gli agenti Experience Platform sono progettati in prima linea per garantire privacy, sicurezza e governance, inclusa l’isolamento dei dati specifico per le sandbox e il rispetto dei criteri di controllo degli accessi esistenti. Per informazioni complete, leggere [Privacy, sicurezza e governance nell&#39;Assistente AI](./ai-assistant/privacy.md).
 
 ## Best practice
 
-Per ottenere il massimo valore dall’esperienza di AI Assistant, segui queste best practice:
+Per ottenere il massimo valore dall’esperienza di Assistente AI o Collaboratore, segui queste best practice:
 
-- **Specifica** nelle richieste per ottenere informazioni mirate e rilevanti dall&#39;Assistente AI.
-- **Verifica le risposte** esaminando le citazioni di origine e le spiegazioni di ragionamento fornite dall&#39;Assistente di IA.
-- **Utilizza l&#39;impostazione del contesto** per assicurarti che per le tue domande vengano utilizzate le origini dati più rilevanti.
-- **Fornisci un feedback** per migliorare le prestazioni e la precisione dell&#39;Assistente AI nel tempo.
-- **Combina le informazioni** provenienti da più agenti per ottenere un&#39;analisi più completa e accurata.
+- **Sii specifico** nelle tue richieste per ottenere informazioni mirate e rilevanti.
+- **Verificare le risposte** esaminando le citazioni di origine e le spiegazioni di ragionamento fornite.
+- **Utilizza l&#39;impostazione del contesto** per assicurarti di utilizzare le origini dati più rilevanti per le tue domande.
+- **Fornisci un feedback** per migliorare le prestazioni e la precisione nel tempo.
+- **Combina approfondimenti** da più agenti per un&#39;analisi più completa.
 
 ## Considerazioni giuridiche
 
-Quando si utilizza AI Assistant, è importante essere a conoscenza delle principali considerazioni legali e pratiche. Attualmente, l’Assistente AI supporta solo le risposte in inglese. Presta sempre attenzione alla verifica delle informazioni fornite, in quanto i modelli linguistici possono occasionalmente commettere errori. Utilizza i passaggi di ragionamento e le spiegazioni incluse nelle risposte per comprendere meglio le risposte che ricevi. In caso di problemi o imprecisioni, invia un feedback per contribuire a migliorare l’Assistente AI nel tempo.
+L’Assistente per l’intelligenza artificiale attualmente supporta solo le risposte in inglese e i modelli di lingua possono occasionalmente commettere errori. Verifica sempre le informazioni fornite e utilizza i passaggi di ragionamento inclusi in ogni risposta per capire come sono state generate. Per informazioni dettagliate, leggere la [liberatoria legale](./ai-assistant/legal-disclaimer.md).

@@ -1,15 +1,14 @@
 ---
-title: Eseguire analisi dei dati di Customer Journey Analytics con il collaboratore
-description: Scopri come eseguire l’analisi dei dati di Customer Journey Analytics con Coworker.
-hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+title: Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
+description: Scopri come utilizzare Adobe CX Enterprise Collaborator Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2104'
 ht-degree: 4%
 
 ---
 
-# Eseguire l’analisi dei dati di Customer Journey Analytics con il collaboratore
+# Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
 
 >[!AVAILABILITY]
 >
@@ -17,23 +16,47 @@ ht-degree: 4%
 
 Adobe CX Enterprise Collaborator Chat può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics, consentendoti di esplorarli e ottenere risposte a prompt in linguaggio naturale.
 
-Prima di iniziare l&#39;analisi, accedi a Chat con il tuo account CX Enterprise, quindi assicurati che il server Customer Journey Analytics MCP sia connesso.
+Prima di iniziare l’analisi, scopri l’interfaccia e le opzioni di configurazione di Chat per collaboratori, quindi assicurati che Customer Workfront sia connesso a Customer Journey Analytics e alla visualizzazione dati che contiene i dati che desideri utilizzare.
 
-## Accedere a Chat con i collaboratori
+## Introduzione alla chat con i collaboratori
 
-1. Vai su https://coworker.experience.adobe.io/chat/.
+### Opzioni di interfaccia e configurazione
 
-1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
+Prima di utilizzare Chat con collaboratori con i dati di Customer Journey Analytics, scopri come accedere e gestire le opzioni di configurazione per le seguenti funzioni:
 
-1. Selezionare [!UICONTROL **Collaboratore**] dal selettore di prodotti CX Enterprise. <!--not sure what this step should say-->
+* Input chat
 
-1. In Coworker, verifica che Coworker sia connesso a Customer Journey Analytics:
+* Conversazioni
 
-   1. Seleziona l&#39;icona MCP nella barra a sinistra, quindi accertati che [!UICONTROL **cja-mcp**] sia disponibile nell&#39;elenco dei server MCP connessi.
+* Marketplace
 
-      ![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-mcp-cja.png)
+* Server MCP
 
-   1. (Condizionale) Se [!UICONTROL **cja-mcp**] non è ancora connesso, selezionare [!UICONTROL **Aggiungi server MCP**], specificare cja nel campo [!UICONTROL **Nome server**] e selezionarlo quando viene visualizzato, quindi selezionare [!UICONTROL **Aggiungi server**].
+* Memoria
+
+* Plug-in
+
+* Abilità
+
+* E altro ancora
+
+Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Chat per collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+
+### Casi d’uso per Customer Journey Analytics
+
+È possibile visualizzare casi di utilizzo di Customer Journey Analytics e prompt di esempio utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
+
+Per ulteriori informazioni, vedi [Casi d&#39;uso](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases).
+
+## Verifica che Chat con i collaboratori sia connessa a Customer Journey Analytics
+
+1. In Chat con collaboratori, verifica che Coworker sia connesso a Customer Journey Analytics:
+
+1. Seleziona l&#39;icona MCP nella barra a sinistra, quindi accertati che [!UICONTROL **cja-mcp**] sia disponibile nell&#39;elenco dei server MCP connessi.
+
+   ![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](assets/data-validation-aa-cja/coworker-mcp-cja.png)
+
+1. (Condizionale) Se [!UICONTROL **cja-mcp**] non è ancora connesso, selezionare [!UICONTROL **Aggiungi server MCP**], specificare cja nel campo [!UICONTROL **Nome server**] e selezionarlo quando viene visualizzato, quindi selezionare [!UICONTROL **Aggiungi server**].
 
 ## Connettersi alla visualizzazione dati corretta
 
@@ -85,9 +108,21 @@ La chat di Coworker contiene una funzione di memoria che ti consente di fornire 
 
 1. Nella sezione Preferenze memorizzate della pagina Memoria, specifica una o più visualizzazioni dati da utilizzare nelle chat di Collaborator Chat.
 
-   ![Sezione memoria nella barra a sinistra](images/data-validation-aa-cja/coworker-memory.png)
+   ![Sezione memoria nella barra a sinistra](assets/data-validation-aa-cja/coworker-memory.png)
 
-## Caso d’uso: individuare il punto di partenza dei clienti
+## Analizzare in Customer Journey Analytics
+
+Dopo aver creato una visualizzazione, puoi aprirla in Analysis Workspace in Customer Journey Analytics per un’analisi più approfondita con un controllo più granulare. La visualizzazione si apre in un nuovo progetto Analysis Workspace in Customer Journey Analytics.
+
+Per aprire una visualizzazione in un nuovo progetto Analysis Workspace:
+
+1. Seleziona [!UICONTROL **Analizza in CJA**] accanto a qualsiasi visualizzazione creata in Coworker.
+
+1. Con la visualizzazione aperta in Customer Journey Analytics, puoi utilizzare l’interfaccia del browser drag-and-drop di Analysis Workspace per apportare modifiche, definire ulteriormente l’analisi, creare un pubblico e molto altro. Puoi anche condividere il tuo progetto Workspace con chi desideri.
+
+   Per ulteriori informazioni su Analysis Workspace, consulta [Panoramica di Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+
+## Esempio: individuare il punto di partenza dei clienti
 
 Puoi chiedere a Chat con i colleghi di utilizzare i tuoi dati per analizzare qualsiasi domanda di business.
 
@@ -95,7 +130,7 @@ Ad esempio, in qualità di responsabile marketing, merchandiser o lead di cresci
 
 >[!NOTE]
 >
->Le figure seguenti sono dati di esempio illustrativi per un retailer fittizio, TechPulse Electronics, utilizzato per mostrare la forma della conversazione.
+>Le figure seguenti sono dati di esempio illustrativi per un retailer fittizio, [!DNL TechPulse Electronics], utilizzato per mostrare la forma della conversazione.
 
 ### I tipi di domande che è possibile porre
 
@@ -125,7 +160,7 @@ Tieni presente che Chat con i collaboratori sceglie la visualizzazione corretta,
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response.png)
+![Risposta di Collaboratore funnel](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Questa è una domanda di funnel — lasciate che esegua il funnel di conversione per vedere dove avviene il drop-off sul percorso di acquisto.
 
@@ -176,7 +211,7 @@ Ok, suddividiamo per canale di marketing
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![Risposta di Collaboratore funnel](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 È presente una dimensione **Canale di marketing** personalizzata. Lasciate che prenda il funnel in questo modo, poi calcoli i tassi di conversione per canale e identifichi dove ogni canale perde.
 
@@ -227,7 +262,7 @@ Interessante. Proviamo a suddividerci per tipo di dispositivo.
 
 >[!BEGINSHADEBOX]
 
-![L&#39;icona MCP è evidenziata nella barra a sinistra di Collaboratore](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![Risposta di Collaboratore funnel](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Trovato: il checkout mobile è interrotto**
 
@@ -282,7 +317,7 @@ Quindi cosa dovrei fare?
 
 >[!ENDSHADEBOX]
 
-**Customer Journey Analytics:**
+**Risposta chat collaboratore:**
 
 >[!BEGINSHADEBOX]
 
@@ -305,3 +340,204 @@ In quattro semplici domande, Coworker ci ha aiutato:
 * Individua il problema reale al pagamento mobile e quantifica la correzione con un incremento del 35% negli acquisti
 * Approfitta di una correzione specifica per definire le priorità: pagamenti mobili e attrito tra moduli. Questo è confrontato con il tasso di conversione del 23,2% del desktop
 
+<!--
+
+## Example #2: Find which marketing efforts drive revenue
+
+You can ask Coworker Chat to use your data to analyze any business question.
+
+For example, as a marketing manager, demand generation lead, or CMO, you might want to know which marketing efforts actually deserve credit for revenue so you can confidently decide where to put your marketing spend, rather than rewarding whichever channel happened to get the last click.
+
+>[!NOTE]
+>
+>The figures below are illustrative sample data for a fictional retailer, [!DNL TechPulse Electronics], used to show the shape of the conversation.
+
+### The types of questions you can ask
+
+You don't need to know what an "attribution model" is, or how to configure an Attribution panel. Instead, describe the outcome you care about in plain language:
+
+* "Which channels actually drive our revenue, not just the last click?"
+* "If I change how I give credit for a sale, does my best channel change?"
+* "Which campaigns start customer journeys versus close them?"
+* "Am I over-investing in paid search because it always gets the last click?"
+* "What role does email play in conversions it never gets credit for?"
+
+### The conversation
+
+#### 1. Start with the business question
+
+**You:**
+
+>[!BEGINSHADEBOX]
+
+Which marketing channels actually drive our revenue?
+
+>[!ENDSHADEBOX]
+
+**Coworker Chat response:**
+
+Notice that Coworker Chat picks the right analysis, starts with the model most reports default to, and immediately flags what that model can't tell you.
+
+>[!BEGINSHADEBOX]
+
+![Coworker Chat showing attributed revenue by marketing channel under a last-touch model](assets/data-validation-aa-cja/coworker-attribution-response.png)
+
+This is an attribution question — let me attribute revenue to your marketing channels so you can see who's earning it.
+
+I'll start with **last-touch attribution**, since that's what most out-of-the-box reports show. It gives all the credit for a sale to the last channel a person used before purchasing.
+
+| Marketing channel | Attributed revenue (last touch) | Share |
+| --- | --- | --- |
+| Paid search | $948,000 | 34% |
+| Organic search | $614,000 | 22% |
+| Direct | $474,000 | 17% |
+| Email | $307,000 | 11% |
+| Paid social | $251,000 | 9% |
+| Display | $195,000 | 7% |
+
+**The headline: paid search looks like your hero**
+
+Under last touch, paid search earns a third of all revenue — more than any other channel. If this were the only view you had, you'd likely pour more budget into paid search.
+
+**One important caveat before you do that**
+
+Last touch only tells you who *closed* the sale. It says nothing about who *started* the journey or *assisted* along the way. A channel that introduces people to your brand weeks before they buy gets zero credit here, even if the purchase never would've happened without it.
+
+To know whether paid search is really driving revenue — or just harvesting demand other channels created — you need to compare attribution models.
+
+**Recommended next step:**
+
+Compare the same channels across first-touch, last-touch, and linear models. If paid search stays on top across all of them, it's a genuine driver. If it shrinks under first touch, it's a closer, not a creator.
+
+**Want me to run that comparison?**
+
+>[!ENDSHADEBOX]
+
+#### 2. Compare attribution models
+
+**You:**
+
+>[!BEGINSHADEBOX]
+
+Yes, compare it across models.
+
+>[!ENDSHADEBOX]
+
+**Coworker Chat response:**
+
+>[!BEGINSHADEBOX]
+
+![Coworker Chat comparing channel revenue share across first-touch, last-touch, and linear attribution models](assets/data-validation-aa-cja/coworker-attribution-response2.png)
+
+Here's each channel's share of revenue under three models. First touch credits the channel that started the journey, last touch credits the one that closed it, and linear splits credit evenly across every touch.
+
+| Marketing channel | First touch | Last touch | Linear |
+| --- | --- | --- | --- |
+| Paid search | 19% | 34% | 26% |
+| Organic search | 20% | 22% | 21% |
+| Direct | 9% | 17% | 13% |
+| Email | 18% | 11% | 15% |
+| Paid social | 21% | 9% | 15% |
+| Display | 13% | 7% | 10% |
+
+**The verdict: your "best" channel depends entirely on how you count**
+
+This is the finding that changes budget decisions.
+
+1. **Paid search closes far more than it starts.** It jumps from 19% of first touches to 34% of last touches. That's the signature of a *harvester* — it captures people who are already ready to buy, often after another channel introduced them. Valuable, but it's finishing journeys, not creating them.
+1. **Paid social and email are badly undercredited by last touch.** Paid social starts 21% of journeys but gets credit for only 9% of sales. Email starts 18% but closes 11%. These channels are doing the expensive work at the top of the funnel and handing warm prospects to paid search.
+1. **Organic search is your steady workhorse.** It sits around 20% across every model — it both starts and closes journeys reliably.
+
+**Why this matters for budget**
+
+If you cut paid social or email based on their weak last-touch numbers, you'd starve the top of your funnel — and paid search would have far fewer ready-to-buy people to close. You'd likely see paid search revenue fall too, even though you didn't touch its budget.
+
+**Recommended next step:**
+
+Look at the campaign level to see exactly which efforts start journeys versus close them. That's where you can act — trimming or protecting specific campaigns rather than whole channels.
+
+**Want me to break this down by campaign?**
+
+>[!ENDSHADEBOX]
+
+#### 3. Keep investigating
+
+**You:**
+
+>[!BEGINSHADEBOX]
+
+Let's break it down by campaign.
+
+>[!ENDSHADEBOX]
+
+**Coworker Chat response:**
+
+>[!BEGINSHADEBOX]
+
+![Coworker Chat showing top campaigns ranked by their role as initiators or closers of customer journeys](assets/data-validation-aa-cja/coworker-attribution-response3.png)
+
+There's a **Campaign Name** dimension. Here are your highest-involvement campaigns, comparing the revenue they start (first touch) against the revenue they close (last touch).
+
+| Campaign | Starts (first touch) | Closes (last touch) | Role |
+| --- | --- | --- | --- |
+| brand_awareness_q3 | $412,000 | $103,000 | Initiator |
+| email_winback | $214,000 | $88,000 | Initiator |
+| holiday_flash_sale | $268,000 | $249,000 | All-rounder |
+| retargeting_dynamic | $71,000 | $339,000 | Closer |
+| branded_search_always_on | $84,000 | $498,000 | Closer / harvester |
+
+**The pattern: some of your "worst" campaigns are actually your best starters**
+
+* **brand_awareness_q3** and **email_winback** start far more revenue than they close. On a last-touch ROI report, these look like underperformers you might cut. In reality, they're filling the top of your funnel — the journeys other campaigns finish.
+* **retargeting_dynamic** and **branded_search_always_on** are the opposite. They close a lot but start almost nothing. They're efficient closers, but they can only close demand that already exists. Branded search, in particular, is largely capturing people who were going to search for you by name anyway.
+* **holiday_flash_sale** does both — it introduces new shoppers and closes them, which is why urgency-driven promotions often look strong under any model.
+
+**What this tells you strategically**
+
+The campaigns you'd cut first on a last-touch report — the awareness and win-back efforts — are the ones creating the demand your closers depend on. Judge initiators on the journeys they start, and closers on the journeys they finish.
+
+**Recommended next steps:**
+
+1. Protect the initiator campaigns even though their last-touch ROI looks weak — they're feeding the funnel.
+1. Right-size the branded search spend — test whether trimming it changes total revenue, since much of that demand may convert anyway.
+1. Adopt a balanced model — like linear or a position-based model — as your default reporting view, so no channel gets systematically over- or under-rewarded.
+
+**Want me to save this as a project, or is this enough to take into your budget planning?**
+
+>[!ENDSHADEBOX]
+
+#### 4. Turn it into a decision
+
+**You:**
+
+>[!BEGINSHADEBOX]
+
+So how should I allocate budget?
+
+>[!ENDSHADEBOX]
+
+**Coworker Chat response:**
+
+>[!BEGINSHADEBOX]
+
+Based on what the data shows, here's where I'd focus:
+
+* **Stop judging upper-funnel channels on last touch alone.** Paid social and email start about 20% of your revenue each, but last touch credits them for less than half of that. Protect their budgets — they're creating the demand paid search closes.
+* **Treat branded search as a harvester, not a driver.** It closes a lot but starts almost nothing. Test trimming it, since much of that demand may convert through other paths anyway.
+* **Make a balanced model your default.** Reporting on linear or a position-based model instead of last touch will stop you from over-rewarding closers and under-funding the channels that start journeys.
+* **Re-check after you rebalance.** Watch whether total revenue holds steady as you shift spend toward initiators — that's the signal your funnel is healthier, not just your last-touch report.
+
+Want me to save this as a project so you can track it, or build a calculated metric that reports revenue on a balanced attribution model going forward?
+
+>[!ENDSHADEBOX]
+
+### What just happened
+
+In four plain-language questions, Coworker helped us:
+
+* Attribute revenue to marketing channels and flag that the default last-touch view tells only part of the story
+* Compare attribution models and reveal that the "best" channel changes completely depending on how credit is counted
+* Discover that paid social and email start far more revenue than they ever get credit for closing
+* Identify which campaigns initiate journeys versus close them, and walk away with a budget direction: protect the initiators, right-size the harvesters, and report on a balanced model
+
+-->

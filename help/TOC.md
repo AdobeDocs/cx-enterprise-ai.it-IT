@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: Assistente AI in Adobe Experience Cloud
+user-guide-title: Assistente AI in Adobe CX Enterprise
 user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare il flusso di lavoro con Adobe Experience Platform e Real-time Customer Data Platform.
-description: Informazioni sull’Assistente IA in Experience Cloud. Migliora la tua conoscenza del prodotto e acquisisci insight operativi utilizzando l’IA in Experience Cloud.
+description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 34%
+source-wordcount: '211'
+ht-degree: 19%
 
 ---
 
 
-# IA in Experience Cloud {#experience-cloud-ai}
+# IA in CX Enterprise {#experience-cloud-ai}
 
-- [IA nelle applicazioni Experience Cloud](home.md)
+- [IA nelle applicazioni aziendali CX](home.md)
+- Informazioni sull&#39;intelligenza artificiale in CX Enterprise {#overview}
+  - [IA generativa](./overview/generative-ai.md)
+  - [IA agentica](./overview/agentic-ai.md)
+  - [Monitoraggio dell’IA agente](./overview/monitoring.md)
+  - [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md)
+  - [Strumenti agenti](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente IA {#ai-assistant}
   - [Guida all’interfaccia utente di Assistente IA](./ai-assistant/ai-assistant-ui.md)
   - [Libreria dei prompt](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 34%
 - Collaboratore {#coworker}
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[Analisi dell&#39;abbandono delle conversioni](./coworker/analytics-use-cases.md)
+  - [Analizzare i dati di CJA](./coworker/analytics-chat.md)

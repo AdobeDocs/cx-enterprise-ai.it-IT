@@ -4,10 +4,10 @@ description: Trova, valuta e seleziona i campi XDM in Adobe Experience Platform 
 keywords: individuazione campi, XDM, AI Assistant, agenti Experience Platform, collegamento di entità, consigli sui campi, creazione di tipi di pubblico, segmentazione
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ L&#39;agente di individuazione campi restituisce i risultati in un pannello **[!
 - **[!UICONTROL Rilevanza]** — Etichetta di rilevanza assegnata al campo (**[!UICONTROL Altamente rilevante]**, **[!UICONTROL Moderatamente rilevante]** o **[!UICONTROL Rilevante]**)
 - **[!UICONTROL Contesti di utilizzo]**: collegamenti che indicano la posizione del campo nell&#39;ecosistema di dati. Seleziona **[!UICONTROL pubblico]**, **[!UICONTROL set di dati]**, **[!UICONTROL destinazione]** o **[!UICONTROL schema]** per aprire un pannello laterale che mostra dove viene utilizzato il campo.
 
-![Il pannello Campi identificati nell&#39;Assistente di IA mostra le righe dei campi candidati con le etichette di rilevanza e i collegamenti ai contesti di utilizzo.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![Il pannello Campi identificati nell&#39;Assistente di IA mostra le righe dei campi candidati con le etichette di rilevanza e i collegamenti ai contesti di utilizzo.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 Una sezione **[!UICONTROL Risultati spiegati]** viene visualizzata sotto la tabella **[!UICONTROL Campi identificati]** e fornisce ulteriore contesto a livello di campo, incluse spiegazioni e dettagli di supporto per ogni risultato. Per informazioni su come navigare nell&#39;interfaccia dell&#39;Assistente di intelligenza artificiale, vedere la [Guida dell&#39;interfaccia utente dell&#39;Assistente di intelligenza artificiale](../ai-assistant/ai-assistant-ui.md).
 
@@ -118,7 +118,7 @@ Per utilizzare l&#39;agente di individuazione campi:
 3. Rivedi i risultati classificati nel pannello **[!UICONTROL Campi identificati]**. Ogni riga include un&#39;etichetta di rilevanza e un percorso di campo XDM nella colonna **[!UICONTROL Nome campo]**.
 4. Seleziona **[!UICONTROL pubblico]**, **[!UICONTROL set di dati]**, **[!UICONTROL destinazione]** o **[!UICONTROL schema]** nella colonna **[!UICONTROL Contesti di utilizzo]** per aprire un pannello laterale che mostra dove viene utilizzato il campo. Per ulteriori informazioni sul contesto a livello di campo, vedere la sezione **[!UICONTROL Risultati spiegati]** sotto la tabella dei risultati.
 
-   ![Pannello laterale nell&#39;Assistente IA che mostra i contesti di utilizzo per un campo selezionato, incluse le associazioni di pubblico, set di dati, destinazione e schema.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![Pannello laterale nell&#39;Assistente IA che mostra i contesti di utilizzo per un campo selezionato, incluse le associazioni di pubblico, set di dati, destinazione e schema.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. Utilizza il percorso **[!UICONTROL Nome campo]** negli strumenti a valle come Segment Builder, Query Service o flussi di lavoro di acquisizione dati, a seconda del caso d&#39;uso. L&#39;agente di individuazione campi fornisce il riferimento al campo, ma non lo inserisce in altri strumenti.
 
@@ -138,7 +138,9 @@ Le sezioni seguenti descrivono ciascuna delle tre funzioni di Field Discovery Ag
 
 Quando si descrive un concetto o un attributo di dati specifico, l&#39;agente di individuazione campi restituisce un elenco di campi con una classificazione corrispondente alla descrizione.
 
-> &quot;Quali campi rappresentano lo stato o la provincia di origine di un cliente?&quot;&quot;Trova i campi relativi alla data della transazione di acquisto.&quot;&quot;Quali campi contengono informazioni sul consenso al marketing via e-mail?&quot;
+> &quot;Quali campi rappresentano lo stato o la provincia di origine di un cliente?&quot;
+> &quot;Trova campi relativi alla data della transazione di acquisto.&quot;
+> &quot;Quali campi contengono informazioni sul consenso al marketing via e-mail?&quot;
 
 La risposta elenca i campi candidati con la relativa etichetta di rilevanza e il percorso XDM nel pannello **[!UICONTROL Campi identificati]**. I campi con etichetta **[!UICONTROL Molto rilevanti]** corrispondono maggiormente al concetto dichiarato. Se i primi risultati sono etichettati **[!UICONTROL Moderatamente rilevanti]** o **[!UICONTROL Rilevanti]** anziché **[!UICONTROL Altamente rilevanti]**, perfeziona la query utilizzando una terminologia più specifica o un contesto a livello di campo.
 
@@ -146,7 +148,9 @@ La risposta elenca i campi candidati con la relativa etichetta di rilevanza e il
 
 Quando descrivi un obiettivo o un caso di utilizzo del flusso di lavoro, ad esempio la creazione di un segmento, l’onboarding di un set di dati o la preparazione di una query, l’agente di individuazione campi consiglia di allineare i campi a tale obiettivo, dando priorità in base alla rilevanza.
 
-> &quot;Voglio creare un pubblico di clienti di alto valore. Quali campi dovrei usare?&quot;&quot;Consiglia i campi per modellare la propensione all’acquisto.&quot;&quot;Quali campi devo includere durante l’onboarding di un set di dati per transazioni di vendita al dettaglio?&quot;
+> &quot;Voglio creare un pubblico di clienti di alto valore. Quali campi dovrei usare?&quot;
+> &quot;Campi consigliati per modellare la propensione all&#39;acquisto.&quot;
+> &quot;Quali campi includere durante l’onboarding di un set di dati di transazioni di vendita al dettaglio?&quot;
 
 La risposta restituisce un elenco con priorità di campi con contesto di rilevanza. Esamina il contesto di utilizzo per ogni campo consigliato per verificarne l’utilizzo attivo nell’ambiente.
 
@@ -154,7 +158,9 @@ La risposta restituisce un elenco con priorità di campi con contesto di rilevan
 
 Quando si richiede informazioni su un campo specifico per nome o percorso, l&#39;agente di individuazione campi restituisce il contesto dettagliato per tale campo, inclusi i valori di esempio, la posizione dello schema e l&#39;utilizzo tra set di dati, tipi di pubblico e destinazioni.
 
-> &quot;Ulteriori informazioni sul campo `person.name.lastName`.&quot;&quot;Quali valori di esempio esistono per `homeAddress.stateProvince`?&quot;&quot;Dov&#39;è il campo `commerce.purchases.value` utilizzato nei miei set di dati e tipi di pubblico?&quot;
+> &quot;Ulteriori informazioni sul campo `person.name.lastName`.&quot;
+> &quot;Quali valori di esempio esistono per `homeAddress.stateProvince`?&quot;
+> &quot;Dove si trova il campo `commerce.purchases.value` utilizzato nei set di dati e nei tipi di pubblico?&quot;
 
 La risposta restituisce i valori di esempio del campo, la posizione dello schema, i set di dati associati e tutti i tipi di pubblico o le destinazioni in cui viene visualizzato il campo. Esamina questo contesto per confermare che il campo contiene i dati previsti.
 
@@ -235,19 +241,31 @@ Utilizza questa sezione come libreria di prompt di riferimento rapido. Se non co
 
 Utilizza questi prompt quando conosci il concetto di dati di cui hai bisogno ma non quale campo lo contiene.
 
-> &quot;Quale campo contiene lo stato o la regione di un cliente?&quot;&quot;Trova i campi relativi allo stato dell’abbonamento e-mail.&quot;&quot;Quale campo contiene la data del primo acquisto di un cliente?&quot;&quot;Identifica i campi che rappresentano il valore del ciclo di vita del cliente.&quot;&quot;Quali campi nello schema del mio profilo si riferiscono all’iscrizione al programma fedeltà?&quot;
+> &quot;Quale campo contiene lo stato o la regione di un cliente?&quot;
+> &quot;Trovare i campi relativi allo stato dell&#39;abbonamento e-mail.&quot;
+> &quot;Quale campo contiene la data del primo acquisto di un cliente?&quot;
+> &quot;Identificare i campi che rappresentano il valore del ciclo di vita del cliente.&quot;
+> &quot;Quali campi nello schema del profilo si riferiscono all’iscrizione al programma fedeltà?&quot;
 
 ### Suggerimenti
 
 Utilizza questi prompt quando avvii un flusso di lavoro e hai bisogno di indicazioni su quali campi includere per un obiettivo specifico.
 
-> &quot;Quali campi devo utilizzare per creare un pubblico di ricoinvolgimento?&quot;&quot;Consiglia i campi per un pubblico che si rivolge a clienti che non hanno acquistato da 90 giorni&quot;.&quot;Quali campi sono più utili per modellare il rischio di abbandono?&quot;&quot;Suggerisci i campi da includere durante la creazione di una segmentazione geografica.&quot;&quot;Sto costruendo un modello di propensione all&#39;acquisto. Con quali campi dovrei iniziare?&quot;
+> &quot;Quali campi devo utilizzare per creare un pubblico di ricoinvolgimento?&quot;
+> &quot;Campi consigliati per un pubblico che include i clienti che non hanno acquistato da 90 giorni.&quot;
+> &quot;Quali campi sono più utili per modellare il rischio di abbandono?&quot;
+> &quot;Suggerisci i campi da includere durante la creazione di una segmentazione geografica.&quot;
+> &quot;Sto creando un modello di propensione all&#39;acquisto. Con quali campi dovrei iniziare?&quot;
 
 ### Richieste di arricchimento
 
 Utilizza questi prompt quando disponi di un campo candidato e vuoi verificarlo prima di utilizzarlo in un segmento, una query o una mappatura.
 
-> &quot;Ulteriori informazioni su `homeAddress.stateProvince`.&quot;&quot;Visualizza i valori di esempio per `commerce.purchases.value`.&quot;&quot;Dove viene utilizzato `person.name.lastName` tra i miei set di dati e tipi di pubblico?&quot;&quot;Quali set di dati contengono il campo `web.webPageDetails.URL`?&quot;&quot;`segmentMembership` è mappato ad alcune destinazioni attive?&quot;
+> &quot;Ulteriori informazioni su `homeAddress.stateProvince`.&quot;
+> &quot;Visualizza i valori di esempio per `commerce.purchases.value`.&quot;
+> &quot;Dove viene utilizzato `person.name.lastName` tra i miei set di dati e tipi di pubblico?&quot;
+> &quot;Quali set di dati contengono il campo `web.webPageDetails.URL`?&quot;
+> &quot;È mappato `segmentMembership` ad alcune destinazioni attive?&quot;
 
 ## Risoluzione dei problemi {#troubleshooting}
 
