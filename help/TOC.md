@@ -5,11 +5,10 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
-source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
+source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 19%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -57,6 +56,8 @@ ht-degree: 19%
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
+  - [Campagne collaboratrici](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
+  - [Chat collaboratore](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
   - [Analizzare i dati di CJA](./coworker/analytics-chat.md)
