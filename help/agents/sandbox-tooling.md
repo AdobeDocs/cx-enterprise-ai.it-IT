@@ -50,15 +50,15 @@ Per utilizzare le abilità agente sandbox:
 
 ![I risultati della richiesta con Processo selezionato, evidenziando Invia.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Seleziona uno o più oggetti di cui vuoi eseguire la migrazione, quindi seleziona **[!UICONTROL Invia]**.
+&#x200B;4. Seleziona uno o più oggetti di cui vuoi eseguire la migrazione, quindi seleziona **[!UICONTROL Invia]**.
 
 ![Pagina di selezione oggetti con l&#39;evidenziazione Invia.](./assets/sandbox-tooling/object-selection.png)
 
-5. Esaminare gli oggetti e le dipendenze identificati dall&#39;agente e confermare le azioni dell&#39;operazione: *Crea nuovo* o *Usa esistente*. Quando sei pronto per iniziare la migrazione, seleziona **[!UICONTROL Procedi]**, quindi seleziona **[!UICONTROL Invia]** per confermare. Il completamento della migrazione potrebbe richiedere alcuni minuti.
+&#x200B;5. Esaminare gli oggetti e le dipendenze identificati dall&#39;agente e confermare le azioni dell&#39;operazione: *Crea nuovo* o *Usa esistente*. Quando sei pronto per iniziare la migrazione, seleziona **[!UICONTROL Procedi]**, quindi seleziona **[!UICONTROL Invia]** per confermare. Il completamento della migrazione potrebbe richiedere alcuni minuti.
 
 ![Conferma la pagina del piano d&#39;azione evidenziando Invia.](./assets/sandbox-tooling/action-plan.png)
 
-6. Al termine della migrazione, gli oggetti selezionati saranno disponibili nella sandbox di destinazione.
+&#x200B;6. Al termine della migrazione, gli oggetti selezionati saranno disponibili nella sandbox di destinazione.
 
 ![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
 
