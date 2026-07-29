@@ -139,4 +139,4 @@ Fornisci sempre contesto e proposta di valore in modo che l’intelligenza artif
 
 >[!MORELIKETHIS]
 >
->Cerca altri [modelli di prompt](./) per le campagne di Coworker.
+>Cerca altri [modelli di prompt] (./) per le campagne di Coworker.
