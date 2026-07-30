@@ -2,23 +2,13 @@
 title: IA nelle applicazioni aziendali CX
 description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Collaborator e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 325bdc7452557cf9a2b448b5e6afa613b87b4544
 workflow-type: tm+mt
-source-wordcount: 872
-ht-degree: 2%
+source-wordcount: 929
+ht-degree: 3%
 
 ---
 
@@ -26,7 +16,7 @@ ht-degree: 2%
 
 Questa guida descrive le funzionalità di intelligenza artificiale disponibili nelle applicazioni Adobe CX Enterprise: intelligenza artificiale generativa e Assistente all’intelligenza artificiale per la conoscenza dei prodotti e le informazioni operative, Agent Orchestrator e Experience Platform Agents per l’automazione dei processi, CX Enterprise Coworker per un’esperienza completamente conversazionale, agent-first e MCP per la connessione dei propri strumenti di intelligenza artificiale ai dati CX Enterprise.
 
-## Informazioni sull&#39;intelligenza artificiale in CX Enterprise
+## Panoramica delle funzionalità di intelligenza artificiale
 
 Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza artificiale in CX Enterprise:
 
@@ -34,6 +24,7 @@ Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza arti
 - [Agentic AI](./overview/agentic-ai.md) spiega come gli agenti Experience Platform funzionano sia nelle applicazioni CX Enterprise esistenti che nelle applicazioni AI-first ed elenca gli agenti disponibili in ognuna di esse.
 - [Il monitoraggio di IA per l&#39;agente](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte dell&#39;agente.
 - [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md) spiega come i crediti IA vengono utilizzati dai processi agente, con tassi di consumo stimati per agente e tipo di processo.
+- [Strumenti di gestione aziendale CX](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) include ulteriori competenze e strumenti di gestione degli agenti che estendono gli agenti di gestione aziendale CX.
 
 ## Assistente IA
 
@@ -55,6 +46,7 @@ I seguenti agenti Experience Platform sono documentati in questa guida:
 - [Agente notifiche](./agents/notifications.md)
 - [Agente di supporto prodotto](./agents/product-support.md)
 - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+- [Convalidare i dati](./agents/data-validation.md)
 
 Per l&#39;elenco completo degli agenti, delle applicazioni supportate da ciascuno e dei requisiti di idoneità, vedere [Agentic AI in CX Enterprise](./overview/agentic-ai.md).
 
@@ -68,13 +60,15 @@ CX Enterprise Collaborator è un&#39;evoluzione dell&#39;Assistente all&#39;inte
 
 I clienti idonei vengono gradualmente trasferiti da Assistente AI e Agenti Experience Platform a Chat per collaboratori. Leggi la [prova di CX Enterprise Collaborator](./agents/trial.md) per scoprire l&#39;idoneità alla prova, l&#39;utilizzo del credito AI e come ottenere l&#39;accesso.
 
-Per visualizzare la chat di Coworker in azione, segui [Chat di Coworker in Playground](./coworker/playground-coworker-chat.md) oppure leggi casi d&#39;uso reali come [Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md) e [Analizza dati CJA](./coworker/analytics-chat.md).
+Per visualizzare la chat di Coworker in azione, segui [Chat di Coworker in Playground](./coworker/playground-coworker-chat.md) oppure leggi casi d&#39;uso reali come [Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md) e [Analizza dati CJA](./coworker/chat/analytics-chat.md).
 
-Per la documentazione completa del prodotto relativa a Chat con collaboratori, Campagne e Progetti, vedere [Adobe CX Enterprise Coworker](./coworker/overview.md).
+Per la documentazione completa del prodotto relativa a Chat con collaboratori, Campagne e Progetti, vedere [Adobe CX Enterprise Coworker](./coworker/overview.md). Per la replica degli oggetti sandbox-to-sandbox, vedere [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md).
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto autorizzati dalla tua organizzazione, inclusi Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics e Adobe Analytics.
+[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto autorizzati dalla tua organizzazione, inclusi Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, Adobe Analytics e Workfront.
+
+Ti avvicini ora a CX Customer Gateway? Consultare [Accedere agli strumenti del gateway di lavoro CX](./mcp/access.md) e [Installare il gateway di lavoro CX](./mcp/install.md) per connettersi.
 
 ## Introduzione
 
