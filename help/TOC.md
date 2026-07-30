@@ -5,10 +5,10 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 21%
 
 ---
 
@@ -55,9 +55,20 @@ ht-degree: 18%
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Aiuto per i collaboratori {#coworker}
-  - [Aiuto per i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Collaboratore {#coworker}
+  - [Informazioni su Collaboratore](./coworker/overview.md)
+  - Campagne {#campaigns}
+    - [Panoramica](./coworker/campaigns/overview.md)
+    - [Creare una campagna e-mail](./coworker/campaigns/create-an-email-campaign.md)
+    - [Casi d’uso](./coworker/campaigns/use-cases.md)
+    - [Best practice per la richiesta di informazioni](./coworker/campaigns/prompting-best-practices.md)
+    - [Connettori](./coworker/campaigns/connectors.md)
+    - [Note sulla versione](./coworker/campaigns/release-notes.md)
+  - Chat {#chat}
+    - [Panoramica](./coworker/chat/overview.md)
+    - [Casi d’uso](./coworker/chat/use-cases.md)
+    - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
+    - [Analizzare i dati di CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizzare i dati di CJA](./coworker/analytics-chat.md)
   - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)

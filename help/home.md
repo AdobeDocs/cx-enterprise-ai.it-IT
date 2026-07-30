@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 872
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ I clienti idonei vengono gradualmente trasferiti da Assistente AI e Agenti Exper
 
 Per visualizzare la chat di Coworker in azione, segui [Chat di Coworker in Playground](./coworker/playground-coworker-chat.md) oppure leggi casi d&#39;uso reali come [Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md) e [Analizza dati CJA](./coworker/analytics-chat.md).
 
-Per la documentazione completa del prodotto relativa a Chat con collaboratori, Campagne e Progetti, vedere [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
+Per la documentazione completa del prodotto relativa a Chat con collaboratori, Campagne e Progetti, vedere [Adobe CX Enterprise Coworker](./coworker/overview.md).
 
 ## MCP
 
@@ -99,3 +99,4 @@ Per ottenere il massimo valore dall’esperienza di Assistente AI o Collaborator
 ## Considerazioni giuridiche
 
 L’Assistente per l’intelligenza artificiale attualmente supporta solo le risposte in inglese e i modelli di lingua possono occasionalmente commettere errori. Verifica sempre le informazioni fornite e utilizza i passaggi di ragionamento inclusi in ogni risposta per capire come sono state generate. Per informazioni dettagliate, leggere la [liberatoria legale](./ai-assistant/legal-disclaimer.md).
+
