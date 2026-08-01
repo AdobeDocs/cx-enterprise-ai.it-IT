@@ -78,7 +78,7 @@ Se il cliente desidera rinunciare all&#39;accesso a queste funzionalità Agentic
 
 Per ulteriori informazioni su Coworker, Agent Orchestrator e AI Assistant, leggi le seguenti guide:
 
-- [Collaboratore aziendale CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [Collaboratore aziendale CX](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
 - [Panoramica di Agent Orchestrator](agent-orchestrator.md)
 - [Guida all’interfaccia utente di Assistente IA](../ai-assistant/ai-assistant-ui.md)
 - [Libreria di prompt dell’Assistente AI](../ai-assistant/prompt-library.md)
