@@ -33,7 +33,7 @@ Prima di iniziare, assicurati di avere:
 - Accedere agli oggetti che si desidera individuare o migrare.
 - Il plug-in Adobe CXO installato in CX Collaborator.
 
-Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Usa abilità agente sandbox {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ Per utilizzare le abilità agente sandbox:
 
 ![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
 
-Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Casi d’uso supportati {#supported-use-cases}
 
