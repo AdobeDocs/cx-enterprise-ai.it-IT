@@ -3,8 +3,8 @@ title: Strumenti Adobe Experience Platform in CX Customer Gateway
 description: Scopri quali strumenti Adobe Experience Platform sono disponibili tramite il gateway di lavoro CX.
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 6%
 
 ---
 
@@ -175,7 +175,7 @@ Esegui una query sull’API del servizio criteri per etichette di utilizzo dei d
 | `scope` | No | `core` (definito da Adobe) o `custom` (definito dall&#39;organizzazione). Richiesto per `list`, `get`, `evaluate`; non utilizzato per `list_enabled` |
 | `resource_id` | No | Nome etichetta, ID criterio o nome dell’azione di marketing. Richiesto per `get` e `evaluate` |
 | `query_params.dule_labels` | No | Etichette separate da virgole (ad esempio `C1,C3`). Richiesto per `marketing_action/evaluate`; filtro facoltativo per `policy/list` |
-| `query_params.limit` | No | Risultati massimi |
+| `query_params.limit` | No | Numero massimo di risultati |
 | `query_params.start` | No | Cursore di impaginazione dal valore `_page.next` di una risposta precedente |
 | `query_params.orderby` | No | Campi di ordinamento separati da virgole |
 | `query_params.property_filter` | No | Espressione filtro, ad esempio `name==C1` |
