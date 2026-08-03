@@ -1,7 +1,7 @@
 ---
 title: Collaboratore Adobe CX Enterprise
 description: Scopri come portare il marketing a un livello superiore con Adobe CX Enterprise Collaborator.
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Campagne con collaboratori è una funzione modellata che consente ai piccoli tea
 
 ## Chat
 
-Chat con i collaboratori consente ai team di automatizzare le attività dei prodotti Adobe attraverso il linguaggio naturale, trasformando rapidamente le idee in azioni con una pianificazione flessibile, competenze personalizzabili ed esecuzione intelligente.
+Chat con i collaboratori consente ai team di automatizzare le attività dei prodotti Adobe utilizzando il linguaggio naturale, trasformando rapidamente le idee in azioni con una pianificazione flessibile, competenze personalizzabili ed esecuzione intelligente.
 
 * [Panoramica](./chat/overview.md)
 * [Casi d’uso](./chat/use-cases.md)
@@ -33,4 +33,3 @@ Chat con i collaboratori consente ai team di automatizzare le attività dei prod
 ## Progetti (documenti in arrivo)
 
 Coworker Projects è un’area di lavoro unificata che consente di automatizzare i flussi di lavoro di orchestrazione dell’esperienza del cliente end-to-end, consentendo ai team di coordinare attività, approvazioni ed esecuzione per gestire i risultati dalla strategia alla consegna.
-
