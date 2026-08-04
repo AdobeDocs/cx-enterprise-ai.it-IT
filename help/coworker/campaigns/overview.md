@@ -1,18 +1,18 @@
 ---
-description: Scopri Adobe CX Enterprise Customer Campaigns, un’applicazione di marketing nativa per l’intelligenza artificiale che trasforma un singolo prompt in una campagna pronta per la revisione.
-title: Panoramica di Adobe CX Enterprise Collaborator
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Scopri Adobe Coworker Campaigns, un’applicazione di marketing nativa per l’intelligenza artificiale che trasforma un singolo prompt in una campagna pronta per la revisione.
+title: Panoramica di Adobe Collaborator
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Panoramica delle campagne Adobe CX Enterprise Collaborator {#overview}
+# Panoramica delle campagne Adobe Coworker {#overview}
 
-Adobe CX Enterprise Collaborator Campaigns è un’applicazione di marketing nativa per l’intelligenza artificiale che consente di passare da un singolo prompt a una campagna completa pronta per la revisione.
+Campagne Coworker è un’applicazione di marketing nativa per l’intelligenza artificiale che consente di passare da un singolo prompt a una campagna completa pronta per la revisione.
 
-Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne] (./). Ulteriori funzionalità saranno presto disponibili.
+Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne](./). Ulteriori funzionalità saranno presto disponibili.
 
 ## Come accedere
 
@@ -110,7 +110,7 @@ Campagne collaboratore è un prodotto in fase di sviluppo attivo. Ecco cosa biso
 
 ## Panoramica video
 
->[!VIDEO](https://video.tv.adobe.com/v/3492813?captions=ita&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Durante la prova verranno fornite nuove funzionalità. Il tuo feedback aiuta a definire i prossimi sviluppi. Invia un feedback facendo clic sull’icona del feedback nel prodotto nell’intestazione.

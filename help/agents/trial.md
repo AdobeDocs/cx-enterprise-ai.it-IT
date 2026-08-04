@@ -1,25 +1,18 @@
 ---
-title: Versione di prova di CX Enterprise Collaborator
-description: Scopri la versione di prova gratuita per CX Enterprise Collaborator.
+title: Versione di prova di Adobe Collaborator
+description: Scopri la versione di prova gratuita per Adobe Collaborator.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# Versione di prova di CX Enterprise Collaborator
+# Versione di prova di Adobe Collaborator
 
 >[!AVAILABILITY]
 >
@@ -42,7 +35,7 @@ I clienti idonei ricevono un diritto iniziale una tantum fino a 10.000 crediti A
 - Chat collaboratore: input immessi nella chat collaboratore. Per un periodo introduttivo limitato, gli input consumano crediti di IA a un tasso di 25 crediti di IA per input. Questa tariffa è disponibile solo per un periodo limitato e soggetta a modifiche.
 - Agenti Experience Platform: qualsiasi combinazione di processi eseguiti utilizzando gli agenti Experience Platform (a seconda delle licenze esistenti per le applicazioni CX Enterprise) elencati nella [Tabella consumo credito AI](../overview/ai-credit-consumption.md).
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Il dashboard Monitoraggio di IA per l’analisi dell’agente offre una chiara visibilità dell’adozione e dell’utilizzo di IA per l’analisi dell’agente nell’organizzazione. Gli utenti autorizzati possono tracciare facilmente il coinvolgimento, raccogliere feedback, monitorare l’utilizzo del credito AI e rivedere le metriche chiave. Utilizza queste informazioni per scoprire le opportunità di ottimizzazione e supportare le tue attività di governance e adozione. Per ulteriori informazioni, consulta la [Guida al monitoraggio dell&#39;utilizzo di IA per l&#39;agente](../overview/monitoring.md).
 
@@ -78,7 +71,7 @@ Se il cliente desidera rinunciare all&#39;accesso a queste funzionalità Agentic
 
 Per ulteriori informazioni su Coworker, Agent Orchestrator e AI Assistant, leggi le seguenti guide:
 
-- [Collaboratore aziendale CX](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home)
+- [Collaboratore](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Panoramica di Agent Orchestrator](agent-orchestrator.md)
 - [Guida all’interfaccia utente di Assistente IA](../ai-assistant/ai-assistant-ui.md)
 - [Libreria di prompt dell’Assistente AI](../ai-assistant/prompt-library.md)
@@ -110,7 +103,7 @@ Questa versione di prova non richiede alcun acquisto aggiuntivo. Non esiste una 
 
 ### Chi può vedere l’utilizzo e come?
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage). Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
 
 I clienti mantengono il controllo su chi può visualizzare le informazioni sull’utilizzo e sul reporting. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare queste informazioni.
 
