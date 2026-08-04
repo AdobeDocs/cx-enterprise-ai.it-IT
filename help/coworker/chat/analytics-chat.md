@@ -29,13 +29,13 @@ Prima di utilizzare Chat con collaboratori con i dati di Customer Journey Analyt
 * Competenza
 * E altro ancora
 
-Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Chat per collaboratori](./).
+Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Chat per collaboratori] (./).
 
 ### Casi d’uso per Customer Journey Analytics
 
 È possibile visualizzare casi di utilizzo di Customer Journey Analytics e prompt di esempio utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
 
-Per ulteriori informazioni, vedi [Casi d&#39;uso](./).
+Per ulteriori informazioni, vedi [Casi d&#39;uso] (./).
 
 ## Verifica che Chat con i collaboratori sia connessa a Customer Journey Analytics
 
