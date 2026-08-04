@@ -1,7 +1,7 @@
 ---
 title: Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
 description: Scopri come utilizzare Adobe CX Enterprise Collaborator Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 4%
@@ -26,16 +26,16 @@ Prima di utilizzare Chat con collaboratori con i dati di Customer Journey Analyt
 * Server MCP
 * Memoria
 * Plug-in
-* Abilità
+* Competenza
 * E altro ancora
 
-Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Chat per collaboratori] (./).
+Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Chat per collaboratori](./).
 
 ### Casi d’uso per Customer Journey Analytics
 
 È possibile visualizzare casi di utilizzo di Customer Journey Analytics e prompt di esempio utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
 
-Per ulteriori informazioni, vedi [Casi d&#39;uso] (./).
+Per ulteriori informazioni, vedi [Casi d&#39;uso](./).
 
 ## Verifica che Chat con i collaboratori sia connessa a Customer Journey Analytics
 
@@ -60,33 +60,33 @@ Comunica al collega i tipi di domande a cui desideri rispondere e chiedi a quali
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Sono interessato a capire dove i clienti abbandonano nel percorso dei clienti. A quali visualizzazioni dati in Customer Journey Analytics posso accedere per rispondere a questa domanda?
->
+
+Sono interessato a capire dove i clienti abbandonano nel percorso dei clienti. A quali visualizzazioni dati in Customer Journey Analytics posso accedere per rispondere a questa domanda?
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
 
 >[!BEGINSHADEBOX]
->
->Puoi accedere a tre visualizzazioni dati. La visualizzazione dati `Customer lifecycle` contiene le dimensioni e le metriche seguenti, che sono le migliori per rispondere alla domanda.
->
+
+Puoi accedere a tre visualizzazioni dati. La visualizzazione dati `Customer lifecycle` contiene le dimensioni e le metriche seguenti, che sono le migliori per rispondere alla domanda.
+
 >[!ENDSHADEBOX]
 
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Bene, usiamo quella visualizzazione dati.
->
+
+Bene, usiamo quella visualizzazione dati.
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
 
 >[!BEGINSHADEBOX]
->
->Ok, utilizzerò la visualizzazione dati `Customer lifecycle` per rispondere a domande future in questa sessione di chat.
->
+
+Ok, utilizzerò la visualizzazione dati `Customer lifecycle` per rispondere a domande future in questa sessione di chat.
+
 >[!ENDSHADEBOX]
 
 ### Aggiungere una preferenza per la visualizzazione dati in memoria
@@ -138,9 +138,9 @@ Non è necessario sapere cos’è una &quot;visualizzazione di abbandono&quot; o
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Dove stiamo perdendo la gente sulla strada per l&#39;acquisto?
->
+
+Dove stiamo perdendo la gente sulla strada per l&#39;acquisto?
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
@@ -189,9 +189,9 @@ Ecco dove stai perdendo delle persone:
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Ok, suddividiamo per canale di marketing
->
+
+Ok, suddividiamo per canale di marketing
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
@@ -240,9 +240,9 @@ I canali di marketing stanno facendo il loro lavoro — tutti fanno sì che la g
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Interessante. Proviamo a suddividerci per tipo di dispositivo.
->
+
+Interessante. Proviamo a suddividerci per tipo di dispositivo.
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
@@ -299,20 +299,20 @@ Il pattern dei dati (coinvolgimento uguale, calo catastrofico del checkout) è u
 **Utente:**
 
 >[!BEGINSHADEBOX]
->
->Quindi cosa dovrei fare?
->
+
+Quindi cosa dovrei fare?
+
 >[!ENDSHADEBOX]
 
 **Risposta chat collaboratore:**
 
 >[!BEGINSHADEBOX]
->
->In base a ciò che mostrano i dati, ecco dove vorrei concentrarmi:
->
->* **Correggi l&#39;estrazione mobile. Non si tratta di un problema di canale.** Ogni canale converte le persone nel carrello a un ritmo sano e simile, in modo che la spesa pubblicitaria funzioni in modo trasversale. I ricavi vengono persi in modo specifico nel flusso di pagamento mobile, che è il luogo in cui appartiene la correzione.
->* **Inizia con il pagamento e con l&#39;attrito del modulo.** Questi sono i motivi più comuni per cui gli acquirenti di dispositivi mobili ad alto intento abbandonano il carrello. L&#39;offerta di opzioni per il portafoglio mobile e la riduzione della forma sono di solito le vincite più veloci.
->* **Controlla di nuovo dopo la correzione.** Una volta che il pagamento cambia spedizione, osserva se il tasso di acquisto del carrello mobile si sposta verso il tasso desktop del 23,2%.
+
+In base a ciò che mostrano i dati, ecco dove vorrei concentrarmi:
+
+* **Correggi l&#39;estrazione mobile. Non si tratta di un problema di canale.** Ogni canale converte le persone nel carrello a un ritmo sano e simile, in modo che la spesa pubblicitaria funzioni in modo trasversale. I ricavi vengono persi in modo specifico nel flusso di pagamento mobile, che è il luogo in cui appartiene la correzione.
+* **Inizia con il pagamento e con l&#39;attrito del modulo.** Questi sono i motivi più comuni per cui gli acquirenti di dispositivi mobili ad alto intento abbandonano il carrello. L&#39;offerta di opzioni per il portafoglio mobile e la riduzione della forma sono di solito le vincite più veloci.
+* **Controlla di nuovo dopo la correzione.** Una volta che il pagamento cambia spedizione, osserva se il tasso di acquisto del carrello mobile si sposta verso il tasso desktop del 23,2%.
 
 Vuoi che salvi questo come progetto in modo da poterlo tenere traccia, o che imposti un avviso se il carrello mobile da acquistare scende al di sotto di una soglia?
 
