@@ -5,10 +5,10 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 - Informazioni sull&#39;intelligenza artificiale in CX Enterprise {#overview}
   - [IA generativa](./overview/generative-ai.md)
   - [IA agentica](./overview/agentic-ai.md)
-  - [Monitoraggio dell’IA agente](./overview/monitoring.md)
+  - [Monitoraggio dell’IA agentica](./overview/monitoring.md)
   - [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md)
   - [Strumenti agentici](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente IA {#ai-assistant}
@@ -54,7 +54,7 @@ ht-degree: 26%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
