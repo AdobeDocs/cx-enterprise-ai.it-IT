@@ -5,7 +5,7 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 28%
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -70,5 +70,5 @@ ht-degree: 28%
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
     - [Analizzare i dati di CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Convalidare i dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
   - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)
