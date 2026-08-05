@@ -1,9 +1,9 @@
 ---
 title: Convalidare i dati con Collaboratore durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 description: Scopri in che modo gli amministratori di Analytics utilizzano l’abilità di convalida dei dati di CX Enterprise Collaborator per confrontare i dati di Adobe Analytics e Customer Journey Analytics durante l’aggiornamento.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (consigliati per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (consigliati per la maggior parte delle organizzazioni)<p>Una serie di passaggi che conducono a un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, vedere [Aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guida all&#39;aggiornamento di Customer Journey Analytics** (passaggi personalizzati personalizzati in base alle esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida all’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la tua organizzazione e le tue circostanze specifiche.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.</p></li></ul>
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (consigliati per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (consigliati per la maggior parte delle organizzazioni)<p>Una serie di passaggi che conducono a un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, vedere [Aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guida all&#39;aggiornamento di Customer Journey Analytics** (passaggi personalizzati personalizzati in base alle esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida all’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la tua organizzazione e le tue circostanze specifiche.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.</p></li></ul>
 
-CX Enterprise Collaborator include un&#39;abilità di convalida che consente di convalidare i dati durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. La convalida dei dati viene completata in un&#39;unica conversazione.
+Collaboratore include un’abilità di convalida che consente di convalidare i dati durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics. La convalida dei dati viene completata in un&#39;unica conversazione.
 
 Questa abilità confronta automaticamente:
 
@@ -50,7 +50,9 @@ Non è necessario conoscere l’architettura della tua implementazione. L’abil
 
    La richiesta viene indirizzata all’abilità di convalida dei dati, che avvia un processo di configurazione interattivo.
 
-1. Il processo di configurazione include le domande riportate nella tabella seguente. Per ogni domanda, seleziona una risposta, quindi seleziona [!UICONTROL **Invia**].
+1. Per ogni domanda nel processo di installazione, selezionare una risposta, quindi selezionare [!UICONTROL **Invia**].
+
+   Il processo di configurazione include le domande riportate nella tabella seguente.
 
    >[!NOTE]
    >
@@ -62,7 +64,9 @@ Non è necessario conoscere l’architettura della tua implementazione. L’abil
    | [!UICONTROL **Seleziona la suite di rapporti**] <!--In the UI, recommend change to "Select your Adobe Analytics report suite"--> | Questa è la suite di rapporti di Adobe Analytics che contiene i dati da convalidare in base ai dati di Customer Journey Analytics. |
    | [!UICONTROL **Seleziona la visualizzazione dati di Customer Journey Analytics**] | Questa è la visualizzazione dati in Customer Journey Analytics che contiene gli stessi dati della suite di rapporti di Adobe Analytics selezionata. |
 
-1. Rivedi il riepilogo dell’installazione per confermare che stai convalidando i dati corretti prima di continuare. Il riepilogo include la società, la suite di rapporti e la visualizzazione dati selezionate, insieme a un’anteprima delle metriche e delle dimensioni principali in ciascun sistema.
+1. Rivedi il riepilogo dell’installazione per confermare che stai convalidando i dati corretti prima di continuare.
+
+   Il riepilogo include la società, la suite di rapporti e la visualizzazione dati selezionate, insieme a un’anteprima delle metriche e delle dimensioni principali in ciascun sistema.
 
 1. Continua con la seguente sezione, [Scegli i dati da convalidare](#choose-the-data-to-validate).
 
@@ -82,7 +86,9 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
 
 ## Rivedi l’analisi
 
-1. Seleziona la scheda [!UICONTROL **Tasso di corrispondenza complessivo**] per visualizzare una percentuale che indica quanto i dati della suite di rapporti di Adobe Analytics corrispondono a quelli della visualizzazione dati di Customer Journey Analytics. Questo punteggio viene sempre visualizzato per primo, prima di qualsiasi altro risultato. Pesa tutte le metriche e le dimensioni confrontate in modo uniforme per garantire che le metriche a volume elevato, come le visualizzazioni di pagina, non distorcano il punteggio.
+1. Seleziona la scheda [!UICONTROL **Tasso di corrispondenza complessivo**] per visualizzare una percentuale che indica quanto i dati della suite di rapporti di Adobe Analytics corrispondono a quelli della visualizzazione dati di Customer Journey Analytics.
+
+   Questo punteggio viene sempre visualizzato per primo, prima di qualsiasi altro risultato. Pesa tutte le metriche e le dimensioni confrontate in modo uniforme per garantire che le metriche a volume elevato, come le visualizzazioni di pagina, non distorcano il punteggio.
 
    Utilizza la seguente scala per interpretare il punteggio:
 
@@ -93,11 +99,27 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
    | 75%-89% | ![Cerchio arancione](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisione] | Esistono delle lacune significative. Analizza le cause principali prima di affidarti ai dati di Customer Journey Analytics. |
    | Inferiore al 75% | ![Cerchio rosso](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Scadente] | Disallineamento significativo. Agisci immediatamente prima di utilizzare i dati di Customer Journey Analytics. |
 
-1. Selezionare la scheda [!UICONTROL **Informazioni chiave**] per visualizzare due o quattro callout brevi, ognuno dei quali riepiloga un risultato dell&#39;analisi in una singola frase. I callout sono codificati in base al colore in base alla gravità, in modo da poter individuare prima i risultati più importanti.
+1. Selezionare la scheda [!UICONTROL **Informazioni chiave**] per visualizzare due o quattro callout brevi, ognuno dei quali riepiloga un risultato dell&#39;analisi in una singola frase.
 
-1. Selezionare la scheda [!UICONTROL **Riepilogo**] per visualizzare i totali di Adobe Analytics, i totali di Customer Journey Analytics, la varianza totale, i giorni trascorsi e i giorni critici, in cui i giorni trascorsi e i giorni critici riflettono quanti giorni nell&#39;intervallo di date rientrano negli stati di varianza [!UICONTROL **Passaggio**] e [!UICONTROL **Critico**] descritti di seguito.
+   Le didascalie sono codificate per colore in base alla gravità, in modo da poter identificare prima i risultati più importanti.
 
-1. (Condizionale) Quando si esegue un confronto di una singola dimensione o di una singola metrica, è possibile visualizzare un confronto affiancato dei dati di Adobe Analytics e di Customer Journey Analytics nella scheda [!UICONTROL **Tendenza giornaliera**].
+1. Selezionare la scheda [!UICONTROL **Riepilogo**] per visualizzare le informazioni seguenti:
+
+   * Totali in Adobe Analytics
+
+   * Totali in Customer Journey Analytics
+
+   * Varianza totale
+
+   * Giorni trascorsi
+
+     Riflette quanti giorni nell&#39;intervallo di date rientrano nello stato di varianza [!UICONTROL **Pass**] descritto di seguito.
+
+   * Giorni critici
+
+     Riflette quanti giorni nell&#39;intervallo di date rientrano nello stato di varianza [!UICONTROL **Critico**] descritto di seguito.
+
+1. (Condizionale) Quando si esegue un confronto di una singola dimensione o di una singola metrica, selezionare la scheda [!UICONTROL **Tendenza giornaliera**] per visualizzare un confronto affiancato dei dati di Adobe Analytics e di Customer Journey Analytics.
 
    Per le metriche, si tratta di un grafico a linee che confronta la tendenza giornaliera.
 
@@ -107,7 +129,17 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
 
    ![Scheda Tendenza giornaliera con un grafico a barre orizzontale](./assets/data-validation-aa-cja/trend-bar.png)
 
-1. (Condizionale) Quando si esegue un confronto di una singola dimensione o di una singola metrica, è possibile visualizzare i dettagli a livello di riga nella scheda [!UICONTROL **Dettagli data**]. Questa tabella elenca la data, il valore di Adobe Analytics, il valore di Customer Journey Analytics, la percentuale di varianza e un badge di stato per ogni metrica o valore di dimensione confrontato.
+1. (Condizionale) Quando si esegue un confronto di una singola dimensione o di una singola metrica, selezionare la scheda [!UICONTROL **Dettagli data**] per visualizzare le seguenti informazioni per ogni metrica o valore di dimensione confrontato:
+
+   * Data
+
+   * Valore Adobe Analytics
+
+   * Valore Customer Journey Analytics
+
+   * Percentuale di scostamento
+
+   * Badge di stato
 
    ![Scheda Dettagli data con una tabella delle percentuali di varianza e dei badge di stato](./assets/data-validation-aa-cja/date-detail.png)
 
@@ -119,9 +151,17 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
    | 3%-10% | ![Triangolo di avviso giallo](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Contrassegno] | Monitora la differenza e indaga se continua o peggiora. |
    | Superiore al 10% | ![Cerchio rosso](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Critico] | Indagate immediatamente. In genere si tratta di un problema di schema, acquisizione o mappatura. |
 
-1. (Facoltativo) Quando si esegue una suite di rapporti completa e un controllo di visualizzazione dati, le schede [!UICONTROL **Tendenza giornaliera**] e [!UICONTROL **Dettagli giornalieri**] vengono sostituite da una scorecard che mostra i conteggi di superamento, con flag e critici, insieme a tabelle separate che elencano le prime cinque metriche e dimensioni con corrispondenza migliore e le prime cinque con corrispondenza minore.
+1. (Condizionale) Quando esegui un controllo completo della suite di rapporti e della visualizzazione dati, seleziona la scheda [!UICONTROL **Scorecard**] per visualizzare le seguenti informazioni:
 
-1. Scorri verso il basso nell’analisi per visualizzare altri pattern e problemi rilevati durante l’analisi, le probabili cause di tali pattern e le azioni suggerite da intraprendere per risolvere eventuali discrepanze di dati.
+   * Conteggi passaggi
+
+   * Conteggi contrassegnati
+
+   * Conteggi critici
+
+   * Tabelle che elencano le prime cinque metriche e dimensioni con corrispondenza migliore e le prime cinque con corrispondenza minore
+
+1. Scorri verso il basso nell’analisi per visualizzare altri pattern e problemi rilevati durante l’analisi, le probabili cause di tali pattern e le azioni suggerite per risolvere eventuali discrepanze di dati.
 
    >[!NOTE]
    >
@@ -139,7 +179,11 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
 
 1. Verifica che le azioni suggerite siano valide, quindi risolvile in Adobe Experience Platform o Adobe Analytics.
 
-1. (Facoltativo) Continuare l&#39;analisi analizzando un&#39;altra metrica, analizzando un&#39;altra dimensione o eseguendo un altro rapporto con un massimo di 40 metriche e 20 dimensioni, come descritto in [Scegliere i dati da convalidare](#choose-the-data-to-validate). Non è necessario ripetere il processo di configurazione per eseguire questa operazione; le selezioni effettuate per la tua azienda, suite di rapporti e visualizzazione dati vengono riportate nel corso della conversazione.
+1. (Facoltativo) Continuare l&#39;analisi analizzando un&#39;altra metrica, analizzando un&#39;altra dimensione o eseguendo un altro rapporto con un massimo di 40 metriche e 20 dimensioni, come descritto in [Scegliere i dati da convalidare](#choose-the-data-to-validate).
 
-1. Continuare a seguire i [passaggi consigliati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento o i passaggi generati dinamicamente nella Guida all&#39;aggiornamento di Customer Journey Analytics. Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.
+   Non è necessario ripetere il processo di configurazione per eseguire questa operazione; le selezioni effettuate per la tua azienda, suite di rapporti e visualizzazione dati vengono riportate nel corso della conversazione.
+
+1. Continuare a seguire i [passaggi consigliati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento o i passaggi generati dinamicamente nella Guida all&#39;aggiornamento di Customer Journey Analytics.
+
+   Per accedere alla Guida all&#39;aggiornamento di Customer Journey Analytics da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.
 
