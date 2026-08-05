@@ -1,14 +1,14 @@
 ---
 description: Scopri in pochi minuti come Chat con collaboratori utilizza un’interfaccia di conversazione per pianificare, eseguire e completare il lavoro di customer experience in Adobe e nei sistemi connessi.
-title: Panoramica di Adobe Collaborator Chat
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Panoramica della chat di Adobe CX Enterprise Collaborator
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
-# Panoramica di Adobe Collaborator Chat {#overview}
+# Panoramica sulla chat di Adobe CX Enterprise Collaborator {#overview}
 
 Chat con i collaboratori è un’interfaccia conversazionale per il lavoro svolto con la customer experience. Descrivi un obiettivo in un linguaggio semplice (ad esempio, &quot;crea un pubblico per la promozione di yoga di primavera&quot; o, &quot;dimmi perché questo pubblico si è ridotto la settimana scorsa&quot;) e Chat collaboratrice pianifica il lavoro, lo esegue sul tuo Adobe e sui sistemi connessi, convalida i risultati e ti riporta il lavoro finito per l’approvazione.
 
@@ -20,7 +20,7 @@ Il valore: lavoro che prima si estendeva su più schermi, team e giorni ora si s
 
 >[!NOTE]
 >
->Chat con collaboratori è un modulo di Adobe Coworker. Altri due moduli estendono la stessa base: Campagne collaboratori (alzati e avvia una campagna completa da una conversazione) e Progetti collaboratori (un’area di lavoro sempre attiva per flussi di lavoro end-to-end con più team). Questa pagina tratta la chat di lavoro.
+>Chat con il collaboratore è un modulo di Adobe CX Enterprise Collaborator. Altri due moduli estendono la stessa base: Campagne collaboratori (alzati e avvia una campagna completa da una conversazione) e Progetti collaboratori (un’area di lavoro sempre attiva per flussi di lavoro end-to-end con più team). Questa pagina tratta la chat di lavoro.
 
 ## Un’evoluzione da AI Assistant
 

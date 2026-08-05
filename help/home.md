@@ -1,6 +1,6 @@
 ---
-title: IA nelle applicazioni aziendali CX
-description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), AI Assistant, Agentic AI, Adobe Collaborator e MCP.
+title: IA nelle applicazioni CX Enterprise
+description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Collaborator e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 864
 ht-degree: 3%
 
 ---
 
 # IA in CX Enterprise
 
-Questa guida descrive le funzionalità di intelligenza artificiale di Adobe CX Enterprise: IA generativa, AI Assistant, Agent Orchestrator, Experience Platform Agents, Adobe Collaborator e MCP.
+Questa guida descrive le funzionalità di intelligenza artificiale di Adobe CX Enterprise: IA generativa, AI Assistant, Agent Orchestrator, Experience Platform Agents, CX Enterprise Collaborator e MCP.
 
 ## Panoramica delle funzionalità di intelligenza artificiale
 

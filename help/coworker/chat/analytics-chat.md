@@ -1,16 +1,16 @@
 ---
 title: Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
-description: Scopri come utilizzare Adobe Customer Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+description: Scopri come utilizzare Adobe CX Enterprise Collaborator Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '3239'
+source-wordcount: '3243'
 ht-degree: 3%
 
 ---
 
 # Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
 
-Adobe Collaborator Chat può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics, consentendoti di esplorarli e ottenere risposte a prompt in linguaggio naturale.
+Adobe CX Enterprise Collaborator Chat può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics, consentendoti di esplorarli e ottenere risposte a prompt in linguaggio naturale.
 
 Puoi utilizzare Chat con i collaboratori in due modi, a seconda della quantità di analisi necessaria:
 
