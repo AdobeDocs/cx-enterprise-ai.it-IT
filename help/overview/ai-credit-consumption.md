@@ -75,4 +75,4 @@ Per sapere quali agenti AEP e processi agente sono disponibili nelle app CX Ente
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [IA agentica in CX Enterprise](agentic-ai.md)
-* [Versione di prova per agenti Adobe Experience Platform associata all&#39;utilizzo](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Versione di prova per agenti Adobe Experience Platform associata all&#39;utilizzo](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
