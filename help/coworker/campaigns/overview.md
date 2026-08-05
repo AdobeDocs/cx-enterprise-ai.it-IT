@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Campagne Coworker è un’applicazione di marketing nativa per l’intelligenza artificiale che consente di passare da un singolo prompt a una campagna completa pronta per la revisione.
 
-Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne](./). Ulteriori funzionalità saranno presto disponibili.
+Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne] (./). Ulteriori funzionalità saranno presto disponibili.
 
 ## Come accedere
 
