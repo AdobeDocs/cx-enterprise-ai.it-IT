@@ -1,16 +1,16 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi d’uso
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
 
 # Casi d’uso {#use-cases}
 
-Di seguito sono riportati casi d’uso e prompt di esempio utilizzati dai professionisti in Adobe Coworker Chat, organizzati per area di lavoro. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
+Di seguito sono riportati alcuni casi d&#39;uso e alcuni esempi di prompt utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori, organizzati per area di lavoro. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
 
 ## Informazioni sui dati
 

@@ -1,14 +1,14 @@
 ---
-title: Collaboratore Adobe
-description: Scopri come portare il marketing a un livello successivo con Adobe Collaborator.
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Collaboratore Adobe CX Enterprise
+description: Scopri come portare il marketing a un livello superiore con Adobe CX Enterprise Collaborator.
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
 
-# Informazioni su Adobe Collaborator
+# Informazioni su Adobe CX Enterprise Collaborator
 
 Coworker è un compagno di squadra basato sull’intelligenza artificiale che reimmagina la natura del lavoro per organizzazioni, team e singoli utenti. Cooworker automatizza elegantemente l’esperienza del cliente e i flussi di lavoro di marketing, consentendo alle organizzazioni di concentrarsi sul raggiungimento dei propri obiettivi aziendali e sulla trasformazione dei risultati, non sul coordinamento delle attività. In qualità di motore agentico, Coworker adotta un nuovo approccio innovativo per automatizzare i processi aziendali. Migliora le prestazioni e l’accuratezza del modello di intelligenza artificiale combinando dati, intelligenza, collaborazione e l’esecuzione di competenze agentiche con il contesto aziendale, la governance e la supervisione umana integrati.
 

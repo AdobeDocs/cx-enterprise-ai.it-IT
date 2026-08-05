@@ -1,14 +1,14 @@
 ---
-description: Scopri i miglioramenti e le correzioni di funzioni nelle note sulla versione delle campagne Adobe Collaborator.
-title: Note sulla versione delle campagne per collaboratori Adobe
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Scopri i miglioramenti e le correzioni introdotti nelle note sulla versione delle campagne Adobe CX Enterprise Collaborator.
+title: Note sulla versione delle campagne Adobe CX Enterprise Collaborator
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Note sulla versione delle campagne per collaboratori Adobe {#release-notes}
+# Note sulla versione delle campagne Adobe CX Enterprise Collaborator {#release-notes}
 
 I rilasci delle campagne di collaborazione funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
