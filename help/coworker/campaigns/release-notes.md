@@ -1,16 +1,16 @@
 ---
-description: Scopri i miglioramenti e le correzioni introdotti nelle note sulla versione delle campagne Adobe CX Enterprise Collaborator.
-title: Note sulla versione delle campagne Adobe CX Enterprise Collaborator
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Scopri i miglioramenti e le correzioni di funzioni nelle note sulla versione delle campagne Adobe Collaborator.
+title: Note sulla versione delle campagne per collaboratori Adobe
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Note sulla versione delle campagne Adobe CX Enterprise Collaborator {#release-notes}
+# Note sulla versione delle campagne per collaboratori Adobe {#release-notes}
 
-I rilasci delle campagne Adobe CX Enterprise Collaborator funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
+I rilasci delle campagne di collaborazione funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
 ## Luglio 2026 {#july-2026}
 
@@ -130,7 +130,7 @@ I rilasci delle campagne Adobe CX Enterprise Collaborator funzionano su un model
 
 **Data di rilascio: 10 giugno 2026**
 
-* L&#39;app ora è CX Enterprise Collaborator Campaigns con denominazione aggiornata in
+* L’app ora è Campagne collaboratrici con nomi aggiornati in tutto
 * Un primo tour di onboarding ti guida attraverso la creazione di un brand demo
 * Avvia campagne da una finestra di dialogo dedicata quando il piano è pronto per essere utilizzato
 * Connettere HubSpot con una chiave API dal catalogo delle integrazioni

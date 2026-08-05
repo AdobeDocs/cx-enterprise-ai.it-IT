@@ -1,16 +1,16 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi d’uso
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # Casi d’uso {#use-cases}
 
-Di seguito sono riportati alcuni casi d&#39;uso e alcuni esempi di prompt utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori, organizzati per area di lavoro. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
+Di seguito sono riportati casi d’uso e prompt di esempio utilizzati dai professionisti in Adobe Coworker Chat, organizzati per area di lavoro. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
 
 ## Informazioni sui dati
 
@@ -44,6 +44,8 @@ Di seguito sono riportati alcuni casi d&#39;uso e alcuni esempi di prompt utiliz
 | --- | --- | --- | --- | --- |
 | Creazione di percorsi dal linguaggio naturale | Orchestrare la creazione di percorsi in AJO da un prompt di testo o da un’immagine o un diagramma di flusso caricati | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crea un percorso di benvenuto che invia un’e-mail dopo l’iscrizione, attende 3 giorni, quindi invia un follow-up&quot; · &quot;Crea un percorso da questa immagine di diagramma di flusso caricata&quot; |
 | Analizzare i conflitti di percorso | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il mio percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; · &quot;Verificare la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
+| Analizzare l’abbandono del percorso | Identifica dove e perché i clienti abbandonano durante un percorso e rileva pattern di comportamento che portano al disimpegno | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Dove vanno le persone nel mio percorso di ricoinvolgimento?&quot; · &quot;Quali nodi nel percorso X hanno il fallout più elevato?&quot; |
+| Analizzare gli errori delle azioni personalizzate | Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso e diagnostica le cause principali prima che gli errori si trasformino in interruzioni più ampie | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Perché le azioni personalizzate non riescono nel percorso di registrazione fedeltà?&quot; · &quot;Visualizza la frequenza di errori per l&#39;azione personalizzata ExternalPush nel percorso di benvenuto&quot; |
 
 ## Elementi fondamentali
 

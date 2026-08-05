@@ -5,10 +5,10 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 26%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 - Informazioni sull&#39;intelligenza artificiale in CX Enterprise {#overview}
   - [IA generativa](./overview/generative-ai.md)
   - [IA agentica](./overview/agentic-ai.md)
-  - [Monitoraggio dell’IA agente](./overview/monitoring.md)
+  - [Monitoraggio dell’IA agentica](./overview/monitoring.md)
   - [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md)
   - [Strumenti agentici](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente IA {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 26%
   - [Agente di supporto prodotto](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente notifiche](./agents/notifications.md)
-  - [Versione di prova di CX Enterprise Collaborator](./agents/trial.md)
+  - [Versione di prova collaboratore](./agents/trial.md)
   - [Convalidare i dati](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 26%
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
     - [Analizzare i dati di CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Convalidare i dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
   - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)

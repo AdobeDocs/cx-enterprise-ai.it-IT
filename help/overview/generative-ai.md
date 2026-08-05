@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3283
 ht-degree: 13%
 
 ---
 
 # IA generativa in CX Enterprise
 
-Generative AI (genAI) in CX Enterprise consente di automatizzare le attività creative e cognitive e di migliorare la produttività. Questa pagina consente di comprendere in che modo le applicazioni CX Enterprise supportano genAI e AI Assistant e fornisce collegamenti per ulteriori informazioni su queste funzioni.
+Generative AI (genAI) in CX Enterprise consente di automatizzare le attività creative e cognitive e di migliorare la produttività. Questa pagina consente di capire dove le applicazioni [!DNL CX Enterprise] supportano GenAI e l&#39;Assistente AI. Fornisce collegamenti per ulteriori informazioni su queste funzioni.
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ Generative AI (genAI) in CX Enterprise consente di automatizzare le attività cr
 
 **Cos&#39;è genAI?**
 
-L’intelligenza artificiale generativa è un tipo di intelligenza artificiale che può creare contenuti originali. Ad esempio, può creare testo, immagini, video, audio o codice software in risposta a una richiesta o a un prompt dell’utente.
+GenAI può _creare_ contenuto originale o _generare una risposta_ alla richiesta o alla domanda di un utente.
 
-* **Crea:** la possibilità di generare contenuti (testo, immagini, musica o video) da zero, in base ai relativi prompt di formazione e input. Questa capacità è l&#39;aspetto _generative_ dell&#39;intelligenza artificiale generativa.
+* **Crea:** la possibilità di generare contenuti (testo, immagini, musica o video) da zero, in base ai relativi prompt di formazione e input. Questa capacità è l&#39;aspetto _generativo_ di genAI.
 
 * **Generare una risposta:** L&#39;IA fornisce una risposta o una reazione a un prompt, in genere utilizzando i dati e gli archivi delle conoscenze disponibili.
 
@@ -70,9 +70,9 @@ L’intelligenza artificiale generativa è un tipo di intelligenza artificiale c
 
 [!UICONTROL L&#39;Assistente AI] è uno strumento di intelligenza artificiale conversazionale supportato in molte applicazioni aziendali CX. Utilizzala per acquisire rapidamente _conoscenze sul prodotto_ e _informazioni operative_, a seconda dell&#39;applicazione in uso.
 
-* **Conoscenza del prodotto:** La conoscenza del prodotto si riferisce a concetti e argomenti basati sulla documentazione del prodotto CX Enterprise su Experience League. Utilizza ad esempio [prompt basati su obiettivi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) per scoprire rapidamente Experience Platform. Tutte le risposte di Experience League sono verificabili e citate con collegamenti.
+* **Conoscenza del prodotto:** La conoscenza del prodotto si riferisce a concetti e argomenti basati sulla documentazione del prodotto CX Enterprise su Experience League. Utilizza ad esempio [prompt basati su obiettivi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) per ottenere rapidamente informazioni su Experience Platform. Tutte le risposte di Experience League sono verificabili e citate con collegamenti.
 
-* **Informazioni operative:** Ad esempio, [informazioni operative](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform si riferiscono a risposte generate sugli oggetti metadati (attributi, tipi di pubblico, flussi di dati, set di dati e così via). Con [!UICONTROL Assistente AI], puoi eseguire in secondi ciò che altrimenti potrebbe richiedere ore o giorni.
+* **Informazioni operative:** Ad esempio, [informazioni operative](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform si riferiscono a risposte generate sugli oggetti metadati (attributi, tipi di pubblico, flussi di dati, set di dati e così via). Con [!UICONTROL Assistente AI], puoi eseguire in secondi ciò che altrimenti richiede ore o giorni.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Di seguito è riportata una raccolta di [!DNL CX Enterprise] applicazioni che ut
 
 | **Nome prodotto** | **Funzioni chiave GenAI** | **Compatibilità Firefly** |
 | ------------------ | ------------------------- | ------------------- |
-| [Collaboratore aziendale CX](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home) | GenAI è disponibile in: <ul><li>**[Chat](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/overview)**: un&#39;interfaccia di conversazione in cui si descrive un obiettivo in linguaggio naturale e genAI pianifica il lavoro, lo esegue nel tuo Adobe e nei sistemi connessi, convalida i risultati e restituisce il lavoro finito per la tua approvazione.</li><li>**[Campagne](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/campaigns/overview)**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione del percorso e la verifica in un&#39;unica esperienza di conversazione. GenAI genera un piano di campagna, crea un percorso e crea bozze di contenuti personalizzati che è possibile perfezionare iterativamente.</li></ul> | No |
+| [Collaboratore Adobe](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI è disponibile in: <ul><li>**[Chat](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/overview)**: un&#39;interfaccia di conversazione in cui si descrive un obiettivo in linguaggio naturale e genAI pianifica il lavoro, lo esegue nel tuo Adobe e nei sistemi connessi, convalida i risultati e restituisce il lavoro finito per la tua approvazione.</li><li>**[Campagne](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/campaigns/overview)**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione del percorso e la verifica in un&#39;unica esperienza di conversazione. GenAI genera un piano di campagna, crea un percorso e crea bozze di contenuti personalizzati che è possibile perfezionare iterativamente.</li></ul> | No |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) | Crea contenuti personalizzati e on-brand con genAI. | Sì |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI è disponibile in: <ul><li>Genera varianti in **AEM Sites** ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>GenAI in **Sites Optimizer** ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) e [Tag avanzati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) in **AEM Assets**</li></ul> Assistente AI per: <ul><li>Pagina panoramica di Experience Hub</li><li>Edge Delivery Services</li><li>Siti</li><li>Risorse</li><li>Moduli</li><li>Contenuti multimediali dinamici</li><li>Cloud Manager</li></ul> | Sì |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | Assistente AI per: <ul><li>Pagina panoramica di Experience Hub</li><li>Edge Delivery Services</li><li>Siti</li><li>Risorse</li><li>Moduli</li><li>Contenuti multimediali dinamici</li><li>Cloud Manager</li></ul> | Sì |
@@ -155,7 +155,7 @@ L’Assistente AI supporta AEM as a Cloud Service nelle seguenti posizioni:
 
 #### Experience Manager Sites
 
-In AEM Sites puoi utilizzare _[!UICONTROL Genera varianti]_. Questa funzione utilizza l’intelligenza artificiale generativa per creare varianti di contenuto in base alle richieste di input. I prompt vengono forniti da Adobe o creati e gestiti dall’utente.
+In [!DNL AEM Sites] è possibile utilizzare _[!UICONTROL Genera varianti]_. Questa funzione utilizza l’intelligenza artificiale generativa per creare varianti di contenuto in base alle richieste di input. Adobe fornisce i prompt o li crei e li gestisci.
 
 Dopo aver creato le varianti, puoi utilizzare il contenuto del tuo sito web e misurarne il successo utilizzando la funzione [Sperimentazione](https://www.aem.live/docs/experimentation) in Edge Delivery Services. Puoi anche generare immagini in Adobe Express utilizzando le funzionalità di intelligenza artificiale generative di Firefly.
 
@@ -364,7 +364,7 @@ Le funzionalità generative basate sull’intelligenza artificiale di Adobe Dyna
 
 **E-mail Designer**
 
-[!UICONTROL Assistente AI] in Marketo Engage [!UICONTROL Invia e-mail a Designer] ti consente di creare e-mail contemporanee, performanti e intuitive. Ciò si ottiene tramite la tecnologia di intelligenza artificiale generativa di Adobe e la libreria tempestiva insieme a Firefly per la generazione di immagini che aiuta a creare contenuti adatti per un particolare utente/gruppo di acquisto, fase di percorso di marketing, strategia di comunicazione, tono, ecc. Per creare contenuti è inoltre possibile utilizzare risorse specifiche per i marchi.
+[!UICONTROL Assistente AI] in Marketo Engage [!UICONTROL Invia e-mail a Designer] ti consente di creare e-mail contemporanee, performanti e intuitive. Questo risultato si ottiene tramite la tecnologia di intelligenza artificiale generativa di Adobe e la libreria tempestiva insieme a Firefly per la generazione di immagini che aiuta a creare contenuti adatti per un particolare utente/gruppo di acquisto, fase di percorso di marketing, strategia di comunicazione, tono, ecc. Per creare contenuti è inoltre possibile utilizzare risorse specifiche per i marchi.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Informazioni su Dynamic Chat"}
 
@@ -403,4 +403,4 @@ Marketo si integra con GenStudio for Performance Marketing
 * [AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/ai) documentation home
 -->
 
-**Dichiarazione di non responsabilità:** Le informazioni in questa pagina sono solo a scopo informativo generale. Anche se ci si adopera per garantire che le informazioni rimangano accurate e attuali, le funzioni software e di intelligenza artificiale generativa possono cambiare frequentemente. Di conseguenza, Adobe non garantisce sempre la completezza, l’accuratezza o l’affidabilità delle informazioni. Verifica eventuali dettagli importanti prima di prendere decisioni basate su questo contenuto.
+**Dichiarazione di non responsabilità:** Le informazioni in questa pagina sono solo a scopo informativo generale. Anche se ci si adopera per garantire che le informazioni rimangano accurate e attuali, le funzioni software e di intelligenza artificiale generativa possono cambiare frequentemente. Di conseguenza, Adobe non garantisce sempre la completezza, l’accuratezza o l’affidabilità delle informazioni. Verifica tutti i dettagli importanti prima di prendere decisioni basate su questo contenuto.
