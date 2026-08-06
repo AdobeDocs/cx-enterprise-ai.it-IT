@@ -26,7 +26,7 @@ ht-degree: 1%
 
 # Dashboard di monitoraggio di IA per agente
 
-Il dashboard di [!UICONTROL Monitoraggio] di Agentic AI offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull&#39;utilizzo e l&#39;adozione di Agentic AI. Visualizzare le tendenze di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents] e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
+Il dashboard di [!UICONTROL Monitoraggio] di Agentic AI offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull&#39;utilizzo e l&#39;adozione di Agentic AI. Visualizzare le tendenze di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents] e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
 
 **Disponibilità**
 
@@ -155,7 +155,7 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 
 ## Ulteriori informazioni su questo argomento
 
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
