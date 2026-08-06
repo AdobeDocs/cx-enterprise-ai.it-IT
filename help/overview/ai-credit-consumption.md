@@ -1,40 +1,43 @@
 ---
-title: Processi agente e consumo credito IA
-description: Scopri i processi degli agenti e i tassi di consumo dei crediti IA nelle applicazioni CX Enterprise.
+title: Consumo credito IA
+description: Scopri il consumo di crediti AI nelle applicazioni CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 967
+ht-degree: 5%
 
 ---
 
-# Processi dell’agente Adobe Experience Platform e consumo di crediti AI
+# Consumo crediti IA
 
-Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni aziendali CX. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise esistenti, vedere [IA per l&#39;agente in CX Enterprise](agentic-ai.md#existing-apps).
-
-## Novità
-
-| Funzione | Descrizione |
-| --- | --- |
-| [Catalogo delle funzionalità di IA Enterprise Agent di CX](https://agentic-capability-explorer.entapp.adproto.com/) | Scopri quali processi di IA agentica sono disponibili nelle app di CX Enterprise con licenza. |
-
-## Processi agente
-
-Un _processo agente_ è una serie di attività e azioni eseguite da un agente per ottenere un risultato specifico, come indicato dagli input del cliente.
-
-Utilizzando i prompt del linguaggio naturale tramite l’Assistente AI, puoi chiedere agli agenti di eseguire lavori specifici. In base a questi input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all&#39;interno delle applicazioni aziendali CX.
+Scopri il consumo di crediti AI nelle applicazioni CX Enterprise.
 
 ## Crediti IA
 
-Un credito _AI_ è una metrica basata sull&#39;utilizzo che quantifica l&#39;esecuzione di processi agente. I crediti IA non si applicano alle [applicazioni AI-first](agentic-ai.md).
+Un credito _AI_ è una metrica basata sull&#39;utilizzo che quantifica l&#39;esecuzione di azioni o processi.
 
-## Consumo credito IA
+## Servizi idonei che utilizzano crediti di IA
+
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [Agenti AEP](#aep-agents-credit-rate)
+
+### Tariffa di credito cliente aziendale CX
+
+Per un periodo introduttivo limitato, gli input dei collaboratori utilizzano crediti di IA a un tasso di 25 crediti di IA per input. Questa tariffa è disponibile solo per un periodo limitato ed è soggetta a modifiche.
+
+### Tasso di credito agenti AEP
+
+Un _processo agente_ è una serie di attività e azioni eseguite da un agente AEP per ottenere un risultato specifico, come indicato dagli input del cliente.
+
+Utilizzando i prompt del linguaggio naturale tramite l’Assistente AI, puoi chiedere agli agenti di eseguire lavori specifici. In base a questi input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all&#39;interno delle applicazioni aziendali CX.
 
 L’utilizzo del credito di IA può variare a seconda della complessità e del valore del processo eseguito:
 
@@ -42,9 +45,9 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 * Le attività complesse (spesso con più passaggi) richiedono più crediti
 * Le attività che comportano ragionamento avanzato, convalida, coordinamento di più agenti o integrazione richiedono più crediti
 
-**Nota:** è disponibile anche il [Catalogo delle funzionalità di IA per l&#39;agente aziendale CX](https://agentic-capability-explorer.entapp.adproto.com/) per aiutarti a individuare i processi di IA per l&#39;agente disponibili nelle app CX Enterprise con licenza.
+Per sapere quali agenti AEP e processi agente sono disponibili nelle app CX Enterprise con licenza, consulta [Catalogo delle funzionalità di IA di Enterprise Agent CX](https://agentic-capability-explorer.entapp.adproto.com/).
 
-### Tassi di consumo del credito di IA stimati
+#### Tassi di credito del processo agente stimati
 
 | Agente | Processo | Applicazioni supportate | Stima crediti IA | Prompt di esempio |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +75,4 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [IA agentica in CX Enterprise](agentic-ai.md)
-* [Versione di prova per agenti Adobe Experience Platform associata all&#39;utilizzo](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Versione di prova per agenti Adobe Experience Platform associata all&#39;utilizzo](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
