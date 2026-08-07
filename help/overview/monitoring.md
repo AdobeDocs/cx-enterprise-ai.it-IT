@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 1%
 
 ---
 
-# Dashboard di monitoraggio di IA agente
+# Dashboard di monitoraggio di IA per agente
 
 Il dashboard di [!UICONTROL Monitoraggio] di Agentic AI offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull&#39;utilizzo e l&#39;adozione di Agentic AI. Visualizzare le tendenze di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents] e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
 

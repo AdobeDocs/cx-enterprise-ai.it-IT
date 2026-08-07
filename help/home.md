@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ Questa guida descrive le funzionalità di intelligenza artificiale di Adobe CX E
 
 Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza artificiale in CX Enterprise:
 
-- [Generative AI](./overview/generative-ai.md) descrive quali applicazioni CX Enterprise supportano Generative AI e AI Assistant e come si confrontano.
-- [Agentic AI](./overview/agentic-ai.md) spiega come gli agenti Experience Platform funzionano sia nelle applicazioni CX Enterprise esistenti che nelle applicazioni AI-first ed elenca gli agenti disponibili in ognuna di esse.
-- [Il monitoraggio di IA per l&#39;agente](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte dell&#39;agente.
-- [Processi agente e consumo credito IA](./overview/ai-credit-consumption.md) spiega come i processi agente utilizzano i crediti IA, con tassi di consumo stimati per agente e tipo di processo.
+- [Informazioni sull&#39;intelligenza artificiale generativa](./overview/generative-ai.md) descrive quali applicazioni CX Enterprise supportano l&#39;intelligenza artificiale generativa e l&#39;Assistente all&#39;intelligenza artificiale e come si confrontano.
+- [Informazioni sull&#39;intelligenza artificiale per gli agenti](./overview/agentic-ai.md) spiega come gli agenti Experience Platform funzionano sia nelle applicazioni aziendali CX esistenti che nelle applicazioni AI-first ed elenca gli agenti disponibili in ciascuna di esse.
+- Il monitoraggio di [IA](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte degli agenti.
+- [Consumo crediti AI](./overview/ai-credit-consumption.md) spiega come i processi agente utilizzano i crediti AI, con tassi di consumo stimati per agente e tipo di processo.
 - [Gli strumenti per agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) includono ulteriori competenze e strumenti per l&#39;agente che estendono gli agenti di CX Enterprise (esercitazioni video).
 
 ## Assistente IA
