@@ -1,7 +1,7 @@
 ---
 title: Abilità degli strumenti sandbox
 description: Scopri come utilizzare le competenze agente Sandbox Tooling per replicare i metadati dell’oggetto in ambienti sandbox.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -25,6 +25,8 @@ ht-degree: 1%
 
 Utilizza le abilità agente sandbox per spostare i metadati dell’oggetto, inclusi schemi e tipi di pubblico, tra gli ambienti Adobe Experience Platform descrivendo cosa desideri eseguire in linguaggio naturale. Utilizzando CX Coworker è possibile individuare i metadati richiesti, identificare automaticamente le dipendenze, creare pacchetti di migrazione ed eseguire la migrazione degli oggetti attraverso un&#39;esperienza di conversazione.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
+
 ## Prerequisiti {#prerequisites}
 
 Prima di iniziare, assicurati di avere:
@@ -33,7 +35,7 @@ Prima di iniziare, assicurati di avere:
 - Accedere agli oggetti che si desidera individuare o migrare.
 - Il plug-in Adobe CXO installato in CX Collaborator.
 
-Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Usa abilità agente sandbox {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +64,7 @@ Per utilizzare le abilità agente sandbox:
 
 ![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
 
-Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Casi d’uso supportati {#supported-use-cases}
 
@@ -108,4 +110,4 @@ Utilizza questi prompt quando conosci il nome del pubblico.
 
 Dopo aver letto questa guida, scopri come utilizzare le abilità agente Sandbox per individuare, creare pacchetti e migrare gli oggetti supportati tra le sandbox.
 
-Per ulteriori informazioni sugli strumenti sandbox, consulta la [Guida agli strumenti sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Per ulteriori informazioni sugli strumenti sandbox, consulta la [Guida agli strumenti sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).

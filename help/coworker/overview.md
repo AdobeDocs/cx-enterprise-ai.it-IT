@@ -1,9 +1,9 @@
 ---
 title: Collaboratore Adobe CX Enterprise
 description: Scopri come portare il marketing a un livello superiore con Adobe CX Enterprise Collaborator.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,8 @@ Campagne con collaboratori è una funzione modellata che consente ai piccoli tea
 Chat con i collaboratori consente ai team di automatizzare le attività dei prodotti Adobe utilizzando il linguaggio naturale, trasformando rapidamente le idee in azioni con una pianificazione flessibile, competenze personalizzabili ed esecuzione intelligente.
 
 * [Panoramica](./chat/overview.md)
-* [Casi d’uso](./chat/use-cases.md)
+* [Casi d’uso](./chat/use-cases/overview.md)
 * [Guida all’interfaccia utente](./chat/ui-guide.md)
-* [Analizzare i dati di Customer Journey Analytics](./chat/analytics-chat.md)
 
 ## Progetti (documenti in arrivo)
 
