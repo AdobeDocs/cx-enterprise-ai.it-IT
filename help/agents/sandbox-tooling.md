@@ -1,7 +1,7 @@
 ---
 title: Abilità degli strumenti sandbox
 description: Scopri come utilizzare le competenze agente Sandbox Tooling per replicare i metadati dell’oggetto in ambienti sandbox.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >Al momento puoi utilizzare le abilità agente sandbox per individuare, creare pacchetti e migrare oggetti schema e pubblico. Il supporto per altri tipi di oggetti verrà aggiunto nelle versioni future.
 
 Utilizza le abilità agente sandbox per spostare i metadati dell’oggetto, inclusi schemi e tipi di pubblico, tra gli ambienti Adobe Experience Platform descrivendo cosa desideri eseguire in linguaggio naturale. Utilizzando CX Coworker è possibile individuare i metadati richiesti, identificare automaticamente le dipendenze, creare pacchetti di migrazione ed eseguire la migrazione degli oggetti attraverso un&#39;esperienza di conversazione.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496714?captions=ita&learn=on)
 
 ## Prerequisiti {#prerequisites}
 

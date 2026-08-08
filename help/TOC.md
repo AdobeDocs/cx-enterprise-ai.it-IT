@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Assistente AI in Adobe CX Enterprise
-user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare il flusso di lavoro con Adobe Experience Platform e Real-time Customer Data Platform.
-description: Informazioni sull'Assistente all'intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
+user-guide-title: Collaboratore
+user-guide-description: Scopri come creare, configurare, integrare ed estendere l’Assistente all’intelligenza artificiale, il Coworker, gli agenti e gli MCP tramite documentazione pratica, linee guida per l’implementazione e materiali di riferimento.
+description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 25%
+source-wordcount: '238'
+ht-degree: 17%
 
 ---
 
@@ -66,9 +66,12 @@ ht-degree: 25%
     - [Note sulla versione](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
-    - [Casi d’uso](./coworker/chat/use-cases.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
-    - [Analizzare i dati di CJA](./coworker/chat/analytics-chat.md)
+    - Casi d’uso {#use-cases}
+      - [Panoramica](./coworker/chat/use-cases/overview.md)
+      - Approfondimenti dati {#data-insights}
+        - [Analizzare i dati di CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Convalidare i dati di migrazione da AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Strumenti sandbox {#sandbox-tooling}
+        - [Spostare gli oggetti tra sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
-  - [Convalidare i dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)
