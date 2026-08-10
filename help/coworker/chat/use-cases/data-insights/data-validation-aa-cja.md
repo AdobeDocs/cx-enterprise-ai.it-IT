@@ -1,7 +1,14 @@
 ---
 title: Convalidare i dati con Collaboratore durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
 description: Scopri in che modo gli amministratori di Analytics utilizzano l’abilità di convalida dei dati di CX Enterprise Collaborator per confrontare i dati di Adobe Analytics e Customer Journey Analytics durante l’aggiornamento.
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Dopo aver effettuato questi confronti, l’abilità genera informazioni basate s
 
 ## Prima di iniziare
 
-
-
 Per convalidare i dati come parte dell’aggiornamento, è necessario:
 
 * La suite di rapporti di Adobe Analytics che desideri convalidare.
@@ -35,6 +40,8 @@ Per convalidare i dati come parte dell’aggiornamento, è necessario:
 * La visualizzazione dati di Customer Journey Analytics che contiene gli stessi dati.
 
 Non è necessario conoscere l’architettura della tua implementazione. L’abilità rileva automaticamente se l’implementazione di Customer Journey Analytics utilizza il connettore Source di Analytics o una nuova implementazione di Experience Platform Web SDK.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496863/?captions=ita&learn=on&enablevpops)
 
 ## Avviare una sessione di convalida
 

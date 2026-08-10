@@ -5,9 +5,9 @@ user-guide-description: Scopri come creare, configurare, integrare ed estendere 
 description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '253'
 ht-degree: 17%
 
 ---
@@ -71,7 +71,12 @@ ht-degree: 17%
       - [Panoramica](./coworker/chat/use-cases/overview.md)
       - Approfondimenti dati {#data-insights}
         - [Analizzare i dati di CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Analisi della causa principale](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Convalidare i dati di migrazione da AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Tipi di pubblico {#audiences}
+        - [Creare tipi di pubblico utilizzando un linguaggio naturale](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Percorsi {#journeys}
+        - [Creazione di percorsi utilizzando il linguaggio naturale](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Strumenti sandbox {#sandbox-tooling}
         - [Spostare gli oggetti tra sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
