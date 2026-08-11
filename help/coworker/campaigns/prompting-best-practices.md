@@ -1,10 +1,10 @@
 ---
 description: 'Scopri le campagne per collaboratori che richiedono le best practice: il framework CO-STAR, le cose da fare e non fare, i contenuti non supportati e una lista di controllo della qualità per i prompt.'
-title: Best practice per la richiesta di informazioni
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Prompt per le best practice
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -139,4 +139,4 @@ Fornisci sempre contesto e proposta di valore in modo che l’intelligenza artif
 
 >[!MORELIKETHIS]
 >
->Cerca altri [modelli di prompt] (./) per le campagne di Coworker.
+>Cerca altri [modelli di prompt](./) per le campagne di Coworker.

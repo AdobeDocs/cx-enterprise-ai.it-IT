@@ -1,30 +1,17 @@
 ---
 description: Scopri come visualizzare i dati con Data Insights Agent in Customer Journey Analytics
-title: Visualizzare i dati con Data Insights Agent in Customer Journey Analytics
+title: Visualizzare i dati con Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +36,7 @@ L’utilizzo di Data Insights Agent per rispondere a domande incentrate sui dati
 | **Azioni Workspace e funzionalità agente** | <ul><li>Creare e aggiornare visualizzazioni<p>Genera una tabella a forma libera e la relativa visualizzazione (ad esempio una linea, una barra, un anello e così via).</p><p>Ad esempio, *Qual è il profitto tra SKU da febbraio a maggio?*</p></li><li>Fai domande di follow-up<p>Rispondi a un prompt nel contesto da qualsiasi prompt precedente. Ad esempio:</p> <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Visualizza i dati da marzo ad aprile*</li></ul> </li><li>Rilevamento di prompt fuori ambito<p>Se si invia una richiesta che non rientra nell&#39;ambito, ad esempio *Esporta questo progetto*, Data Insights Agent risponde informando che la domanda non rientra nell&#39;ambito.</p></li></ul> | <ul><li>Condividi</li><li>Esporta</li><li>Scarica</li><li>Gestire le preferenze utente</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li><li>Riepilogo o risposta in linea<p>Data Insights Agent non può rispondere in linea nella barra chat con una risposta di riepilogo di un prompt utente. Esempi di prompt non inclusi nell&#39;ambito: *Visualizza un riepilogo degli approfondimenti dell&#39;ultimo prompt* e *Visualizza un riepilogo degli elementi evidenziati dalla visualizzazione delle linee.*</p></li></ul> |
 | **Domande chiarificatrici** | Se si pone una domanda a cui non è disponibile un contesto sufficiente per la risposta di Data Insights Agent o che è troppo generica, Data Insights Agent risponde con una domanda chiarificatrice o con opzioni suggerite. <p>Le seguenti domande chiarificatrici sono esempi di domande relative alle componenti:</p><ul><li>Metrica: *Quale metrica &quot;ricavi&quot; intendevi usare?*</li><li>Dimension: *Specificare su quale delle seguenti &quot;aree geografiche&quot; concentrare l&#39;attenzione.*</li><li>Segmento: *Quale segmento &quot;Account&quot; desideri applicare?*</li><li>Intervallo date: *Per &quot;ultimo mese&quot;, intendevi l&#39;ultimo mese completo o gli ultimi 30 giorni?*</li></ul><p>La seguente domanda chiarificatrice è un esempio di una domanda relativa agli elementi dimensionali:</p> <ul><li>Quale &quot;nome del negozio&quot; intendevi? Ad esempio, #5274 store, #2949 store e così via.</li></ul> | Le domande più chiare sono limitate ai componenti e agli elementi dimensionali. Data Insights Agent non è in grado di chiarire elementi quali visualizzazioni dati, visualizzazioni, granularità dei dati, confronto e ambito. Quando non è possibile utilizzare le domande di chiarimento, l’agente utilizza per impostazione predefinita ciò che ti stai chiedendo. Se restituisce una visualizzazione o una granularità dei dati impreviste, puoi porre una domanda di follow-up o regolare la visualizzazione e i dati. |
 | **Verificabilità e correttezza dei dati** | La verificabilità e la correttezza dei dati possono essere confermate visualizzando la tabella a forma libera e la visualizzazione dei dati generate. <p>Ad esempio, se chiedi a Data Insights Agent di *Trend ordini del mese scorso*, puoi confermare che la metrica corretta (&quot;ordini&quot;) e l&#39;intervallo di date (&quot;ultimo mese&quot;) siano stati selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati.</p> | Data Insights Agent non risponde informando l’utente su quali componenti o visualizzazioni sono stati aggiunti. |
-| **Meccanismi di feedback** | <ul><li>Miniature in alto</li><li>Miniature in basso</li><li>Contrassegno</li></ul> |  |
+| **Meccanismi di feedback** | <ul><li>Pollici su</li><li>Pollici giù</li><li>Contrassegno</li></ul> |  |
 
 
 ## Gestire l’accesso all’agente Data Insights {#manage-access}
@@ -89,7 +76,7 @@ I seguenti parametri regolano l’accesso a Data Insights Agent in Customer Jour
 
   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
-  Per ulteriori informazioni sul controllo di accesso, vedere [Controllo di accesso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control#access-control).
+  Per ulteriori informazioni sul controllo di accesso, vedere [Controllo di accesso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Accesso alla visualizzazione dati**: le visualizzazioni dati devono essere abilitate per Data Insights Agent.
 
@@ -97,7 +84,7 @@ I seguenti parametri regolano l’accesso a Data Insights Agent in Customer Jour
   >
   >Quando abiliti le visualizzazioni dati, tieni presente quanto segue:
   >* Puoi abilitare un massimo di 50 visualizzazioni dati per organizzazione IMS. Se abiliti più di 50 visualizzazioni dati in tutti i profili di prodotto per una determinata organizzazione, Data Insights Agent utilizzerà le 50 visualizzazioni dati più utilizzate.
-  >  Puoi utilizzare le [informazioni nella colonna Data Insights Agent nelle visualizzazioni dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) per visualizzare il numero di visualizzazioni dati abilitate per Data Insights Agent nell&#39;organizzazione IMS.
+  >  Puoi utilizzare le [informazioni nella colonna Data Insights Agent nelle visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) per visualizzare il numero di visualizzazioni dati abilitate per Data Insights Agent nell&#39;organizzazione IMS.
   >* Data Insights Agent può fare riferimento alle visualizzazioni dati incluse nello stesso giorno in cui vengono abilitate.
 
   Per abilitare le visualizzazioni dati per Data Insights Agent:
@@ -108,7 +95,7 @@ I seguenti parametri regolano l’accesso a Data Insights Agent in Customer Jour
 
      ![Abilita visualizzazioni dati per Data Insights Agent](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-     Per ulteriori informazioni sull&#39;abilitazione delle visualizzazioni dati per Data Insights Agent, vedere [Impostazioni IA per una visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
+     Per ulteriori informazioni sull&#39;abilitazione delle visualizzazioni dati per Data Insights Agent, vedere [Impostazioni IA per una visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
 
   Per visualizzare il numero di visualizzazioni dati abilitate per Data Insights Agent nell’organizzazione IMS:
 
@@ -195,7 +182,7 @@ Adobe Experience Platform Agent Orchestrator consente di accedere alle funzional
 
 Agent Orchestrator interpreta la richiesta, determina quali agenti specializzati sono necessari e li orchestra per fornire la risposta giusta. Tiene traccia del contesto nelle interazioni a più turni, in modo da poter sfruttare naturalmente le query precedenti.
 
-Per ulteriori informazioni, vedere [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/it/products/experience-platform/agent-orchestrator.html).
+Per ulteriori informazioni, vedere [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Esempio di prompt di visualizzazione dati
 
@@ -285,8 +272,8 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 
 >[!MORELIKETHIS]
 >
->[Impostazioni dei componenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dizionario dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Approva metrica calcolata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Condividi segmenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Impostazioni dei componenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dizionario dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Approvare una metrica calcolata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Condividi segmenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

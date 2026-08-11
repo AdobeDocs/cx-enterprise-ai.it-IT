@@ -1,9 +1,9 @@
 ---
-title: Gateway di lavoro Adobe CX
+title: Panoramica di Adobe CX Customer Gateway
 description: Adobe CX Coworker Gateway è l'MCP unificato per Adobe CX Enterprise, che offre ai client MCP una singola connessione agli strumenti di prodotto supportati.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ I seguenti strumenti di prodotto sono documentati in questa guida:
 | **Journey Optimizer** | Configurazioni di campagne e canali (sola lettura) | Beta | [Strumenti di Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Visualizzazioni dati, dimensioni, metriche, rapporti, segmenti, intervalli di date, progetti e tipi di pubblico (lettura e scrittura) | Disponibile | [Strumenti di Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Suite di rapporti, dimensioni, metriche, rapporti, segmenti, intervalli di date e progetti Workspace (lettura e scrittura per i componenti supportati) | Disponibile | [Strumenti di Adobe Analytics](analytics-mcp.md) |
-| **Workfront** | Strumenti di gestione del lavoro per progetti, attività e flussi di lavoro di approvazione | Anteprima | [Server MCP Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | Strumenti di gestione del lavoro per progetti, attività e flussi di lavoro di approvazione | Anteprima | [Server MCP Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

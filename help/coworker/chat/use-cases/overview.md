@@ -1,16 +1,16 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
-title: Casi d’uso
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: Casi di utilizzo della chat del collaboratore
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# Casi d’uso {#use-cases}
+# Casi d’uso di Chat con i collaboratori{#use-cases}
 
-Di seguito sono riportati alcuni casi d&#39;uso e alcuni esempi di prompt utilizzati dai professionisti in Adobe CX Enterprise Chat per collaboratori, organizzati per area di lavoro. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
+Chat con collaboratori consente di eseguire query, analizzare e agire sui dati di [!DNL Experience Platform] utilizzando il linguaggio naturale anziché navigare in più interfacce utente o scrivere query manualmente. Questa pagina cataloga i casi d’uso su cui i professionisti si basano maggiormente, organizzati per area di lavoro: approfondimenti sui dati, tipi di pubblico, percorsi, elementi fondamentali e strumenti sandbox. Ogni voce include l&#39;abilità richiamata, le applicazioni con cui lavora e i prompt di esempio che è possibile copiare, adattare ai propri dati e perfezionare attraverso la conversazione.
 
 ## Informazioni sui dati
 

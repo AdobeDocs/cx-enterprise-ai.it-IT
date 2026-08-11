@@ -1,10 +1,10 @@
 ---
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
-title: Guida all’interfaccia utente
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Guida dell’interfaccia utente di Chat con i collaboratori
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 1%
+source-wordcount: '1577'
+ht-degree: 3%
 
 ---
 
@@ -55,7 +55,7 @@ La barra consente di accedere a ogni parte del prodotto e alle tue attività rec
 | Home | Tornate al messaggio di saluto, alla casella di input e alle richieste suggerite. |
 | Chat | Apri la cronologia completa della chat per cercare, fissare, archiviare o eliminare le conversazioni. |
 | Configurazioni | Gestisci competenze, server MCP, Marketplace, plug-in e memoria. |
-| Bloccato | Conversazioni che hai interpretato, tenute in cima per un accesso rapido. Seleziona Visualizza tutto per visualizzarli nella pagina Chat. |
+| Fissati | Conversazioni che hai interpretato, tenute in cima per un accesso rapido. Seleziona Visualizza tutto per visualizzarli nella pagina Chat. |
 | Recenti | Le conversazioni più recenti. Seleziona Visualizza tutto per aprire la pagina Chat. |
 
 ## La schermata iniziale
@@ -77,8 +77,8 @@ La casella di input (etichettata &quot;Chiedi qualsiasi cosa al collega&quot;) �
 | Elemento di interfaccia | Descrizione |
 | --- | --- |
 | + (Allega) | Apri il menu Allega per aggiungere un file o un oggetto dati al messaggio. |
-| Modalità pianificazione | Chiedi a Chat collaboratore di proporre un piano dettagliato e di mettere in pausa la tua approvazione prima che agisca. Disattivala per consentire a Chat di Coworker di agire direttamente. |
-| Vista Trascrizione | Controlla la quantità di attività interna di Chat con collaboratori visualizzata: Normale, Attiva o Dettagliata. |
+| Modalità piano | Chiedi a Chat collaboratore di proporre un piano dettagliato e di mettere in pausa la tua approvazione prima che agisca. Disattivala per consentire a Chat di Coworker di agire direttamente. |
+| Vista trascrizione | Controlla la quantità di attività interna di Chat con collaboratori visualizzata: Normale, Attiva o Dettagliata. |
 | Microfono | Dettare il messaggio con input vocale. Selezionare di nuovo per interrompere la registrazione. |
 | Invia | Invia il messaggio. Mentre Chat collaboratore risponde, questo diventa un controllo Stop che puoi utilizzare per interrompere. |
 
@@ -91,13 +91,13 @@ Seleziona + per allegare il contesto al messaggio:
 
 ![Menu di collegamento](./assets/ui-guide-5.png)
 
-### Modalità pianificazione
+### Modalità piano
 
 Attivare la modalità Piano quando un&#39;attività è complessa o modifica dati e si desidera rivedere prima l&#39;approccio. Chat collaboratore risponde con un piano e attende la tua approvazione prima di eseguirlo. Quando la modalità Pianificazione è disattivata, Chat con collaboratori procede direttamente al lavoro.
 
 ![Modalità pianificazione abilitata nella barra degli strumenti di input](./assets/ui-guide-6.png)
 
-### Vista Trascrizione
+### Vista trascrizione
 
 La vista Trascrizione imposta la quantità di ragionamento e di attività degli strumenti di Chat collaboratrice che appare in linea nella conversazione:
 
@@ -105,7 +105,7 @@ La vista Trascrizione imposta la quantità di ragionamento e di attività degli 
 | --- | --- |
 | Normale | Una visione equilibrata: vengono riepilogati i passaggi di pensiero chiave e l’attività degli strumenti. |
 | Focus | Una vista semplificata che nasconde la maggior parte dei passaggi intermedi in modo da visualizzare principalmente la risposta. |
-| Dettagliato | Dettagli completi: ogni passaggio di pensiero, carico di abilità, lettura di file e query. |
+| Dettagliata | Dettagli completi: ogni passaggio di pensiero, carico di abilità, lettura di file e query. |
 
 ![Scelta di una visualizzazione Trascrizione](./assets/ui-guide-7.png)
 
@@ -152,9 +152,9 @@ Seleziona Chat nella barra di navigazione per aprire la cronologia completa. Le 
 
 | Elemento di interfaccia | Descrizione |
 | --- | --- |
-| Cerca per titolo | Trovare una conversazione precedente per nome. |
-| Mostra bloccati | Mostra solo le conversazioni che hai interpretato. |
-| Mostra archiviati | Mostra le conversazioni archiviate. |
+| Ricerca per titolo | Trovare una conversazione precedente per nome. |
+| Mostra fissate | Mostra solo le conversazioni che hai interpretato. |
+| Mostra archiviate | Mostra le conversazioni archiviate. |
 | Nuova chat | Inizia una nuova conversazione. |
 | Menu Riga (...) | Su qualsiasi conversazione, stella (pin), rinomina, archivia o elimina la conversazione. |
 
@@ -164,7 +164,7 @@ Seleziona Chat nella barra di navigazione per aprire la cronologia completa. Le 
 
 Configurazioni è il luogo in cui puoi personalizzare ciò che Cloud Chat può fare. Dispone di cinque schede: Abilità, server MCP, Marketplace, Plug-in e Memoria.
 
-### Abilità
+### Competenza
 
 Le abilità sono funzionalità specializzate che la chat di Coworker richiama automaticamente quando sono rilevanti, o che puoi attivare digitando / nella chat. La scheda Abilità elenca tutte le abilità installate e consente di aggiungerne altre.
 

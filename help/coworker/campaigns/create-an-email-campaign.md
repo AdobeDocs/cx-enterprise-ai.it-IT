@@ -1,7 +1,7 @@
 ---
 description: Una guida dettagliata alla generazione di una campagna e-mail nelle campagne Adobe CX Enterprise Collaborator, dalla scrittura delle richieste alla revisione e all’esportazione della campagna.
 title: Creare una campagna e-mail
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
