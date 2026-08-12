@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 16%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -77,6 +77,7 @@ ht-degree: 16%
         - [Valutare lo stato della piattaforma e creare tipi di pubblico](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Percorsi {#journeys}
         - [Creazione di percorsi utilizzando il linguaggio naturale](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Strumenti sandbox {#sandbox-tooling}
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
