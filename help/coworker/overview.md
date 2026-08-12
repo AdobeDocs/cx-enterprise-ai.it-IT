@@ -1,9 +1,9 @@
 ---
 title: Informazioni su Adobe CX Enterprise Collaborator
 description: Scopri come portare il marketing a un livello superiore con Adobe CX Enterprise Collaborator.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,11 @@ Campagne con collaboratori è una funzione modellata che consente ai piccoli tea
 * [Creare una campagna e-mail](./campaigns/create-an-email-campaign.md)
 * [Casi d’uso](./campaigns/use-cases.md)
 * [Best practice per la richiesta di informazioni](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## Chat
 
@@ -29,6 +34,6 @@ Chat con i collaboratori consente ai team di automatizzare le attività dei prod
 * [Casi d’uso](./chat/use-cases/overview.md)
 * [Guida all’interfaccia utente](./chat/ui-guide.md)
 
-## Progetti (documenti in arrivo)
+## Progetti (presto disponibili)
 
 Coworker Projects è un’area di lavoro unificata che consente di automatizzare i flussi di lavoro di orchestrazione dell’esperienza del cliente end-to-end, consentendo ai team di coordinare attività, approvazioni ed esecuzione per gestire i risultati dalla strategia alla consegna.
