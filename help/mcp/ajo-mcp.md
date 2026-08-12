@@ -1,9 +1,9 @@
 ---
-title: Strumenti Adobe Journey Optimizer in CX Customer Gateway
+title: Strumenti Journey Optimizer in CX Customer Gateway
 description: Scopri quali strumenti Adobe Journey Optimizer sono disponibili tramite il gateway di lavoro CX.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 3%
 
 ---

@@ -1,7 +1,7 @@
 ---
-title: Accesso agli strumenti di CX Collaborator Gateway
+title: Accedere agli strumenti di gateway di lavoro CX
 description: Verificare la disponibilità del prodotto, l'abilitazione dell'organizzazione e le autorizzazioni prima di utilizzare gli strumenti Adobe CX Customer Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 3%

@@ -1,9 +1,9 @@
 ---
 description: Sfoglia i modelli di prompt reali per le campagne Adobe CX Enterprise Collaborator, organizzati in base al caso d’uso per le campagne di acquisizione, coinvolgimento, eventi, conversione e conservazione.
-title: Casi d’uso
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: Casi di utilizzo delle campagne dei collaboratori
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---

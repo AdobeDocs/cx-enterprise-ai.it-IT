@@ -1,7 +1,7 @@
 ---
 title: Strumenti contestuali di sessione in CX Customer Gateway
 description: Scopri gli strumenti di base che consentono di impostare il contesto dell’organizzazione, della sandbox e della visualizzazione dati per tutte le chiamate allo strumento CX Customer Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%

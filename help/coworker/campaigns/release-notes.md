@@ -1,9 +1,9 @@
 ---
 description: Scopri i miglioramenti e le correzioni introdotti nelle note sulla versione delle campagne Adobe CX Enterprise Collaborator.
-title: Note sulla versione delle campagne Adobe CX Enterprise Collaborator
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: Note sulla versione delle campagne CX Enterprise Collaborator
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
