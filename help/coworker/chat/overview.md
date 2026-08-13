@@ -1,9 +1,9 @@
 ---
 description: Scopri in pochi minuti come Chat con collaboratori utilizza un’interfaccia di conversazione per pianificare, eseguire e completare il lavoro di customer experience in Adobe e nei sistemi connessi.
 title: Panoramica della chat di Adobe CX Enterprise Collaborator
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,19 @@ Se hai utilizzato AI Assistant e Adobe Experience Platform Agent Orchestrator, C
 >[!NOTE]
 >
 >Al termine dell’esperienza, verranno aggiunte delle schermate dell’interfaccia.
+
+## Applicazioni CX Enterprise compatibili
+
+Le seguenti applicazioni CX Enterprise sono compatibili con Chat di lavoro:
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Customer Journey Analytics B2C Edition
+* _AEM (disponibile a breve)_
+* _Workfront (disponibile a breve)_
+* _Real-Time CDP B2B edition (disponibile a breve)_
+* _Adobe Journey Optimizer B2B edition (disponibile a breve)_
+* _Customer Journey Analytics B2B edition (disponibile a breve)_
 
 ## Blocchi predefiniti
 
