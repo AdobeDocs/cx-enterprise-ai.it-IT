@@ -1,9 +1,10 @@
 ---
 description: Scopri in pochi minuti come Chat con collaboratori utilizza un’interfaccia di conversazione per pianificare, eseguire e completare il lavoro di customer experience in Adobe e nei sistemi connessi.
 title: Panoramica della chat di Adobe CX Enterprise Collaborator
-source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: 741
 ht-degree: 0%
 
 ---
@@ -64,4 +65,4 @@ La chat di Coworker è alimentata dai blocchi predefiniti di Coworker. I seguent
 
 ## Panoramica video
 
->[!VIDEO](https://video.tv.adobe.com/v/3495973?captions=ita&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
