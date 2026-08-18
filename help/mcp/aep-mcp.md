@@ -1,10 +1,10 @@
 ---
 title: Strumenti Experience Platform in CX Customer Gateway
 description: Scopri quali strumenti Adobe Experience Platform sono disponibili tramite il gateway di lavoro CX.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 8%
 | `search_data_lake` | Ispezionare i metadati del set di dati e lo stato del batch | API Data Lake · set di dati, batch | get, get size, list failed batch | Attivo |
 | `search_dule` | Etichette, criteri e azioni di governance dei dati delle query | Governance dei dati · etichette, criteri, azioni_marketing | list, get, list enabled, evaluate | Attivo |
 | `search_query_service` | Query di query SQL, modelli, pianificazioni e avvisi | Query Service · query, modelli, pianificazioni, avvisi | list, get, filter, get connection params | Attivo |
+| `search_sandbox_health_assessment` | Recuperare i risultati più recenti della valutazione dello stato di esecuzione e funzionamento per la sandbox corrente | Esecuzione e funzionamento · valutazioni di verifica stato | list, ottieni per nome assegno | Attivo |
 | `search_schema_registry` | Query di schemi, gruppi di campi, classi e tipi XDM | Registro schema · schemi, gruppi di campi, classi, data_types, descrittori | list, get, filter by container | Attivo |
 
 ## Riferimento dello strumento
@@ -197,3 +198,18 @@ Strumento unificato per le risorse di Query Service. Elenca e recupera query ad 
 | --- | --- | --- |
 | `entity_type` | Sì | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Sì | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**Risorsa:** Eseguire e utilizzare · Valutazioni di verifica stato
+**Stato:** Attivo
+
+Recuperare i risultati più recenti della valutazione del controllo di integrità di esecuzione e funzionamento per la sandbox corrente. Restituisce i risultati per ogni categoria supportata, inclusi schemi e identità, segmentazione, acquisizione e profilo. Per identificare la causa principale senza una ricerca separata, ogni risultato include le risorse interessate dietro un controllo non riuscito. Vengono restituiti solo gli assegni con un nome leggibile pubblicato. Tutte le operazioni sono di sola lettura.
+
+>[!NOTE]
+>
+>Questo strumento recupera solo i risultati della valutazione. Per risolvere un problema segnalato, utilizzare il pannello dei dettagli del controllo di integrità nell&#39;interfaccia utente [!DNL Experience Platform]. Consulta [Verifiche stato](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Le indicazioni di correzione automatica per i controlli di integrità supportati sono disponibili come abilità in [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Funzionalità:** elenca tutti i risultati del controllo di integrità per la sandbox corrente, ottiene i risultati per un controllo denominato
+
+Nessun parametro.
