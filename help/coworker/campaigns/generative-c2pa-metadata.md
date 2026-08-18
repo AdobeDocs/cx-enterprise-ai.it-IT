@@ -2,7 +2,7 @@
 description: Scopri in che modo Campagne coorker allega e mantiene automaticamente i metadati C2PA (Content Credentials) sulle immagini, dalla generazione alla consegna e-mail.
 title: Metadati C2PA nelle campagne collaboratrici
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -15,13 +15,9 @@ Nuove leggi stanno emergendo sulla trasparenza generativa dell’intelligenza ar
 
 I metadati C2PA sono metadati invisibili e duraturi che registrano il modo in cui un contenuto è stato creato o modificato. Quando generi o modifichi un’immagine con strumenti di intelligenza artificiale generativi in Campagne collaboratrici, i metadati C2PA vengono automaticamente allegati a tale immagine. Non è richiesta alcuna azione da parte tua.
 
->[!BEGINSHADEBOX]
-
 ## Content Credentials nelle campagne e-mail {#content-credentials-email}
 
 Le immagini inviate nelle campagne e-mail mantengono intatto il Content Credentials, in modo che i destinatari possano verificare l’origine e l’autenticità di qualsiasi immagine direttamente dall’e-mail consegnata.
-
->[!ENDSHADEBOX]
 
 ## Azioni che associano metadati C2PA {#cc-workflows}
 
@@ -48,4 +44,4 @@ Campagne collaboratore mantiene Content Credentials associato alle risorse immag
 
 * [Linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Guardrail e limitazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Guardrail e limitazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
