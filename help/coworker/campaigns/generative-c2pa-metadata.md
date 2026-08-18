@@ -40,4 +40,4 @@ Campagne collaboratore mantiene Content Credentials associato alle risorse immag
 
 * [Funzionamento di Content Credentials nei vari prodotti Adobe](https://helpx.adobe.com/it/firefly/using/content-credentials.html){target="_blank"}
 
-* [Guardrail e limitazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Guardrail e limitazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
