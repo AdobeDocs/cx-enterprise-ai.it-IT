@@ -1,9 +1,11 @@
 ---
 description: Scopri come collegare il tuo account Marketo Engage alle campagne di Coworker per sincronizzare gli elenchi statici e intelligenti di Marketo.
 title: Connetti a Marketo Engage
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---

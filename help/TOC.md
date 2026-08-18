@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
+source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '272'
+ht-degree: 16%
 
 ---
 
@@ -63,6 +63,7 @@ ht-degree: 17%
     - [Creare una campagna e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Casi d’uso](./coworker/campaigns/use-cases.md)
     - [Best practice per la richiesta di informazioni](./coworker/campaigns/prompting-best-practices.md)
+    - {hide-from-toc}[Metadati C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
     - Connettori {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
