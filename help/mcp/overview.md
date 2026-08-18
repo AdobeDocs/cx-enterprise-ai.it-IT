@@ -1,9 +1,9 @@
 ---
 title: Panoramica di Adobe CX Customer Gateway
 description: Adobe CX Coworker Gateway è l'MCP unificato per Adobe CX Enterprise, che offre ai client MCP una singola connessione agli strumenti di prodotto supportati.
-source-git-commit: 428291fab4c74bc49f62c65011c3336ff1609a38
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
@@ -40,11 +40,11 @@ I seguenti strumenti di prodotto sono documentati in questa guida:
 | Strumenti di prodotto | Cosa espone attraverso l’endpoint | Disponibilità | Documentazione |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Tipi di pubblico, destinazioni, origini, spazi dei nomi delle identità e stato di attivazione (sola lettura) | Beta | [Strumenti di Real-Time CDP](rtcdp-mcp.md) |
-| **Experience Platform** | Schemi, set di dati, governance dei dati, Query Service, eventi di audit e valutazioni di verifica dello stato della sandbox (sola lettura) | Beta | [Strumenti di Experience Platform](aep-mcp.md) |
+| **Experience Platform** | Schemi, set di dati, governance dei dati, Query Service, eventi di audit, metriche di osservabilità e valutazioni di verifica dello stato della sandbox (sola lettura) | Beta | [Strumenti di Experience Platform](aep-mcp.md) |
 | **Journey Optimizer** | Configurazioni di campagne e canali (sola lettura) | Beta | [Strumenti di Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Visualizzazioni dati, dimensioni, metriche, rapporti, segmenti, intervalli di date, progetti e tipi di pubblico (lettura e scrittura) | Disponibile | [Strumenti di Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Suite di rapporti, dimensioni, metriche, rapporti, segmenti, intervalli di date e progetti Workspace (lettura e scrittura per i componenti supportati) | Disponibile | [Strumenti di Adobe Analytics](analytics-mcp.md) |
-| **Workfront** | Strumenti di gestione del lavoro per progetti, attività e flussi di lavoro di approvazione | Anteprima | [Server MCP Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | Strumenti di gestione del lavoro per progetti, attività e flussi di lavoro di approvazione | Anteprima | [Server MCP Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
