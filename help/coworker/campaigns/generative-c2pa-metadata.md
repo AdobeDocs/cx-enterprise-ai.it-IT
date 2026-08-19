@@ -2,10 +2,10 @@
 description: Scopri in che modo Campagne coorker allega e mantiene automaticamente i metadati C2PA (Content Credentials) sulle immagini, dalla generazione alla consegna e-mail.
 title: Metadati C2PA nelle campagne collaboratrici
 hide: true
-source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
+source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -40,8 +40,6 @@ Campagne collaboratore mantiene Content Credentials associato alle risorse immag
 
 ## Risorse aggiuntive
 
-* [Ulteriori informazioni sui metadati C2PA](https://helpx.adobe.com/it/firefly/using/content-credentials.html){target="_blank"}
-
 * [Linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Guardrail e limitazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Guardrail e limitazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
