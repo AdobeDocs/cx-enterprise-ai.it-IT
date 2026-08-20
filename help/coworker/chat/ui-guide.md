@@ -1,7 +1,8 @@
 ---
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: bf7465398bd73664ebd8911450dfd1173d55d6a4
 workflow-type: tm+mt
 source-wordcount: 1577
