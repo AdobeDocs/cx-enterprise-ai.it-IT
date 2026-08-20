@@ -2,9 +2,9 @@
 description: Scopri in che modo Campagne coorker allega e mantiene automaticamente i metadati C2PA sulle immagini, dalla generazione alla consegna e-mail.
 title: Metadati C2PA nelle campagne collaboratrici
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,16 +30,14 @@ La tabella seguente riepiloga quando vengono allegati metadati C2PA, in base all
 ## Tipi di contenuto e ambito {#content-types}
 
 * **Immagini**: coperte. I metadati C2PA vengono allegati quando le immagini vengono generate con intelligenza artificiale generativa e vengono conservati mediante le operazioni di ritaglio, sovrapposizione di testo e sovrapposizione di immagini eseguite dalla generazione di immagini in Campagne Coworker.
-* **Testo**: non applicabile. Gli output di solo testo per la generazione di immagini nelle campagne Coworker, come la generazione di copie, la traduzione e i suggerimenti di allineamento del brand, non richiedono metadati C2PA.
+* **Testo**: non applicabile. Gli output di solo testo nelle campagne del collaboratore, come la generazione di copie, la traduzione e i suggerimenti di allineamento del brand, non richiedono metadati C2PA.
 
 ## Cosa succede quando il contenuto si sposta {#content-moves}
 
 Campagne collaboratore mantiene i metadati C2PA associati alle risorse immagine supportate. Se un’immagine contiene metadati C2PA quando viene importata in Campagne collaboratrici, tali credenziali vengono mantenute quando la risorsa viene utilizzata nei contenuti della campagna generata e nelle esperienze e-mail in uscita.
 
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
-
 ## Risorse aggiuntive {#resources}
 
 * [Linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Guardrail e limitazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Guardrail e limitazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
