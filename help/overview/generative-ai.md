@@ -98,7 +98,7 @@ Di seguito è riportata una raccolta di [!DNL CX Enterprise] applicazioni che ut
 | [LLM Optimizer](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home) | Un’applicazione IA-First generativa che utilizza agenti di intelligenza artificiale per identificare automaticamente i vuoti di visibilità, suggerire automaticamente miglioramenti e, in alcuni casi, ottimizzare automaticamente l’esperienza del sito. | No |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/landing) | Assistente AI per conoscenze di prodotto e approfondimenti operativi. | No |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/ai-assistant) | Assistente AI per conoscenze di prodotto e approfondimenti operativi. | No |
-| | _AJO Prime_ e _Ultimate_ offrono [Generazione di contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) per portare suggerimenti di varianti di contenuti proattivi per testo e immagini. | Sì |
+| | _AJO Prime_ e _Ultimate_ offrono [Generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) per portare suggerimenti di varianti di contenuti proattivi per testo e immagini. | Sì |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistente AI per la conoscenza del prodotto. | No |
 | [[!DNL Campaign] Servizi cloud gestiti](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Assistente AI per Content Accelerator per generare automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base agli obiettivi di marketing su canali quali e-mail, SMS e push. | Sì |
 | **[!DNL Customer Journey Analytics]** | GenAI viene utilizzato con:<ul><li> [Didascalie intelligenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): per approfondimenti sulle visualizzazioni di Workspace più utilizzate.</li><li>[Content Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): per assegnare automaticamente i metadati delle risorse.</li></ul> Assistente AI per:<ul><li>[Conoscenza del prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agente di supporto del prodotto](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | No |
@@ -251,11 +251,11 @@ Di seguito è riportato un esempio di input per approfondimenti operativi:
 
 #### Assistente AI per la generazione di contenuti (AJO Prime e Ultimate)
 
-In AJO _Prime_ e _Ultimate_, puoi utilizzare la [generazione di contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) per la generazione di contenuti per portare suggerimenti di varianti di contenuti proattivi per testo e immagini.
+In AJO _Prime_ e _Ultimate_, puoi utilizzare la [generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) per la generazione di contenuti per portare suggerimenti di varianti di contenuti proattivi per testo e immagini.
 
 Questa funzione è disponibile per e-mail, notifiche push, pagine web, contenuti e canali SMS. Fornisce la generazione di testo e immagini basati su prompt. L’output della generazione di contenuti in AJO Prime e Ultimate è indennizzato.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Scopri l’Assistente IA in AJO"}
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Scopri l’Assistente IA in AJO"}
 
 +++
 
