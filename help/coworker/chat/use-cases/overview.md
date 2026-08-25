@@ -1,9 +1,8 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi di utilizzo della chat del collaboratore
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
 workflow-type: tm+mt
 source-wordcount: 3050
 ht-degree: 7%
@@ -28,21 +27,17 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ### Produzione di esperienze - Casi di utilizzo di Sites
 
->[!NOTE]
->
->Consulta anche [Funzionalità agenti in AEM: Esperienza del marchio - Produzione esperienza - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
-
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Aggiornare le pagine di AEM | Esegui azioni quali aggiornamento, rimozione, sostituzione o aggiunta di elementi di contenuto per mantenere le esperienze accurate e correnti. Gli input possono essere annotazioni visive o del linguaggio naturale, ad esempio PDF o screenshot. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | Il &lt;URL> aggiorna il titolo a Hello World<br><br>on &lt;URL> cambia il pulsante &quot;Take our Coffee Quiz&quot; (Acquista il quiz sul caffè) in una versione più coinvolgente<br><br>Aggiorna &lt;URL> in base al &lt;URL> allegato<br><br>on. Desidero aggiungere una nuova sezione teaser in fondo alla pagina su una promozione in esecuzione nel mese di agosto: acquistare una macchina da caffè e ottenere 2 sacchi di caffè gratis. Trovi anche l&#39;immagine di amici che bevono caffè e usarlo nel teaser |
 | Aggiornare AEM in blocco | Esegui azioni in blocco su più pagine contemporaneamente, ad esempio rimuovi, sostituisci o aggiungi elementi di contenuto per mantenere le esperienze accurate e correnti. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | in &lt;aem path> aggiorna tutte le pagine che contengono la copia &quot;MyBarista\&quot; in &quot;BrewPass&quot; |
 | Passare da Figma a frammento di contenuto visivo | Importare i disegni direttamente da Figma in Adobe Experience Manager utilizzando il linguaggio naturale. L’abilità crea automaticamente il modello di contenuto, il frammento di contenuto, le risorse e il modello di visualizzazione richiesti, consentendo agli utenti aziendali di passare in pochi minuti dalla progettazione ai contenuti pronti per il web senza dover eseguire la configurazione manuale. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Importa da &lt;Figma_URL> |
 
-### Produzione di esperienze - Casi di utilizzo di Forms
+**Informazioni correlate**
 
->[!NOTE]
->
->Vedi anche [Funzionalità agenti in AEM: esperienza del marchio - produzione esperienza - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+
+### Produzione di esperienze - Casi di utilizzo di Forms
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
@@ -51,11 +46,11 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Aggiungi logica di business | Creare regole semplici, ad esempio mostrare o nascondere un campo in base al valore di un altro campo | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | &quot;Mostra il campo Società solo quando il tipo di dipendente è Contraente&quot;<br><br>&quot;Mostra il campo &lt;campo> solo quando &lt;altro campo> è &lt;valore>&quot; |
 | Incorpora modulo | Inserire un modulo esistente o appena creato in una pagina AEM Sites designata (supportata solo nelle pagine Edge Delivery Services) | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | &quot;Incorpora il modulo nella home page del sito&quot;<br><br>&quot;Incorpora il modulo in &lt;percorso pagina>&quot; |
 
-### Sviluppo
+**Informazioni correlate**
 
->[!NOTE]
->
->Vedi anche [Funzionalità agenti in AEM: esperienza del marchio - sviluppo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+
+### Sviluppo
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
@@ -65,11 +60,11 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Gestire i programmi Cloud Manager | Elencare, ispezionare ed eliminare programmi AEM Cloud Manager, incluse pipeline e ambienti | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | &quot;Elenca i miei programmi Cloud Manager&quot;<br><br>&quot;Ottieni dettagli per 12345 programma&quot; |
 | Gestire le pianificazioni degli aggiornamenti delle versioni di AEM | Configura le ore di pausa giornaliere e i periodi di disponibilità dell&#39;aggiornamento per la manutenzione automatica e visualizza le finestre di blocco del codice globali di Adobe | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | &quot;Qual è la finestra delle ore non interattive corrente?&quot;<br><br>&quot;Pianificazione di un periodo senza aggiornamento dal 20 dicembre al 2 gennaio&quot; |
 
-### Onboarding - Casi di utilizzo di AEM Assets
+**Informazioni correlate**
 
->[!NOTE]
->
->Consulta anche [Funzionalità agenti in AEM: esperienza del marchio - onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+
+### Onboarding - Casi di utilizzo di AEM Assets
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
@@ -78,13 +73,13 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Progettare e creare tag | Progetta e crea vocabolari di tag controllati in `/content/cq:tags`, spazi dei nomi, tag gerarchici e operazioni batch tag. | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | &quot;Progettare una tassonomia dei tag con spazi dei nomi per le categorie di prodotti &quot;<br><br>&quot;Importare tag da questo CSV&quot;<br><br>&quot;Creare questi tag gerarchici in AEM&quot; |
 | Creare e assegnare moduli di metadati | Progetta e crea moduli di metadati personalizzati, utilizzati dagli autori di contenuti dell’interfaccia utente di creazione, da un CSV, una tabella, un documento sui requisiti o una descrizione, e facoltativamente li assegna alle cartelle. | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | &quot;Creare un modulo metadati da questo elenco di campi&quot;<br><br>&quot;Assegnare il modulo alla cartella `campaigns`&quot; |
 
+**Informazioni correlate**
+
+* [Funzionalità di Agentic in AEM: Esperienza del marchio - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+
 ## Contenuto verificato - Casi di utilizzo di AEM Assets
 
 ### Individuazione dei contenuti
-
->[!NOTE]
->
->Vedere anche [Funzionalità agenti in AEM: Contenuto verificato - Individuazione contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
@@ -93,11 +88,11 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Cerca per stato di approvazione | Filtra le risorse in base allo stato di approvazione. Ad esempio, stato approvato, in revisione, rifiutato o mancante. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Mostra tutte le risorse approvate nella cartella `Campaign`&quot; |
 | Cerca per cartella/percorso | Per identificare le risorse, interpreta i prompt del linguaggio naturale che fanno riferimento ai nomi delle cartelle in AEM. Puoi semplicemente menzionare la cartella nel loro prompt, senza navigare manualmente nell’archivio, riducendo in modo significativo il numero di clic necessari per individuare il contenuto corretto. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Nella cartella `WKND`&quot;?<br><br>&quot;Mostra le risorse modificate dopo l&#39;1 novembre 2025 nella cartella `WKND`&quot; |
 
-### Ottimizzazione dei contenuti
+**Informazioni correlate**
 
->[!NOTE]
->
->Vedere anche [Funzionalità agenti in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+* [Funzionalità Agentic in AEM: Contenuto verificato - Individuazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+
+### Ottimizzazione dei contenuti
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
@@ -105,17 +100,21 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Sovrapposizioni con marchio e generazione composita | Applica grafici promozionali, sovrapposizioni o badge alle risorse esistenti con un posizionamento preciso, per supportare la creazione rapida di composizioni pronte per la campagna. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Sovrapponi l&#39;immagine con gli elementi grafici dello sconto `30%` sul banner promozionale, posizionandolo `100px` dal centro&quot; |
 | Miglioramenti alle immagini, regolazioni del colore di sfondo, trasformazioni di orientamento | Applica miglioramenti visivi (nitidezza delle immagini), sostituisci i colori di sfondo ed esegui trasformazioni di orientamento. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Cambia il colore di sfondo di `PNG` in `#ff8932`&quot;<br><br>&quot;Contrasta l&#39;immagine&quot;<br><br>&quot;Specchia l&#39;immagine orizzontalmente&quot; |
 
-## Governance del brand
+**Informazioni correlate**
 
->[!NOTE]
->
->Vedi anche [Funzionalità agenti in AEM: governance del brand](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
+* [Funzionalità Agentic in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+
+## Governance del brand
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Linee guida e ricerca dei segmenti | Recuperare le linee guida dettagliate del brand, definite per segmento, mercato o categoria | enterprise-context | Adobe Experience Manager (AEM) | &quot;Quali sono le linee guida per il tono di voce per questo marchio?&quot;<br>&quot;Elencare le categorie di attestazioni utilizzate nel settore verticale dell&#39;integrità&quot; |
 | Valutare i contenuti in base alle linee guida del brand | Valutare una pagina, un blocco di testo o un’immagine pubblicati/creati in base ai controlli del marchio configurati | aem-governance | Adobe Experience Manager (AEM) | &quot;Valutare questa pagina di destinazione in base alle linee guida di SecurBank&quot;<br>&quot;Questa tagline supera i controlli del tono di voce?&quot; |
 | Eseguire il debug delle autorizzazioni di AEM | Eseguire il debug/comprendere i criteri di autorizzazione, gli ACL e le regole di ereditarietà. | aem-governance | Adobe Experience Manager (AEM) | &quot;Perché l&#39;amministratore dell&#39;entità può scrivere `/content/folder/us` su `https://author/` ?&quot;<br>&quot;Perché non è possibile scrivere l&#39;autore campione in `/content/dam` su `https://author`&quot; |
+
+**Informazioni correlate**
+
+* [Funzionalità Agentic in AEM: Governance del brand](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informazioni sui dati
 
@@ -165,7 +164,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Risoluzione entità e collegamento | Utilizza la ricerca semantica e lessicale per risolvere le menzioni di entità nelle entità Experience Platform effettive e individuare i campi XDM | `entity-linking` | Adobe Experience Platform | &quot;Risolvi &#39;Acquirenti di vacanze&#39; a un pubblico effettivo&quot; · &quot;Trovami campi relativi alla cronologia degli acquisti&quot; |
 | Gestire le abilità personalizzate | Salva, modifica o elimina le abilità riutilizzabili di proprietà dell&#39;utente che persistono nelle sessioni | `manage-skill` | Tutte le candidature ammissibili | &quot;Salva il flusso di lavoro come un’abilità&quot; · &quot;Elimina l’abilità di reporting settimanale&quot; · &quot;Trasforma questa in un’abilità riutilizzabile&quot; |
 | Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; · &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
-| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
+| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
 | Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggi le descrizioni dello spazio dei nomi delle identità&quot; · &quot;Correggi i nomi dei criteri di unione duplicati&quot; · &quot;Correggi gli schemi senza il gruppo di campi di audit&quot; · &quot;Correggi la denominazione predefinita dei criteri di unione&quot; |
 
 ## Strumenti sandbox
