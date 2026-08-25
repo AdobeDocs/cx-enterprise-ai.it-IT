@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: fb1f4ed99d7a7fe4338dc44c7922889e36c5ae76
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 16%
+source-wordcount: '276'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 16%
   - [Informazioni sul consumo di crediti IA](./overview/ai-credit-consumption.md)
   - [Dashboard di monitoraggio di IA per agente](./overview/monitoring.md)
   - [Strumenti agentici](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
+- [Trasparenza dei contenuti di IA generativa](content-transparency.md)
 - Assistente IA {#ai-assistant}
   - [Guida all’interfaccia utente di Assistente IA](./ai-assistant/ai-assistant-ui.md)
   - [Libreria dei prompt](./ai-assistant/prompt-library.md)
@@ -55,7 +56,7 @@ ht-degree: 16%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
