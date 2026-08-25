@@ -1,7 +1,8 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi di utilizzo della chat del collaboratore
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
 workflow-type: tm+mt
 source-wordcount: 2835
