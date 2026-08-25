@@ -12,9 +12,9 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 
 | Nome agente | Funzionalità | Applicazioni supportate |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | Agisce come compagno di squadra agente: pianifica il lavoro in più passaggi da un obiettivo in linguaggio naturale, lo esegue in tutti i sistemi Adobe e connessi, convalida i risultati e restituisce il lavoro completato per l’approvazione, riducendo la necessità di coordinare le attività manualmente. | <ul><li>Collaboratore aziendale CX (chat)</li><li>Collaboratore aziendale CX (campagne)</li></ul> |
 | [Agente di sperimentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatizza, analizza e sintetizza le informazioni, in modo da identificare rapidamente esperimenti ad alto impatto e opportunità di crescita da un&#39;area di lavoro centralizzata, riducendo al contempo i processi manuali. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [Agente di ottimizzazione LLM](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home) | Migliora la visibilità, l’accuratezza e l’influenza negli ambienti di ricerca basati sull’intelligenza artificiale, fornisci informazioni approfondite sulla presenza dei brand nelle risposte generate dall’intelligenza artificiale, offre consigli sui contenuti prescrittivi e automatizza le correzioni di ottimizzazione. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/it/docs/experience-manager-sites-optimizer/content/home) | Ottimizza l’impatto aziendale rilevando e implementando automaticamente i miglioramenti apportati al sito web. Utilizzando l’intelligenza artificiale generativa e più tecnologie di monitoraggio, puoi aumentare l’acquisizione del traffico del sito, il coinvolgimento e altro ancora | <ul><li>AEM Sites Optimizer</li></ul> |
