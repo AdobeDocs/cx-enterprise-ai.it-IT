@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Collaboratore
+user-guide-title: IA in CX Enterprise
 user-guide-description: Scopri come creare, configurare, integrare ed estendere l’Assistente all’intelligenza artificiale, il Coworker, gli agenti e gli MCP tramite documentazione pratica, linee guida per l’implementazione e materiali di riferimento.
 description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 16%
+source-wordcount: '279'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 16%
   - [Informazioni sul consumo di crediti IA](./overview/ai-credit-consumption.md)
   - [Dashboard di monitoraggio di IA per agente](./overview/monitoring.md)
   - [Strumenti agentici](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Trasparenza dei contenuti di IA generativa](content-transparency.md)
 - Assistente IA {#ai-assistant}
   - [Guida all’interfaccia utente di Assistente IA](./ai-assistant/ai-assistant-ui.md)
   - [Libreria dei prompt](./ai-assistant/prompt-library.md)
