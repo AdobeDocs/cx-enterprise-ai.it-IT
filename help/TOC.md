@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 18%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 18%
   - [Agente di individuazione campi](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Agente di supporto prodotto](./agents/product-support.md)
+  - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente notifiche](./agents/notifications.md)
   - [Versione di prova collaboratore](./agents/trial.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -64,7 +65,7 @@ ht-degree: 18%
     - [Creare una campagna e-mail](./coworker/campaigns/create-an-email-campaign.md)
     - [Casi d’uso](./coworker/campaigns/use-cases.md)
     - [Best practice per la richiesta di informazioni](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Metadati C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [Metadati C2PA](./coworker/campaigns/c2pa-metadata.md)
     - Connettori {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
@@ -86,3 +87,5 @@ ht-degree: 18%
       - Strumenti sandbox {#sandbox-tooling}
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Analizzare i dati di CJA](./coworker/analytics-chat.md)
