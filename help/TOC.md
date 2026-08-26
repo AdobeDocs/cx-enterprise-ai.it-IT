@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 17%
+source-wordcount: '284'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 17%
   - [Agente di individuazione campi](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Agente di supporto prodotto](./agents/product-support.md)
-  - [Abilità degli strumenti sandbox](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente notifiche](./agents/notifications.md)
   - [Versione di prova collaboratore](./agents/trial.md)
@@ -57,7 +56,7 @@ ht-degree: 17%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -70,6 +69,10 @@ ht-degree: 17%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Note sulla versione](./coworker/campaigns/release-notes.md)
+  - Personalizzazioni {#customizations}
+    - Competenza {#skills}
+      - [Che cosa sono le abilità?](./coworker/customizations/skills/what-are-skills.md)
+      - [Crea la tua prima abilità](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
@@ -86,6 +89,3 @@ ht-degree: 17%
         - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Strumenti sandbox {#sandbox-tooling}
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Chat con i collaboratori in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Convalida dati di migrazione da AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizzare i dati di CJA](./coworker/analytics-chat.md)
