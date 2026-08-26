@@ -1,11 +1,10 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi di utilizzo della chat del collaboratore
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -165,7 +164,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Risoluzione entità e collegamento | Utilizza la ricerca semantica e lessicale per risolvere le menzioni di entità nelle entità Experience Platform effettive e individuare i campi XDM | `entity-linking` | Adobe Experience Platform | &quot;Risolvi &#39;Acquirenti di vacanze&#39; a un pubblico effettivo&quot; · &quot;Trovami campi relativi alla cronologia degli acquisti&quot; |
 | Gestire le abilità personalizzate | Salva, modifica o elimina le abilità riutilizzabili di proprietà dell&#39;utente che persistono nelle sessioni | `manage-skill` | Tutte le candidature ammissibili | &quot;Salva il flusso di lavoro come un’abilità&quot; · &quot;Elimina l’abilità di reporting settimanale&quot; · &quot;Trasforma questa in un’abilità riutilizzabile&quot; |
 | Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; · &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
-| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
+| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
 | Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggi le descrizioni dello spazio dei nomi delle identità&quot; · &quot;Correggi i nomi dei criteri di unione duplicati&quot; · &quot;Correggi gli schemi senza il gruppo di campi di audit&quot; · &quot;Correggi la denominazione predefinita dei criteri di unione&quot; |
 
 ## Strumenti sandbox
@@ -173,3 +172,15 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Spostamento di oggetti tra sandbox](/help/agents/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; · &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
+
+## Avvisi cliente
+
+| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| --- | --- | --- | --- | --- |
+| Gestire gli abbonamenti agli avvisi | Visualizza e gestisci gli abbonamenti agli avvisi tramite conversazioni in linguaggio naturale. | `alerts-subscribe` | Adobe Experience Platform | &quot;A quali avvisi sono abbonato?&quot;<br><br>&quot;Sottoscrivi questo avviso.&quot;<br><br>&quot;Rimuovi l&#39;abbonamento a questo avviso.&quot; |
+| Rivedi attività di avviso | Esaminare lo stato corrente dell&#39;avviso e l&#39;attività cronologica dell&#39;avviso per un periodo di tempo specificato. | `alerts-list` | Adobe Experience Platform | &quot;Cosa è successo nelle ultime 24 ore?&quot;<br><br>&quot;Quali avvisi sono stati attivati nelle ultime 24 ore?&quot;<br><br>&quot;Mostra gli avvisi attivi degli ultimi sette giorni.&quot; |
+| Identificare i pattern ricorrenti degli avvisi | Analizza la cronologia degli avvisi per identificare i tipi di avvisi attivati di frequente e le tendenze operative. | `alerts-list` | Adobe Experience Platform | &quot;Visualizza i primi 3 tipi di avviso attivati.&quot;<br><br>&quot;Quali tipi di avviso si sono verificati più frequentemente in questo mese?&quot;<br><br>&quot;Quali modelli di avviso vengono visualizzati negli ultimi sette giorni?&quot; |
+| Concentrarsi su questioni ad alta priorità | Filtra l’attività di avviso in base alla gravità per assegnare la priorità agli sforzi di indagine. | `alerts-list` | Adobe Experience Platform | &quot;Mostra solo gli avvisi con priorità elevata.&quot;<br><br>&quot;Quali avvisi critici sono stati attivati questa settimana?&quot;<br><br>&quot;Mostra gli avvisi critici degli ultimi 30 giorni.&quot; |
+| Comprendere il raggio di impatto degli avvisi | Identificare gli oggetti più interessati dagli avvisi e determinare dove iniziare l&#39;indagine. | `alerts-list` | Adobe Experience Platform | &quot;Quali sono i primi 5 oggetti interessati?&quot;<br><br>&quot;Quali oggetti sono associati agli avvisi con maggiore gravità?&quot; |
+| Connettere i tipi di avviso agli oggetti interessati | Analizzare le relazioni tra i tipi di avviso e le risorse interessate. | `alerts-list` | Adobe Experience Platform | &quot;Quali tipi di avviso hanno interessato più frequentemente questo set di dati?&quot;<br><br>&quot;Mostra la relazione tra i tipi di avviso e gli oggetti interessati.&quot;<br><br>&quot;Quale tipo di avviso ha interessato più frequentemente l&#39;oggetto interessato più frequentemente?&quot; |
+| Concentrati sugli avvisi personali | Analizza gli avvisi a cui sei abbonato e sei responsabile del monitoraggio. | `alerts-list` | Adobe Experience Platform | &quot;Mostra gli avvisi ad alta gravità a cui sottoscrivo.&quot;<br><br>&quot;Quali avvisi sono stati attivati questa settimana?&quot;<br><br>&quot;È necessario prestare attenzione a uno degli avvisi sottoscritti?&quot; |
