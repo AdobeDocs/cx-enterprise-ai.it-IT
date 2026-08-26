@@ -31,7 +31,7 @@ Prima di iniziare, assicurati di avere:
 - Autorizzazione a visualizzare gli avvisi relativi alla tua organizzazione.
 - Il plug-in Adobe CXO installato in CX Collaborator.
 
-Per istruzioni sull’installazione dei plug-in, consulta https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide.
+Per istruzioni sull’installazione dei plug-in, consulta https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Utilizza le abilità di avviso del cliente {#use-customer-alert-skills}
 
