@@ -1,7 +1,7 @@
 ---
 title: Abilità degli strumenti sandbox
 description: Scopri come utilizzare le competenze agente Sandbox Tooling per replicare i metadati dell’oggetto in ambienti sandbox.
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Utilizza le abilità agente sandbox per spostare i metadati dell’oggetto, inclusi schemi e tipi di pubblico, tra gli ambienti Adobe Experience Platform descrivendo cosa desideri eseguire in linguaggio naturale. Utilizzando CX Coworker è possibile individuare i metadati richiesti, identificare automaticamente le dipendenze, creare pacchetti di migrazione ed eseguire la migrazione degli oggetti attraverso un&#39;esperienza di conversazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496714?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
 ## Prerequisiti {#prerequisites}
 
@@ -35,7 +35,7 @@ Prima di iniziare, assicurati di avere:
 - Accedere agli oggetti che si desidera individuare o migrare.
 - Il plug-in Adobe CXO installato in CX Collaborator.
 
-Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Usa abilità agente sandbox {#use-sandbox-tooling-agentic-skills}
 
@@ -62,9 +62,9 @@ Per utilizzare le abilità agente sandbox:
 
 1. Al termine della migrazione, gli oggetti selezionati saranno disponibili nella sandbox di destinazione.
 
-![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
 
-Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Casi d’uso supportati {#supported-use-cases}
 
@@ -78,7 +78,7 @@ Utilizzando CX Coworker, è possibile migrare i metadati dell’oggetto, inclusi
 
 Ad esempio:
 
-> &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione.&quot;
+- &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione.&quot;
 
 ### Promuovi i tipi di pubblico tra sandbox
 
@@ -86,7 +86,7 @@ In qualità di amministratore sandbox, puoi promuovere i tipi di pubblico tra am
 
 Ad esempio:
 
-> &quot;Promuovi il pubblico &quot;Nome pubblico&quot; nella sandbox di staging.&quot;
+- &quot;Promuovi il pubblico &quot;Nome pubblico&quot; nella sandbox di staging.&quot;
 
 Le abilità agente sandbox Tooling identificano il pubblico specificato, ne convalidano le dipendenze e migrano tutti gli oggetti richiesti nella sandbox di destinazione.
 
@@ -110,4 +110,5 @@ Utilizza questi prompt quando conosci il nome del pubblico.
 
 Dopo aver letto questa guida, scopri come utilizzare le abilità agente Sandbox per individuare, creare pacchetti e migrare gli oggetti supportati tra le sandbox.
 
-Per ulteriori informazioni sugli strumenti sandbox, consulta la [Guida agli strumenti sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Per ulteriori informazioni sugli strumenti sandbox, consulta la [Guida agli strumenti sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
+
