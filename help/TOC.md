@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 18%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 18%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -89,3 +89,6 @@ ht-degree: 18%
         - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Strumenti sandbox {#sandbox-tooling}
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
+      - Avvisi {#alerts}
+        - [Competenze di avviso cliente](./agents/customer-alerts.md)
+
