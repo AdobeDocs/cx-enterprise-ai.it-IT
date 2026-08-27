@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 969
 ht-degree: 3%
 
 ---
@@ -34,6 +34,7 @@ Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza arti
 - [Informazioni sull&#39;intelligenza artificiale per gli agenti](./overview/agentic-ai.md) spiega come gli agenti Experience Platform funzionano sia nelle applicazioni aziendali CX esistenti che nelle applicazioni AI-first ed elenca gli agenti disponibili in ciascuna di esse.
 - Il monitoraggio di [IA](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte degli agenti.
 - [Consumo crediti AI](./overview/ai-credit-consumption.md) spiega come i processi agente utilizzano i crediti AI, con tassi di consumo stimati per agente e tipo di processo.
+- [Trasparenza dei contenuti di IA generativa](./content-transparency.md) spiega in che modo Adobe associa automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni aziendali CX.
 - [Gli strumenti per agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) includono ulteriori competenze e strumenti per l&#39;agente che estendono gli agenti di CX Enterprise (esercitazioni video).
 
 ## Assistente IA
@@ -76,9 +77,16 @@ Per la documentazione completa del prodotto relativa a Chat con collaboratori, C
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto che la tua organizzazione è autorizzata a utilizzare. Questi strumenti includono [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics] e [!DNL Workfront].
+[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto che la tua organizzazione è autorizzata a utilizzare:
 
-Ti avvicini ora a CX Customer Gateway? Consultare [Accedere agli strumenti del gateway di lavoro CX](./mcp/access.md) e [Installare il gateway di lavoro CX](./mcp/install.md) per connettersi.
+- [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
+- [Strumenti di Experience Platform](./mcp/aep-mcp.md)
+- [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
+- [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
+- [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
+- [!DNL Workfront] strumenti, documentati nella [guida del server Workfront MCP](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+
+Ti avvicini ora a CX Customer Gateway? Consultare [Accedere agli strumenti del gateway di lavoro CX](./mcp/access.md) e [Installare il gateway di lavoro CX](./mcp/install.md) per connettersi. Una volta effettuata la connessione, utilizzare gli [strumenti di contesto sessione](./mcp/context-tools.md) per impostare l&#39;organizzazione attiva, la sandbox e la visualizzazione dati prima di richiamare gli strumenti prodotto.
 
 ## Introduzione
 
@@ -103,4 +111,6 @@ Per ottenere il massimo valore dall’esperienza di Assistente AI o Collaborator
 ## Considerazioni giuridiche
 
 L’Assistente per l’intelligenza artificiale attualmente supporta solo le risposte in inglese e i modelli di lingua a volte commettono errori. Verifica sempre le informazioni fornite e utilizza i passaggi di ragionamento inclusi in ogni risposta per capire come sono state generate. Per informazioni dettagliate, leggere la [liberatoria legale](./ai-assistant/legal-disclaimer.md).
+
+Adobe allega inoltre automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni aziendali CX, per soddisfare le normative generiche sulla trasparenza dell&#39;intelligenza artificiale. Per ulteriori dettagli, leggere [Trasparenza contenuti di IA generativa](./content-transparency.md).
 
