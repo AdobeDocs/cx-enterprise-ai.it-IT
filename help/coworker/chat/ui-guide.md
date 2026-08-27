@@ -1,13 +1,12 @@
 ---
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -15,9 +14,28 @@ ht-degree: 3%
 
 Diventa orientato con l’interfaccia di Chat con i collaboratori. Questa guida tratta tutte le operazioni, dall’accesso all’app, alla navigazione nell’area di lavoro, fino al massimo dalle conversazioni, alla gestione della cronologia e alla personalizzazione della configurazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498573?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accedere a Chat con i collaboratori
+
+Quando la tua organizzazione ottiene l’accesso a Collaboratore, puoi utilizzarne le funzionalità tramite un’esperienza coinvolgente o all’interno del prodotto.
+
+>[!NOTE]
+>
+>L&#39;esperienza interna al prodotto è accessibile tramite l&#39;icona di Coworker ![icona di Coworker](./assets/icon-coworker.png) in alto a destra. I dettagli dell&#39;esperienza coinvolgente sono [descritti di seguito](#immersive).
+
+La tabella seguente indica quando queste esperienze saranno disponibili per ciascuna applicazione CX Enterprise.
+
+| Applicazione aziendale CX | Esperienza coinvolgente | Esperienza nel prodotto |
+|---|---|---|
+| RTCDP | Disponibile ora | In arrivo |
+| AJO | Disponibile ora | In arrivo |
+| CJA | Disponibile ora | In arrivo |
+| AEM | In arrivo a settembre 2026 | In arrivo |
+| Workfront | In arrivo a settembre 2026 | Disponibile a breve:<br><br>* Inizio settembre 2026 in modalità Anteprima per determinati amministratori di sistema di Workfront<br><br>* Metà settembre 2026 in modalità di produzione per clienti Workfront con rilascio rapido idonei<br><br>* Metà ottobre 2026 in modalità di produzione per clienti Workfront con rilascio trimestrale idonei |
+| Target | In arrivo a settembre 2026 | In arrivo |
+
+### Esperienza coinvolgente {#immersive}
 
 Accedi alla chat di Coworker passando a [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) e accedendo con le credenziali di Adobe.
 
