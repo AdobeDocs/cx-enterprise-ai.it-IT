@@ -1,9 +1,14 @@
 ---
 title: Informazioni sull'intelligenza artificiale in CX Enterprise
 description: Panoramica a livello aziendale di dove viene visualizzata l’intelligenza artificiale generativa e dinamica nelle applicazioni Adobe CX Enterprise, come viene gestito e misurato l’utilizzo e come possono iniziare i team.
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
 workflow-type: tm+mt
 source-wordcount: 387
