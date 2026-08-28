@@ -4,10 +4,10 @@ description: Scopri come Adobe allega automaticamente i metadati C2PA ai contenu
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 4a9ab38cc3aa650dbb90639558d25f6acf707da5
+source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 1%
+source-wordcount: 1745
+ht-degree: 2%
 
 ---
 
@@ -100,18 +100,18 @@ Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continu
 
 | Applicazione/soluzione | Note sulla versione/Guida |
 |---|---|
-| Adobe Advertising Cloud | [Documentazione](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Advertising Cloud | [Documentazione](https://experienceleague.adobe.com/it/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
 | Adobe Experience Manager (AEM) | [Documentazione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | Assistente AI per la generazione di contenuti (funzione in Adobe Journey Optimizer/Adobe Campaign) | [Documentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Ultimate B2B Adobe Journey Optimizer | [Documentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Prime B2B di Adobe Journey Optimizer (alias Adobe Marketo Optimizer) | [Documentazione](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | |
-| Adobe Campaign | |
+| Prime B2B di Adobe Journey Optimizer (alias Adobe Marketo Optimizer) | [Documentazione](https://experienceleague.adobe.com/it/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2C | [Documentazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [Documentazione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [Documentazione](https://experienceleague.adobe.com/it/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [Documentazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [Documentazione](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
-| Campagne CX Enterprise Collaborator (precedentemente HALO) | [Documentazione](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Workfront | [Documentazione](https://experienceleague.adobe.com/it/docs/workfront/using/documents/c2pa-metadata-overview) |
+| Campagne CX Enterprise Collaborator (precedentemente HALO) | [Documentazione](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## Collegamenti correlati
 
