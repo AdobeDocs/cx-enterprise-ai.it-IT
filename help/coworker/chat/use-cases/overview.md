@@ -22,7 +22,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 >
 >Tutti i clienti idonei avranno accesso alle funzionalità di agenti Adobe Experience Manager in Coworker, su base continua.
 >
->Vedi anche [IA in AEM - Panoramica delle funzionalità agente in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Vedi anche [IA in AEM - Panoramica delle funzionalità agente in AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Esperienza del marchio
 
@@ -41,9 +41,9 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Sites](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Forms](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Sviluppo
 
@@ -56,7 +56,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Formazione iniziale
 
@@ -69,7 +69,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità di Agentic in AEM: Esperienza del marchio - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Funzionalità di Agentic in AEM: Esperienza del marchio - Onboarding](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Contenuto verificato
 
@@ -84,7 +84,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Contenuto verificato - Individuazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Funzionalità Agentic in AEM: Contenuto verificato - Individuazione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Ottimizzazione dei contenuti
 
@@ -96,7 +96,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Funzionalità Agentic in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Governance del brand
 
@@ -108,7 +108,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Governance del brand](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Funzionalità Agentic in AEM: Governance del brand](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informazioni sui dati
 
@@ -158,7 +158,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Risoluzione entità e collegamento | Utilizza la ricerca semantica e lessicale per risolvere le menzioni di entità nelle entità Experience Platform effettive e individuare i campi XDM | `entity-linking` | Adobe Experience Platform | &quot;Risolvi &#39;Acquirenti di vacanze&#39; a un pubblico effettivo&quot; · &quot;Trovami campi relativi alla cronologia degli acquisti&quot; |
 | Gestire le abilità personalizzate | Salva, modifica o elimina le abilità riutilizzabili di proprietà dell&#39;utente che persistono nelle sessioni | `manage-skill` | Tutte le candidature ammissibili | &quot;Salva il flusso di lavoro come un’abilità&quot; · &quot;Elimina l’abilità di reporting settimanale&quot; · &quot;Trasforma questa in un’abilità riutilizzabile&quot; |
 | Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; · &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
-| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
+| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
 | Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggi le descrizioni dello spazio dei nomi delle identità&quot; · &quot;Correggi i nomi dei criteri di unione duplicati&quot; · &quot;Correggi gli schemi senza il gruppo di campi di audit&quot; · &quot;Correggi la denominazione predefinita dei criteri di unione&quot; |
 
 ## Strumenti sandbox
