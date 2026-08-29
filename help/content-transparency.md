@@ -105,8 +105,8 @@ Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continu
 | Assistente AI per la generazione di contenuti (funzione in Adobe Journey Optimizer/Adobe Campaign) | [Documentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Ultimate B2B Adobe Journey Optimizer | [Documentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Prime B2B di Adobe Journey Optimizer (alias Adobe Marketo Optimizer) | [Documentazione](https://experienceleague.adobe.com/it/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | [Documentazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Campaign | [Documentazione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
+| Adobe Journey Optimizer B2C | [Documentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [Documentazione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [Documentazione](https://experienceleague.adobe.com/it/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [Documentazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
