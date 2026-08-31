@@ -1,7 +1,8 @@
 ---
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
 source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
 workflow-type: tm+mt
