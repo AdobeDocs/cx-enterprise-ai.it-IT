@@ -1,11 +1,10 @@
 ---
 description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esempio, organizzati per area e suddivisi per approfondimenti sui dati, pubblico, percorsi e operazioni sulla piattaforma.
 title: Casi di utilizzo della chat del collaboratore
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 9975595370bff328ea990f07ec3dbb85c17ee23b
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 261f478d3dec0845c0a5532201ef6ddc81808372
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3729
 ht-degree: 6%
 
 ---
@@ -22,7 +21,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 >
 >Tutti i clienti idonei avranno accesso alle funzionalità di agenti Adobe Experience Manager in Coworker, su base continua.
 >
->Vedi anche [IA in AEM - Panoramica delle funzionalità agente in AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Vedi anche [IA in AEM - Panoramica delle funzionalità agente in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Esperienza del marchio
 
@@ -41,9 +40,9 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Sites](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Forms](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Produzione di esperienze - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Sviluppo
 
@@ -56,7 +55,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Formazione iniziale
 
@@ -69,7 +68,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità di Agentic in AEM: Esperienza del marchio - Onboarding](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Funzionalità di Agentic in AEM: Esperienza del marchio - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Contenuto verificato
 
@@ -84,7 +83,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Contenuto verificato - Individuazione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Funzionalità Agentic in AEM: Contenuto verificato - Individuazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Ottimizzazione dei contenuti
 
@@ -96,7 +95,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Funzionalità Agentic in AEM: Contenuto verificato - Ottimizzazione dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Governance del brand
 
@@ -108,64 +107,64 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 **Informazioni correlate**
 
-* [Funzionalità Agentic in AEM: Governance del brand](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Funzionalità Agentic in AEM: Governance del brand](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Informazioni sui dati
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| [Recuperare i report e le metriche di CJA](data-insights/analytics-chat.md) | Eseguire query su CJA in tempo reale per estrarre metriche, dimensioni, segmenti e visualizzazioni dati | `cja` | Customer Journey Analytics (CJA) | &quot;Mostra visualizzazioni pagina per gli ultimi 30 giorni&quot; · &quot;Elenca i segmenti principali nella visualizzazione dati master&quot; |
-| Analisi comparativa | Confrontare le metriche su canali, periodi di tempo o segmenti affiancati | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | &quot;Confronto dei ricavi per canale, mese e mese&quot; · &quot;Che aspetto ha la conversione da PC desktop a PC portatili questo trimestre?&quot; |
+| [Recuperare i report e le metriche di CJA](data-insights/analytics-chat.md) | Eseguire query su CJA in tempo reale per estrarre metriche, dimensioni, segmenti e visualizzazioni dati | `cja` | Customer Journey Analytics (CJA) | &quot;Mostra visualizzazioni pagina per gli ultimi 30 giorni&quot; <br> &quot;Elenca segmenti principali nella visualizzazione dati master&quot; |
+| Analisi comparativa | Confrontare le metriche su canali, periodi di tempo o segmenti affiancati | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | &quot;Confrontare i ricavi per canale, mese e mese&quot; <br> &quot;Come si presenta la conversione da PC portatile a desktop in questo trimestre?&quot; |
 | Prestazioni della campagna | Misura il modo in cui le campagne, i canali e le proprietà web vengono eseguiti in un determinato periodo di tempo. | `cja`, `dx-api`, `knowledge-graph` | | &quot;Quali sono state le prestazioni delle campagne web di Acrobat il mese scorso?&quot; |
-| analisi funnel | Passaggio ai funnel di conversione con più passaggi con drop-off in ogni fase | `cja` | Customer Journey Analytics (CJA) | &quot;Passami attraverso il funnel di pagamento&quot; · &quot;Mostra funnel di conversione da PDP all&#39;acquisto&quot; |
-| Previsione | Progetta valori metrici futuri basati su dati storici CJA | `cja` | Customer Journey Analytics (CJA) | &quot;Sessioni di previsione per i prossimi 30 giorni&quot; · &quot;Siamo sulla buona strada per raggiungere il nostro obiettivo di fatturato?&quot; |
-| [Analisi causa principale](data-insights/root-cause-analysis.md) | Ricercare il motivo per cui una metrica è cambiata: diagnosticare gocce, picchi e anomalie | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Perché le conversioni sono calate la settimana scorsa?&quot; · &quot;Cosa ha causato il picco dei ricavi il 15 gennaio?&quot; |
-| Riepiloghi esecutivi e digest dei KPI | Creare riepiloghi delle prestazioni pronti per le parti interessate, consigli prescrittivi e descrizioni della presentazione | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | &quot;Fornisci un riepilogo esecutivo del mese scorso&quot; · &quot;Crea uno schema della presentazione da dati di questo trimestre&quot; |
-| [AA ↔ convalida dati CJA](data-insights/data-validation-aa-cja.md) | Confrontare, controllare e riconciliare i dati tra Adobe Analytics e Customer Journey Analytics, in particolare durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;Confrontare la suite di rapporti AA con la visualizzazione dati di CJA&quot; · &quot;Convalidare le visualizzazioni di pagina tra AA e CJA&quot; |
-| Serie temporali operative e analisi causale | Eseguire query e analizzare dati storici di serie temporali per tipi di pubblico, set di dati e percorsi con attribuzione causale | `operational-stats-causal-analysis` | Tutte le candidature ammissibili | &quot;Mostra le tendenze delle dimensioni del pubblico negli ultimi 90 giorni&quot; · &quot;Perché la riga del set di dati ha conteggiato un picco il 3 marzo?&quot; |
-| Creare abilità CJA personalizzate | Trasforma i modelli analitici in competenze riutilizzabili e ripetibili che persistono nelle sessioni | `cja-skill-creator` | Customer Journey Analytics (CJA) | &quot;Trasforma questa analisi settimanale dei ricavi in un’abilità riutilizzabile&quot; · &quot;Salva come abilità per il reporting mensile di funnel&quot; |
+| analisi funnel | Passaggio ai funnel di conversione con più passaggi con drop-off in ogni fase | `cja` | Customer Journey Analytics (CJA) | &quot;Visualizza il funnel di pagamento&quot; <br> &quot;Mostra funnel di conversione da PDP all&#39;acquisto&quot; |
+| Previsione | Progetta valori metrici futuri basati su dati storici CJA | `cja` | Customer Journey Analytics (CJA) | &quot;Sessioni di previsione per i prossimi 30 giorni&quot; <br> &quot;Siamo sulla buona strada per raggiungere il nostro obiettivo di fatturato?&quot; |
+| [Analisi causa principale](data-insights/root-cause-analysis.md) | Ricercare il motivo per cui una metrica è cambiata: diagnosticare gocce, picchi e anomalie | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Perché le conversioni sono diminuite la settimana scorsa?&quot; <br> &quot;Cosa ha causato il picco delle entrate il 15 gennaio?&quot; |
+| Riepiloghi esecutivi e digest dei KPI | Creare riepiloghi delle prestazioni pronti per le parti interessate, consigli prescrittivi e descrizioni della presentazione | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | &quot;Assegnami un riepilogo esecutivo del mese scorso&quot; <br> &quot;Creare una struttura della presentazione di diapositive dai dati di questo trimestre&quot; |
+| [AA ↔ convalida dati CJA](data-insights/data-validation-aa-cja.md) | Confrontare, controllare e riconciliare i dati tra Adobe Analytics e Customer Journey Analytics, in particolare durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;Confronta la suite di rapporti AA con la visualizzazione dati di CJA&quot; <br> &quot;Convalida le visualizzazioni di pagina tra AA e CJA&quot; |
+| Serie temporali operative e analisi causale | Eseguire query e analizzare dati storici di serie temporali per tipi di pubblico, set di dati e percorsi con attribuzione causale | `operational-stats-causal-analysis` | Tutte le candidature ammissibili | &quot;Mostra tendenze dimensioni pubblico negli ultimi 90 giorni&quot; <br> &quot;Perché la riga del set di dati ha conteggiato un picco il 3 marzo?&quot; |
+| Creare abilità CJA personalizzate | Trasforma i modelli analitici in competenze riutilizzabili e ripetibili che persistono nelle sessioni | `cja-skill-creator` | Customer Journey Analytics (CJA) | &quot;Trasforma questa analisi settimanale dei ricavi in un&#39;abilità riutilizzabile&quot; <br> &quot;Salva come abilità per il reporting mensile di funnel&quot; |
 
 ## Tipi di pubblico
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| [Crea tipi di pubblico dal linguaggio naturale](audiences/create-audience-from-natural-language.md) | Orchestrare la creazione di tipi di pubblico dettagliati con l’approvazione dell’utente in ogni fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crea un pubblico di utenti che hanno acquistato negli ultimi 30 giorni&quot; · &quot;Crea un segmento per i membri fedeltà di alto valore in California&quot; |
-| Creare definizioni di PQL | Assembla le definizioni del pubblico da proprietà XDM, eventi comportamentali o tipi di pubblico esistenti; supporta l’aggregazione e le finestre temporali | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crea un PQL per le persone che hanno visualizzato più di 3 prodotti ma non hanno acquistato&quot; · &quot;Aggiungi una finestra temporale di 7 giorni alla condizione dell’evento&quot; |
-| Cerca e trova tipi di pubblico | Trova i tipi di pubblico per ID, nome, ricerca semantica; rileva i duplicati e analizza le sovrapposizioni | `audience-search` | Real-Time CDP (RTCDP) | &quot;Trova tutti i tipi di pubblico fidelizzati&quot; · &quot;Esiste un duplicato del segmento &quot;Acquirenti festivi&quot;?&quot; |
-| Stimare la dimensione del pubblico | Stimare la portata del profilo per un’espressione PQL utilizzando l’API di anteprima Adobe Experience Platform con polling | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;Quanto è grande questo pubblico?&quot; · &quot;Stimare la portata di questa espressione PQL&quot; |
-| Cascata dimensione pubblico | Scomporre un PQL in sottopredicati e mostrare in che modo ogni condizione contribuisce alla dimensione finale del pubblico | `audience-size-waterfall` | Real-Time CDP (RTCDP) | &quot;Mostrami la cascata per questo PQL&quot; · &quot;Suddividi in che modo ogni condizione riduce il pubblico&quot; |
-| Scopri i campi XDM per il targeting | Cerca i campi per nome, descrizione o valore dei dati; scopri dove si trovano e dove sono già utilizzati | `field-discovery` | Real-Time CDP (RTCDP) | &quot;Quali campi posso utilizzare per eseguire il targeting dei clienti fidelizzati?&quot; · &quot;Trova campi relativi alla cronologia acquisti&quot; |
-| Pubblicare/salvare tipi di pubblico | Mantenere le definizioni del pubblico in Experience Platform Segmentation Service con convenzioni di denominazione e controlli di conformità | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Salva come bozza&quot; · &quot;Pubblica il pubblico con il nome &quot;Venditori primaverili&quot;&quot; |
+| [Crea tipi di pubblico dal linguaggio naturale](audiences/create-audience-from-natural-language.md) | Orchestrare la creazione di tipi di pubblico dettagliati con l’approvazione dell’utente in ogni fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crea un pubblico di utenti che hanno acquistato negli ultimi 30 giorni&quot; <br> &quot;Crea un segmento per i membri fedeltà di alto valore in California&quot; |
+| Creare definizioni di PQL | Assembla le definizioni del pubblico da proprietà XDM, eventi comportamentali o tipi di pubblico esistenti; supporta l’aggregazione e le finestre temporali | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crea un PQL per gli utenti che hanno visualizzato più di 3 prodotti ma non hanno acquistato&quot; <br> &quot;Aggiungi una finestra temporale di 7 giorni alla condizione evento&quot; |
+| Cerca e trova tipi di pubblico | Trova i tipi di pubblico per ID, nome, ricerca semantica; rileva i duplicati e analizza le sovrapposizioni | `audience-search` | Real-Time CDP (RTCDP) | &quot;Trova tutti i tipi di pubblico fedeltà&quot; <br> &quot;Esiste un duplicato del segmento &quot;Acquirenti festivi&quot;?&quot; |
+| Stimare la dimensione del pubblico | Stimare la portata del profilo per un’espressione PQL utilizzando l’API di anteprima Adobe Experience Platform con polling | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;Quanto è grande questo pubblico?&quot; <br> &quot;Stimare la portata di questa espressione PQL&quot; |
+| Cascata dimensione pubblico | Scomporre un PQL in sottopredicati e mostrare in che modo ogni condizione contribuisce alla dimensione finale del pubblico | `audience-size-waterfall` | Real-Time CDP (RTCDP) | &quot;Mostra la cascata per questo PQL&quot; <br> &quot;Suddividi in base a come ogni condizione riduce il pubblico&quot; |
+| Scopri i campi XDM per il targeting | Cerca i campi per nome, descrizione o valore dei dati; scopri dove si trovano e dove sono già utilizzati | `field-discovery` | Real-Time CDP (RTCDP) | &quot;Quali campi posso utilizzare per eseguire il targeting dei clienti fidelizzati?&quot; <br> &quot;Trova campi relativi alla cronologia acquisti&quot; |
+| Pubblicare/salvare tipi di pubblico | Mantenere le definizioni del pubblico in Experience Platform Segmentation Service con convenzioni di denominazione e controlli di conformità | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Salva come bozza&quot; <br> &quot;Pubblica il pubblico con il nome &quot;Venditori primaverili&quot;&quot; |
 
 ## Percorsi
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| [Crea percorsi dal linguaggio naturale](journeys/create-journey-from-natural-language.md) | Orchestrare la creazione di percorsi in AJO da un prompt di testo o da un’immagine o un diagramma di flusso caricati | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crea un percorso di benvenuto che invia un’e-mail dopo l’iscrizione, attende 3 giorni, quindi invia un follow-up&quot; · &quot;Crea un percorso da questa immagine di diagramma di flusso caricata&quot; |
-| Analizzare i conflitti di percorso | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il mio percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; · &quot;Verificare la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
-| Analizzare l’abbandono del percorso | Identifica dove e perché i clienti abbandonano durante un percorso e rileva pattern di comportamento che portano al disimpegno | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Dove vanno le persone nel mio percorso di ricoinvolgimento?&quot; · &quot;Quali nodi nel percorso X hanno il fallout più elevato?&quot; |
-| Analizzare gli errori delle azioni personalizzate | Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso e diagnostica le cause principali prima che gli errori si trasformino in interruzioni più ampie | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Perché le azioni personalizzate non riescono nel percorso di registrazione fedeltà?&quot; · &quot;Visualizza la frequenza di errori per l&#39;azione personalizzata ExternalPush nel percorso di benvenuto&quot; |
-| [Creare, modificare e gestire le sfide relative alla fedeltà](journeys/create-loyalty-challenge.md) | Semplificare e accelerare la gestione dei programmi fedeltà | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crea una sfida incoraggiando i membri a provare una nuova bevanda stagionale&quot; · &quot;Dimostrami le sfide di fedeltà con i tassi più elevati di abbandono dei membri&quot;. |
+| [Crea percorsi dal linguaggio naturale](journeys/create-journey-from-natural-language.md) | Orchestrare la creazione di percorsi in AJO da un prompt di testo o da un’immagine o un diagramma di flusso caricati | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crea un percorso di benvenuto che invia un&#39;e-mail dopo l&#39;iscrizione, attende 3 giorni, quindi invia un follow-up&quot; <br> &quot;Crea un percorso da questa immagine di diagramma di flusso caricata&quot; |
+| Analizzare i conflitti di percorso | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; <br> &quot;Verifica la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
+| Analizzare l’abbandono del percorso | Identifica dove e perché i clienti abbandonano durante un percorso e rileva pattern di comportamento che portano al disimpegno | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Dove vengono inviate le persone nel percorso di ricoinvolgimento?&quot; <br> &quot;Quali nodi nel percorso X hanno il fallout più elevato?&quot; |
+| Analizzare gli errori delle azioni personalizzate | Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso e diagnostica le cause principali prima che gli errori si trasformino in interruzioni più ampie | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Perché le azioni personalizzate non riescono nel percorso di registrazione fedeltà?&quot; <br> &quot;Visualizza la frequenza di errori per l&#39;azione personalizzata ExternalPush nel percorso di benvenuto.&quot; |
+| [Creare, modificare e gestire le sfide relative alla fedeltà](journeys/create-loyalty-challenge.md) | Semplificare e accelerare la gestione dei programmi fedeltà | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crea una sfida che incoraggia i membri a provare una nuova bevanda stagionale&quot; <br> &quot;Mostra le sfide di fedeltà con i tassi di abbandono dei membri più elevati.&quot; |
 
 ## Elementi fondamentali
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| Conoscenza del prodotto e documentazione | Rispondi alle domande pratiche, concettuali, sulla risoluzione dei problemi e sulle best practice contenute nei documenti ufficiali di Adobe | `product-knowledge` | Tutte le candidature ammissibili | &quot;Come si imposta una destinazione di streaming?&quot; · &quot;Qual è la differenza tra segmentazione in batch e segmentazione in streaming?&quot; |
-| Query di entità Experience Platform/Journey Optimizer | Funge da punto di ingresso principale per domande sulle entità della piattaforma; passa a KG, all’individuazione dei campi o alle API in base alle esigenze | `operational-insights` | Tutte le candidature ammissibili | &quot;Quanti set di dati ho?&quot; · &quot;Mostra tutti i percorsi attivi&quot; · &quot;Elenca le destinazioni&quot; |
-| Query di Knowledge Graph | Conteggi aggregati, join tra entità, ricerche di relazioni ed esplorazione dei metadati tramite singole query SQL | `knowledge-graph` | Tutte le candidature ammissibili | &quot;Quali tipi di pubblico utilizzano questo set di dati?&quot; · &quot;Mostra relazioni tra schemi e set di dati&quot; |
-| Operazioni API per Experience Platform/Journey Optimizer/Customer Journey Analytics | Fornisci un gateway API diretto per mutazioni, controlli dello stato in tempo reale e tipi di entità non inclusi nel Knowledge Graph | `cxo-api` | Tutte le candidature ammissibili | &quot;Elimina set di dati X&quot; · &quot;Controlla lo stato del processo di acquisizione batch&quot; |
-| Risoluzione entità e collegamento | Utilizza la ricerca semantica e lessicale per risolvere le menzioni di entità nelle entità Experience Platform effettive e individuare i campi XDM | `entity-linking` | Adobe Experience Platform | &quot;Risolvi &#39;Acquirenti di vacanze&#39; a un pubblico effettivo&quot; · &quot;Trovami campi relativi alla cronologia degli acquisti&quot; |
-| Gestire le abilità personalizzate | Salva, modifica o elimina le abilità riutilizzabili di proprietà dell&#39;utente che persistono nelle sessioni | `manage-skill` | Tutte le candidature ammissibili | &quot;Salva il flusso di lavoro come un’abilità&quot; · &quot;Elimina l’abilità di reporting settimanale&quot; · &quot;Trasforma questa in un’abilità riutilizzabile&quot; |
-| Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; · &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
-| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella mia sandbox?&quot; · &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; · &quot;Quali sono i problemi relativi al controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
-| Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggi le descrizioni dello spazio dei nomi delle identità&quot; · &quot;Correggi i nomi dei criteri di unione duplicati&quot; · &quot;Correggi gli schemi senza il gruppo di campi di audit&quot; · &quot;Correggi la denominazione predefinita dei criteri di unione&quot; |
+| Conoscenza del prodotto e documentazione | Rispondi alle domande pratiche, concettuali, sulla risoluzione dei problemi e sulle best practice contenute nei documenti ufficiali di Adobe | `product-knowledge` | Tutte le candidature ammissibili | &quot;Come si imposta una destinazione di streaming?&quot; <br> &quot;Qual è la differenza tra segmentazione in batch e segmentazione in streaming?&quot; |
+| Query di entità Experience Platform/Journey Optimizer | Funge da punto di ingresso principale per domande sulle entità della piattaforma; passa a KG, all’individuazione dei campi o alle API in base alle esigenze | `operational-insights` | Tutte le candidature ammissibili | &quot;Quanti set di dati ho?&quot; <br> &quot;Mostra tutti i percorsi attivi&quot; <br> &quot;Elenca le mie destinazioni&quot; |
+| Query di Knowledge Graph | Conteggi aggregati, join tra entità, ricerche di relazioni ed esplorazione dei metadati tramite singole query SQL | `knowledge-graph` | Tutte le candidature ammissibili | &quot;Quali tipi di pubblico utilizzano questo set di dati?&quot; <br> &quot;Mostra relazioni tra schemi e set di dati&quot; |
+| Operazioni API per Experience Platform/Journey Optimizer/Customer Journey Analytics | Fornisci un gateway API diretto per mutazioni, controlli dello stato in tempo reale e tipi di entità non inclusi nel Knowledge Graph | `cxo-api` | Tutte le candidature ammissibili | &quot;Elimina set di dati X&quot; <br> &quot;Controlla lo stato del processo di acquisizione batch&quot; |
+| Risoluzione entità e collegamento | Utilizza la ricerca semantica e lessicale per risolvere le menzioni di entità nelle entità Experience Platform effettive e individuare i campi XDM | `entity-linking` | Adobe Experience Platform | &quot;Risolvi gli &quot;acquirenti per vacanze&quot; a un pubblico effettivo&quot; <br> &quot;Trovami i campi relativi alla cronologia acquisti&quot; |
+| Gestire le abilità personalizzate | Salva, modifica o elimina le abilità riutilizzabili di proprietà dell&#39;utente che persistono nelle sessioni | `manage-skill` | Tutte le candidature ammissibili | &quot;Salva il flusso di lavoro come abilità&quot; <br> &quot;Elimina abilità report settimanale&quot; <br> &quot;Trasforma questa in un&#39;abilità riutilizzabile&quot; |
+| Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; <br> &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
+| [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella sandbox?&quot; <br> &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; <br> &quot;Quali sono i problemi per il controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
+| Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggere le descrizioni dello spazio dei nomi delle identità&quot; <br> &quot;Correggere i nomi dei criteri di unione duplicati&quot; <br> &quot;Correggere gli schemi senza il gruppo di campi di controllo&quot; <br> &quot;Correggere la denominazione dei criteri di unione predefiniti&quot; |
 
 ## Strumenti sandbox
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| [Spostamento di oggetti tra sandbox](/help/agents/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; · &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
+| [Spostamento di oggetti tra sandbox](/help/agents/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; <br> &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
 
 ## Avvisi cliente
 
@@ -178,3 +177,16 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Comprendere il raggio di impatto degli avvisi | Identificare gli oggetti più interessati dagli avvisi e determinare dove iniziare l&#39;indagine. | `alerts-list` | Adobe Experience Platform | &quot;Quali sono i primi 5 oggetti interessati?&quot;<br><br>&quot;Quali oggetti sono associati agli avvisi con maggiore gravità?&quot; |
 | Connettere i tipi di avviso agli oggetti interessati | Analizzare le relazioni tra i tipi di avviso e le risorse interessate. | `alerts-list` | Adobe Experience Platform | &quot;Quali tipi di avviso hanno interessato più frequentemente questo set di dati?&quot;<br><br>&quot;Mostra la relazione tra i tipi di avviso e gli oggetti interessati.&quot;<br><br>&quot;Quale tipo di avviso ha interessato più frequentemente l&#39;oggetto interessato più frequentemente?&quot; |
 | Concentrati sugli avvisi personali | Analizza gli avvisi a cui sei abbonato e sei responsabile del monitoraggio. | `alerts-list` | Adobe Experience Platform | &quot;Mostra gli avvisi ad alta gravità a cui sottoscrivo.&quot;<br><br>&quot;Quali avvisi sono stati attivati questa settimana?&quot;<br><br>&quot;È necessario prestare attenzione a uno degli avvisi sottoscritti?&quot; |
+
+## Flusso di lavoro e pianificazione
+
+| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| --- | --- | --- | --- | --- |
+| Gestisci area di lavoro di Planning | Creare ed evolvere aree di lavoro, sezioni, tipi di record e campi di Workfront Planning per organizzare i programmi e tenere traccia del lavoro | `manage-workfront-planning`, `wf-planning-solution-architect` | Pianificazione Workfront | &quot;Creare un&#39;area di lavoro denominata MKG Hub e impostare tipi di record per tenere traccia dei programmi per area&quot; <br> &quot;Impostare i tipi di record e le relazioni necessari per tenere traccia dei programmi MKG per i diversi canali e area&quot; |
+| Gestisci record di Planning | Crea e aggiorna i record di pianificazione (campagne, resoconti) e i relativi valori dei campi in un’area di lavoro | `manage-workfront-planning` | Pianificazione Workfront | &quot;Crea una descrizione della campagna di lancio Autunno Brand con l&#39;obiettivo, il pubblico di destinazione e i messaggi chiave&quot; <br> &quot;Aggiorna la descrizione di lancio Autunno Brand con il budget e i canali principali&quot; |
+| Creare e gestire i progetti | Progetti spin up e struttura: applicazione di modelli, impostazione di priorità e budget, sequenziamento di attività, aggiunta di fasi e dipendenze e assegnazione di persone o ruoli | `manage-workfront-workflow` | Flusso di lavoro Workfront | &quot;Crea una campagna primaverile, impostala ad alta priorità con un budget di 200.000 dollari e metti in sequenza le attività&quot; <br> &quot;Crea un piano di progetto Workfront denominato [nome progetto] da [modello progetto]&quot; <br> &quot;Crea un piano di progetto per Autunno lancio - Campagna social con attività per la concezione, la progettazione, la copia e la revisione&quot; <br> &quot;Aggiungi una nuova attività di e-mail marketing e assegnala a Rachel Smith&quot; |
+| Accelera revisioni e approvazioni | Impostare approvazioni in più fasi, applicare modelli di approvazione, aggiungere/rimuovere approvatori, inviare promemoria ed eseguire aggiornamenti in blocco | `manage-workfront-workflow` | Flusso di lavoro Workfront | &quot;Crea un&#39;approvazione in più fasi - copia, progettazione, legale - e ricorda a chiunque non abbia approvato&quot; <br> &quot;Rimuovi Chris Smith da tutte le approvazioni aperte e sostituisci con Jane Francis&quot; |
+| Aggiorna stato attività e lavoro | Contrassegnare le attività come completate, aggiornare la percentuale di completamento e chiudere il lavoro | `manage-workfront-workflow` | Flusso di lavoro Workfront | &quot;Contrassegna l&#39;attività &#39;Produce elemento chiave&#39; in Autunno Launch come completata&quot; <br> &quot;Chiudi l&#39;attività di copia Autunno Launch al 100%&quot; |
+| Approfondimenti lavoro superficie | Domande esplorative per individuare il lavoro a rischio, le attività non assegnate, le questioni aperte e lo stato tra i progetti | `query-workfront` | Flusso di lavoro Workfront | &quot;Trova attività incomplete sui progetti correnti che non sono assegnati a nessuno e scadono questa settimana&quot; <br> &quot;Quanti problemi aperti ci sono tra i progetti correnti?&quot; |
+| Riepilogo progetti e attività | Elenchi pull, tabelle e conteggi di progetti, attività, problemi e assegnazioni | `query-workfront` | Flusso di lavoro Workfront | &quot;Visualizza una tabella delle attività pronte per l&#39;avvio, con il nome del progetto, la data di scadenza dell&#39;attività e l&#39;utente assegnato&quot; <br> &quot;Ottieni tutte le attività assegnate a [nome utente]&quot; |
+| Tracciare lo stato di approvazioni e portfolio | Controlla lo stato delle approvazioni e riepiloga il lavoro incompleto per portfolio | `query-workfront` | Flusso di lavoro Workfront | &quot;Mostra lo stato delle mie approvazioni&quot; <br> &quot;Mostra una tabella con problemi incompleti che fanno parte del portfolio [Portfolio name]&quot; |
