@@ -1,7 +1,9 @@
 ---
 title: Trasparenza dei contenuti di IA generativa
 description: Scopri come Adobe allega automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni Adobe CX Enterprise.
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
 source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
 workflow-type: tm+mt
 source-wordcount: 1743
