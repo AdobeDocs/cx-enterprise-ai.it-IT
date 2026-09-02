@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1527
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (consigliati per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (consigliati per la maggior parte delle organizzazioni)<p>Una serie di passaggi che conducono a un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, vedere [Aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guida all&#39;aggiornamento di Customer Journey Analytics** (passaggi personalizzati personalizzati in base alle esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida all’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la tua organizzazione e le tue circostanze specifiche.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.</p></li></ul>
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (consigliati per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (consigliati per la maggior parte delle organizzazioni)<p>Una serie di passaggi che conducono a un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, vedere [Aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guida all&#39;aggiornamento di Customer Journey Analytics** (passaggi personalizzati personalizzati in base alle esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida all’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la tua organizzazione e le tue circostanze specifiche.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.</p></li></ul>
 
 Collaboratore include un’abilità di convalida che consente di convalidare i dati durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics. La convalida dei dati viene completata in un&#39;unica conversazione.
 
@@ -43,7 +43,7 @@ Per convalidare i dati come parte dell’aggiornamento, è necessario:
 
 Non è necessario conoscere l’architettura della tua implementazione. L’abilità rileva automaticamente se l’implementazione di Customer Journey Analytics utilizza il connettore Source di Analytics o una nuova implementazione di Experience Platform Web SDK.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496863/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
 
 ## Avviare una sessione di convalida
 
@@ -192,7 +192,7 @@ Puoi convalidare singole metriche o dimensioni, oppure tutte le metriche e dimen
 
    Non è necessario ripetere il processo di configurazione per eseguire questa operazione; le selezioni effettuate per la tua azienda, suite di rapporti e visualizzazione dati vengono riportate nel corso della conversazione.
 
-1. Continuare a seguire i [passaggi consigliati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento o i passaggi generati dinamicamente nella Guida all&#39;aggiornamento di Customer Journey Analytics.
+1. Continuare a seguire i [passaggi consigliati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento o i passaggi generati dinamicamente nella Guida all&#39;aggiornamento di Customer Journey Analytics.
 
    Per accedere alla Guida all&#39;aggiornamento di Customer Journey Analytics da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Seguire le istruzioni visualizzate.
 

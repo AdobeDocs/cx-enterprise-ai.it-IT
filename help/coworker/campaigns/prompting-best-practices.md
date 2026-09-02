@@ -1,9 +1,9 @@
 ---
 description: 'Scopri le campagne per collaboratori che richiedono le best practice: il framework CO-STAR, le cose da fare e non fare, i contenuti non supportati e una lista di controllo della qualità per i prompt.'
 title: Prompt per le best practice
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 1%

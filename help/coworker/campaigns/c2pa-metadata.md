@@ -1,9 +1,10 @@
 ---
 description: Scopri in che modo Campagne coorker allega e mantiene automaticamente i metadati C2PA sulle immagini, dalla generazione alla consegna e-mail.
 title: Metadati C2PA nelle campagne collaboratrici
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 4%
 
 ---
@@ -37,6 +38,6 @@ Campagne collaboratore mantiene i metadati C2PA associati alle risorse immagine 
 
 ## Risorse aggiuntive {#resources}
 
-* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
+* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-* [Guardrail e limitazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Guardrail e limitazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}

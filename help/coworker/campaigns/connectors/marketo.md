@@ -1,9 +1,9 @@
 ---
 description: Scopri come collegare il tuo account Marketo Engage alle campagne di Coworker per sincronizzare gli elenchi statici e intelligenti di Marketo.
 title: Connetti a Marketo Engage
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 311
 ht-degree: 0%
@@ -20,7 +20,7 @@ Campagne Adobe Coworker consente di collegare il tuo account Marketo Engage per 
 >
 >* Un account Marketo Engage attivo
 >* L&#39;URL dell&#39;**istanza** di Marketo
->* Un [servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) creato per le campagne Coworker in Marketo, con [ID client e segreto client](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) disponibili
+>* Un [servizio personalizzato](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) creato per le campagne Coworker in Marketo, con [ID client e segreto client](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) disponibili
 
 ## Come collegarsi
 
