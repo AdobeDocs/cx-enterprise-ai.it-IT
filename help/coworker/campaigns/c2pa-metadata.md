@@ -1,7 +1,8 @@
 ---
 description: Scopri in che modo Campagne coorker allega e mantiene automaticamente i metadati C2PA sulle immagini, dalla generazione alla consegna e-mail.
 title: Metadati C2PA nelle campagne collaboratrici
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 387
