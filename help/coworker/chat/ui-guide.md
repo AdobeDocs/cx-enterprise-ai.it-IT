@@ -6,7 +6,7 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -34,9 +34,9 @@ La tabella seguente indica quando queste esperienze saranno disponibili per cias
 | RTCDP | Disponibile ora | In arrivo |
 | AJO | Disponibile ora | In arrivo |
 | CJA | Disponibile ora | In arrivo |
+| Workfront | Disponibile ora | In arrivo:<br><br>* All’inizio di settembre 2026 nell’istanza di anteprima per alcuni amministratori di sistema di Workfront idonei<br><br>* A metà settembre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio rapido<br><br>* A metà ottobre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio trimestrale |
+| Target | Disponibile ora | Disponibile ora |
 | AEM | Settembre 2026 | In arrivo |
-| Workfront | Settembre 2026 | In arrivo:<br><br>* All’inizio di settembre 2026 nell’istanza di anteprima per alcuni amministratori di sistema di Workfront idonei<br><br>* A metà settembre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio rapido<br><br>* A metà ottobre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio trimestrale |
-| Target | Settembre 2026 | In arrivo |
 
 ### Esperienza coinvolgente {#immersive}
 
