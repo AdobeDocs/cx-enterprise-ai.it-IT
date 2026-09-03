@@ -2,11 +2,9 @@
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
 jira: KT-22106
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -17,7 +15,7 @@ ht-degree: 4%
 
 Diventa orientato con l’interfaccia di Chat con i collaboratori. Questa guida tratta tutte le operazioni, dall’accesso all’app, alla navigazione nell’area di lavoro, fino al massimo dalle conversazioni, alla gestione della cronologia e alla personalizzazione della configurazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498573?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accedere a Chat con i collaboratori
 
@@ -34,9 +32,9 @@ La tabella seguente indica quando queste esperienze saranno disponibili per cias
 | RTCDP | Disponibile ora | In arrivo |
 | AJO | Disponibile ora | In arrivo |
 | CJA | Disponibile ora | In arrivo |
+| Workfront | Disponibile ora | In arrivo:<br><br>* All’inizio di settembre 2026 nell’istanza di anteprima per alcuni amministratori di sistema di Workfront idonei<br><br>* A metà settembre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio rapido<br><br>* A metà ottobre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio trimestrale |
+| Target | Disponibile ora | Disponibile ora |
 | AEM | Settembre 2026 | In arrivo |
-| Workfront | Settembre 2026 | In arrivo:<br><br>* All’inizio di settembre 2026 nell’istanza di anteprima per alcuni amministratori di sistema di Workfront idonei<br><br>* A metà settembre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio rapido<br><br>* A metà ottobre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio trimestrale |
-| Target | Settembre 2026 | In arrivo |
 
 ### Esperienza coinvolgente {#immersive}
 
