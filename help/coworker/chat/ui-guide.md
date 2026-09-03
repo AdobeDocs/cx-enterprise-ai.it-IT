@@ -1,10 +1,12 @@
 ---
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -63,7 +65,7 @@ Selezionare il proprio nome per aprire il menu dell&#39;account, in cui è possi
 
 ![Menu account con selettore sandbox aperto](./assets/ui-guide-3.png)
 
-## Navigare nell’interfaccia
+## Scoprire l’interfaccia
 
 L&#39;interfaccia di CX Collaborator ha due aree principali: la barra di navigazione a sinistra e l&#39;area di conversazione che riempie il resto della finestra.
 

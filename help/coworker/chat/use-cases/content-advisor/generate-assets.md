@@ -5,11 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 147
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 0%
@@ -25,4 +27,4 @@ Ad esempio, per creare un post Instagram sul caffè, puoi fornirti una breve ide
 
 Collaboratore offre anche flessibilità per ulteriori personalizzazioni. Puoi modificare le risorse, creare varianti o adattare il contenuto per diversi formati, ad esempio le storie di Instagram. Questo approccio ti consente di concentrarsi sugli obiettivi, mentre Collaborator gestisce i dettagli tecnici.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502717/?captions=ita&learn=on&enablevpops)
