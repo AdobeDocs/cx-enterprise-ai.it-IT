@@ -80,8 +80,9 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
----
+&#x200B;---
  
+
 ## Gate 1: soppressione/consenso
  
 > Modifica questa sezione per soddisfare i requisiti di eliminazione e consenso della tua organizzazione.
@@ -109,8 +110,9 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
+&#x200B;---
  
+
 ## Gate 2: Limite Di Frequenza
 
 > Modifica questa sezione per soddisfare i requisiti di frequenza di consegna della tua organizzazione.
@@ -135,7 +137,7 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
 
----
+&#x200B;---
 
 ## Gate 3: convenzione di denominazione
  
@@ -178,7 +180,7 @@ When blocked on naming, always propose a compliant replacement name.
 
  
 
----
+&#x200B;---
 
 ## Linee guida
 
@@ -195,7 +197,7 @@ Tutto il resto deve rimanere invariato:
 - Rendering scorecard
 - Logica del verdetto
 
----
+&#x200B;---
 
 
 ### &#x200B;2. Verifica prerequisiti
@@ -213,7 +215,7 @@ Questa abilità dipende da:
 
 Se queste funzionalità non sono disponibili nell’ambiente del cliente, l’abilità non può essere eseguita come previsto.
 
----
+&#x200B;---
 
 ### &#x200B;3. Mantieni abilità di sola lettura
 
