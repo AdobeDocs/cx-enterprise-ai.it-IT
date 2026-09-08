@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 19%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 19%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Collaboratore {#coworker}
   - [Informazioni su Collaboratore](./coworker/overview.md)
   - Campagne {#campaigns}
@@ -74,6 +74,7 @@ ht-degree: 19%
     - Competenza {#skills}
       - [Che cosa sono le abilità?](./coworker/customizations/skills/what-are-skills.md)
       - [Crea la tua prima abilità](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Creare ed eseguire un’abilità gate di qualità](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
