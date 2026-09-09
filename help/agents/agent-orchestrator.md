@@ -41,7 +41,7 @@ Agent Orchestrator è costituito da diversi componenti chiave, tra cui l’inter
 
 ### Interfaccia conversazionale dell’Assistente IA {#ai-assistant}
 
-AI Assistant è un&#39;esperienza di conversazione intelligente e naturale che consente ai professionisti che utilizzano applicazioni CX Enterprise abilitate di sfruttare le funzionalità GenAI e Agentic AI, la cui ampiezza dipende dalle applicazioni CX Enterprise concesse in licenza dai clienti. Per sbloccare l&#39;accesso, leggere [la guida all&#39;accesso all&#39;Assistente AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+AI Assistant è un&#39;esperienza di conversazione intelligente e naturale che consente ai professionisti che utilizzano applicazioni CX Enterprise abilitate di sfruttare le funzionalità GenAI e Agentic AI, la cui ampiezza dipende dalle applicazioni CX Enterprise concesse in licenza dai clienti. Per sbloccare l&#39;accesso, leggere [la guida all&#39;accesso all&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/access).
 
 Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -81,7 +81,7 @@ Tutti gli utenti possono accedere all’Assistente AI e agli agenti Experience P
 
 * **Adobe Experience Manager**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
-* **Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati.
+* **Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati.
 
 >[!NOTE]
 >
