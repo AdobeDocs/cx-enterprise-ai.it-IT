@@ -2,11 +2,9 @@
 description: Una guida di riferimento all’interfaccia di Chat con i collaboratori, che include la navigazione, la casella di input, le risposte, la cronologia delle chat e la configurazione di Abilità, server MCP e Memoria.
 title: Guida dell’interfaccia utente di Chat con i collaboratori
 jira: KT-22106
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 1719
 ht-degree: 4%
@@ -17,7 +15,7 @@ ht-degree: 4%
 
 Diventa orientato con l’interfaccia di Chat con i collaboratori. Questa guida tratta tutte le operazioni, dall’accesso all’app, alla navigazione nell’area di lavoro, fino al massimo dalle conversazioni, alla gestione della cronologia e alla personalizzazione della configurazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498573?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accedere a Chat con i collaboratori
 

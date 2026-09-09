@@ -7,11 +7,9 @@ doc-type: Feature Video
 duration: 499
 last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 90
 ht-degree: 0%
@@ -25,4 +23,4 @@ In questa dimostrazione vedrai come la fidelizzazione di Adobe Journey Optimizer
  
 Il video illustra il plug-in Fedeltà e la sua abilità di gestione delle sfide, una funzionalità basata sull’intelligenza artificiale che consente agli esperti di marketing di creare, modificare e gestire le sfide di fidelizzazione utilizzando il linguaggio naturale anziché configurare manualmente ogni impostazione nell’interfaccia utente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496544/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
