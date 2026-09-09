@@ -1,17 +1,10 @@
 ---
 title: Agente di supporto prodotto
 description: Scopri come utilizzare l’agente di supporto del prodotto in AI Assistant per semplificare la risoluzione dei problemi e il processo di archiviazione dei ticket di assistenza clienti.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +28,33 @@ L’agente di supporto del prodotto include le seguenti funzionalità della solu
 Ottieni risposte immediate alle domande più frequenti sul supporto, tratte dalla documentazione curata da esperti, ad esempio:
 
 * **Articoli della Knowledge Base** curati dai team di supporto Adobe.
-   * Domande di esempio:
-      * &quot;Perché il conteggio dei miei profili differisce in License Usage Dashboard (Dashboard di utilizzo della licenza) e nella home page di Experience Platform?&quot;
-      * &quot;Quali sono le ragioni per cui un percorso non si attiva?&quot;
+  * Domande di esempio:
+    * &quot;Perché il conteggio dei miei profili differisce in License Usage Dashboard (Dashboard di utilizzo della licenza) e nella home page di Experience Platform?&quot;
+    * &quot;Quali sono le ragioni per cui un percorso non si attiva?&quot;
 * **Esercitazioni sui prodotti** per l&#39;apprendimento guidato e la creazione di competenze.
-   * Domande di esempio:
-      * &quot;In che modo Adobe Experience Platform crea esperienze in tempo reale?&quot;
-      * &quot;Come si configurano e utilizzano gli avvisi in Adobe Experience Platform?&quot;
+  * Domande di esempio:
+    * &quot;In che modo Adobe Experience Platform crea esperienze in tempo reale?&quot;
+    * &quot;Come si configurano e utilizzano gli avvisi in Adobe Experience Platform?&quot;
 * **Documentazione legale del prodotto** che fornisce informazioni accurate e orientate alle licenze.
-   * Domande di esempio:
-      * &quot;Qual è il limite per i processi di segmentazione batch in Adobe Experience Platform Activation?&quot;
-      * &quot;Qual è il limite medio di ricchezza del profilo in Adobe Experience Platform Activation?&quot;
+  * Domande di esempio:
+    * &quot;Qual è il limite per i processi di segmentazione batch in Adobe Experience Platform Activation?&quot;
+    * &quot;Qual è il limite medio di ricchezza del profilo in Adobe Experience Platform Activation?&quot;
 
 ## Creazione di casi di supporto {#support-case-creation}
 
 Avvia i casi di supporto direttamente dall’agente di supporto del prodotto, che acquisisce automaticamente informazioni contestuali per accelerare la risoluzione dei casi.
 
 * Domande di esempio:
-   * &quot;Crea un ticket di supporto.&quot;
-   * &quot;Puoi aiutarmi a creare un ticket di supporto?&quot;
+  * &quot;Crea un ticket di supporto.&quot;
+  * &quot;Puoi aiutarmi a creare un ticket di supporto?&quot;
 
 ## Tracciare l’avanzamento del caso {#track-case-progress}
 
 Monitora facilmente lo stato dei problemi relativi al supporto.
 
 * Domande e comandi di esempio:
-   * &quot;Quali sono le ultime notizie sul mio caso E-12345?&quot;
-   * &quot;Qual è l&#39;aggiornamento del ticket E-67890?&quot;
+  * &quot;Quali sono le ultime notizie sul mio caso E-12345?&quot;
+  * &quot;Qual è l&#39;aggiornamento del ticket E-67890?&quot;
 
 ## Accesso all’agente di supporto del prodotto
 
@@ -71,5 +64,5 @@ Dopo aver completato questi passaggi, tutti gli amministratori del supporto nell
 
 Per ulteriori informazioni, guarda il video seguente e scopri come utilizzare l’agente di supporto del prodotto per risolvere facilmente i problemi senza uscire dai flussi di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443191?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
