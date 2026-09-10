@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +35,33 @@ L’agente di supporto del prodotto include le seguenti funzionalità della solu
 Ottieni risposte immediate alle domande più frequenti sul supporto, tratte dalla documentazione curata da esperti, ad esempio:
 
 * **Articoli della Knowledge Base** curati dai team di supporto Adobe.
-   * Domande di esempio:
-      * &quot;Perché il conteggio dei miei profili differisce in License Usage Dashboard (Dashboard di utilizzo della licenza) e nella home page di Experience Platform?&quot;
-      * &quot;Quali sono le ragioni per cui un percorso non si attiva?&quot;
+  * Domande di esempio:
+    * &quot;Perché il conteggio dei miei profili differisce in License Usage Dashboard (Dashboard di utilizzo della licenza) e nella home page di Experience Platform?&quot;
+    * &quot;Quali sono le ragioni per cui un percorso non si attiva?&quot;
 * **Esercitazioni sui prodotti** per l&#39;apprendimento guidato e la creazione di competenze.
-   * Domande di esempio:
-      * &quot;In che modo Adobe Experience Platform crea esperienze in tempo reale?&quot;
-      * &quot;Come si configurano e utilizzano gli avvisi in Adobe Experience Platform?&quot;
+  * Domande di esempio:
+    * &quot;In che modo Adobe Experience Platform crea esperienze in tempo reale?&quot;
+    * &quot;Come si configurano e utilizzano gli avvisi in Adobe Experience Platform?&quot;
 * **Documentazione legale del prodotto** che fornisce informazioni accurate e orientate alle licenze.
-   * Domande di esempio:
-      * &quot;Qual è il limite per i processi di segmentazione batch in Adobe Experience Platform Activation?&quot;
-      * &quot;Qual è il limite medio di ricchezza del profilo in Adobe Experience Platform Activation?&quot;
+  * Domande di esempio:
+    * &quot;Qual è il limite per i processi di segmentazione batch in Adobe Experience Platform Activation?&quot;
+    * &quot;Qual è il limite medio di ricchezza del profilo in Adobe Experience Platform Activation?&quot;
 
 ## Creazione di casi di supporto {#support-case-creation}
 
 Avvia i casi di supporto direttamente dall’agente di supporto del prodotto, che acquisisce automaticamente informazioni contestuali per accelerare la risoluzione dei casi.
 
 * Domande di esempio:
-   * &quot;Crea un ticket di supporto.&quot;
-   * &quot;Puoi aiutarmi a creare un ticket di supporto?&quot;
+  * &quot;Crea un ticket di supporto.&quot;
+  * &quot;Puoi aiutarmi a creare un ticket di supporto?&quot;
 
 ## Tracciare l’avanzamento del caso {#track-case-progress}
 
 Monitora facilmente lo stato dei problemi relativi al supporto.
 
 * Domande e comandi di esempio:
-   * &quot;Quali sono le ultime notizie sul mio caso E-12345?&quot;
-   * &quot;Qual è l&#39;aggiornamento del ticket E-67890?&quot;
+  * &quot;Quali sono le ultime notizie sul mio caso E-12345?&quot;
+  * &quot;Qual è l&#39;aggiornamento del ticket E-67890?&quot;
 
 ## Accesso all’agente di supporto del prodotto
 

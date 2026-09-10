@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 3291
 ht-degree: 0%
 
 ---
@@ -16,7 +16,124 @@ ht-degree: 0%
 
 I rilasci delle campagne di collaborazione funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
+## Settembre 2026 {#sep-2026}
+
+**Data di rilascio: 3 settembre 2026**
+
+* Copia qualsiasi messaggio di chat e valuta le risposte AI con un pollice verso l’alto o verso il basso, direttamente dal messaggio stesso
+* L’elenco delle attività del piano della campagna ora rimane bloccato sopra l’input della chat mentre la campagna è in esecuzione, quindi puoi tenere traccia dell’avanzamento senza dover scorrere
+* Connettere un data warehouse SQL come nuova origine dati per le campagne
+* Il precedente editor e-mail basato su chat è stato ritirato a favore del nuovo editor di risorse e-mail
+* L’amministratore utenti di prova ora consente di escludere gli utenti Adobe, semplificando la visualizzazione delle iscrizioni di prova reali
+* È stato risolto un problema che impediva il caricamento di suggerimenti di campagne simili
+* I messaggi di chat ora hanno una spaziatura più stretta e coerente
+
+**Data di rilascio: 1 settembre 2026**
+
+* Le e-mail di grandi dimensioni delle campagne ora vengono visualizzate completamente nell’editor invece di essere tagliate
+* Il pulsante di lancio della bacheca della campagna è ora etichettato come &quot;Review and launch&quot; (Revisione e lancio) per chiarezza
+* La connessione di un account Salesforce non mostra più un messaggio di errore Marketo errato
+* Salesforce ora ha il proprio logo nell’elenco dei connettori
+* I connettori disponibili sono ora elencati in anticipo rispetto a quelli in arrivo
+* L’onboarding ora mostra un indicatore di avanzamento durante il caricamento del kit del brand
+* Il pubblico e le anteprime delle knowledge-source ora dispongono di un pulsante Chiudi e possono aprire lo schermo intero
+* Le schede del piano della campagna non si bloccano più mostrando &quot;edificio&quot; dopo che la campagna inizia a essere eseguita
+* La chat non mantiene più messaggi di avanzamento temporanei (come &quot;Esplorazione di...&quot;) nella cronologia delle conversazioni
+* I controlli della barra degli strumenti ora vengono bloccati in modo appropriato durante l’applicazione di suggerimenti di testo o immagini AI
+* È stato risolto un problema a causa del quale la sostituzione di un’immagine nell’editor risorse non funzionava correttamente
+
+## agosto 2026 {#aug-2026}
+
+**Data di rilascio: 26 agosto 2026**
+
+* Facendo clic in un punto qualsiasi della scheda di un modello della campagna ora si apre l’anteprima, non solo il titolo
+* Il segnaposto della barra del prompt della campagna viene nuovamente visualizzato correttamente dopo aver cancellato l’input, con un supporto più chiaro per gli assistenti vocali
+* Il suggerimento &quot;Help me prompt&quot; ora sostituisce correttamente il testo esistente nella barra del prompt della campagna
+* Il download degli annullamenti dell’abbonamento come CSV ora riflette solo l’esecuzione della campagna che stai visualizzando
+* Il confronto del piano di prova ora mostra le campagne di Launch e gli insight di Campaign come funzioni incluse
+* I tipi di pubblico creati senza un flusso di lavoro completo ora vengono visualizzati correttamente nella scheda Pubblico della bacheca della campagna
+* Le richieste di feedback in stato vuoto vengono lette più naturalmente in tutta l’app
+
+**Data di rilascio: 25 agosto 2026**
+
+* L’accesso a una scheda del browser ora sincronizza automaticamente le altre, correggendo le combinazioni di account tra le schede.
+* Facendo clic su Genera ora il piano viene spostato in avanti in modo affidabile, anziché essere rigenerato occasionalmente
+* I diagrammi del flusso di lavoro nella chat mostrano più aree di lavoro, pertanto i controlli di zoom non coprono più i passaggi
+* Le schede dei dettagli della campagna hanno un aspetto aggiornato e più coerente
+* Il salvataggio o la rimozione di un dominio di invio in Domains &amp; Senders è ora più veloce e affidabile
+
+**Data di rilascio: 24 agosto 2026**
+
+* Visualizza la strategia di campagna generata direttamente sulla bacheca della campagna
+* Sostituisci il pubblico direttamente dalla finestra di dialogo di convalida della campagna
+* Le esportazioni di Campaign PDF e Word ora includono il diagramma del flusso di lavoro reale
+* La scheda Approfondimenti rimane visibile con un utile stato vuoto subito dopo il lancio
+* Aggiungere o rimuovere punti di contatto durante la revisione dei campi della campagna
+* La barra degli strumenti della bacheca di Campaign è più semplice con la rimozione di pulsanti non necessari
+* La procedura guidata Domains &amp; Senders esegue lo scrubing dei sottodomini e delle guide la prima volta con un contrassegno
+* La procedura guidata Domains &amp; Senders (Domini e mittenti) mostra gli errori di convalida del sottodominio in linea durante la digitazione
+* Il call-to-action della campagna di post-bozza è stato rimosso per un flusso più pulito
+* I nomi delle lingue cinesi ora vengono visualizzati correttamente nel selettore lingua
+* Le miniature delle varianti generate dall’intelligenza artificiale vengono caricate in modo affidabile senza etichette duplicate
+* Le nuove campagne create ora vengono visualizzate immediatamente nell’elenco delle campagne recenti nella pagina Home
+* Gli approfondimenti di tutte le campagne ora includono un riepilogo generato dall’intelligenza artificiale delle prestazioni della campagna della tua organizzazione
+* L’immissione dell’input richiesto in una conversazione del flusso di lavoro non si blocca più
+* L’onboarding di prova non lampeggia più con una schermata di caricamento aggiuntiva durante la verifica di un kit del marchio esistente
+* Le origini del pubblico di esempio non più valide ora vengono cancellate automaticamente dal flusso di lavoro
+* Layout, tema e font ora vengono riprodotti correttamente nella shell unificata di Experience Cloud
+* Suggerimenti per campagne simili non mostrano più un campo canale non necessario
+
+**Data di rilascio: 14 agosto 2026**
+
+* Eliminare i domini bozza non più necessari in Domini e mittenti
+* Vedi Stato di verifica DNS per ogni record durante la configurazione del dominio
+* I dettagli del dominio ora mostrano il mittente dell’e-mail configurato
+* I valori dei record DNS vengono troncati in modo chiaro con una descrizione comando per il testo completo
+* Formattare più blocchi di testo e-mail contemporaneamente con selezione multipla
+* Ottieni suggerimenti di campagne simili durante la creazione di una nuova campagna
+* Valutazione degli approfondimenti della campagna in una singola esecuzione di una campagna ricorrente
+* Scegli la lingua preferita dal menu del profilo
+* Ottieni una spinta quando le descrizioni del modello di campagna richiedono più dettagli
+* Le note sulla versione sono più facili da consultare grazie a una migliore navigazione e impaginazione
+* Comprimi l’elenco delle campagne recenti della barra laterale per risparmiare spazio
+* La vista inventario della campagna ora rimane invariata
+* Riordina i filtri di esecuzione e passa a un intervallo di date da un selettore calendario
+* Anteprima dei dettagli del pubblico anche su schede di pubblico di sola lettura
+* È stato risolto un problema di tempistica dell’accesso e lampeggiamenti nella schermata di flusso di prova dell’onboarding
+* L’handle di ridimensionamento della barra di chat non blocca più la barra di scorrimento dell’elenco dei messaggi
+* La creazione del kit di branding ora mostra il motivo reale per cui un salvataggio non è riuscito
+
+**Data di rilascio: 6 agosto 2026**
+
+* Campaign Insights ora mostra gli annullamenti dell’abbonamento con un CSV scaricabile di chi ha rinunciato
+* Nella scheda Approfondimenti è ora disponibile una tabella di suddivisione delle prestazioni per e-mail
+* Visualizza la mappa del percorso della campagna direttamente nella scheda Approfondimenti
+* I passaggi di attesa basati sulla durata sono ora visibili nella vista Flusso di lavoro del percorso
+* I rami del percorso ponderati vengono visualizzati nella vista di modifica del flusso di lavoro
+* Gli elenchi di contatti ora sono connessi ai dati live
+* Le campagne ricorrenti mostrano 0 invii immediatamente invece di &quot;approfondimenti in sospeso&quot;
+* Modifica il testo del prompt di remix direttamente attorno ai chip segnaposto
+* Sono stati migliorati i coachmark e i chip segnaposto più puliti nell’editor di remix
+* Le schede del flusso di lavoro di Campaign ora mostrano un utile stato vuoto quando non è in esecuzione nulla
+* Il pulsante del piano di aggiornamento non confonde più l’intestazione dei dettagli della campagna
+* Le schede del flusso di lavoro hanno un layout più semplice con nome e descrizione del percorso rimossi
+
 ## luglio 2026 {#july-2026}
+
+**Data di rilascio: 30 luglio 2026**
+
+* Gli approfondimenti di tutte le campagne ora corrispondono al layout degli approfondimenti di singole campagne, più un nuovo grafico delle prestazioni giornaliere
+* Interrompere una campagna in tempo reale direttamente dalla pagina della campagna
+* Quando si duplica una campagna ora viene richiesto solo un nuovo nome
+* Modifica i modelli e-mail direttamente dall’elenco dei modelli
+* Filtrare la visualizzazione ricorrente del percorso di campagne in base all’esecuzione
+* Aggiungere un’immagine del brand direttamente dalla bacheca della campagna
+* La tabella dell’amministratore della versione di prova ora supporta la ricerca e-mail, l’impaginazione e l’esportazione CSV completa
+* Il pulsante &quot;Sorprendi&quot; ora risponde all&#39;istante, senza alcun ritardo nell&#39;animazione
+* Sono state rimosse le impostazioni per l’annullamento dell’iscrizione all’e-mail della campagna durante la rielaborazione di questa funzione
+* Modificare la pianificazione di una campagna dopo averla già impostata, senza ricominciare
+* Aprite l&#39;editor di stili di scrittura dal menu di overflow per un accesso più rapido
+* Premendo Invio ora viene inviato in modo coerente su ogni barra dei prompt nell’app
 
 **Data di rilascio: 23 luglio 2026**
 
