@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Scopri il valore che CX Enterprise Collaborator offre al tuo programma di ottimizzazione. Coworker comprende l’obiettivo aziendale e coordina il lavoro nelle applicazioni Adobe, analizzando, diagnosticando e avviando strumenti senza passare da uno strumento all’altro. Risparmia giorni di avanti e indietro utilizzando un collega per leggere i risultati, diagnosticare le varianti perdenti, dimensionare le durate dei test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496882/?captions=ita&learn=on&enablevpops)
