@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 19%
       - Percorsi {#journeys}
         - [Creazione di percorsi utilizzando il linguaggio naturale](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Ottimizzazione {#optimization}
+        - [Avviare le attività Target](./coworker/chat/use-cases/optimization/target.md)
       - Strumenti sandbox {#sandbox-tooling}
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
       - Avvisi {#alerts}
