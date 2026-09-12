@@ -1,6 +1,6 @@
 ---
 title: IA nelle applicazioni CX Enterprise
-description: Scopri come le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), CX Enterprise Coworker, AI Assistant, Agentic AI e MCP.
+description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), CX Enterprise Coworker, AI Assistant, AI agente e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
 
 # IA in CX Enterprise
 
-Questa guida descrive le funzionalità di intelligenza artificiale di Adobe CX Enterprise: IA generativa, CX Enterprise Collaborator, AI Assistant, Agent Orchestrator, Experience Platform Agents e MCP.
+Questa guida descrive le funzionalità di intelligenza artificiale di Adobe CX Enterprise: intelligenza artificiale generativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform Agents e MCP.
 
 ## Panoramica delle funzionalità di intelligenza artificiale
 
@@ -85,6 +85,7 @@ Per l&#39;elenco completo degli agenti, delle applicazioni supportate da ciascun
 - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
 - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
 - [!DNL Workfront] strumenti, documentati nella [guida del server Workfront MCP](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] strumenti, documentati nella [Guida del server MCP di Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
 
 Ti avvicini ora a CX Customer Gateway? Consultare [Accedere agli strumenti del gateway di lavoro CX](./mcp/access.md) e [Installare il gateway di lavoro CX](./mcp/install.md) per connettersi. Una volta effettuata la connessione, utilizzare gli [strumenti di contesto sessione](./mcp/context-tools.md) per impostare l&#39;organizzazione attiva, la sandbox e la visualizzazione dati prima di richiamare gli strumenti prodotto.
 
