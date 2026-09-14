@@ -42,9 +42,9 @@ SCHERMATA
 
 SCHERMATA
 
->>
+&#x200B;>>
 >
-Non consente il lancio di una campagna con un pubblico di esempio (non reale), bozze e-mail che non sono state verificate o impostazioni di invio non configurate
+>Non consente il lancio di una campagna con un pubblico di esempio (non reale), bozze e-mail che non sono state verificate o impostazioni di invio non configurate
 
 ### Aspetti da considerare
 
