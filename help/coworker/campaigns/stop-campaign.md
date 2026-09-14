@@ -3,15 +3,15 @@ description: qui la descrizione.
 title: Interrompere una campagna
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # Interrompere una campagna {#stop-campaign}
 
 Gli utenti possono ora interrompere una campagna che invia attivamente (una campagna &quot;live&quot;) direttamente dalla pagina dei dettagli della campagna. L’interruzione di una campagna è permanente: i destinatari cessano immediatamente di avanzare nella campagna e quest’ultima non può essere ripresa o riavviata in un secondo momento.
@@ -33,13 +33,7 @@ Un’azione &quot;Interrompi campagna&quot; viene visualizzata nell’intestazio
 - Dopo l’interruzione, il badge di stato della campagna diventa &quot;Arrestato&quot;.
 - Se la richiesta di interruzione non riesce, viene visualizzato un messaggio di errore e la campagna rimane attiva.
 
-## Come usarlo
 
-1. Apri una campagna attualmente live (invio attivo).
-2. Nell&#39;intestazione dei dettagli della campagna fare clic su **Interrompi campagna**.
-3. Nella finestra di dialogo di conferma, controlla l’avviso: &quot;L’arresto della campagna è permanente. Tutti i destinatari cesseranno di progredire e la campagna non può essere ripresa.&quot;
-4. Fai clic su **Interrompi** per confermare.
-5. &quot;Campagna interrotta&quot;. viene visualizzato un messaggio di conferma e lo stato della campagna si aggiorna su &quot;Arrestato&quot;.
 
 ### Campi/parametri di input
 

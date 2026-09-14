@@ -3,15 +3,15 @@ description: qui la descrizione.
 title: Pianificare una campagna
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 1%
-
+source-wordcount: '589'
+ht-degree: 2%
 ---
-
 # Pianificare una campagna {#schedule-campaign}
 
 Quando si avvia una campagna, gli utenti possono ora scegliere esattamente quando questa viene interrotta: immediatamente, in una data e un’ora future specifiche o in una pianificazione ripetuta (ricorrente). Gli utenti possono anche tornare in un secondo momento e modificare la pianificazione di una campagna già avviata o pianificata.
@@ -39,7 +39,7 @@ Quando un utente avvia una campagna, scegli una delle tre modalità di pianifica
 
 **Per pianificare una campagna al lancio:**
 
-1. Dalla campagna, fai clic su **Pronto per il lancio**.
+1. Dalla campagna, fai clic su **Rivedi e avvia**.
 2. Nella finestra di dialogo di avvio, scegli un’opzione di pianificazione:
    - **Ora** — la campagna inizia l&#39;invio subito dopo il lancio.
    - **Pianifica una volta** — scegli una **data di inizio** futura (data e ora insieme).
@@ -66,17 +66,7 @@ Quando un utente avvia una campagna, scegli una delle tre modalità di pianifica
 | Giorno del mese | Giorno del mese in cui si ripete la campagna | Sì, per frequenza mensile |
 | Fine campagna | Mai, o in una data di fine specifica | Sì, per ricorrente |
 
-## Callout dell’interfaccia utente
 
-> **Nota autore tecnico**: schermate necessarie per:
-
-- [ ] La finestra di dialogo di avvio mostra le opzioni Now (Ora) / Schedule Once (Pianifica una volta) / Recurring (Ricorrente)
-- [ ] Il selettore di data e ora Schedule Once
-- [ ] Le opzioni ricorrenti: selettore di frequenza, interruttori di giorno settimanali, griglia mensile del giorno del mese
-- [ ] La &quot;Fine campagna&quot; mai / In una scelta di data
-- [ ] Il badge di stato &quot;Pianificato&quot; su una campagna in attesa del suo orario di inizio
-- [ ] Il badge di stato &quot;Live&quot; con un riepilogo delle ricorrenze (ad esempio &quot;Ogni settimana il martedì, alle 9:00&quot;)
-- [ ] La sezione pianificazione nelle impostazioni della campagna, che mostra il punto di ingresso per la modifica
 
 ## Funzionalità non disponibili in questa funzionalità
 
