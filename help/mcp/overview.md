@@ -1,16 +1,14 @@
 ---
 title: Panoramica di Adobe CX Customer Gateway
-description: Adobe CX Coworker Gateway è l'MCP unificato per Adobe CX Enterprise, che offre ai client MCP una singola connessione agli strumenti di prodotto supportati.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+description: Adobe CX Coworker Gateway è l'MCP unificato per Adobe CX Enterprise, che offre ai client MCP un'unica connessione agli strumenti di prodotto supportati.
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # Gateway di lavoro Adobe CX {#mcp-overview}
 
-Adobe CX Customer Gateway è il protocollo MCP (Unified Model Context Protocol) per Adobe CX Enterprise. Con una connessione, i clienti compatibili con MCP possono accedere agli strumenti di prodotto Adobe che la tua organizzazione e il tuo account sono autorizzati a utilizzare.
+Adobe CX Coworker Gateway è il protocollo MCP (Unified Model Context Protocol) per Adobe CX Enterprise. Con una connessione, i clienti compatibili con MCP possono accedere agli strumenti di prodotto Adobe che la tua organizzazione e il tuo account sono autorizzati a utilizzare.
 
 >[!IMPORTANT]
 >
@@ -30,7 +28,7 @@ Dopo la connessione, l’endpoint espone gli strumenti disponibili all’organiz
 
 MCP (Model Context Protocol) è uno standard open source per la connessione di applicazioni AI a sistemi esterni. I client compatibili con MCP come [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] e [!DNL VS Code] possono utilizzare questi strumenti per recuperare il contesto del prodotto, eseguire le operazioni supportate e restituire le risposte in linguaggio naturale.
 
-Il gateway di lavoro CX fornisce un endpoint gestito per gli strumenti di prodotto del gateway di lavoro CX. Invece di aggiungere server di prodotto separati, connettiti una volta all’endpoint e utilizza gli strumenti di prodotto visualizzati per le soluzioni autorizzate.
+CX Coworker Gateway fornisce un endpoint gestito per gli strumenti di prodotto CX Coworker Gateway. Invece di aggiungere server di prodotto separati, connettiti una volta all’endpoint e utilizza gli strumenti di prodotto visualizzati per le soluzioni autorizzate.
 
 ## Strumenti di prodotto disponibili {#available-product-tools}
 
@@ -41,7 +39,7 @@ I seguenti strumenti di prodotto sono documentati in questa guida:
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Tipi di pubblico, destinazioni, origini, spazi dei nomi delle identità e stato di attivazione (sola lettura) | Beta | [Strumenti di Real-Time CDP](rtcdp-mcp.md) |
 | **Experience Platform** | Schemi, set di dati, governance dei dati, Query Service, eventi di audit, metriche di osservabilità e valutazioni di verifica dello stato della sandbox (sola lettura) | Beta | [Strumenti di Experience Platform](aep-mcp.md) |
-| **Journey Optimizer** | Configurazioni di campagne e canali (sola lettura) | Beta | [Strumenti di Journey Optimizer](ajo-mcp.md) |
+| **Journey Optimizer** | Configurazioni di campagne, percorsi e canali (sola lettura); modelli di contenuto, frammenti, pagine di destinazione e contenuto dei messaggi in linea (lettura e scrittura) | Beta | [Strumenti di Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Visualizzazioni dati, dimensioni, metriche, rapporti, segmenti, intervalli di date, progetti e tipi di pubblico (lettura e scrittura) | Disponibile | [Strumenti di Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Suite di rapporti, dimensioni, metriche, rapporti, segmenti, intervalli di date e progetti Workspace (lettura e scrittura per i componenti supportati) | Disponibile | [Strumenti di Adobe Analytics](analytics-mcp.md) |
 | **Workfront** | Strumenti di gestione del lavoro per progetti, attività e flussi di lavoro di approvazione | Anteprima | [Server MCP Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |

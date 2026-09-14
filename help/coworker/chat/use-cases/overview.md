@@ -3,15 +3,15 @@ description: Sfoglia i casi d’uso di Chat con collaboratori e i prompt di esem
 title: Casi di utilizzo della chat del collaboratore
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 4624
+source-wordcount: '4795'
 ht-degree: 6%
-
 ---
-
 # Casi d’uso di Chat con i collaboratori{#use-cases}
 
 Chat con collaboratori consente di eseguire query, analizzare e agire sui dati di [!DNL Experience Platform] utilizzando il linguaggio naturale anziché navigare in più interfacce utente o scrivere query manualmente. Questa pagina cataloga i casi d’uso su cui i professionisti si basano maggiormente, organizzati per area di lavoro: approfondimenti sui dati, tipi di pubblico, percorsi, elementi fondamentali e strumenti sandbox. Ogni voce include l&#39;abilità richiamata, le applicazioni con cui lavora e i prompt di esempio che è possibile copiare, adattare ai propri dati e perfezionare attraverso la conversazione.
@@ -144,10 +144,12 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Crea percorsi dal linguaggio naturale](journeys/create-journey-from-natural-language.md) | Orchestrare la creazione di percorsi in AJO da un prompt di testo o da un’immagine o un diagramma di flusso caricati | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crea un percorso di benvenuto che invia un&#39;e-mail dopo l&#39;iscrizione, attende 3 giorni, quindi invia un follow-up&quot; <br> &quot;Crea un percorso da questa immagine di diagramma di flusso caricata&quot; |
-| Analizzare i conflitti di percorso | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; <br> &quot;Verifica la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
-| Analizzare l’abbandono del percorso | Identifica dove e perché i clienti abbandonano durante un percorso e rileva pattern di comportamento che portano al disimpegno | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Dove vengono inviate le persone nel percorso di ricoinvolgimento?&quot; <br> &quot;Quali nodi nel percorso X hanno il fallout più elevato?&quot; |
-| Analizzare gli errori delle azioni personalizzate | Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso e diagnostica le cause principali prima che gli errori si trasformino in interruzioni più ampie | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Perché le azioni personalizzate non riescono nel percorso di registrazione fedeltà?&quot; <br> &quot;Visualizza la frequenza di errori per l&#39;azione personalizzata ExternalPush nel percorso di benvenuto.&quot; |
+| [Analizzare i percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; <br> &quot;Verifica la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
+| [Analizzare l&#39;abbandono del percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identifica dove e perché i clienti abbandonano durante un percorso e rileva pattern di comportamento che portano al disimpegno | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Dove vengono inviate le persone nel percorso di ricoinvolgimento?&quot; <br> &quot;Quali nodi nel percorso X hanno il fallout più elevato?&quot; |
+| [Analizzare gli errori delle azioni personalizzate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso e diagnostica le cause principali prima che gli errori si trasformino in interruzioni più ampie | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Perché le azioni personalizzate non riescono nel percorso di registrazione fedeltà?&quot; <br> &quot;Visualizza la frequenza di errori per l&#39;azione personalizzata ExternalPush nel percorso di benvenuto.&quot; |
+| [Rileva anomalie percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Rileva e conferma picchi, cadute o linee piane imprevisti in entrata, uscita o invio di un percorso rispetto a linee di base storiche e individua una probabile causa principale | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;Perché sono stati eliminati i dati per il percorso di benvenuto di ieri?&quot; <br> &quot;Questo percorso di abbandono del carrello ha registrato un picco nelle uscite?&quot; |
 | [Creare, modificare e gestire le sfide relative alla fedeltà](journeys/create-loyalty-challenge.md) | Semplificare e accelerare la gestione dei programmi fedeltà | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crea una sfida che incoraggia i membri a provare una nuova bevanda stagionale&quot; <br> &quot;Mostra le sfide di fedeltà con i tassi di abbandono dei membri più elevati.&quot; |
+| [Analizzare le prestazioni del programma fedeltà](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-data-insight){target="_blank"} | Eseguire query e analizzare i punti fedeltà, i livelli membro, i rimborsi e le metriche dei ricavi utilizzando il linguaggio naturale | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;Quanti punti fedeltà sono stati concessi nel mese di agosto 2026?&quot; <br> &quot;Mostra i ricavi totali del programma fedeltà suddivisi per giorno nel mese di agosto 2026.&quot; |
 
 ## Ottimizzazione
 

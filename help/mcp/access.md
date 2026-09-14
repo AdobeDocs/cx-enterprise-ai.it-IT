@@ -1,13 +1,11 @@
 ---
 title: Accedere agli strumenti di gateway di lavoro CX
 description: Verificare la disponibilità del prodotto, l'abilitazione dell'organizzazione e le autorizzazioni prima di utilizzare gli strumenti Adobe CX Customer Gateway.
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 4%
-
 ---
-
 # Accesso agli strumenti di CX Collaborator Gateway {#mcp-access}
 
 Adobe CX Enterprise espone gli strumenti di prodotto attraverso un unico MCP. L’accesso viene valutato in base agli strumenti del prodotto: l’organizzazione Adobe deve essere abilitata per gli strumenti del prodotto pertinenti e l’account utente deve disporre delle autorizzazioni del prodotto necessarie per visualizzare o modificare i dati del prodotto esposti da tali strumenti.
@@ -23,7 +21,7 @@ Adobe CX Enterprise espone gli strumenti di prodotto attraverso un unico MCP. L�
 | --- | --- | --- |
 | Real-Time CDP | Beta | Licenza Real-Time CDP attiva, abilitazione di Beta per la tua organizzazione Adobe e autorizzazioni per visualizzare i tipi di pubblico, le destinazioni, le origini, l’identità e le risorse di attivazione di cui hai query. |
 | Experience Platform | Beta | Licenza Experience Platform attiva, abilitazione di Beta per la tua organizzazione Adobe e autorizzazioni per visualizzare schemi, set di dati, governance, servizio query, controllo e risorse sandbox oggetto della query. |
-| Journey Optimizer | Beta | Licenza Journey Optimizer attiva, abilitazione di Beta per la tua organizzazione Adobe e autorizzazioni per visualizzare campagne e configurazioni dei canali. |
+| Journey Optimizer | Beta | Licenza Journey Optimizer attiva, abilitazione di Beta per la tua organizzazione Adobe e autorizzazioni per visualizzare campagne, percorsi e configurazioni di canali. |
 | Customer Journey Analytics | Disponibile | Licenza Active Customer Journey Analytics e un profilo di prodotto che include l&#39;elemento di autorizzazione **MCP Access** in Adobe Admin Console. Le autorizzazioni per i prodotti determinano ancora quali visualizzazioni dati, componenti, rapporti, progetti e tipi di pubblico puoi accedere o modificare. |
 | Adobe Analytics | Disponibile | Licenza Adobe Analytics attiva e profilo di prodotto che include l&#39;elemento di autorizzazione **Accesso MCP** in Adobe Admin Console. Le autorizzazioni per i prodotti determinano ancora le suite di rapporti, i componenti, i rapporti, i segmenti, gli intervalli di date e i progetti a cui puoi accedere o modificare. |
 | Workfront | Anteprima | Licenza Active Workfront e abilitazione MCP di Workfront. Consulta la [documentazione di Workfront MCP](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
@@ -37,7 +35,7 @@ Adobe CX Enterprise espone gli strumenti di prodotto attraverso un unico MCP. L�
 
 ## Richiedi accesso {#mcp-request}
 
-Per gli strumenti di prodotto Beta o a rilascio limitato, contatta il rappresentante del tuo account Adobe e specifica quali strumenti di prodotto Adobe per CX Customer Gateway desideri utilizzare. Il tuo rappresentante può coordinare l’abilitazione del prodotto e confermare quando l’organizzazione Adobe è pronta.
+Per gli strumenti di prodotto Beta o a rilascio limitato, contatta il rappresentante del tuo account Adobe e specifica quali strumenti di prodotto Adobe per CX Coworker Gateway desideri utilizzare. Il tuo rappresentante può coordinare l’abilitazione del prodotto e confermare quando l’organizzazione Adobe è pronta.
 
 Per gli strumenti di prodotto generalmente disponibili che utilizzano l&#39;elemento di autorizzazione **Accesso MCP**, chiedere a un amministratore di sistema o di prodotto di aggiungere il proprio account a un profilo di prodotto che includa l&#39;accesso MCP.
 
