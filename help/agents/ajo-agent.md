@@ -310,7 +310,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Analisi percorso consente agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con Analisi Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e di pubblico, rilevare punti di abbandono dell’utente in un percorso e ottenere informazioni o consigli per migliorare le prestazioni.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
 
 Per ulteriori informazioni, vedi [Analisi Percorso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} nella documentazione di Adobe Journey Optimizer.
 
