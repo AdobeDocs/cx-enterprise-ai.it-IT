@@ -6,13 +6,11 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 18%
-
+source-wordcount: '328'
+ht-degree: 19%
 ---
-
 
 # IA in CX Enterprise {#experience-cloud-ai}
 
@@ -56,6 +54,7 @@ ht-degree: 18%
         - [Valutare lo stato della piattaforma e creare tipi di pubblico](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Percorsi {#journeys}
         - [Creazione di percorsi utilizzando il linguaggio naturale](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Fedeltà {#loyalty}
         - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Ottimizzazione {#optimization}
         - [Avviare le attività Target](./coworker/chat/use-cases/optimization/target.md)
@@ -98,6 +97,6 @@ ht-degree: 18%
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
