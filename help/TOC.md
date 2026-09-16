@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 18%
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 18%
         - [Analizzare i dati di CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Esplorare tendenze e cause profonde](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Convalidare i dati da AA a CJA durante l’aggiornamento](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Convalidare la qualità del set di dati per il reporting di CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Tipi di pubblico {#audiences}
         - [Valutare lo stato della piattaforma e creare tipi di pubblico](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Percorsi {#journeys}
@@ -89,15 +90,15 @@ ht-degree: 18%
   - [Gateway di lavoro Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Introduzione {#mcp-get-started}
-    - [Accedere agli strumenti di CX Coworker Gateway](./mcp/access.md)
-    - [Installare CX Coworker Gateway](./mcp/install.md)
-    - [Strumenti contestuali di sessione in CX Coworker Gateway](./mcp/context-tools.md)
+    - [Accesso agli strumenti di CX Collaborator Gateway](./mcp/access.md)
+    - [Installazione di CX Configuration Gateway](./mcp/install.md)
+    - [Strumenti contestuali di sessione in CX Customer Gateway](./mcp/context-tools.md)
   - Strumenti di prodotto {#mcp-product-tools}
     - [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
     - [Strumenti di Experience Platform](./mcp/aep-mcp.md)
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
