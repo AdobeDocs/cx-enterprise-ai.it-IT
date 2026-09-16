@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 19%
+source-wordcount: '333'
+ht-degree: 18%
 ---
 
 # IA in CX Enterprise {#experience-cloud-ai}
@@ -40,6 +40,7 @@ ht-degree: 19%
       - [Che cosa sono le abilità?](./coworker/customizations/skills/what-are-skills.md)
       - [Crea la tua prima abilità](./coworker/customizations/skills/create-your-first-skill.md)
       - [Creare ed eseguire un’abilità gate di qualità](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gestire e ripetere le abilità](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
@@ -88,15 +89,15 @@ ht-degree: 19%
   - [Gateway di lavoro Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Introduzione {#mcp-get-started}
-    - [Accesso agli strumenti di CX Collaborator Gateway](./mcp/access.md)
-    - [Installazione di CX Configuration Gateway](./mcp/install.md)
-    - [Strumenti contestuali di sessione in CX Customer Gateway](./mcp/context-tools.md)
+    - [Accedere agli strumenti di CX Coworker Gateway](./mcp/access.md)
+    - [Installare CX Coworker Gateway](./mcp/install.md)
+    - [Strumenti contestuali di sessione in CX Coworker Gateway](./mcp/context-tools.md)
   - Strumenti di prodotto {#mcp-product-tools}
     - [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
     - [Strumenti di Experience Platform](./mcp/aep-mcp.md)
     - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
     - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

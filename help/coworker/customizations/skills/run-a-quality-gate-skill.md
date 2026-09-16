@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # Creare ed eseguire un’abilità gate di qualità utilizzando competenze IA personalizzate
 
@@ -23,7 +21,7 @@ La sfida è che questi controlli spesso dipendono dalla conoscenza tribale e dal
 
 Questo video illustra come un’abilità personalizzata del Collaboratore funga da gate di attivazione, convalidando automaticamente i tipi di pubblico in base agli standard di attivazione della tua organizzazione prima che si spostino a valle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503171/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## Esempio di abilità gate di qualità dell’attivazione
  
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## Gate 1: soppressione/consenso
  
 > Modifica questa sezione per soddisfare i requisiti di eliminazione e consenso della tua organizzazione.
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## Gate 2: Limite Di Frequenza
 
 > Modifica questa sezione per soddisfare i requisiti di frequenza di consegna della tua organizzazione.
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## Gate 3: convenzione di denominazione
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## Linee guida
 
 ### &#x200B;1. Personalizza solo le sezioni tra parentesi
@@ -196,8 +182,6 @@ Tutto il resto deve rimanere invariato:
 - Valutazione del gate
 - Rendering scorecard
 - Logica del verdetto
-
-&#x200B;---
 
 
 ### &#x200B;2. Verifica prerequisiti
@@ -214,8 +198,6 @@ Questa abilità dipende da:
 - Rendering DataTable
 
 Se queste funzionalità non sono disponibili nell’ambiente del cliente, l’abilità non può essere eseguita come previsto.
-
-&#x200B;---
 
 ### &#x200B;3. Mantieni abilità di sola lettura
 
