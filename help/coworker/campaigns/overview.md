@@ -3,26 +3,26 @@ description: Scopri Adobe CX Enterprise Customer Campaigns, un’applicazione di
 title: Panoramica di Adobe CX Enterprise Collaborator
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
 # Panoramica delle campagne Adobe CX Enterprise Collaborator {#overview}
 
 Campagne Coworker è un’applicazione di marketing nativa per l’intelligenza artificiale che consente di passare da un singolo prompt a una campagna completa pronta per la revisione.
 
-Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne] (./). Ulteriori funzionalità saranno presto disponibili.
+Al momento, tutte le interazioni con l&#39;intelligenza artificiale ti indirizzeranno alla [generazione di campagne](/help/coworker/campaigns/create-an-email-campaign.md). Ulteriori funzionalità saranno presto disponibili.
 
 ## Come accedere
 
 >[!NOTE]
 >
->Campagne Coworker sono disponibili tramite versione di prova gratuita fino al 1° ottobre 2026. Durante la prova, tutte le risorse e l’attività sono specifiche per l’utente.
+>Campagne Coworker è disponibile tramite prova gratuita fino al 31 dicembre 2026. Durante la prova, tutte le risorse e l’attività sono specifiche per l’utente.
 
 1. Vai su coworker-campaigns.experience.adobe.com.
 
@@ -104,7 +104,7 @@ Alcuni elementi che gli utenti più esperti hanno scoperto e che fanno una vera 
 
 Campagne collaboratore è un prodotto in fase di sviluppo attivo. Ecco cosa bisogna sapere in corso:
 
-- **Finestra di prova**: ora fino al 1° ottobre 2026.
+- **Finestra di prova**: ora fino al 31 dicembre 2026.
 - **Accettazione richiesta**: prima di accedere al prodotto è necessario rivedere e accettare i termini della versione di valutazione.
 - **Regione**: la versione di prova gratuita è attualmente disponibile solo per gli utenti del Nord America.
 - **Tipi di pubblico**: i tipi di pubblico vengono caricati tramite CSV. Tutti i tipi di pubblico sono specifici per le rispettive campagne (al momento non vengono memorizzati in nessun altro punto dell’ambiente).
@@ -114,7 +114,7 @@ Campagne collaboratore è un prodotto in fase di sviluppo attivo. Ecco cosa biso
 
 ## Panoramica video
 
->[!VIDEO](https://video.tv.adobe.com/v/3492813?captions=ita&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Durante la prova verranno fornite nuove funzionalità. Il tuo feedback aiuta a definire i prossimi sviluppi. Invia un feedback facendo clic sull’icona del feedback nel prodotto nell’intestazione.
