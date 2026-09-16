@@ -6,13 +6,11 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '333'
 ht-degree: 18%
-
 ---
-
 
 # IA in CX Enterprise {#experience-cloud-ai}
 
@@ -42,6 +40,7 @@ ht-degree: 18%
       - [Che cosa sono le abilità?](./coworker/customizations/skills/what-are-skills.md)
       - [Crea la tua prima abilità](./coworker/customizations/skills/create-your-first-skill.md)
       - [Creare ed eseguire un’abilità gate di qualità](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gestire e ripetere le abilità](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
@@ -56,6 +55,7 @@ ht-degree: 18%
         - [Valutare lo stato della piattaforma e creare tipi di pubblico](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Percorsi {#journeys}
         - [Creazione di percorsi utilizzando il linguaggio naturale](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Fedeltà {#loyalty}
         - [Creare una sfida di fedeltà e approfondimenti di superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Ottimizzazione {#optimization}
         - [Avviare le attività Target](./coworker/chat/use-cases/optimization/target.md)
@@ -89,9 +89,9 @@ ht-degree: 18%
   - [Gateway di lavoro Adobe CX](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Introduzione {#mcp-get-started}
-    - [Accesso agli strumenti di CX Collaborator Gateway](./mcp/access.md)
-    - [Installazione di CX Configuration Gateway](./mcp/install.md)
-    - [Strumenti contestuali di sessione in CX Customer Gateway](./mcp/context-tools.md)
+    - [Accedere agli strumenti di CX Coworker Gateway](./mcp/access.md)
+    - [Installare CX Coworker Gateway](./mcp/install.md)
+    - [Strumenti contestuali di sessione in CX Coworker Gateway](./mcp/context-tools.md)
   - Strumenti di prodotto {#mcp-product-tools}
     - [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
     - [Strumenti di Experience Platform](./mcp/aep-mcp.md)
