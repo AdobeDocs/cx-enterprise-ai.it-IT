@@ -1,13 +1,12 @@
 ---
 title: Strumenti contestuali di sessione in CX Customer Gateway
 description: Scopri gli strumenti di base che consentono di impostare il contesto dell’organizzazione, della sandbox e della visualizzazione dati per tutte le chiamate allo strumento CX Customer Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
-
 # Strumenti contestuali di sessione in Adobe CX Customer Gateway {#mcp-core}
 
 Adobe CX Customer Gateway include una serie di strumenti contestuali di sessione che definiscono l&#39;organizzazione Adobe, la sandbox di Adobe Experience Platform e la visualizzazione dati di Customer Journey Analytics in cui operano tutti gli altri strumenti di prodotto. Non è richiesta alcuna licenza o abilitazione aggiuntiva. Questi strumenti sono disponibili per ogni utente autenticato dopo la connessione al server [CX Gateway Desktop remoto](overview.md).
@@ -64,5 +63,5 @@ Il client chiamerà gli strumenti appropriati e confermerà una volta impostato 
 
 ## Pagine correlate {#mcp-core-related}
 
-- [Installare Adobe CX Coworker Gateway](install.md): come collegare il client MCP, inclusa la sezione di configurazione del contesto di prodotto.
-- [Accedere agli strumenti del gateway di lavoro CX](access.md) — accedere ai requisiti per prodotto.
+- [Installare Adobe CX Coworker Gateway](install.md): come collegare il client MCP, inclusa la sezione di installazione del contesto di prodotto.
+- [Accedere agli strumenti di CX Coworker Gateway](access.md) — requisiti di accesso per prodotto.

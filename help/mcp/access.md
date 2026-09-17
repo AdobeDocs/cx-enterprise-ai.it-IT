@@ -1,18 +1,19 @@
 ---
-title: Accedere agli strumenti di gateway di lavoro CX
-description: Verificare la disponibilità del prodotto, l'abilitazione dell'organizzazione e le autorizzazioni prima di utilizzare gli strumenti Adobe CX Customer Gateway.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+title: Accedere agli strumenti di CX Coworker Gateway
+description: Prima di utilizzare gli strumenti gateway di Adobe CX Coworker, è necessario verificare la disponibilità del prodotto, l'abilitazione dell'organizzazione e le autorizzazioni.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%
 ---
-# Accesso agli strumenti di CX Collaborator Gateway {#mcp-access}
+# Accedere agli strumenti di CX Coworker Gateway {#mcp-access}
 
 Adobe CX Enterprise espone gli strumenti di prodotto attraverso un unico MCP. L’accesso viene valutato in base agli strumenti del prodotto: l’organizzazione Adobe deve essere abilitata per gli strumenti del prodotto pertinenti e l’account utente deve disporre delle autorizzazioni del prodotto necessarie per visualizzare o modificare i dati del prodotto esposti da tali strumenti.
 
 >[!IMPORTANT]
 >
->Prima di poter utilizzare gli strumenti di CX Customer Gateway, è necessario abilitare l&#39;organizzazione Adobe. Se la tua organizzazione non dispone ancora dell’accesso, contatta il team del tuo account Adobe per richiedere l’abilitazione per la tua organizzazione.
+>Prima di poter utilizzare gli strumenti di CX Coworker Gateway, è necessario abilitare l&#39;organizzazione Adobe. Se la tua organizzazione non dispone ancora dell’accesso, contatta il team del tuo account Adobe per richiedere l’abilitazione per la tua organizzazione.
 
 ## Requisiti di accesso {#mcp-requirements}
 
@@ -35,7 +36,7 @@ Adobe CX Enterprise espone gli strumenti di prodotto attraverso un unico MCP. L�
 
 ## Richiedi accesso {#mcp-request}
 
-Per gli strumenti di prodotto Beta o a rilascio limitato, contatta il rappresentante del tuo account Adobe e specifica quali strumenti di prodotto Adobe per CX Coworker Gateway desideri utilizzare. Il tuo rappresentante può coordinare l’abilitazione del prodotto e confermare quando l’organizzazione Adobe è pronta.
+Per gli strumenti di prodotto Beta o a rilascio limitato, contatta il rappresentante del tuo account Adobe e specifica quali strumenti di prodotto Adobe per CX Customer Gateway desideri utilizzare. Il tuo rappresentante può coordinare l’abilitazione del prodotto e confermare quando l’organizzazione Adobe è pronta.
 
 Per gli strumenti di prodotto generalmente disponibili che utilizzano l&#39;elemento di autorizzazione **Accesso MCP**, chiedere a un amministratore di sistema o di prodotto di aggiungere il proprio account a un profilo di prodotto che includa l&#39;accesso MCP.
 

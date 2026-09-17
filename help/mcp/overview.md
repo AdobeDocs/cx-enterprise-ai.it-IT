@@ -1,7 +1,8 @@
 ---
 title: Panoramica di Adobe CX Customer Gateway
 description: Adobe CX Coworker Gateway è l'MCP unificato per Adobe CX Enterprise, che offre ai client MCP un'unica connessione agli strumenti di prodotto supportati.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 3%

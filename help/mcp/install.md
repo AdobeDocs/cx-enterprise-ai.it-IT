@@ -1,13 +1,12 @@
 ---
 title: Installazione di Adobe CX Customer Gateway
 description: Scopri come collegare i client compatibili con MCP al gateway di lavoro Adobe CX.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
 # Installazione di Adobe CX Customer Gateway {#mcp-install}
 
 Leggere questa guida per scoprire come collegare un client compatibile con MCP a Adobe CX Customer Gateway.  Il gateway di lavoro CX utilizza un unico endpoint per tutti gli strumenti documentati:
@@ -104,7 +103,7 @@ Per il desktop `claude.ai` e [!DNL Claude] su un piano individuale:
 3. Immetti `https://cx-coworker-gateway.adobe.io/mcp` come URL del server.
 4. Seleziona **Connetti** e completa il flusso di accesso di Adobe.
 
-Dopo la connessione, gli strumenti Adobe per CX Customer Gateway sono disponibili in modalità Compositore cursore e Agente.
+Dopo la connessione, gli strumenti Adobe per gateway CX Coworker sono disponibili nelle modalità Compositore cursore e Agente.
 
 ### Claude Code {#mcp-install-individual-claude-code}
 
@@ -184,7 +183,7 @@ Per i client che accettano una configurazione del server MCP basata su JSON, uti
 
 ### Altri clienti {#mcp-install-individual-other}
 
-Per altri client desktop o Web con supporto MCP remoto, aggiungere Adobe for CX Customer Gateway come server HTTP remoto utilizzando `https://cx-coworker-gateway.adobe.io/mcp`. Lascia vuote le intestazioni facoltative, i campi del token Bearer, i campi dell’ID client e i campi del segreto client, a meno che il client non richieda un valore segnaposto.
+Per altri client desktop o Web con supporto MCP remoto, aggiungere Adobe for CX Coworker Gateway come server HTTP remoto utilizzando `https://cx-coworker-gateway.adobe.io/mcp`. Lascia vuote le intestazioni facoltative, i campi del token Bearer, i campi dell’ID client e i campi del segreto client, a meno che il client non richieda un valore segnaposto.
 
 ## Contesto del prodotto per le chiamate allo strumento {#mcp-connect-params}
 

@@ -1,13 +1,12 @@
 ---
-title: Strumenti Experience Platform in CX Customer Gateway
-description: Scopri quali strumenti Adobe Experience Platform sono disponibili tramite il gateway di lavoro CX.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+title: Strumenti Experience Platform in CX Coworker Gateway
+description: Scopri quali strumenti Adobe Experience Platform sono disponibili tramite CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
-
 
 # Strumenti Adobe Experience Platform in Adobe CX Customer Gateway {#aep-mcp}
 
