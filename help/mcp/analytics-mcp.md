@@ -1,20 +1,19 @@
 ---
-title: Strumenti Adobe Analytics in CX Customer Gateway
-description: Scopri quali strumenti Adobe Analytics sono disponibili tramite Adobe CX Customer Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Strumenti Adobe Analytics in CX Coworker Gateway
+description: Scopri quali strumenti Adobe Analytics sono disponibili tramite Adobe CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
-# Strumenti Adobe Analytics in Adobe CX Customer Gateway {#aa-mcp}
+# Strumenti di Adobe Analytics in Adobe CX Coworker Gateway {#aa-mcp}
 
 Puoi utilizzare gli strumenti di Adobe Analytics per esplorare le suite di rapporti, scoprire dimensioni e metriche, eseguire rapporti e gestire componenti di analisi selezionati da un client compatibile con MCP. Questi strumenti sono disponibili tramite il [Adobe CX Coworker Gateway](overview.md) unificato quando l&#39;account dispone della licenza e delle autorizzazioni Adobe Analytics richieste.
 
 >[!AVAILABILITY]
 >
->Gli strumenti di analisi sono disponibili per i clienti con una licenza Adobe Analytics. L&#39;accesso è controllato dall&#39;autorizzazione di accesso **MCP** in Adobe Admin Console. Per ulteriori informazioni, leggere gli strumenti di [Access CX Customer Gateway](access.md).
+>Gli strumenti di analisi sono disponibili per i clienti con una licenza Adobe Analytics. L&#39;accesso è controllato dall&#39;autorizzazione di accesso **MCP** in Adobe Admin Console. Per ulteriori informazioni, leggere [Strumenti di Access Gateway](access.md).
 
 ## Funzionalità principali {#mcp-capabilities}
 

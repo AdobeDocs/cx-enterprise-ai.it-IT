@@ -6,7 +6,7 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 18%
@@ -87,18 +87,18 @@ ht-degree: 18%
   - Data Engineering {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Gateway di lavoro Adobe CX](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Introduzione {#mcp-get-started}
-    - [Accesso agli strumenti di CX Collaborator Gateway](./mcp/access.md)
-    - [Installazione di CX Configuration Gateway](./mcp/install.md)
-    - [Strumenti contestuali di sessione in CX Customer Gateway](./mcp/context-tools.md)
+    - {hide-from-toc}[Accedere agli strumenti di CX Coworker Gateway](./mcp/access.md)
+    - {hide-from-toc}[Installa CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc}[Strumenti di contesto sessione in CX Coworker Gateway](./mcp/context-tools.md)
   - Strumenti di prodotto {#mcp-product-tools}
-    - [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
-    - [Strumenti di Experience Platform](./mcp/aep-mcp.md)
-    - [Strumenti Journey Optimizer](./mcp/ajo-mcp.md)
-    - [Strumenti Customer Journey Analytics](./mcp/cja-mcp.md)
-    - [Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Strumenti di Real-Time CDP](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Strumenti di Experience Platform](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

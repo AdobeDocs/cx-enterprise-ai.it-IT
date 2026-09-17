@@ -1,13 +1,12 @@
 ---
 title: Strumenti Customer Journey Analytics in CX Customer Gateway
 description: Scopri quali strumenti Adobe Customer Journey Analytics sono disponibili tramite Adobe CX Customer Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
-
 ---
-
 
 # Strumenti Customer Journey Analytics in Adobe CX Customer Gateway {#cja-mcp}
 
@@ -84,11 +83,11 @@ Le autorizzazioni per i prodotti sono ancora valide. L’account deve essere in 
 
 **Panoramica**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486322/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **In azione**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486333/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## Ulteriori informazioni {#mcp-more}
 
