@@ -1,5 +1,5 @@
 ---
-description: Scopri come avviare una campagna, pianificare quando viene inviata ora, una volta o su base ricorrente e interrompere definitivamente una campagna live che sta inviando attivamente.
+description: Scopri come avviare una campagna, pianificare quando viene avviata e con quale frequenza e interrompere definitivamente una campagna in tempo reale che sta inviando attivamente.
 title: Avviare e gestire una campagna
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '610'
 ht-degree: 2%
 ---
 # Avviare e gestire una campagna {#launch-campaign}
@@ -24,23 +24,15 @@ Dopo aver creato la campagna, scopri come avviarla, pianifica quando viene avvia
 
 1. Nella campagna completata, fai clic su **Rivedi e avvia**.
 
-   SCHERMATA
-
    >[!NOTE]
    >
    >Se manca qualcosa, viene visualizzata una finestra di dialogo in cui sono elencati gli elementi da completare. Apportare le correzioni e selezionare di nuovo **Rivedi e avvia**.
 
 1. Dopo che la campagna ha superato il controllo di fattibilità, si apre la finestra di dialogo di lancio con un’anteprima dell’e-mail e del pubblico.
 
-   SCHERMATA
-
 1. Rivedi la pianificazione mostrata nella finestra di dialogo. Per modificarlo, usa le opzioni di pianificazione descritte in [Pianifica all&#39;avvio di una campagna](#schedule-when-a-campaign-launches), quindi fai clic su **Salva**.
 
-   SCHERMATA
-
 1. Al termine, fai clic su **Avvia campagna**.
-
-   SCHERMATA
 
 >[!NOTE]
 >
@@ -60,18 +52,12 @@ La campagna deve essere pronta per il lancio (configurazione completa).
 
 1. Dalla campagna, fai clic su **Rivedi e avvia**.
 
-   SCHERMATA
-
 1. Nella finestra di dialogo di avvio, scegli un’opzione di pianificazione:
-   - **Ora** — la campagna inizia l&#39;invio subito dopo il lancio.
-   - **Pianifica una volta** — scegli una **data di inizio** futura (data e ora insieme).
-   - **Ricorrente** — scegli una **Frequenza** (Giornaliera, Settimanale o Mensile) e un&#39;ora di inizio, quindi imposta il criterio di ricorrenza (vedi campi di seguito).
-
-   SCHERMATA
+   - **Ora**: la campagna inizia l&#39;invio subito dopo il lancio.
+   - **Pianifica una volta**: scegli una **data di inizio** futura (data e ora insieme).
+   - **Ricorrente**: scegli una **Frequenza** (Giornaliera, Settimanale o Mensile) e un&#39;ora di inizio, quindi imposta il criterio di ricorrenza (vedi campi di seguito).
 
 1. Se è selezionata l&#39;opzione Ricorrente, scegliere se la campagna termina **Mai** o **In una data** e scegliere una data di fine, se applicabile.
-
-   SCHERMATA
 
 1. Conferma di avviare la campagna con la pianificazione selezionata.
 
@@ -79,15 +65,9 @@ La campagna deve essere pronta per il lancio (configurazione completa).
 
 1. Apri la campagna e vai alle relative impostazioni.
 
-   SCHERMATA
-
 1. Individuare la sezione relativa alla programmazione e selezionare il sintetico della programmazione corrente.
 
-   SCHERMATA
-
 1. Aggiorna la pianificazione utilizzando le stesse opzioni descritte in precedenza.
-
-   SCHERMATA
 
 1. Salva la modifica.
 
@@ -116,24 +96,18 @@ Puoi interrompere una campagna che invia attivamente (una campagna &quot;live&qu
 >
 >L’arresto di una campagna è permanente. I destinatari cessano immediatamente di avanzare nella campagna e la campagna non può essere ripresa o riavviata in un secondo momento. Per inviare di nuovo, devi creare una nuova campagna e avviarla.
 
-### Prerequisiti
+<!--
 
-- [INPUT NECESSARIO — per confermare con l&#39;ingegnere: l&#39;arresto di una campagna richiede un ruolo o un&#39;autorizzazione specifica oppure è possibile eseguire questa operazione da qualsiasi utente con accesso alla campagna?]
+### Prerequisites
+
+- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+
+-->
 
 ### Come interrompere una campagna
 
 1. Apri una campagna attualmente live.
 
-   SCHERMATA
-
 1. Nell&#39;intestazione dei dettagli della campagna fare clic su **Interrompi campagna**.
 
-   SCHERMATA
-
-1. Nella finestra di dialogo di conferma, fai clic su VUOTO.
-
-   SCHERMATA
-
 1. Fai clic su **Interrompi** per confermare.
-
-   SCHERMATA
