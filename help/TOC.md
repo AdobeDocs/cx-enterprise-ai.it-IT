@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 18%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 18%
   - Campagne {#campaigns}
     - [Panoramica](./coworker/campaigns/overview.md)
     - [Creare una campagna e-mail](./coworker/campaigns/create-an-email-campaign.md)
+    - {hide-from-toc}[Avviare e gestire una campagna](./coworker/campaigns/launch-manage-campaign.md)
     - [Casi d’uso](./coworker/campaigns/use-cases.md)
     - [Best practice per la richiesta di informazioni](./coworker/campaigns/prompting-best-practices.md)
     - [Metadati C2PA](./coworker/campaigns/c2pa-metadata.md)
@@ -99,6 +100,6 @@ ht-degree: 18%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
