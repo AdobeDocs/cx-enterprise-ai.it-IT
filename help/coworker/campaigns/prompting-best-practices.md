@@ -3,18 +3,22 @@ description: 'Scopri le campagne per collaboratori che richiedono le best practi
 title: Prompt per le best practice
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '687'
 ht-degree: 1%
-
 ---
-
 # Best practice per la richiesta di informazioni {#best-practices}
 
 Per ottenere il massimo dalle campagne di Coworker, inizia da come viene richiesto. Scopri le pratiche che producono i migliori risultati: il framework CO-STAR per strutturare i prompt, cosa includere e cosa evitare, ed esempi basati su scenari che forniscono all’intelligenza artificiale il contesto necessario per generare contenuti pertinenti e mirati.
+
+>[!NOTE]
+>
+>Al momento, è possibile connettersi solo alle integrazioni supportate da Campaign.  Se disponi di applicazioni Adobe Enterprise esistenti, in cui vengono archiviati i tipi di pubblico o vengono creati percorsi, ti invitiamo a utilizzare [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md).
 
 ## Utilizzare il framework CO-STAR {#costar-framework}
 
@@ -56,9 +60,21 @@ Per ottenere risultati ottimali, organizzare le richieste utilizzando il framewo
 </tbody>
 </table>
 
+### Contenuto supportato nei prompt
+
+Utilizza l&#39;**editor e-mail** o **Adobe Express** per le modifiche visive/delle immagini. Sono supportati i seguenti tipi di richieste.
+
+- **Specifica la frequenza e la cadenza della campagna**: &quot;Crea una campagna e-mail inviata ogni settimana...&quot;
+
+- **Destinazione di un pubblico specifico da un elenco più ampio**: &quot;Crea una campagna solo per i partecipanti con cani per l&#39;evento _Bark in the Park_ da &#39;all-attendees.csv&#39;&quot;
+
+- **Carica un file HTML**: &quot;Utilizza il file HTML allegato come base per creare una campagna e-mail.&quot;
+
+- **Apporta modifiche a metà conversazione**: &quot;Cambia da due a tre il numero di giorni precedenti all&#39;uscita della campagna.&quot;
+
 ### Contenuto non supportato nei prompt
 
-Utilizza l&#39;**editor e-mail** o **Adobe Express** per le modifiche visive/delle immagini. Queste richieste non sono supportate e devono essere gestite tramite altri strumenti:
+Queste richieste sono **non** supportate e devono essere gestite tramite altri strumenti:
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -114,6 +130,10 @@ Prima di generare il contenuto, verifica quanto segue:
 
 Fornisci sempre contesto e proposta di valore in modo che l’intelligenza artificiale possa generare contenuti rilevanti.
 
+>[!NOTE]
+>
+>Al momento puoi generare e avviare solo campagne e-mail, ma puoi sempre chiedere a Collaboratore di generarne una copia per social media, WhatsApp o SMS.
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -124,19 +144,19 @@ Fornisci sempre contesto e proposta di valore in modo che l’intelligenza artif
 <tbody>
 <tr>
 <td><strong>Tecnologia B2B</strong></td>
-<td>"Generare una campagna per dimostrare il ROI e le specifiche tecniche, affrontando al contempo i problemi di sicurezza per i responsabili delle decisioni IT che valutano la nostra soluzione di infrastruttura cloud, sottolineando il 99,9% di tempo di attività di SLA, la conformità SOC 2 e il 40% di risparmio sui costi".</td>
+<td>"Generare una campagna e-mail di quattro contatti per dimostrare il ROI e le specifiche tecniche, affrontando al contempo i problemi di sicurezza per i responsabili IT che valutano la nostra soluzione di infrastruttura cloud, evidenziando il 99,9% di tempo di attività di SLA, la conformità SOC 2 e il 40% di risparmio sui costi".</td>
 </tr>
 <tr>
 <td><strong>Vendita al dettaglio e-commerce</strong></td>
-<td>"Genera una campagna per creare urgenza intorno agli articoli per le vacanze con scorte limitate, evidenziando la spedizione gratuita e facili ritorni per gli acquirenti dell’ultimo minuto, evidenziando quantità limitate (meno di 50 rimanenti) e 24 ore di limite di spedizione."</td>
+<td>"Genera una campagna single-touch per creare urgenza intorno agli articoli per le vacanze con scorte limitate, evidenziando la spedizione gratuita e facili ritorni per gli acquirenti dell’ultimo minuto, evidenziando quantità limitate (meno di 50 rimanenti) e 24 ore di limite di spedizione."</td>
 </tr>
 <tr>
 <td><strong>Istruzione e formazione</strong></td>
-<td>"Genera una campagna che enfatizza i risultati di avanzamento di carriera e le certificazioni del settore mostrando al contempo le competenze degli istruttori, evidenziando il tasso di collocamento del 92% e i programmi di studio basati su progetti."</td>
+<td>"Genera una campagna a due contatti che enfatizza i risultati di avanzamento di carriera e le certificazioni del settore mostrando al contempo le competenze degli istruttori, evidenziando il tasso di collocamento del 92% e i programmi di studio basati su progetti."</td>
 </tr>
 <tr>
 <td><strong>Consulenza</strong></td>
-<td>"Generare una campagna per promuovere i potenziali clienti aziendali presentando tre storie di successo dei clienti con metriche dettagliate sul ROI (IBM: riduzione dei costi del 45%, Accenture: aumento del lead del 200%, Microsoft: risparmio di tempo del 60%), indirizzando i responsabili IT alle aziende con più di 1000 dipendenti."</td>
+<td>"Generare una campagna a tre contatti per promuovere i potenziali clienti aziendali presentando tre storie di successo dei clienti con metriche dettagliate sul ROI (IBM: riduzione dei costi del 45%, Accenture: aumento del lead del 200%, Microsoft: risparmio di tempo del 60%), indirizzando i responsabili IT alle aziende con più di 1000 dipendenti."</td>
 </tr>
 </tbody>
 </table>
