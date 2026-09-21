@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 18%
         - [Esplorare tendenze e cause profonde](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Convalidare i dati da AA a CJA durante l’aggiornamento](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Convalidare la qualità del set di dati per il reporting di CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - Gestione dati {#data-management}
+        - [Gestire la conservazione del data lake](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Tipi di pubblico {#audiences}
         - [Valutare lo stato della piattaforma e creare tipi di pubblico](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Percorsi {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 18%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Agente Audience](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Agente di gestione dati](./agents/data-management.md)
   - [Agente esperimento](./agents/agent-experiment.md)
   - [Agente di individuazione campi](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
@@ -100,6 +103,6 @@ ht-degree: 18%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
