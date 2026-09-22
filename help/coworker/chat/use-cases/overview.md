@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # Casi d’uso di Chat con i collaboratori{#use-cases}
@@ -216,6 +216,13 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 | Monitorare la capacità di streaming e le violazioni | Controlla l’utilizzo dello streaming, la capacità e lo stato di violazione correnti e storici nelle sandbox | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual è la capacità di streaming corrente nella sandbox corrente?&quot; <br> &quot;La mia sandbox attuale ha superato i limiti di capacità nell’ultima settimana?&quot; |
 | [Visualizza i risultati della valutazione dello stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks/overview) | Visualizzare la valutazione più recente dello stato di integrità per la sandbox, eseguire il drill-in di un controllo non riuscito e visualizzare le entità interessate | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;Cosa c&#39;è che non va nella sandbox?&quot; <br> &quot;Informazioni sulla valutazione del controllo di integrità più recente&quot; <br> &quot;Quali sono i problemi per il controllo di descrizione dello spazio dei nomi personalizzato?&quot; |
 | Correggi problemi di verifica stato | Correggi i problemi relativi a spazio dei nomi, criteri di unione e schema delle identità contrassegnate direttamente dalla chat, con la tua approvazione prima di apportare qualsiasi modifica | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Correggere le descrizioni dello spazio dei nomi delle identità&quot; <br> &quot;Correggere i nomi dei criteri di unione duplicati&quot; <br> &quot;Correggere gli schemi senza il gruppo di campi di controllo&quot; <br> &quot;Correggere la denominazione dei criteri di unione predefiniti&quot; |
+
+## Gestione dati
+
+| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| --- | --- | --- | --- | --- |
+| [Trovare dati da ottimizzare o pulire](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Scopri se i dati di Experience Event possono essere ottimizzati presentando i set di dati più grandi, meno utilizzati o dimenticati come candidati per la pulizia o per i criteri di conservazione di un data lake | `List datasets` | Adobe Experience Platform | &quot;Ho la sensazione che i miei dati possano essere ottimizzati&quot; <br> &quot;Aiutami a comprendere il valore dei miei dati&quot; <br> &quot;Ottimizzare i miei dati sandbox&quot; <br> &quot;Pulire i miei set di dati sandbox&quot; |
+| [Verificare l&#39;utilizzo e gestire la conservazione per un set di dati](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Dopo aver individuato un set di dati che merita una visione più approfondita, scopri come viene utilizzato attivamente, modella l’impatto di un potenziale criterio di conservazione di un data lake e imposta, modifica o rimuovi tale criterio quando sei pronto, con la tua revisione e approvazione prima di qualsiasi modifica | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | &quot;Quanto attivamente viene utilizzato il set di dati degli eventi Web?&quot; <br> &quot;Quale sarebbe l’impatto se impostassi un periodo di conservazione di 60 giorni su questo set di dati?&quot; |
 
 ## Strumenti sandbox
 
