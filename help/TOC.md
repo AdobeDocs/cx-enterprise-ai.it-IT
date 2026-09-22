@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 18%
 ---
 
@@ -59,10 +59,12 @@ ht-degree: 18%
       - [Crea la tua prima abilità](./coworker/customizations/skills/create-your-first-skill.md)
       - [Creare ed eseguire un’abilità gate di qualità](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Gestire e ripetere le abilità](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrazioni {#integrations}
+      - [Cosa sono le integrazioni?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-in {#plugins}
-      - [Cosa sono i plug-in](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Cosa sono i plug-in?](./coworker/customizations/plugins/what-are-plugins.md)
     - Memoria {#memory}
-      - [Cos’è la memoria](./coworker/customizations/memory/what-is-memory.md)
+      - [Che cos&#39;è la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campagne {#campaigns}
     - [Panoramica](./coworker/campaigns/overview.md)
     - [Creare una campagna e-mail](./coworker/campaigns/create-an-email-campaign.md)
@@ -107,6 +109,6 @@ ht-degree: 18%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
