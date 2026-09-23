@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -110,3 +110,4 @@ La convalida dei set di dati prima della creazione dei rapporti consente ai team
 - Risolvere i problemi relativi alle metriche impreviste in modo più efficiente
 
 Con Coworker, questi controlli possono essere avviati utilizzando prompt del linguaggio naturale, rendendo la convalida dei dati più accessibile agli utenti tecnici e non tecnici.
+
