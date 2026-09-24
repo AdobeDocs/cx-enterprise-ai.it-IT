@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '370'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 18%
         - [Esplorare tendenze e cause profonde](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Convalidare i dati da AA a CJA durante l’aggiornamento](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Convalidare la qualità del set di dati per il reporting di CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Convalidare i dati di Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - Gestione dati {#data-management}
         - [Gestire la conservazione del data lake](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Tipi di pubblico {#audiences}
@@ -111,4 +112,3 @@ ht-degree: 18%
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
-

@@ -1,13 +1,11 @@
 ---
 title: Convalidare I Dati Nell’Assistente Ai
 description: Scopri come utilizzare la convalida dei dati basata su Agent Orchestrator nell’Assistente all’intelligenza artificiale per eseguire convalide statistiche e semantiche sui set di dati.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # Convalidare i dati in AI Assistant
 
 Puoi utilizzare l’Assistente AI per convalidare la qualità dei dati dei set di dati di Adobe Experience Platform. Grazie alla tecnologia di Agent Orchestrator, la funzionalità di convalida dei dati può eseguire convalide statistiche e semantiche sui set di dati, analizzare i campi dei set di dati, identificare i problemi di qualità dei dati e restituire riepiloghi in linguaggio naturale con informazioni fruibili. I data engineer, gli analisti e gli amministratori di dati possono utilizzare questa funzionalità tramite l’Assistente all’intelligenza artificiale per eseguire valutazioni rapide della qualità dei dati senza scrivere query SQL o navigare in gerarchie di schemi complesse.
@@ -24,6 +22,10 @@ Leggi questa documentazione per scoprire come convalidare i dati in AI Assistant
 >
 >L’Assistente AI è l’interfaccia di conversazione per questo flusso di lavoro. Agent Orchestrator esegue il ragionamento e coordina i passaggi di convalida dietro le quinte.
 
+>[!NOTE]
+>
+>La convalida dei dati è disponibile anche come abilità del collaboratore. Consulta [Convalidare i dati di Experience Platform con Coworker](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+
 ## Casi d’uso
 
 | Caso d’uso | Descrizione |
@@ -34,7 +36,7 @@ Leggi questa documentazione per scoprire come convalidare i dati in AI Assistant
 
 ## Guida all’interfaccia utente
 
-Utilizza **AI Assistant** in Adobe CX Enterprise per convalidare i dati. L’Assistente AI è l’interfaccia di conversazione, mentre Agent Orchestrator coordina il flusso di lavoro di convalida dietro le quinte. I seguenti passaggi seguono le schermate principali visualizzate.
+Utilizza **Assistente AI** in Adobe CX Enterprise per convalidare i tuoi dati. L’Assistente AI è l’interfaccia di conversazione, mentre Agent Orchestrator coordina il flusso di lavoro di convalida dietro le quinte. I seguenti passaggi seguono le schermate principali visualizzate.
 
 ### Avvia convalida
 

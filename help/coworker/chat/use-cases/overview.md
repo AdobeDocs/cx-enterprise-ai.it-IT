@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # Casi d’uso di Chat con i collaboratori{#use-cases}
 
@@ -124,6 +124,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | [Analisi causa principale](data-insights/root-cause-analysis.md) | Ricercare il motivo per cui una metrica è cambiata: diagnosticare gocce, picchi e anomalie | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Perché le conversioni sono diminuite la settimana scorsa?&quot; <br> &quot;Cosa ha causato il picco delle entrate il 15 gennaio?&quot; |
 | Riepiloghi esecutivi e digest dei KPI | Creare riepiloghi delle prestazioni pronti per le parti interessate, consigli prescrittivi e descrizioni della presentazione | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | &quot;Assegnami un riepilogo esecutivo del mese scorso&quot; <br> &quot;Creare una struttura della presentazione di diapositive dai dati di questo trimestre&quot; |
 | [AA ↔ convalida dati CJA](data-insights/data-validation-aa-cja.md) | Confrontare, controllare e riconciliare i dati tra Adobe Analytics e Customer Journey Analytics, in particolare durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;Confronta la suite di rapporti AA con la visualizzazione dati di CJA&quot; <br> &quot;Convalida le visualizzazioni di pagina tra AA e CJA&quot; |
+| [Convalida set di dati e qualità dei campi](data-insights/data-validation-aep.md) | Esegui la convalida statistica e semantica su set di dati e campi Experience Platform per rilevare problemi di qualità dei dati dopo l&#39;implementazione o su base continuativa <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;Convalidare il set di dati Elettronica campione 1000&quot; <br> &quot;Convalidare il campo e-mail nel set di dati Customers_2024&quot; |
 | Serie temporali operative e analisi causale | Eseguire query e analizzare dati storici di serie temporali per tipi di pubblico, set di dati e percorsi con attribuzione causale | `operational-stats-causal-analysis` | Tutte le candidature ammissibili | &quot;Mostra tendenze dimensioni pubblico negli ultimi 90 giorni&quot; <br> &quot;Perché la riga del set di dati ha conteggiato un picco il 3 marzo?&quot; |
 | Creare abilità CJA personalizzate | Trasforma i modelli analitici in competenze riutilizzabili e ripetibili che persistono nelle sessioni | `cja-skill-creator` | Customer Journey Analytics (CJA) | &quot;Trasforma questa analisi settimanale dei ricavi in un&#39;abilità riutilizzabile&quot; <br> &quot;Salva come abilità per il reporting mensile di funnel&quot; |
 
@@ -153,9 +154,12 @@ Per informazioni più dettagliate sulle abilità di CX Coworker per i percorsi, 
 
 ## Programmi di marketing
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
-|---|---|---|---|---|
-| Creare un programma | Adattare un modello di programma esistente a un nuovo programma, generando campagne intelligenti, pianificazione e e-mail segnaposto da una descrizione della campagna in linguaggio semplice o da una descrizione della campagna caricata | `build-programs` | Adobe Marketo Engage | &quot;Crea un programma di registrazione al webinar per la demo del prodotto di agosto&quot;<br><br>&quot;Crea un programma che si attiva quando un lead raggiunge il punteggio di 50&quot;<br><br>&quot;Crea una serie di ricoinvolgimento di 3 e-mail per lead inattivi di 90 giorni&quot; |
+| Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
+| --- | --- | --- | --- | --- |
+| Creare un programma | Adattare un modello di programma esistente a un nuovo programma, con campagne avanzate, pianificazione e e-mail segnaposto generate da una descrizione in linguaggio semplice o da una descrizione caricata | `build-programs` | Adobe Marketo Engage | &quot;Crea un programma di registrazione al webinar per la demo del prodotto di agosto&quot;<br><br>&quot;Crea un programma che si attiva quando un lead raggiunge il punteggio di 50&quot;<br><br>&quot;Crea una serie di ricoinvolgimento di 3 e-mail per lead inattivi di 90 giorni&quot; |
+| Preparare un programma da una breve | Trasforma un documento breve in linguaggio semplice o un documento di campagna caricato in un programma di lavoro: clona il modello corrispondente più simile, trasferisci campagne e token avanzati e aggiorna i dettagli dell’evento. Le nuove campagne avanzate rimangono disattivate per la tua revisione | `build-programs` | Adobe Marketo Engage | &quot;Sto tenendo un webinar il 10 settembre a Chicago. Configura il programma per me&quot;<br><br>&quot;Configura il programma roadshow del mese prossimo da questa descrizione e aggiorna i token dell&#39;evento&quot; |
+| Clona e adatta un programma esistente | Copia un programma precedente per una nuova città, un nuovo trimestre o una nuova area geografica e aggiorna date, token e denominazione. Le campagne Smart secondarie vengono riportate e lasciate disattivate finché non vengono attivate | `build-programs` | Adobe Marketo Engage | &quot;Clona il programma dell&#39;ultimo trimestre dell&#39;evento per la nostra fermata di New York il 17 ottobre e aggiornare le date e i token&quot;<br><br>&quot;Duplica il programma roadshow di Chicago per il nostro pubblico del Regno Unito&quot; |
+| Creare una campagna intelligente con logica di qualificazione | Crea una campagna avanzata trigger o batch, aggiungi regole per elenchi avanzati come Compila modulo o Punteggi e configura i passaggi del flusso come Invia e-mail | `build-programs` | Adobe Marketo Engage | &quot;Creare una campagna trigger che invia un messaggio e-mail di benvenuto quando un lead compila il modulo Contattaci&quot;<br><br>&quot;Creare una campagna batch per i lead che raggiungono il punteggio di 50 e aggiungere un passaggio Invia e-mail&quot; |
 
 ## Fedeltà
 
