@@ -6,10 +6,10 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 18%
+source-wordcount: '373'
+ht-degree: 16%
 ---
 
 # IA in CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 18%
   - [Dashboard di monitoraggio di IA per agente](./overview/monitoring.md)
   - [Strumenti agentici](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
   - [Trasparenza dei contenuti di IA generativa](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [Informazioni su Collaboratore](./coworker/overview.md)
+- Guida di CX Enterprise Coworker {#coworker}
+  - [Panoramica sui collaboratori](./coworker/overview.md)
   - Chat {#chat}
     - [Panoramica](./coworker/chat/overview.md)
     - [Guida all’interfaccia utente](./coworker/chat/ui-guide.md)
@@ -77,12 +77,12 @@ ht-degree: 18%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Note sulla versione](./coworker/campaigns/release-notes.md)
-- Assistente IA {#ai-assistant}
+- Guida dell’Assistente AI {#ai-assistant}
   - [Guida all’interfaccia utente di Assistente IA](./ai-assistant/ai-assistant-ui.md)
   - [Libreria dei prompt](./ai-assistant/prompt-library.md)
   - [Privacy](./ai-assistant/privacy.md)
   - [Dichiarazione di non responsabilità legale](./ai-assistant/legal-disclaimer.md)
-- Agenti {#agents}
+- Agente AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Agente Audience](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
