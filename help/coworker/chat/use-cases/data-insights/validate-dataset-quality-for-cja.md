@@ -1,6 +1,6 @@
 ---
 title: Convalidare i dati Customer Journey Analytics con l’abilità di convalida dei dati in Collaboratore
-description: Scopri come convalidare i dati di Customer Journey Analytics utilizzando l’abilità di convalida dei dati in Collaborator. Identifica i set di dati di CJA e scopri i problemi relativi ai dati prima di creare dashboard, segmenti e percorsi di clienti.
+description: Scopri come convalidare i dati di Customer Journey Analytics utilizzando l’abilità di convalida dei dati in Collaborator e risolvere i problemi prima di creare dashboard.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # Convalidare i dati Customer Journey Analytics con l&#39;abilità di convalida dei dati in [!DNL Coworker]

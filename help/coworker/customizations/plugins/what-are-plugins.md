@@ -1,15 +1,15 @@
 ---
 title: 'Plug-in di Coworker: cosa sono, come funzionano e come installarle'
-description: Scopri come i plug-in di Adobe CX Coworker estendono le funzionalità con competenze e server MCP.
+description: Scopri i plug-in di Adobe CX Coworker, pacchetti installabili che riuniscono competenze e server MCP per estendere le funzionalità per esigenze aziendali specifiche.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Questo video introduce i plug-in e spiega come estendono [!DNL Coworker] con le nuove funzionalità. Scoprirai cos’è un plug-in, quali componenti contiene, come i plug-in si relazionano alle abilità e ai server MCP e come installare, utilizzare e rimuovere i plug-in dall’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503663/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503656/?learn=on&enablevpops)
 
 ## Cos’è un plug-in?
 

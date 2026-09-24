@@ -1,23 +1,23 @@
 ---
 title: Gestire e iterare le abilità in Collaboratore
-description: Scopri come gestire le competenze di intelligenza artificiale riutilizzabili con un flusso di lavoro di governance collaudato. Scopri come stabilire una linea di base, apportare aggiornamenti controllati delle competenze, confrontare i risultati, convalidare i miglioramenti e ritirare in sicurezza le competenze obsolete mantenendo al contempo output coerenti e affidabili.
+description: Scopri come gestire le competenze di intelligenza artificiale riutilizzabili con un flusso di lavoro di governance, stabilire una linea di base, effettuare aggiornamenti controllati, convalidare i miglioramenti e ritirare le competenze obsolete.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
-# Gestione e iterazione delle abilità in [!DNL Coworker]
+# Gestisci e ripeti le abilità in [!DNL Coworker]
 
 Le abilità di intelligenza artificiale riutilizzabili consentono ai team di eseguire attività coerenti e ripetibili. Con l&#39;evolversi dei requisiti aziendali, tuttavia, anche queste competenze devono evolvere. Questo video illustra un approccio pratico per gestire l’intero ciclo di vita delle competenze di intelligenza artificiale incentrate sulla governance, dalla valutazione e il miglioramento alla convalida e al pensionamento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503572/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503566/?learn=on)
 
 ## Perché una linea di base è importante
 
