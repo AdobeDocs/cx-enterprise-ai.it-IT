@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| Aggiornare le pagine di AEM | Esegui azioni quali aggiornamento, rimozione, sostituzione o aggiunta di elementi di contenuto per mantenere le esperienze accurate e correnti. Gli input possono essere annotazioni visive o del linguaggio naturale, ad esempio PDF o screenshot. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Il &lt;URL> aggiorna il titolo a Hello World<br><br>on &lt;URL> cambia il pulsante &quot;Take our Coffee Quiz&quot; (Acquista il quiz sul caffè) in una versione più coinvolgente<br><br>Aggiorna &lt;URL> in base al &lt;URL> allegato<br><br>on. Desidero aggiungere una nuova sezione teaser in fondo alla pagina su una promozione in esecuzione nel mese di agosto: acquistare una macchina da caffè e ottenere 2 sacchi di caffè gratis. Trovi anche l&#39;immagine di amici che bevono caffè e usarlo nel teaser |
+| [Aggiorna pagine AEM](content-advisor/author-web-pages.md) | Esegui azioni quali aggiornamento, rimozione, sostituzione o aggiunta di elementi di contenuto per mantenere le esperienze accurate e correnti. Gli input possono essere annotazioni visive o del linguaggio naturale, ad esempio PDF o screenshot. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Il &lt;URL> aggiorna il titolo a Hello World<br><br>on &lt;URL> cambia il pulsante &quot;Take our Coffee Quiz&quot; (Acquista il quiz sul caffè) in una versione più coinvolgente<br><br>Aggiorna &lt;URL> in base al &lt;URL> allegato<br><br>on. Desidero aggiungere una nuova sezione teaser in fondo alla pagina su una promozione in esecuzione nel mese di agosto: acquistare una macchina da caffè e ottenere 2 sacchi di caffè gratis. Trovi anche l&#39;immagine di amici che bevono caffè e usarlo nel teaser |
 | Aggiornare AEM in blocco | Esegui azioni in blocco su più pagine contemporaneamente, ad esempio rimuovi, sostituisci o aggiungi elementi di contenuto per mantenere le esperienze accurate e correnti. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | in &lt;aem path> aggiorna tutte le pagine che contengono la copia &quot;MyBarista\&quot; in &quot;BrewPass&quot; |
 | Passare da Figma a frammento di contenuto visivo | Importare i disegni direttamente da Figma in Adobe Experience Manager utilizzando il linguaggio naturale. L’abilità crea automaticamente il modello di contenuto, il frammento di contenuto, le risorse e il modello di visualizzazione richiesti, consentendo agli utenti aziendali di passare in pochi minuti dalla progettazione ai contenuti pronti per il web senza dover eseguire la configurazione manuale. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Importa da &lt;Figma_URL> |
 
@@ -60,7 +60,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 * [Funzionalità Agentic in AEM: Esperienza del marchio - Sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### Formazione iniziale
+### Onboarding
 
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
