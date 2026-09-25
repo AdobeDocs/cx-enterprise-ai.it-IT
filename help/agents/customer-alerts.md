@@ -1,15 +1,13 @@
 ---
 title: Abilità di avviso cliente
-description: Scopri come utilizzare le abilità di segnalazione dei clienti in CX Collaborator per rivedere gli avvisi, analizzare l’attività di segnalazione, gestire gli abbonamenti e assegnare priorità ai problemi operativi attraverso conversazioni in linguaggio naturale.
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: Scopri come utilizzare le abilità di avviso dei clienti in CX Coworker per rivedere, analizzare e assegnare priorità alle attività di avviso tramite conversazioni in linguaggio naturale.
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
 
-
-# Abilità di avviso cliente
+# Competenze di avviso cliente
 
 >[!AVAILABILITY]
 >
@@ -45,7 +43,7 @@ Per utilizzare le Abilità per gli avvisi dei clienti:
 
    *&quot;Elencare tutti gli avvisi attivati nelle ultime 24 ore?&quot;*
 
-   ![La prima domanda posta in CX Collaborator](./assets/alerts/initial-question.png)
+   ![La prima domanda posta in CX Coworker](./assets/alerts/initial-question.png)
 
 1. Rivedi i risultati restituiti dalle abilità di avviso del cliente.
 
@@ -186,6 +184,6 @@ Utilizza i seguenti prompt come esempi quando interagisci con le abilità di avv
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver letto questa guida, sarai in grado di utilizzare le capacità di segnalazione dei clienti in CX Collaborator per rivedere l’attività degli avvisi, analizzare le tendenze degli avvisi, gestire gli abbonamenti agli avvisi e analizzare i problemi operativi attraverso conversazioni in linguaggio naturale.
+Dopo aver letto questa guida, sarai in grado di utilizzare le abilità di segnalazione clienti in CX Coworker per rivedere l’attività di segnalazione, analizzare le tendenze degli avvisi, gestire gli abbonamenti agli avvisi e analizzare i problemi operativi attraverso conversazioni in linguaggio naturale.
 
 Per ulteriori informazioni sugli avvisi, vedere [Panoramica sugli avvisi dei clienti](https://experienceleague.adobe.com/it/docs/experience-platform/observability/alerts/overview).

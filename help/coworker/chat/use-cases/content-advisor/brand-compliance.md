@@ -1,6 +1,6 @@
 ---
 title: Assegno del marchio del collaboratore
-description: Scopri in che modo Coworker garantisce che i contenuti rimangano nel brand con controlli automatizzati nei flussi di lavoro di marketing.
+description: Scopri come verificare la conformità del contenuto con il brand tramite Chat con coorker, utilizzando controlli automatizzati incorporati nei flussi di lavoro di marketing.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Verifica la conformità del contenuto con il marchio tramite Chat con i collaboratori
 

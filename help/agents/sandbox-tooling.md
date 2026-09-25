@@ -1,19 +1,17 @@
 ---
 title: Abilità degli strumenti sandbox
 description: Scopri come utilizzare le competenze agente Sandbox Tooling per replicare i metadati dell’oggetto in ambienti sandbox.
-source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
-
 ---
 
-
-# Abilità degli strumenti sandbox
+# Competenze degli agenti di gestione degli strumenti sandbox
 
 >[!AVAILABILITY]
 >
->Sandbox Tooling Agent Skills è disponibile per tutti i clienti con accesso a Adobe CX Enterprise Collaborator. Per utilizzare tutte le funzionalità disponibili, è necessario disporre delle seguenti autorizzazioni:
+>Le abilità di agente sandbox sono disponibili per tutti i clienti con accesso ad Adobe CX Enterprise Coworker. Per utilizzare tutte le funzionalità disponibili, è necessario disporre delle seguenti autorizzazioni:
 >
 >**Gestisci sandbox** o **Visualizza-sandbox**: queste autorizzazioni ti consentono di utilizzare le abilità agente Sandbox per visualizzare le sandbox direttamente in Coworker.
 >
@@ -23,7 +21,7 @@ ht-degree: 1%
 >
 >Al momento puoi utilizzare le abilità agente sandbox per individuare, creare pacchetti e migrare oggetti schema e pubblico. Il supporto per altri tipi di oggetti verrà aggiunto nelle versioni future.
 
-Utilizza le abilità agente sandbox per spostare i metadati dell’oggetto, inclusi schemi e tipi di pubblico, tra gli ambienti Adobe Experience Platform descrivendo cosa desideri eseguire in linguaggio naturale. Utilizzando CX Coworker è possibile individuare i metadati richiesti, identificare automaticamente le dipendenze, creare pacchetti di migrazione ed eseguire la migrazione degli oggetti attraverso un&#39;esperienza di conversazione.
+Utilizza le abilità agente sandbox per spostare i metadati dell’oggetto, inclusi schemi e tipi di pubblico, tra gli ambienti Adobe Experience Platform descrivendo cosa desideri eseguire in linguaggio naturale. Utilizzando CX Coworker, puoi scoprire i metadati richiesti, identificare automaticamente le dipendenze, creare pacchetti di migrazione ed eseguire la migrazione degli oggetti tramite un’esperienza di conversazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496714?captions=ita&learn=on)
 
@@ -33,17 +31,17 @@ Prima di iniziare, assicurati di avere:
 
 - Accesso a Adobe Experience Platform e all’organizzazione e alla sandbox appropriate.
 - Accedere agli oggetti che si desidera individuare o migrare.
-- Il plug-in Adobe CXO installato in CX Collaborator.
+- Il plug-in Adobe CXO installato in CX Coworker.
 
 Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Usa abilità agente sandbox {#use-sandbox-tooling-agentic-skills}
 
-Interagisci con le abilità degli strumenti sandbox tramite CX Collaboratore utilizzando il linguaggio naturale. Descrivi il tuo obiettivo il più chiaramente possibile. Richieste specifiche producono i risultati migliori, mentre richieste vaghe o troppo brevi possono restituire risultati di qualità inferiore o non richiamare l’agente.
+Interagisci con le abilità degli agenti sandbox tramite CX Coworker utilizzando il linguaggio naturale. Descrivi il tuo obiettivo il più chiaramente possibile. Richieste specifiche producono i risultati migliori, mentre richieste vaghe o troppo brevi possono restituire risultati di qualità inferiore o non richiamare l’agente.
 
 Per utilizzare le abilità agente sandbox:
 
-1. Passare a **[!UICONTROL CX Collaboratore]**.
+1. Passa a **[!UICONTROL CX Coworker]**.
 1. Immettere una descrizione chiara di ciò che si desidera eseguire. Ad esempio:
 
    *&quot;Sposta il membro dello schema Fedeltà Platinum dalla sandbox corrente alla sandbox demo Acme.&quot;*
@@ -64,7 +62,7 @@ Per utilizzare le abilità agente sandbox:
 
    ![Pagina Trasferimento completato che mostra lo stato della richiesta.](./assets/sandbox-tooling/transfer-complete.png)
 
-Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per ulteriori informazioni sull&#39;utilizzo di CX Coworker, vedere la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Casi d’uso supportati {#supported-use-cases}
 
@@ -74,7 +72,7 @@ Scopri i modi più comuni per utilizzare le competenze degli agenti sandbox per 
 
 In qualità di amministratore sandbox che gestisce più sandbox di Adobe Experience Platform, puoi migrare i metadati dell’oggetto utilizzando richieste in linguaggio naturale anziché navigare manualmente nell’interfaccia utente.
 
-Utilizzando CX Coworker, è possibile migrare i metadati dell’oggetto, inclusi schemi, tipi di pubblico e risorse di configurazione correlate, da una sandbox all’altra descrivendo la migrazione in linguaggio naturale. Sandbox Tooling Agent Skills identifica e crea automaticamente un pacchetto delle dipendenze richieste, contribuendo a garantire una migrazione affidabile.
+Utilizzando CX Coworker, puoi migrare i metadati dell’oggetto, inclusi schemi, tipi di pubblico e risorse di configurazione correlate, da una sandbox all’altra descrivendo la migrazione in linguaggio naturale. Sandbox Tooling Agent Skills identifica e crea automaticamente un pacchetto delle dipendenze richieste, contribuendo a garantire una migrazione affidabile.
 
 Ad esempio:
 

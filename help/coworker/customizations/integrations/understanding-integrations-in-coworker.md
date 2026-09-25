@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 240
 last-substantial-update: 2026-09-22
 jira: KT-22447
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Dai un’occhiata a una breve panoramica sulle integrazioni in Coworker, per scoprire cosa è un’integrazione, perché usarne una e come utilizzarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503744/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503751/?captions=ita&learn=on&enablevpops)

@@ -1,6 +1,6 @@
 ---
 title: Che cosa sono le abilità?
-description: Scopri in che modo le abilità di Adobe CX Customer Workbook aiutano i team a standardizzare l’orchestrazione dell’esperienza del cliente, automatizzare flussi di lavoro ricorrenti e fornire risultati coerenti utilizzando playbook basati sull’intelligenza artificiale riutilizzabili.
+description: Scopri le competenze di Adobe CX Coworker, playbook riutilizzabili che standardizzano i flussi di lavoro e forniscono risultati coerenti tra conversazioni e utenti.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,13 +9,12 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 
 # Quali sono le abilità di Coworker?
 

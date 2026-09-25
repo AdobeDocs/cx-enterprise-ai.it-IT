@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer e Coworker - Genera Percorsi
-description: Scopri come Coworker aiuta gli esperti di marketing a creare percorsi Adobe Journey Optimizer utilizzando semplici prompt in linguaggio naturale.
+description: Scopri come creare percorsi Adobe Journey Optimizer da prompt in linguaggio naturale con Coworker.
 feature: AI Tools
 role: User
 level: Beginner
@@ -14,13 +14,13 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 ---
 
-# Come generare Percorsi Adobe Journey Optimizer dai prompt del linguaggio naturale
+# Generare percorsi Adobe Journey Optimizer dai prompt del linguaggio naturale
 
 La creazione di percorsi di clienti in genere richiede un’ampia configurazione per attivatori, regole di tempistica, canali, logica decisionale e passaggi di messaggistica. Questo video illustra come Coworker semplifica il processo trasformando una descrizione in linguaggio semplice in un percorso completamente elaborato in Adobe Journey Optimizer.
  
