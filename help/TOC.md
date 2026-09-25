@@ -6,9 +6,9 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 17%
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 17%
       - Contenuto verificato {#content-advisor}
         - [Generare risorse di marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Verifica della conformità del marchio](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Creare pagine AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personalizzazioni {#customizations}
     - [Panoramica](./coworker/customizations/overview.md)
     - Competenza {#skills}
@@ -111,5 +112,5 @@ ht-degree: 17%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
