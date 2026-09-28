@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # Best practice per la richiesta di informazioni {#best-practices}
@@ -18,9 +18,9 @@ Per ottenere il massimo dalle campagne di Coworker, inizia da come viene richies
 
 >[!NOTE]
 >
->Al momento, è possibile connettersi solo alle integrazioni supportate da Campaign.  Se disponi di applicazioni Adobe Enterprise esistenti, in cui vengono archiviati i tipi di pubblico o vengono creati percorsi, ti invitiamo a utilizzare [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md).
+>Al momento, è possibile connettersi solo alle integrazioni supportate da Campagne Coworker. Se disponi di applicazioni Adobe Enterprise esistenti, in cui vengono archiviati i tipi di pubblico o vengono creati percorsi, ti invitiamo a utilizzare [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md).
 
-## Utilizzare il framework CO-STAR {#costar-framework}
+## Utilizzare il framework CO-STAR
 
 Per ottenere risultati ottimali, organizzare le richieste utilizzando il framework CO-STAR. Questo approccio strutturato assicura che l’intelligenza artificiale comprenda esattamente ciò di cui hai bisogno.
 
@@ -33,7 +33,7 @@ Per ottenere risultati ottimali, organizzare le richieste utilizzando il framewo
 | **A - Pubblico** | Pubblico di destinazione | Assicura che il messaggio risuonino con le persone giuste |
 | **R - Requisiti** | Vincoli specifici o requisiti obbligatori | Definisce limiti ed elementi critici |
 
-## Nozioni di base sui prompt di IA {#key-takeaways}
+## Nozioni di base sui prompt di IA
 
 ### Cosa fare e cosa non fare
 
@@ -114,7 +114,7 @@ Queste richieste sono **non** supportate e devono essere gestite tramite altri s
 </tbody>
 </table>
 
-### Lista di controllo qualità {#quality-checklist}
+### Lista di controllo qualità
 
 Prima di generare il contenuto, verifica quanto segue:
 
@@ -122,7 +122,7 @@ Prima di generare il contenuto, verifica quanto segue:
 
 ✓ **Pubblico di destinazione definito**: specifica il gruppo demografico, la mansione o il segmento.
 
-✓ **Marchio corretto assegnato come predefinito**: sono selezionate le linee guida del marchio appropriate.
+✓ **Correzione del brand assegnato come predefinito**: sono state selezionate le linee guida del brand appropriate.
 
 ✓ **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
 
@@ -160,6 +160,22 @@ Fornisci sempre contesto e proposta di valore in modo che l’intelligenza artif
 </tr>
 </tbody>
 </table>
+
+## Idee generali sui prompt di marketing
+
+### Content marketing
+
+- &quot;Genera 20 argomenti di blog che rispondono alle domande comuni dei nuovi acquirenti&quot;.
+- &quot;Brainstorm LinkedIn pubblica idee per una startup B2B di sicurezza informatica.&quot;
+- &quot;Creare un calendario di contenuti di tre mesi incentrato sulla formazione dei nuovi clienti&quot;.
+- &quot;Suggerisci temi di contenuto che possono essere riadattati in blog, video, newsletter e post di social network.&quot;
+
+### E-mail marketing
+
+- &quot;Genera una sequenza e-mail di benvenuto per i nuovi abbonati interessati a una moda sostenibile.&quot;
+- &quot;Brainstorm soggetto linee che creano curiosità senza suonare come clickbait.&quot;
+- &quot;Suggerisci idee per campagne di ricoinvolgimento per i clienti inattivi.&quot;
+- &quot;Crea idee e-mail sul ciclo di vita per gli utenti che hanno completato l’onboarding.&quot;
 
 >[!MORELIKETHIS]
 >
