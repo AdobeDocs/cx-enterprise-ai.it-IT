@@ -6,7 +6,7 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -51,10 +51,10 @@ ht-degree: 17%
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
       - Avvisi {#alerts}
         - [Competenze di avviso cliente](./agents/customer-alerts.md)
-      - Contenuto verificato {#content-advisor}
-        - [Generare risorse di marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Verifica della conformità del marchio](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [Creare pagine AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+      - Visibilità del brand {#brand-visibility}
+        - [Generare risorse di marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Verifica della conformità del marchio](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Creare pagine AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Flusso di lavoro e pianificazione {#workflow-and-planning}
         - [Pianificare il lancio di una campagna digitale](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personalizzazioni {#customizations}
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
