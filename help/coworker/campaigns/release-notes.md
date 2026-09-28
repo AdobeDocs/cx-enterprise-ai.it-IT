@@ -3,20 +3,45 @@ description: Scopri i miglioramenti e le correzioni introdotti nelle note sulla 
 title: Note sulla versione delle campagne CX Enterprise Collaborator
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
 # Note sulla versione delle campagne Adobe CX Enterprise Collaborator {#release-notes}
 
 I rilasci delle campagne di collaborazione funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
 ## Settembre 2026 {#sep-2026}
+
+**Data di rilascio: 17 settembre 2026**
+
+* Connettere un’area di lavoro Databricks ospitata su Azure, GCP o un dominio personalizzato
+* Non è più possibile avviare le campagne finché il relativo flusso di lavoro non è completamente configurato
+* I modelli di campagna sono stati aggiornati con il contenuto aggiornato
+* Scegli un connettore direttamente durante il caricamento del file CSV dell’elenco contatti
+* È stato corretto un arresto anomalo che poteva verificarsi dopo lo scorrimento di un lungo elenco di iscrizioni di prova
+* È stato risolto un problema che poteva causare l’arresto anomalo della pagina durante il caricamento di un file CSV di un pubblico con intestazioni vuote o duplicate
+* È stato corretto il testo segnaposto in un prompt della campagna che non veniva compilato dopo la risoluzione
+* È stato corretto un arresto anomalo nella pagina Abilità causato da una sfumatura di colore mancante
+* È stata corretta la situazione in cui la chat si bloccava ripetendo la stessa domanda dopo aver già risposto
+* Le risposte di chat non mostrano più un prefisso dell’ID randagio di fronte alla risposta selezionata
+* La chat ora suggerisce risposte rapide al passaggio successivo che puoi toccare per riempire la casella di composizione
+* I modelli di campagna ora si aprono in una visualizzazione semplificata all’interno della pagina invece di una finestra di dialogo separata
+* La barra di avanzamento della chat espansa ora scorre internamente invece di portare la conversazione fuori dalla vista
+* Le impostazioni di Campaign ora riflettono più accuratamente i dettagli più recenti della bacheca
+* La finestra di dialogo del piano di aggiornamento ora utilizza un aspetto più coerente
+* È stato rimosso un indicatore di stato ridondante dall’intestazione del piano della campagna per un aspetto più pulito
+* Le modifiche rapide delle e-mail ora vengono salvate insieme come una singola voce di cronologia delle versioni invece di molte
+* Titoli di kit di marchi fissi che occasionalmente scompaiono durante la generazione di una bozza
+* Modificare un’immagine con Adobe Express direttamente dalla barra degli strumenti delle immagini
+* I dati del pubblico dell’agente di base ora rimangono sincronizzati sulla bacheca della campagna senza un aggiornamento manuale
+* I loghi dei marchi sulla bacheca della campagna sono ritagliati in modo più preciso per adattarsi al loro spazio
+* Un passaggio di consegne più fluido quando il piano della campagna si sposta sulla bacheca della campagna
 
 **Data di rilascio: 3 settembre 2026**
 
@@ -42,7 +67,7 @@ I rilasci delle campagne di collaborazione funzionano su un modello di distribuz
 * I controlli della barra degli strumenti ora vengono bloccati in modo appropriato durante l’applicazione di suggerimenti di testo o immagini AI
 * È stato risolto un problema a causa del quale la sostituzione di un’immagine nell’editor risorse non funzionava correttamente
 
-## agosto 2026 {#aug-2026}
+## Agosto 2026 {#aug-2026}
 
 **Data di rilascio: 26 agosto 2026**
 
