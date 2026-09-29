@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Dopo aver creato e pianificato la campagna, scopri come avviarla.
 
 1. Nella campagna completata, fai clic su **Rivedi e avvia**.
 
-SCHERMATA
+   SCHERMATA
 
->[!NOTE]
->
->Se manca qualcosa, viene visualizzata una finestra di dialogo in cui sono elencati gli elementi da completare. Apportare le correzioni e selezionare di nuovo **Rivedi e avvia**.
+   >[!NOTE]
+   >
+   >Se manca qualcosa, viene visualizzata una finestra di dialogo in cui sono elencati gli elementi da completare. Apportare le correzioni e selezionare di nuovo **Rivedi e avvia**.
 
 1. Dopo che la campagna ha superato il controllo di fattibilità, si apre la finestra di dialogo di lancio con un’anteprima dell’e-mail e del pubblico.
 
@@ -42,9 +42,7 @@ SCHERMATA
 
 SCHERMATA
 
-&#x200B;>>
->
->Non consente il lancio di una campagna con un pubblico di esempio (non reale), bozze e-mail che non sono state verificate o impostazioni di invio non configurate
+Non consente il lancio di una campagna con un pubblico di esempio (non reale), bozze e-mail che non sono state verificate o impostazioni di invio non configurate
 
 ### Aspetti da considerare
 
