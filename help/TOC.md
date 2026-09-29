@@ -6,7 +6,7 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -51,12 +51,12 @@ ht-degree: 17%
         - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
       - Avvisi {#alerts}
         - [Competenze di avviso cliente](./agents/customer-alerts.md)
-      - Contenuto verificato {#content-advisor}
-        - [Generare risorse di marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Verifica della conformità del marchio](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Visibilità del brand {#brand-visibility}
+        - [Generare risorse di marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Verifica della conformità del marchio](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Creare pagine AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Flusso di lavoro e pianificazione {#workflow-and-planning}
         - [Pianificare il lancio di una campagna digitale](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [Creare pagine AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personalizzazioni {#customizations}
     - [Panoramica](./coworker/customizations/overview.md)
     - Competenza {#skills}
