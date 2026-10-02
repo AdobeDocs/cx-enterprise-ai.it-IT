@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -32,15 +32,15 @@ Dopo aver creato e pianificato la campagna, scopri come avviarla.
 
 1. Dopo che la campagna ha superato il controllo di fattibilità, si apre la finestra di dialogo di lancio con un’anteprima dell’e-mail e del pubblico.
 
-SCHERMATA
+   SCHERMATA
 
 1. Rivedi la pianificazione mostrata nella finestra di dialogo. Per modificarlo, usa le opzioni di pianificazione descritte in [Pianifica all&#39;avvio di una campagna](/help/coworker/campaigns/schedule-campaign.md), quindi fai clic su **Salva**.
 
-SCHERMATA
+   SCHERMATA
 
 1. Al termine, fai clic su **Avvia campagna**.
 
-SCHERMATA
+   SCHERMATA
 
 Non consente il lancio di una campagna con un pubblico di esempio (non reale), bozze e-mail che non sono state verificate o impostazioni di invio non configurate
 
