@@ -1,6 +1,6 @@
 ---
 title: IA nelle applicazioni CX Enterprise
-description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti Generative AI (GenAI), CX Enterprise Coworker, AI Assistant, AI agente e MCP.
+description: Scopri in che modo le applicazioni CX Enterprise utilizzano gli strumenti di intelligenza artificiale generativa (GenAI), CX Enterprise Coworker, AI Assistant, AI agente e MCP.
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 2%
@@ -36,14 +36,14 @@ Questa guida descrive le funzionalità di intelligenza artificiale in Adobe CX E
 
 ## Panoramica delle funzionalità di intelligenza artificiale
 
-Inizia qui per un primer su dove e come viene utilizzata l&#39;intelligenza artificiale in CX Enterprise:
+Inizia qui per un primer su dove e come l’intelligenza artificiale viene utilizzata in CX Enterprise:
 
 - [Informazioni sull&#39;intelligenza artificiale generativa](./overview/generative-ai.md) descrive quali applicazioni CX Enterprise supportano l&#39;intelligenza artificiale generativa e l&#39;Assistente all&#39;intelligenza artificiale e come si confrontano.
 - [Informazioni sull&#39;IA per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;utilizzo per l&#39;analisi per l&#39;utilizzo per l&#39;analisi per l&#39;analisi per l&#39;utilizzo per l&#39;utilizzo per le applicazioni CX Enterprise esistenti e per le applicazioni IA-first.](./overview/agentic-ai.md)
 - Il monitoraggio di [IA](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte degli agenti.
 - [Consumo crediti AI](./overview/ai-credit-consumption.md) spiega come i processi agente utilizzano i crediti AI, con tassi di consumo stimati per agente e tipo di processo.
-- [Trasparenza dei contenuti di IA generativa](./content-transparency.md) spiega in che modo Adobe associa automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni aziendali CX.
-- [Gli strumenti per agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) includono ulteriori competenze e strumenti per l&#39;agente che estendono gli agenti di CX Enterprise (esercitazioni video).
+- [Trasparenza dei contenuti di IA generativa](./content-transparency.md) spiega in che modo Adobe associa automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni CX Enterprise.
+- [Gli strumenti per agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) includono ulteriori competenze e strumenti per agenti che estendono gli agenti di CX Enterprise (esercitazioni video).
 
 ## Collaboratore
 
@@ -59,7 +59,7 @@ I clienti idonei vengono gradualmente trasferiti da Assistente AI e Agenti Exper
 
 Per visualizzare la chat di Coworker in azione, segui [Chat di Coworker in Playground](./coworker/playground-coworker-chat.md), oppure leggi casi d&#39;uso reali come [Convalidare i dati di migrazione da AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [convalidare i dati di Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md) e [Analizzare i dati di CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
-Per la documentazione completa sul prodotto Chat con collaboratori, Collaboratore per team (Campagne con collaboratori) e Progetti, vedi [Collaboratore](./coworker/overview.md). Per la replica degli oggetti sandbox-to-sandbox, vedere [Sandbox Tooling Agent Skills](./agents/sandbox-tooling.md).
+Per la documentazione completa sul prodotto Chat con collaboratori, Collaboratore per team (Campagne con collaboratori) e Progetti, vedi [Collaboratore](./coworker/overview.md). Per la replica degli oggetti sandbox-to-sandbox, vedere [Sandbox Tooling Agent Skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
 
 ## Assistente IA
 
@@ -87,7 +87,7 @@ Per l&#39;elenco completo degli agenti, delle applicazioni supportate da ciascun
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Unified Model Context Protocol) per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto che la tua organizzazione è autorizzata a utilizzare:
+[Adobe CX Coworker Gateway](./mcp/overview.md) è l&#39;endpoint MCP (Model Context Protocol) unificato per CX Enterprise. Offre ai client compatibili con MCP, come [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], un&#39;unica connessione gestita agli strumenti di prodotto che la tua organizzazione è autorizzata a utilizzare:
 
 - [Strumenti Real-Time CDP](./mcp/rtcdp-mcp.md)
 - [Strumenti di Experience Platform](./mcp/aep-mcp.md)
@@ -97,7 +97,7 @@ Per l&#39;elenco completo degli agenti, delle applicazioni supportate da ciascun
 - [!DNL Workfront] strumenti, documentati nella [guida del server Workfront MCP](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - [!DNL Target] strumenti, documentati nella [Guida del server MCP di Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
 
-Ti avvicini ora a CX Customer Gateway? Consultare [Accedere agli strumenti del gateway di lavoro CX](./mcp/access.md) e [Installare il gateway di lavoro CX](./mcp/install.md) per connettersi. Una volta effettuata la connessione, utilizzare gli [strumenti di contesto sessione](./mcp/context-tools.md) per impostare l&#39;organizzazione attiva, la sandbox e la visualizzazione dati prima di richiamare gli strumenti prodotto.
+Ti avvicini ora a CX Coworker Gateway? Vedere [Accedere agli strumenti di CX Coworker Gateway](./mcp/access.md) e [Installare CX Coworker Gateway](./mcp/install.md) per connettersi. Una volta effettuata la connessione, utilizzare gli [strumenti di contesto sessione](./mcp/context-tools.md) per impostare l&#39;organizzazione attiva, la sandbox e la visualizzazione dati prima di richiamare gli strumenti prodotto.
 
 Prima di utilizzare uno di questi strumenti, vedere [Prima di iniziare](./overview/overview-ai-cxe.md#before-you-begin) per i requisiti di accesso e le considerazioni sulla privacy e sulla sicurezza.
 
@@ -115,5 +115,5 @@ Per ottenere il massimo valore dall’esperienza di Assistente AI o Collaborator
 
 L’Assistente per l’intelligenza artificiale attualmente supporta solo le risposte in inglese e i modelli di lingua a volte commettono errori. Verifica sempre le informazioni fornite e utilizza i passaggi di ragionamento inclusi in ogni risposta per capire come sono state generate. Per informazioni dettagliate, leggere la [liberatoria legale](./ai-assistant/legal-disclaimer.md).
 
-Adobe allega inoltre automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni aziendali CX, per soddisfare le normative generiche sulla trasparenza dell&#39;intelligenza artificiale. Per ulteriori dettagli, leggere [Trasparenza contenuti di IA generativa](./content-transparency.md).
+Adobe allega inoltre automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni CX Enterprise, per soddisfare le normative sulla trasparenza dell’intelligenza artificiale. Per ulteriori dettagli, leggere [Trasparenza contenuti di IA generativa](./content-transparency.md).
 

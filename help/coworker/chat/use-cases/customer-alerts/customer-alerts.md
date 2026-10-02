@@ -1,7 +1,7 @@
 ---
 title: Abilità di avviso cliente
 description: Scopri come utilizzare le abilità di avviso dei clienti in CX Coworker per rivedere, analizzare e assegnare priorità alle attività di avviso tramite conversazioni in linguaggio naturale.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
@@ -11,11 +11,11 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
-> Le capacità di segnalazione dei clienti sono disponibili per tutti i clienti che hanno accesso a Adobe CX Enterprise Collaborator.
+> Le abilità di avviso del cliente sono disponibili per tutti i clienti con accesso ad Adobe CX Enterprise Coworker.
 >
 > Per utilizzare le Abilità per gli avvisi dei clienti, devi avere accesso agli avvisi di Adobe Experience Platform e alle risorse associate a tali avvisi.
 
-Utilizza le abilità di avviso del cliente in CX per trasformare l’attività di avviso in un briefing operativo personalizzato. Rivedi gli avvisi recenti, individua i problemi ad alta priorità, capisci quali risorse sono interessate e concentra gli sforzi di indagine attraverso conversazioni in linguaggio naturale.
+Utilizza le abilità di avviso del cliente in CX Coworker per trasformare l’attività di avviso in un briefing operativo personalizzato. Rivedi gli avvisi recenti, individua i problemi ad alta priorità, capisci quali risorse sono interessate e concentra gli sforzi di indagine attraverso conversazioni in linguaggio naturale.
 
 Le abilità di avviso del cliente consentono di passare dai segnali di avviso a informazioni fruibili senza rivedere manualmente le visualizzazioni degli avvisi o correlare le informazioni tra più interfacce. Inizia con una domanda ampia sulle recenti attività di avviso, quindi utilizza le domande di follow-up per identificare pattern di avviso ricorrenti, analizzare gli oggetti interessati e concentrarsi sugli avvisi di tua proprietà.
 
@@ -27,7 +27,7 @@ Prima di iniziare, assicurati di avere:
 
 - Accesso a Adobe Experience Platform.
 - Autorizzazione a visualizzare gli avvisi relativi alla tua organizzazione.
-- Il plug-in Adobe CXO installato in CX Collaborator.
+- Il plug-in Adobe CXO installato in CX Coworker.
 
 Per istruzioni sull’installazione dei plug-in, consulta https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
@@ -37,7 +37,7 @@ Interagisci con le abilità di avviso del cliente tramite CX Coworker utilizzand
 
 Per utilizzare le Abilità per gli avvisi dei clienti:
 
-1. Passare a **[!UICONTROL CX Collaboratore]**.
+1. Passa a **[!UICONTROL CX Coworker]**.
 
 1. Immettere una domanda o una richiesta relativa agli avvisi. Ad esempio:
 

@@ -2,11 +2,11 @@
 audience: user
 user-guide-title: IA in CX Enterprise
 user-guide-description: Scopri come creare, configurare, integrare ed estendere l’Assistente all’intelligenza artificiale, il Coworker, gli agenti e gli MCP tramite documentazione pratica, linee guida per l’implementazione e materiali di riferimento.
-description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliorate la vostra conoscenza dei prodotti e acquisite informazioni operative utilizzando l'intelligenza artificiale in CX Enterprise.
+description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliora la tua conoscenza del prodotto e acquisisci informazioni operative utilizzando l’intelligenza artificiale in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -15,8 +15,8 @@ ht-degree: 17%
 # IA in CX Enterprise {#experience-cloud-ai}
 
 - [IA in CX Enterprise](home.md)
-- Informazioni sull&#39;intelligenza artificiale in CX Enterprise {#overview}
-  - [Informazioni sull&#39;intelligenza artificiale in CX Enterprise](./overview/overview-ai-cxe.md)
+- Informazioni sull’intelligenza artificiale in CX Enterprise {#overview}
+  - [Informazioni sull’intelligenza artificiale in CX Enterprise](./overview/overview-ai-cxe.md)
   - [Informazioni sull’intelligenza artificiale generativa](./overview/generative-ai.md)
   - [Informazioni sull’intelligenza artificiale agente](./overview/agentic-ai.md)
   - [Informazioni sul consumo di crediti IA](./overview/ai-credit-consumption.md)
@@ -48,9 +48,9 @@ ht-degree: 17%
       - Ottimizzazione {#optimization}
         - [Avviare le attività Target](./coworker/chat/use-cases/optimization/target.md)
       - Strumenti sandbox {#sandbox-tooling}
-        - [Competenze degli agenti di gestione degli strumenti sandbox](./agents/sandbox-tooling.md)
+        - [Competenze degli agenti di gestione degli strumenti sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Avvisi {#alerts}
-        - [Competenze di avviso cliente](./agents/customer-alerts.md)
+        - [Competenze di avviso cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilità del brand {#brand-visibility}
         - [Generare risorse di marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Verifica della conformità del marchio](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)

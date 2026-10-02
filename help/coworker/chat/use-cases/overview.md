@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '7039'
 ht-degree: 6%
@@ -293,7 +293,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 | Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
-| [Spostamento di oggetti tra sandbox](/help/agents/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; <br> &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
+| [Spostamento di oggetti tra sandbox](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; <br> &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
 
 ## Avvisi cliente
 
