@@ -1,37 +1,37 @@
 ---
 title: Analizzare i dati di Customer Journey Analytics con la chat del collaboratore
-description: Scopri come utilizzare Adobe CX Enterprise Collaborator Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
+description: Scopri come utilizzare Adobe CX Enterprise Coworker Chat per analizzare i dati di Customer Journey Analytics, creare funnel e individuare i punti di contatto dei clienti nel percorso.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a235d262125070fd8655543d0ae35c6b2465e8cc
 workflow-type: tm+mt
-source-wordcount: 3210
+source-wordcount: '3338'
 ht-degree: 3%
-
 ---
+# Analizzare i dati di Adobe CX Analytics con Chat con i collaboratori
 
-# Analizzare i dati di Customer Journey Analytics con Chat con i collaboratori
-
-Adobe CX Enterprise Collaborator Chat può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics, consentendoti di esplorarli e ottenere risposte a prompt in linguaggio naturale.
+Adobe CX Enterprise Coworker Chat può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics o dalle suite di rapporti di Adobe Analytics, consentendoti di esplorare tali dati e ottenere risposte alle richieste in linguaggio naturale.
 
 Puoi utilizzare Chat con i collaboratori in due modi, a seconda della quantità di analisi necessaria:
 
 * **Risposte rapide** - Fai una domanda diretta in un linguaggio semplice e ottieni una risposta immediata. Gli utenti aziendali utilizzano spesso la chat con collaboratori in questo modo, e gli analisti la utilizzano anche quando hanno bisogno di una risposta rapida per una parte interessata.
 * **Lavoro approfondito** - Parla a più riprese con Chat collaboratore per indagare su un problema di business, escludere le cause e arrivare a un consiglio. In genere, gli analisti utilizzano questo approccio per esplorare i dati in modo approfondito prima di creare un consiglio.
 
-Prima di iniziare, scopri l’interfaccia e le opzioni di configurazione di Chat per collaboratori, quindi assicurati che Cooker sia connesso a Customer Journey Analytics e alla visualizzazione dati rilevante.
+Prima di iniziare, scopri l’interfaccia e le opzioni di configurazione di Chat per collaboratori, quindi assicurati che Cooker sia connesso a Customer Journey Analytics o Adobe Analytics e alle relative visualizzazioni dati o suite di rapporti.
 
 ## Introduzione alla chat con i collaboratori
 
 ### Accesso ai dati e autorizzazioni
 
-La chat per collaboratori eredita le autorizzazioni da Customer Journey Analytics. Puoi accedere solo alle visualizzazioni dati, alle dimensioni, alle metriche e ai segmenti disponibili in Analysis Workspace.
+La chat per collaboratori eredita le autorizzazioni da Customer Journey Analytics o Adobe Analytics. Puoi accedere solo alle visualizzazioni dati, alle suite di rapporti, alle dimensioni, alle metriche e ai segmenti disponibili in Analysis Workspace.
 
 ### Opzioni di interfaccia e configurazione
 
-Prima di utilizzare Chat con collaboratori con i dati di Customer Journey Analytics, scopri come accedere e gestire le opzioni di configurazione per le seguenti funzioni:
+Prima di utilizzare Chat con collaboratori con i dati di Customer Journey Analytics o Adobe Analytics, scopri come accedere e gestire le opzioni di configurazione per le seguenti funzioni:
 
 * Input chat
 * Conversazioni
@@ -65,7 +65,7 @@ Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Ch
 * Quando crei un prompt, specifica il più possibile:
 
   * Denomina le dimensioni, le metriche e l’intervallo di date che desideri analizzare.
-  * Fai riferimento ai componenti della visualizzazione dati in base al loro nome esatto.
+  * Fai riferimento ai componenti in base al loro nome esatto.
   * Specifica i segmenti, i tipi di pubblico, i canali o i dispositivi da includere, escludere o confrontare.
   * Specifica se desideri un tipo di visualizzazione specifico, ad esempio una tabella funnel, di tendenza o di coorte.
   * Chiedi i passaggi successivi consigliati se desideri che Chat con collaboratori suggerisca domande di follow-up.
@@ -76,7 +76,7 @@ Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente di Ch
   * Denomina la suite di rapporti e la visualizzazione dati specifiche che desideri confrontare durante la convalida dei dati.
   * Completa prima un’analisi, quindi chiedi a Chat collaboratore di salvarla come abilità, assegnandogli un nome chiaro e descrittivo e annotando con quale frequenza intendi riutilizzarla.
 
-* Aggiungere le indicazioni standard alla memoria Chat di Collaborator. Ad esempio, se utilizzi sempre dati provenienti dalle stesse visualizzazioni dati, aggiungilo alla memoria.
+* Aggiungere le indicazioni standard alla memoria Chat di Collaborator. Ad esempio, se utilizzi sempre dati provenienti dalle stesse visualizzazioni di dati o suite di rapporti, aggiungilo alla memoria.
 
 ## Verifica che Chat con i collaboratori sia connessa a Customer Journey Analytics
 
@@ -88,15 +88,15 @@ In Chat con collaboratori, verifica che Coworker sia connesso a Customer Journey
 
 1. (Condizionale) Se [!UICONTROL **cja-mcp**] non è ancora connesso, selezionare [!UICONTROL **Aggiungi server MCP**], specificare cja nel campo [!UICONTROL **Nome server**] e selezionarlo quando viene visualizzato, quindi selezionare [!UICONTROL **Aggiungi server**].
 
-## Connettersi alla visualizzazione dati corretta
+## Connettersi alla giusta visualizzazione dati o suite di rapporti
 
-Una visualizzazione dati è un contenitore in Customer Journey Analytics che determina il modo in cui i dati vengono interpretati.
+Una visualizzazione dati è un contenitore in Customer Journey Analytics che determina il modo in cui i dati vengono interpretati. Una suite di rapporti è un contenitore in Adobe Analytics che contiene i dati raccolti dai siti e dalle app.
 
-Potresti avere accesso a varie visualizzazioni dati in Customer Journey Analytics, ciascuna contenente dimensioni e metriche diverse che puoi utilizzare durante l’analisi dei dati.
+Potresti avere accesso a varie visualizzazioni dati in Customer Journey Analytics o a suite di rapporti in Adobe Analytics. Ciascuno può contenere dimensioni e metriche diverse che possono essere utilizzate da Collaboratore durante l’analisi dei dati.
 
-### Decidere quali visualizzazioni dati utilizzare
+### Decidere quali visualizzazioni dati o suite di rapporti utilizzare
 
-Comunica al collega i tipi di domande a cui desideri rispondere e chiedi a quali visualizzazioni dati hai accesso che forniscano tali informazioni. Puoi anche [impostare la visualizzazione dati come preferenza in memoria](#add-a-data-view-preference-in-memory).
+Comunica al collega i tipi di domande a cui desideri rispondere e chiedi a quali visualizzazioni di dati o suite di rapporti hai accesso e a quali forniscano tali informazioni. Puoi anche [impostare la visualizzazione dati o la suite di rapporti come preferenza in memoria](#add-a-data-view-or-report-suite-preference-in-memory).
 
 **Utente:**
 
@@ -130,13 +130,13 @@ Ok, utilizzerò la visualizzazione dati `Customer lifecycle` per rispondere a do
 
 >[!ENDSHADEBOX]
 
-### Aggiungere una preferenza per la visualizzazione dati in memoria
+### Aggiungere una visualizzazione dati o una preferenza della suite di rapporti in memoria
 
-La chat di Coworker contiene una funzione di memoria che ti consente di fornire accesso a informazioni che si estendono su tutte le chat. È buona prassi aggiungere le visualizzazioni dati preferite come preferenze nella memoria di Coworker.
+La chat di Coworker contiene una funzione di memoria che ti consente di fornire accesso a informazioni che si estendono su tutte le chat. È buona prassi aggiungere le visualizzazioni dati o le suite di rapporti preferite come preferenze nella memoria di Coworker.
 
 1. In Chat con collaboratori, nella barra di navigazione a sinistra, seleziona l’icona Memoria.
 
-1. Nella sezione [!UICONTROL **Preferenze memorizzate**] della pagina Memoria specificare una o più visualizzazioni dati che si desidera vengano utilizzate nelle chat di Chat.
+1. Nella sezione [!UICONTROL **Preferenze memorizzate**] della pagina Memoria specificare una o più visualizzazioni dati o suite di rapporti che si desidera utilizzare nelle chat di Coworker Chat.
 
    ![Sezione memoria nella barra a sinistra](../../assets/coworker-memory.png)
 
@@ -154,51 +154,57 @@ Per aprire una visualizzazione in un nuovo progetto Analysis Workspace:
 
 ### Casi d’uso per Customer Journey Analytics
 
-È possibile visualizzare casi di utilizzo di Customer Journey Analytics e esempi di prompt utilizzati dai professionisti in Adobe CX Enterprise Collaborator Chat, dalle risposte rapide alle indagini di lavoro approfondite. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
+Puoi visualizzare casi di utilizzo di Customer Journey Analytics e esempi di prompt utilizzati dagli utenti in Adobe CX Enterprise Coworker Chat, da risposte rapide a indagini di lavoro approfondite. Ogni prompt viene creato per essere copiato, adattato con i propri dati e contesto e perfezionato attraverso la conversazione.
 
 Per ulteriori informazioni, vedi [Casi d&#39;uso](/help/coworker/chat/use-cases/overview.md).
 
 ## Competenze di Analytics
 
-Per l’analisi dei dati Customer Journey Analytics sono disponibili le seguenti competenze.
+Per l’analisi dei dati Customer Journey Analytics o Adobe Analytics sono disponibili le seguenti competenze.
 
 ### Eseguire query e analizzare dati
 
-Questa abilità (`cja`) consente di eseguire query in Customer Journey Analytics in tempo reale e analizzare i risultati senza creare personalmente la richiesta in Analysis Workspace.
+Queste abilità ti consentono di eseguire query sui dati in tempo reale e analizzare i risultati senza creare personalmente la richiesta in Analysis Workspace:
+
+* `cja` - Query visualizzazioni dati Customer Journey Analytics
+* `aa` - Query suite di rapporti di Adobe Analytics
 
 #### Autorizzazioni richieste
 
-* Accesso in visualizzazione alla visualizzazione dati su cui si desidera eseguire la query
+* Accesso in visualizzazione alla visualizzazione dati o alla suite di rapporti in cui si desidera eseguire la query
 
 #### Casi d’uso principali
 
 | Caso d’uso | Funzione | Prompt di esempio |
 |---------|----------|---------|
-| **Estrarre report e metriche** | Esegui una query su Customer Journey Analytics in tempo reale per estrarre metriche, dimensioni, segmenti e visualizzazioni dati. | <ul><li>&quot;Mostra visualizzazioni pagina per gli ultimi 30 giorni&quot;</li><li>&quot;Elencare i segmenti principali nella visualizzazione dati principale&quot;</li></ul> |
+| **Estrarre report e metriche** | Esegui una query in tempo reale su Customer Journey Analytics o Adobe Analytics per estrarre metriche, dimensioni, segmenti, visualizzazioni dati e suite di rapporti. | <ul><li>&quot;Mostra visualizzazioni pagina per gli ultimi 30 giorni&quot;</li><li>&quot;Elencare i segmenti principali nella visualizzazione dati principale&quot;</li></ul> |
 | **Analisi comparativa** | Confronta le metriche per canali, periodi di tempo o segmenti affiancati. | <ul><li>&quot;Confronto dei ricavi per canale, mese e mese&quot;</li><li>&quot;Che aspetto ha la conversione da PC desktop a PC portatili questo trimestre?&quot;</li></ul> |
 | **Analisi Funnel** | Scopri i funnel di conversione con più passaggi e drop-off in ogni fase. | <ul><li>&quot;Passami attraverso il funnel di pagamento&quot;</li><li>&quot;Mostra funnel di conversione da PDP a acquisto&quot;</li></ul> |
 | **Previsione** | Progetta valori metrici futuri basati su dati storici. | <ul><li>&quot;Sessioni di previsione per i prossimi 30 giorni&quot;</li><li>&quot;Siamo sulla buona strada per raggiungere il nostro obiettivo di fatturato?&quot;</li></ul> |
 
 #### In ambito
 
-* Query in tempo reale di metriche, dimensioni, segmenti e visualizzazioni dati
+* Query in tempo reale di metriche, dimensioni, segmenti, visualizzazioni dati e suite di rapporti
 * Confronti affiancati tra canali, periodi di tempo o segmenti
 * Analisi di abbandono e funnel in più passaggi
 * Previsione delle metriche basata sulle tendenze storiche
 
 #### Fuori ambito
 
-* Creazione o modifica di componenti di visualizzazione dati
-* Dati esterni alle visualizzazioni dati a cui hai accesso
+* Creazione o modifica di componenti di visualizzazioni dati o suite di rapporti
+* Dati esterni alle visualizzazioni dati o alle suite di rapporti a cui hai accesso
 * Modellazione predittiva oltre la previsione delle metriche
 
 ### Analisi della causa principale
 
-Questa abilità (`cja-root-cause-analysis`) indaga il motivo per cui una metrica è cambiata, invece di segnalare semplicemente la modifica.
+Queste abilità indagano perché una metrica è cambiata invece di segnalare semplicemente che è cambiata:
+
+* `cja-root-cause-analysis` - Analizzare le modifiche delle metriche nelle visualizzazioni dati di Customer Journey Analytics
+* `aa-root-cause-analysis` - Analisi delle modifiche delle metriche nelle suite di rapporti di Adobe Analytics
 
 #### Autorizzazioni richieste
 
-* Accesso alla visualizzazione dati in fase di analisi
+* Accesso alla visualizzazione dati o alla suite di rapporti in fase di analisi
 
 #### Casi d’uso principali
 
@@ -214,15 +220,15 @@ Questa abilità (`cja-root-cause-analysis`) indaga il motivo per cui una metrica
 #### Fuori ambito
 
 * Rilevamento delle anomalie non richieste (nessun avviso automatico o in tempo reale)
-* Analisi della causa principale per le metriche esterne a una visualizzazione dati a cui hai accesso
+* Analisi della causa principale per le metriche esterne a una visualizzazione dati o a una suite di rapporti a cui hai accesso
 
 ### Sintesi e digestione delle prestazioni
 
-Questa abilità (`cja-executive-summary`) genera riepiloghi dei dati Customer Journey Analytics pronti per le parti interessate.
+Questa abilità (`cja-executive-summary`) genera riepiloghi pronti per le parti interessate dei tuoi dati Customer Journey Analytics o Adobe Analytics.
 
 #### Autorizzazioni richieste
 
-* Accesso in visualizzazione alla visualizzazione dati o alle visualizzazioni dati coperte nel riepilogo
+* Accesso in visualizzazione alle visualizzazioni dati o alle suite di rapporti incluse nel riepilogo
 
 #### Casi d’uso principali
 
@@ -239,7 +245,7 @@ Questa abilità (`cja-executive-summary`) genera riepiloghi dei dati Customer Jo
 #### Fuori ambito
 
 * Creazione della presentazione diapositive o del file di presentazione finale
-* Riepiloghi che si estendono su visualizzazioni dati a cui non hai accesso
+* Riepiloghi che si estendono su visualizzazioni dati o suite di rapporti a cui non hai accesso
 
 ### Convalida dei dati con Adobe Analytics
 
@@ -287,7 +293,7 @@ Questa abilità (`cja-skill-creator`) trasforma un&#39;analisi già eseguita in 
 #### Fuori ambito
 
 * Condivisione automatica di un’abilità salvata con altri utenti (le librerie di abilità a livello di organizzazione richiedono l’impostazione dell’amministratore)
-* Modifica dei componenti della visualizzazione dati a cui fa riferimento un’abilità
+* Modifica dei componenti della visualizzazione dati o della suite di rapporti a riferimenti di abilità
 
 ## Esempio: individuare il punto di partenza dei clienti
 
