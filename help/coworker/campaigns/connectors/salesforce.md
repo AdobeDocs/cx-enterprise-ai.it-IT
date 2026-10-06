@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Connetti a Salesforce {#salesforce}
 
-Campagne Adobe Collaborator consente di collegare il tuo account Salesforce a...
+Campagne Adobe Collaborator consente di collegare il tuo account Salesforce per accedere ai lead e ai contatti.
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Campagne Adobe Collaborator consente di collegare il tuo account Salesforce a...
 
    ![](./assets/salesforce-4.png)
 
-Dopo la connessione, Salesforce viene visualizzato nell&#39;elenco Connettori E DI NUOVO?
+Dopo la connessione, Salesforce viene visualizzato nell&#39;elenco Connettori e può essere selezionato quando si collega un elenco di lead o contatti da sincronizzare da Salesforce.
 
 **Per disconnettersi:**
 

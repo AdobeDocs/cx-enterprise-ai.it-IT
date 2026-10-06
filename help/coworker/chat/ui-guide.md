@@ -4,15 +4,15 @@ title: Guida dell’interfaccia utente di Chat con i collaboratori
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # Guida all’interfaccia utente {#ui-guide}
 
 Diventa orientato con l’interfaccia di Chat con i collaboratori. Questa guida tratta tutte le operazioni, dall’accesso all’app, alla navigazione nell’area di lavoro, fino al massimo dalle conversazioni, alla gestione della cronologia e alla personalizzazione della configurazione.
@@ -29,23 +29,23 @@ Quando la tua organizzazione ottiene l’accesso a Collaboratore, puoi utilizzar
 
 La tabella seguente indica quando queste esperienze saranno disponibili per ciascuna applicazione CX Enterprise.
 
-| Applicazione aziendale CX | Esperienza coinvolgente | Esperienza nel prodotto |
+| Applicazione CX Enterprise | Esperienza coinvolgente | Esperienza nel prodotto |
 |---|---|---|
 | RTCDP | Disponibile ora | In arrivo |
 | AJO | Disponibile ora | In arrivo |
 | CJA | Disponibile ora | In arrivo |
 | Workfront | Disponibile ora | In arrivo:<br><br>* All’inizio di settembre 2026 nell’istanza di anteprima per alcuni amministratori di sistema di Workfront idonei<br><br>* A metà settembre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio rapido<br><br>* A metà ottobre 2026 nell’istanza di produzione per clienti Workfront idonei a rilascio trimestrale |
 | Target | Disponibile ora | Disponibile ora |
-| AEM | Disponibile ora | In arrivo |
+| AEM | Disponibile ora | Disponibile ora |
 | Marketo Engage | Disponibile ora | In arrivo |
 
 ### Esperienza coinvolgente {#immersive}
 
 Accedi alla chat di Coworker passando a [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) e accedendo con le credenziali di Adobe.
 
-È inoltre possibile accedervi selezionando **Collaboratore** dal selettore delle applicazioni nell&#39;intestazione superiore di CX Enterprise.
+Puoi accedervi anche selezionando **Collaboratore** dal selettore delle applicazioni nell&#39;intestazione superiore in CX Enterprise.
 
-![Accesso a Coworker dal selettore di applicazioni CX Enterprise](./assets/ui-guide-1.png)
+![Accesso a Collaboratore dal selettore dell&#39;applicazione CX Enterprise](./assets/ui-guide-1.png)
 
 ## Scegli la tua organizzazione e sandbox
 
@@ -59,7 +59,7 @@ Selezionare il proprio nome per aprire il menu dell&#39;account, in cui è possi
 | Impostazioni | Apri le impostazioni dell’area di lavoro per visualizzare i dettagli del tuo account e altre impostazioni. |
 | Selettore organizzazione | Cambiare l’organizzazione IMS su cui opera Collaboratore. |
 | Selettore sandbox | Cambia la sandbox di AEP attiva. |
-| Applicazioni CX | Passare a un&#39;altra applicazione CX Enterprise connessa al proprio account. |
+| Applicazioni CX | Passa a un’altra applicazione CX Enterprise connessa al tuo account. |
 | Esci | Esci dal tuo account Adobe. |
 
 ![Menu account con selettore organizzazione aperto](./assets/ui-guide-2.png)
@@ -68,7 +68,7 @@ Selezionare il proprio nome per aprire il menu dell&#39;account, in cui è possi
 
 ## Scoprire l’interfaccia
 
-L&#39;interfaccia di CX Collaborator ha due aree principali: la barra di navigazione a sinistra e l&#39;area di conversazione che riempie il resto della finestra.
+L’interfaccia di CX Coworker dispone di due aree principali: la barra di navigazione a sinistra e l’area di conversazione che riempie il resto della finestra.
 
 ![Schermata iniziale](./assets/ui-guide-4.png)
 
@@ -82,7 +82,7 @@ La barra consente di accedere a ogni parte del prodotto e alle tue attività rec
 | Home | Tornate al messaggio di saluto, alla casella di input e alle richieste suggerite. |
 | Chat | Apri la cronologia completa della chat per cercare, fissare, archiviare o eliminare le conversazioni. |
 | Configurazioni | Gestisci competenze, server MCP, Marketplace, plug-in e memoria. |
-| Fissati | Conversazioni che hai interpretato, tenute in cima per un accesso rapido. Seleziona Visualizza tutto per visualizzarli nella pagina Chat. |
+| Fissate | Conversazioni che hai interpretato, tenute in cima per un accesso rapido. Seleziona Visualizza tutto per visualizzarli nella pagina Chat. |
 | Recenti | Le conversazioni più recenti. Seleziona Visualizza tutto per aprire la pagina Chat. |
 
 ## La schermata iniziale
@@ -91,7 +91,7 @@ La schermata iniziale è il punto da cui si inizia. Mostra un saluto personalizz
 
 ### Suggerimenti
 
-In Suggested for you (Suggerito per te), CX Collaborator elenca alcune attività di esempio. Seleziona un suggerimento per caricarlo nella casella di input, quindi modificalo prima di inviarlo o inviarlo così com’è. I suggerimenti sono un modo rapido per vedere i tipi di lavoro supportati da Chat di Coworker: spostare gli schemi tra sandbox, trovare anomalie in un percorso, convalidare un set di dati e altro ancora.
+In Suggested for you (Suggerito per te), CX Coworker elenca alcune attività di esempio. Seleziona un suggerimento per caricarlo nella casella di input, quindi modificalo prima di inviarlo o inviarlo così com’è. I suggerimenti sono un modo rapido per vedere i tipi di lavoro supportati da Chat di Coworker: spostare gli schemi tra sandbox, trovare anomalie in un percorso, convalidare un set di dati e altro ancora.
 
 ### Menzioni entità
 
