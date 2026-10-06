@@ -6,17 +6,17 @@ description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. 
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '391'
+ht-degree: 19%
 ---
 
 # IA in CX Enterprise {#experience-cloud-ai}
 
 - [IA in CX Enterprise](home.md)
-- Informazioni sull’intelligenza artificiale in CX Enterprise {#overview}
-  - [Informazioni sull’intelligenza artificiale in CX Enterprise](./overview/overview-ai-cxe.md)
+- Informazioni sull’IA in CX Enterprise {#overview}
+  - [Informazioni sull’IA in CX Enterprise](./overview/overview-ai-cxe.md)
   - [Informazioni sull’intelligenza artificiale generativa](./overview/generative-ai.md)
   - [Informazioni sull’intelligenza artificiale agente](./overview/agentic-ai.md)
   - [Informazioni sul consumo di crediti IA](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 17%
       - Avvisi {#alerts}
         - [Competenze di avviso cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilità del brand {#brand-visibility}
-        - [Generare risorse di marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Verifica della conformità del marchio](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Creare pagine AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assets integrato](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Generare risorse di marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Flusso di lavoro e pianificazione {#workflow-and-planning}
         - [Pianificare il lancio di una campagna digitale](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personalizzazioni {#customizations}
@@ -115,5 +116,5 @@ ht-degree: 17%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
