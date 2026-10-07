@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Convalidare i dati di Experience Platform con Collaboratore
 
-Il collaboratore include l’abilità Convalida dati che controlla la qualità dei dati dei set di dati di Experience Platform. Puoi utilizzarlo per eseguire convalide statistiche e semantiche sui set di dati, analizzare i campi dei set di dati e identificare i problemi di qualità dei dati, il tutto tramite una singola conversazione con Chat per collaboratori.
+Adobe CX Enterprise Coworker include l’abilità Convalida dati, che controlla la qualità dei dati dei set di dati di Experience Platform. Puoi utilizzarlo per eseguire convalide statistiche e semantiche sui set di dati, analizzare i campi dei set di dati e identificare i problemi di qualità dei dati, il tutto tramite una singola conversazione con Chat per collaboratori.
 
 I data engineer, gli amministratori di dati e i tecnici dell’implementazione lo utilizzano per controlli di qualità rapidi, senza query SQL o gerarchie di schemi complesse.
 
@@ -157,4 +157,4 @@ Se le tue esigenze di convalida sono più esaustive o richiedono una logica di b
 * [Convalidare i dati da Adobe Analytics a Customer Journey Analytics durante l&#39;aggiornamento](./data-validation-aa-cja.md)
 * [Convalidare i dati Customer Journey Analytics con l’abilità di Convalida dati in Collaboratore](./validate-dataset-quality-for-cja.md)
 * [Convalidare i dati (Assistente AI)](/help/agents/data-validation.md)
-* [Considera attendibile il tuo reporting Customer Journey Analytics: abilità di convalida dei dati in Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (video)
+* [Considera attendibile il tuo reporting Customer Journey Analytics: abilità di convalida dei dati in Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (video)
