@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# Nuova esperienza Team {#new-teams-experience}
+# In arrivo: aree di lavoro predefinite con visibilità delle campagne tra i team {#new-teams-experience}
 
-## Potrebbe essere necessaria un’azione: una nuova esperienza Team è prevista per il 15 ottobre
+## Potrebbe essere necessaria un’azione: una nuova esperienza Team è prevista per il 15 ottobre 2026
 
 ### Che cosa sta cambiando e che impatto avrà?
 
@@ -32,4 +32,10 @@ Per conservare qualsiasi elemento per i record, salvarlo localmente prima delle 
 * **Campagne**: esporta ogni campagna come file PDF o Word utilizzando l&#39;icona di download nell&#39;angolo superiore destro della campagna.
 * **E-mail**: scarica un&#39;e-mail come HTML utilizzando l&#39;icona di esportazione nell&#39;editor e-mail.
 
-Domande? Contattaci all’indirizzo coworkerca@adobe.com.
+**Guarda il video seguente per una procedura dettagliata**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### Hai delle domande?
+
+Contattaci all’indirizzo coworkerca@adobe.com.
