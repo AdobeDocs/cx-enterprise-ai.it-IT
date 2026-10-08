@@ -8,7 +8,7 @@ ht-degree: 1%
 ---
 # Preparazione dei dati SQL in Collaboratore
 
-Utilizzare Preparazione dati SQL in Collaboratore per eseguire le attività comuni di [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) con prompt in linguaggio naturale. È possibile generare SQL, risolvere problemi o ottimizzare una query esistente, visualizzare in anteprima i risultati e pianificare le query per l&#39;esecuzione ricorrente.
+Utilizzare Preparazione dati SQL in Collaboratore per eseguire le attività comuni di [Data Distiller](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/overview) con prompt in linguaggio naturale. È possibile generare SQL, risolvere problemi o ottimizzare una query esistente, visualizzare in anteprima i risultati e pianificare le query per l&#39;esecuzione ricorrente.
 
 >[!AVAILABILITY]
 >
@@ -29,7 +29,7 @@ Puoi identificare i set di dati che desideri utilizzare nella richiesta. Se sono
 
 Dopo la generazione o l&#39;aggiornamento dell&#39;istruzione SQL, è possibile continuare la conversazione per visualizzare in anteprima i risultati, perfezionare la query, salvarla o pianificarla per l&#39;esecuzione ricorrente.
 
-Per istruzioni sull&#39;utilizzo dell&#39;interfaccia di Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
+Per istruzioni sull&#39;utilizzo dell&#39;interfaccia di Coworker, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/ui-guide).
 
 ## Funzionalità supportate {#supported-capabilities}
 
@@ -56,7 +56,7 @@ Sarà possibile, ad esempio:
 
 Il collaboratore può porre domande di follow-up quando sono necessarie informazioni aggiuntive, ad esempio per identificare il set di dati appropriato o confermare il fuso orario per una pianificazione.
 
-L’anteprima di una query restituisce fino a cinque righe. Per eseguire e utilizzare le query direttamente in Experience Platform, consulta la [Guida dell&#39;interfaccia utente di Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+L’anteprima di una query restituisce fino a cinque righe. Per eseguire e utilizzare le query direttamente in Experience Platform, consulta la [Guida dell&#39;interfaccia utente di Query Editor](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/user-guide).
 
 ![La risposta del collaboratore mostra un&#39;anteprima a cinque righe dei risultati della query SQL e le opzioni per salvare la query come modello o pianificarla per l&#39;esecuzione ricorrente.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Collaboratore restituisce l’SQL generato e può eseguire la query per fornire 
 
 ![Risposta del collaboratore che mostra SQL generato per il riepilogo del coinvolgimento del cliente per tipo di evento, seguita da un&#39;anteprima della tabella degli eventi totali e dei clienti univoci e da un&#39;analisi dei risultati.](./assets/sql-data-prep/authoring-result.png)
 
-Per informazioni sulla creazione e l&#39;esecuzione di query direttamente in Experience Platform, vedere la [Guida dell&#39;interfaccia utente di Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Per informazioni sulla creazione e l&#39;esecuzione di query direttamente in Experience Platform, vedere la [Guida dell&#39;interfaccia utente di Query Editor](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/user-guide).
 
 ### Ottimizza SQL esistente {#optimize-sql}
 
@@ -113,7 +113,7 @@ Se la query fornita è già ottimizzata, Collaboratore può determinare che non 
 
 SQL generato tramite la funzionalità di authoring SQL è già ottimizzato. Non è necessario inviare separatamente le istruzioni SQL appena generate per l&#39;ottimizzazione.
 
-Per la sintassi SQL e i comandi supportati, vedere il riferimento SQL [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
+Per la sintassi SQL e i comandi supportati, vedere il riferimento SQL [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/sql/overview).
 
 ### Diagnosticare e correggere gli errori SQL {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Dopo aver confermato i dettagli di pianificazione richiesti, Collaboratore resti
 
 ![Risposta del collaboratore che conferma una query SQL pianificata, inclusi il modello salvato, la pianificazione, il fuso orario, la data di fine, lo stato della pianificazione e l&#39;avviso di errore.](./assets/sql-data-prep/schedule-query.png)
 
-Per informazioni dettagliate sulle pianificazioni delle query, le impostazioni di ricorrenza, i set di dati di output e gli avvisi, vedere [Pianificazioni query](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
+Per informazioni dettagliate sulle pianificazioni delle query, le impostazioni di ricorrenza, i set di dati di output e gli avvisi, vedere [Pianificazioni query](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/query-schedules).
 
 ## Passaggi successivi {#next-steps}
 
 Per ulteriori informazioni sulle funzionalità di Data Distiller e Query Service utilizzate da SQL Data Preparation, vedere la documentazione seguente:
 
-- [Panoramica di Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
-- [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [Pianificazioni query](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [Riferimento SQL di Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [Panoramica di Data Distiller](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/overview)
+- [Guida dell’interfaccia utente di Query Editor](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/user-guide)
+- [Pianificazioni query](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/query-schedules)
+- [Riferimento SQL di Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/sql/overview)

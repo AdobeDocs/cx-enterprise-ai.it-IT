@@ -24,7 +24,7 @@ Leggi questa documentazione per scoprire come convalidare i dati in AI Assistant
 
 >[!NOTE]
 >
->La convalida dei dati è disponibile anche come abilità del collaboratore. Consulta [Convalidare i dati di Experience Platform con Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
+>La convalida dei dati è disponibile anche come abilità del collaboratore. Consulta [Convalidare i dati di Experience Platform con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Casi d’uso
 
