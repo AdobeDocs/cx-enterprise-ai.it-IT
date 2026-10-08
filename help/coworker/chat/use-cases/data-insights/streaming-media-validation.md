@@ -2,17 +2,15 @@
 title: Convalidare l’implementazione di Streaming Media con Collaboratore
 description: Scopri in che modo l’abilità di Convalida di contenuti multimediali in streaming di Collaboratore controlla la configurazione, le sessioni e i registri per verificare che l’implementazione sia tracciata correttamente.
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1304'
 ht-degree: 0%
-
 ---
-
 
 # Convalidare l’implementazione di Streaming Media con Collaboratore
 
-Collaboratore include un’abilità di convalida dei contenuti multimediali in streaming che controlla l’implementazione di Adobe Streaming Media (Video and Audio Analytics) su Edge Network, alimentando Customer Journey Analytics e/o Adobe Analytics. Invece di fare riferimento incrociato manualmente ad Assurance, alla configurazione dei set di dati, ai gruppi di campi dello schema XDM, alla configurazione della visualizzazione dati di Customer Journey Analytics e ai registri di rete non elaborati, puoi ottenere un singolo rapporto di convalida.
+Adobe CX Enterprise Coworker include un’abilità di convalida dei contenuti multimediali in streaming che controlla l’implementazione di Adobe Streaming Media (Video and Audio Analytics) su Edge Network, alimentando Customer Journey Analytics e/o Adobe Analytics. Invece di fare riferimento incrociato manualmente ad Assurance, alla configurazione dei set di dati, ai gruppi di campi dello schema XDM, alla configurazione della visualizzazione dati di Customer Journey Analytics e ai registri di rete non elaborati, puoi ottenere un singolo rapporto di convalida.
 
 Se implementi o risolvi problemi di tracciamento dei contenuti multimediali in streaming, puoi utilizzare questa abilità per confermare che l’implementazione sia configurata correttamente, raccogliere i dati come previsto e acquisire ciò che intendevi tracciare, il tutto all’interno di una singola conversazione di Chat con collaboratori.
 

@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: e153ef2cff7d9140726ebebf6a1869eca6ee3bed
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2354'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,9 @@ Adobe CX Enterprise Coworker Chat consente ai team di automatizzare le attività
 
 Chat con i collaboratori può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics o dalle suite di rapporti di Adobe Analytics, consentendoti di esplorare tali dati e ottenere risposte alle richieste in linguaggio naturale.
 
-Puoi aprire la visualizzazione creata in Chat con collaboratori per il controllo manuale in qualsiasi momento.
+Quando crei una visualizzazione nella chat di Coworker, puoi aprirla in Analysis Workspace in qualsiasi momento per un controllo più manuale.
+
+Le informazioni seguenti forniscono una panoramica su come analizzare i dati in Chat con collaboratori.
 
 ## Inizia l’analisi in Chat con i collaboratori
 
