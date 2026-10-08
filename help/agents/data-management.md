@@ -1,9 +1,9 @@
 ---
 title: Agente di gestione dati per Adobe Experience Platform
 description: Scopri come utilizzare l’agente di gestione dati in CX Coworker per trovare e analizzare i set di dati di Adobe Experience Platform e gestire i criteri di conservazione dei data lake.
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # Agente di gestione dati
@@ -33,14 +33,14 @@ L’agente di gestione dati fornisce quattro competenze.
 
 Utilizza Data Management Agent quando devi trovare e analizzare i set di dati di Experience Event e impostare, modificare o rimuovere un criterio di conservazione del data lake.
 
-Se non si è sicuri che i criteri di conservazione del data lake siano l&#39;opzione giusta per l&#39;obiettivo, vedere [Scegliere la funzionalità di gestione del ciclo di vita dei dati appropriata](https://experienceleague.adobe.com/it/docs/experience-platform/data-lifecycle/choose-a-capability) per confrontare le opzioni di conservazione ed eliminazione disponibili.
+Se non si è sicuri che i criteri di conservazione del data lake siano l&#39;opzione giusta per l&#39;obiettivo, vedere [Scegliere la funzionalità di gestione del ciclo di vita dei dati appropriata](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability) per confrontare le opzioni di conservazione ed eliminazione disponibili.
 
 Queste abilità non gestiscono le seguenti funzionalità correlate:
 
 - **Criteri di conservazione archivio profili.** Per gestire la durata della permanenza degli eventi esperienza nell’archivio Profili, configura i criteri di scadenza degli eventi esperienza nei set di dati degli eventi esperienza abilitati per il profilo. Vedi [Scadenza evento esperienza](https://experienceleague.adobe.com/it/docs/experience-platform/profile/event-expirations).
 - **Scadenza dati profilo pseudonimo a livello di sandbox.** Per eliminare automaticamente i dati di profilo pseudonimi in una sandbox quando soddisfano le condizioni configurate, vedere [Profili pseudonimi](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles).
-- **Scadenza set di dati.** Per pianificare l&#39;eliminazione di un intero set di dati in una data futura, vedere [Scadenza set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
-- **Eliminazione record.** Per rimuovere singoli record di profilo per motivi di privacy o igiene, vedere [Eliminazione record](https://experienceleague.adobe.com/it/docs/experience-platform/data-lifecycle/ui/record-delete).
+- **Scadenza set di dati.** Per pianificare l&#39;eliminazione di un intero set di dati in una data futura, vedere [Scadenza set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
+- **Eliminazione record.** Per rimuovere singoli record di profilo per motivi di privacy o igiene, vedere [Eliminazione record](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
 
 ## Prerequisiti {#prerequisites}
 
@@ -48,9 +48,9 @@ Prima di iniziare, assicurati di avere:
 
 - Accedi a Adobe Experience Platform e alla sandbox che contiene i set di dati da rivedere.
 - Le autorizzazioni Adobe Experience Platform necessarie per i set di dati e le azioni di conservazione che desideri utilizzare. L’agente di gestione dati utilizza le autorizzazioni Experience Platform esistenti e non concede l’accesso aggiuntivo. Per informazioni sul funzionamento delle autorizzazioni e dei ruoli di Adobe Experience Platform, vedere [Panoramica sul controllo degli accessi](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
-- Il plug-in Adobe CXO installato in CX Collaborator.
+- Il plug-in Adobe CXO installato in CX Coworker.
 
-Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Per istruzioni sull&#39;installazione dei plug-in, consulta la [Guida dell&#39;interfaccia utente di Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 
 ## Utilizzare Data Management Agent {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Interagisci con Data Management Agent tramite CX Coworker utilizzando il linguag
 
 Per utilizzare Data Management Agent:
 
-1. Passare a **[!UICONTROL CX Collaboratore]**. Per informazioni dettagliate sull&#39;accesso, vedere la [Guida all&#39;interfaccia utente di Collaborator](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Passa a **[!UICONTROL CX Coworker]**. Per informazioni dettagliate sull&#39;accesso, vedere la [Guida all&#39;interfaccia utente di Collaborator](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 1. Immettere una richiesta che descriva ciò che si desidera eseguire.
 1. Rivedi i risultati e utilizza le domande di follow-up per continuare la tua indagine.
 
 Se una richiesta modifica un criterio di conservazione di un data lake, Data Management Agent mostra l’impatto proposto e richiede la tua conferma prima di applicare la modifica.
 
-Per un flusso di lavoro end-to-end per l&#39;identificazione dei set di dati, l&#39;analisi dell&#39;impatto di utilizzo e conservazione e la gestione dei criteri di conservazione dei data lake, vedere [Gestione della conservazione dei data lake](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Per un flusso di lavoro end-to-end per l&#39;identificazione dei set di dati, l&#39;analisi dell&#39;impatto di utilizzo e conservazione e la gestione dei criteri di conservazione dei data lake, vedere [Gestione della conservazione dei data lake](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 ## Funzionamento di Data Management Agent {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ Data Management Agent è in grado di identificare i set di dati potenzialmente i
 
 ## Passaggi successivi {#next-steps}
 
-Per informazioni sull&#39;utilizzo di ogni abilità per trovare, analizzare e gestire la conservazione del data lake nei set di dati Experience Event, consulta [Gestire la conservazione del data lake](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Per informazioni sull&#39;utilizzo di ogni abilità per trovare, analizzare e gestire la conservazione del data lake nei set di dati Experience Event, consulta [Gestire la conservazione del data lake](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
-Per ulteriori informazioni sul funzionamento dei criteri di conservazione del data lake in Adobe Experience Platform, inclusi il comportamento e la configurazione della conservazione, vedere [Guida alla conservazione dei dataset di Experience Event (TTL)](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
+Per ulteriori informazioni sul funzionamento dei criteri di conservazione del data lake in Adobe Experience Platform, inclusi il comportamento e la configurazione della conservazione, vedere [Guida alla conservazione dei dataset di Experience Event (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
