@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7168'
 ht-degree: 6%
 ---
 # Casi d’uso di Chat con i collaboratori {#use-cases}
@@ -52,6 +52,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 | Caso d&#39;uso | Descrizione | Abilità | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Gestire le pipeline di Cloud Manager | Creare, eseguire e monitorare le pipeline di AEM Cloud Manager, inclusi registri, artefatti, variabili e impostazioni | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | &quot;Elencare le pipeline per il programma 12345&quot;<br><br>&quot;Qual è lo stato della pipeline più recente?&quot; |
+| Risolvere i problemi relativi alle pipeline di Cloud Manager non riuscite | Analizzare un’esecuzione non riuscita di una pipeline AEM Cloud Manager, spiegarne in linguaggio semplice il motivo. Supporta le pipeline full stack (distribuzione e qualità del codice), le pipeline di configurazione a livello web e le pipeline di configurazione, ad esempio gli errori di distribuzione causati da una configurazione CDN non valida | Implementato come agente specializzato per la risoluzione dei problemi delle pipeline di Cloud Manager. | Adobe Experience Manager (AEM) | &quot;Risoluzione dei problemi relativi alla pipeline non riuscita&quot;<br><br>&quot;Elencare le pipeline non riuscite per il programma &lt;nome programma>&quot;<br><br>&quot;Analizzare l&#39;ultima esecuzione non riuscita di &lt;nome pipeline> nel programma &lt;nome programma>&quot; |
 | Gestire gli ambienti Cloud Manager | Creazione, configurazione e manutenzione di ambienti AEM Cloud Manager, inclusi RDE, variabili di ambiente, registri e backup | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | &quot;Elencare gli ambienti personali per il programma 12345&quot;<br><br>&quot;Reimpostare il codice RDE&quot; |
 | Gestire i programmi Cloud Manager | Elencare, ispezionare ed eliminare programmi AEM Cloud Manager, incluse pipeline e ambienti | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | &quot;Elenca i miei programmi Cloud Manager&quot;<br><br>&quot;Ottieni dettagli per 12345 programma&quot; |
 | Gestire le pianificazioni degli aggiornamenti delle versioni di AEM | Configura le ore di pausa giornaliere e i periodi di disponibilità dell&#39;aggiornamento per la manutenzione automatica e visualizza le finestre di blocco del codice globali di Adobe | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | &quot;Qual è la finestra delle ore non interattive corrente?&quot;<br><br>&quot;Pianificazione di un periodo senza aggiornamento dal 20 dicembre al 2 gennaio&quot; |

@@ -1,35 +1,40 @@
 ---
-title: Versione di prova di CX Enterprise Collaborator
-description: Scopri la versione di prova gratuita per CX Enterprise Collaborator.
+title: Versione di prova CX Enterprise Coworker
+description: Scopri la versione di prova gratuita per CX Enterprise Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Customer experience
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 2%
-
+source-wordcount: '1429'
+ht-degree: 1%
 ---
-
-# Versione di prova di CX Enterprise Collaborator
+# Versione di prova di CX Enterprise Coworker
 
 >[!AVAILABILITY]
 >
->Alcuni clienti CX Enterprise idonei possono accedere a una prova basata sull’utilizzo per scoprire il valore delle offerte di IA per l’agente di Adobe nel proprio ambiente prima di impegnarsi all’acquisto.
+>Alcuni clienti CX Enterprise idonei possono avere accesso a una versione di prova basata sull’utilizzo per sperimentare il valore delle offerte di IA per l’agente di Adobe nel proprio ambiente prima di impegnarsi all’acquisto.
 
 A discrezione di Adobe, i clienti della versione di prova avranno accesso a **Chat collaboratore**, un&#39;evoluzione dell&#39;esperienza di conversazione dell&#39;Assistente di intelligenza artificiale. La chat di Coworker consente ai team di automatizzare le attività dei prodotti CXO attraverso il linguaggio naturale, trasformando rapidamente le idee in azioni con pianificazione flessibile, competenze personalizzabili ed esecuzione intelligente.
 
 Tutti i clienti idonei verranno trasferiti su base continua da AI Assistant e Adobe Experience Platform Agents a Chat con il collaboratore. Nel frattempo, alcuni clienti possono mantenere l’accesso a AI Assistant e agli agenti Experience Platform fino a quando non vengono abilitati per Chat con i collaboratori. Tieni presente che le campagne dei collaboratori non rientrano nell’ambito di questa prova.
 
-**Assistente AI**: un&#39;interfaccia conversazionale completa e coinvolgente basata su Agent Orchestrator che funziona tra prodotti diversi, consentendo ai professionisti che utilizzano prodotti CX Enterprise abilitati di sfruttare le funzionalità GenAI e Agentic AI. Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
+**Assistente AI**: un&#39;interfaccia conversazionale a pagina intera e coinvolgente fornita da Agent Orchestrator che funziona tra prodotti diversi, consentendo ai professionisti che utilizzano prodotti CX Enterprise abilitati di sfruttare le funzionalità GenAI e Agentic AI. Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
 
 **Agenti Adobe Experience Platform**: agenti di intelligenza artificiale appositamente creati e specializzati nella distribuzione di processi comuni tra le categorie del dominio dell&#39;esperienza del cliente. Puoi sfruttare gli agenti per espandere la tua capacità di creare e distribuire esperienze in modo più rapido e con un impatto maggiore, sbloccando produttività ed efficienza di livello superiore. Per informazioni sugli agenti che possono essere utilizzati con ogni applicazione CX Enterprise, leggere la documentazione su [Agentic AI in CX Enterprise](../overview/agentic-ai.md).
 
@@ -40,7 +45,7 @@ L&#39;idoneità del cliente alla sperimentazione è completamente a discrezione 
 I clienti idonei ricevono un diritto iniziale una tantum fino a 10.000 crediti AI da utilizzare per:
 
 - Chat collaboratore: input immessi nella chat collaboratore. Per un periodo introduttivo limitato, gli input consumano crediti di IA a un tasso di 25 crediti di IA per input. Questa tariffa è disponibile solo per un periodo limitato e soggetta a modifiche.
-- Agenti Experience Platform: qualsiasi combinazione di processi eseguiti utilizzando gli agenti Experience Platform (a seconda delle licenze esistenti per le applicazioni CX Enterprise) elencati nella [Tabella consumo credito AI](../overview/ai-credit-consumption.md).
+- Agenti Experience Platform: qualsiasi combinazione di processi eseguiti utilizzando gli agenti Experience Platform (a seconda delle licenze esistenti per le applicazioni CX Enterprise) elencati nella [Tabella consumo di credito AI](../overview/ai-credit-consumption.md).
 
 Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
 
@@ -56,9 +61,9 @@ Il dashboard Monitoraggio di IA per l’analisi dell’agente offre una chiara v
 
 ### Accedere a Chat con i collaboratori
 
-Gli utenti dei clienti idonei avranno accesso predefinito alla chat del collaboratore come parte della prova, quindi non è necessaria alcuna azione. Chat con i collaboratori opera sotto la supervisione e la guida dell’utente e rispetta i controlli di accesso esistenti a livello di prodotto della tua organizzazione. Gli utenti possono intraprendere solo le azioni che sono già autorizzati a intraprendere all&#39;interno dei prodotti aziendali CX sottostanti della propria organizzazione.
+Gli utenti dei clienti idonei avranno accesso predefinito alla chat del collaboratore come parte della prova, quindi non è necessaria alcuna azione. Chat con i collaboratori opera sotto la supervisione e la guida dell’utente e rispetta i controlli di accesso esistenti a livello di prodotto della tua organizzazione. Gli utenti possono intraprendere solo azioni che sono già autorizzati a intraprendere all’interno dei prodotti CX Enterprise sottostanti della propria organizzazione.
 
-Gli utenti possono accedere a Coworker selezionandolo dal selettore delle applicazioni nell&#39;intestazione superiore di CX Enterprise.
+Gli utenti possono accedere a Collaborator selezionandolo dal selettore delle applicazioni nell’intestazione superiore in CX Enterprise.
 
 ![Il selettore dell&#39;applicazione in cui si trova Collaborator.](../agents/assets/coworker.png)
 
@@ -68,9 +73,9 @@ Per i clienti che non sono stati trasferiti a Chat con collaboratori:
 
 ### Accedere agli agenti di Experience Platform tramite l’Assistente all’intelligenza artificiale fornito da Agent Orchestrator
 
-Gli utenti dei clienti idonei avranno accesso predefinito all’Assistente e agli agenti di IA come parte della prova, pertanto non è necessaria alcuna azione. Gli agenti Experience Platform sono guidati dall’input dell’utente e dalla supervisione. Gli agenti rispettano inoltre i controlli di accesso a livello di prodotto definiti in precedenza, in modo che gli utenti possano eseguire solo job o azioni per i quali dispongono di autorizzazioni all&#39;interno dei prodotti aziendali CX sottostanti applicabili.
+Gli utenti dei clienti idonei avranno accesso predefinito all’Assistente e agli agenti di IA come parte della prova, pertanto non è necessaria alcuna azione. Gli agenti Experience Platform sono guidati dall’input dell’utente e dalla supervisione. Gli agenti rispettano inoltre i controlli di accesso a livello di prodotto definiti in precedenza, in modo che gli utenti possano eseguire solo processi o azioni per i quali dispongono di autorizzazioni all’interno dei prodotti CX Enterprise sottostanti applicabili.
 
-Dopo aver effettuato l&#39;accesso, accedere alla home page di Adobe CX Enterprise per iniziare a utilizzare l&#39;Assistente AI. È possibile utilizzare i [prompt di individuazione](../ai-assistant/ai-assistant-ui.md#discovery-prompts) per visualizzare suggerimenti per i prompt e i flussi di lavoro comuni. Utilizza questa funzione per accelerare l’onboarding con l’Assistente AI. Inoltre, leggere la [libreria di prompt](../ai-assistant/prompt-library.md) per una serie di prompt che è possibile utilizzare con agenti diversi. Per informazioni più complete, leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](../ai-assistant/ai-assistant-ui.md).
+Una volta ottenuto l’accesso, accedi alla home page di Adobe CX Enterprise per iniziare a utilizzare l’Assistente AI. È possibile utilizzare i [prompt di individuazione](../ai-assistant/ai-assistant-ui.md#discovery-prompts) per visualizzare suggerimenti per i prompt e i flussi di lavoro comuni. Utilizza questa funzione per accelerare l’onboarding con l’Assistente AI. Inoltre, leggere la [libreria di prompt](../ai-assistant/prompt-library.md) per una serie di prompt che è possibile utilizzare con agenti diversi. Per informazioni più complete, leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](../ai-assistant/ai-assistant-ui.md).
 
 Se il cliente desidera rinunciare all&#39;accesso a queste funzionalità Agentic e disabilitare l&#39;accesso di prova, invia una richiesta a [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
 
@@ -78,7 +83,7 @@ Se il cliente desidera rinunciare all&#39;accesso a queste funzionalità Agentic
 
 Per ulteriori informazioni su Coworker, Agent Orchestrator e AI Assistant, leggi le seguenti guide:
 
-- [Collaboratore](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Guida per i collaboratori](https://experienceleague.adobe.com/it/docs/coworker/content/home)
 - [Panoramica di Agent Orchestrator](agent-orchestrator.md)
 - [Guida all’interfaccia utente di Assistente IA](../ai-assistant/ai-assistant-ui.md)
 - [Libreria di prompt dell’Assistente AI](../ai-assistant/prompt-library.md)
@@ -94,11 +99,11 @@ La versione di prova per il limite dell’utilizzo di Agentic consente ai client
 
 ### Quali agenti sono inclusi in questa prova?
 
-Per un elenco completo degli agenti inclusi nella prova, leggere la guida su [Agentic AI in CX Enterprise](../overview/agentic-ai.md).
+Per un elenco completo degli agenti inclusi nella prova, leggere la guida su [IA agente in CX Enterprise](../overview/agentic-ai.md).
 
 ### Chi può partecipare a questo processo?
 
-La versione di prova viene implementata in più fasi per alcuni clienti Adobe CX Enterprise idonei, in modo che Adobe possa fornire il supporto appropriato. Se ti interessa partecipare, contatta il team del tuo account Adobe, che potrà verificare il tuo stato e discutere le opzioni di accesso.
+La versione di prova viene implementata gradualmente per alcuni clienti Adobe CX Enterprise idonei, in modo che Adobe possa fornire il supporto appropriato. Se ti interessa partecipare, contatta il team del tuo account Adobe, che potrà verificare il tuo stato e discutere le opzioni di accesso.
 
 ### Quanti crediti IA ottengo e cosa succede quando questi crediti AI vengono utilizzati?
 

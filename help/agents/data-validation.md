@@ -1,9 +1,9 @@
 ---
 title: Convalidare I Dati Nell’Assistente Ai
 description: Scopri come utilizzare la convalida dei dati basata su Agent Orchestrator nell’Assistente all’intelligenza artificiale per eseguire convalide statistiche e semantiche sui set di dati.
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # Convalidare i dati in AI Assistant
@@ -24,7 +24,7 @@ Leggi questa documentazione per scoprire come convalidare i dati in AI Assistant
 
 >[!NOTE]
 >
->La convalida dei dati è disponibile anche come abilità del collaboratore. Consulta [Convalidare i dati di Experience Platform con Coworker](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+>La convalida dei dati è disponibile anche come abilità del collaboratore. Consulta [Convalidare i dati di Experience Platform con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Casi d’uso
 

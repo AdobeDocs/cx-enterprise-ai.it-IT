@@ -2,19 +2,19 @@
 title: Strumenti Experience Platform in CX Coworker Gateway
 description: Scopri quali strumenti Adobe Experience Platform sono disponibili tramite CX Coworker Gateway.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
-# Strumenti Adobe Experience Platform in Adobe CX Customer Gateway {#aep-mcp}
+# Strumenti Adobe Experience Platform in Adobe CX Coworker Gateway {#aep-mcp}
 
-È possibile utilizzare gli strumenti del prodotto Adobe Experience Platform per verificare schemi, set di dati, configurazioni di governance dei dati, risorse del servizio query ed eventi di audit da un client compatibile con MCP. Questi strumenti sono disponibili tramite [Adobe CX Coworker Gateway](overview.md) quando l&#39;organizzazione è abilitata e l&#39;account utente dispone delle autorizzazioni Experience Platform richieste.
+È possibile utilizzare gli strumenti del prodotto Adobe Experience Platform per verificare schemi, set di dati, configurazioni di governance dei dati, risorse del servizio query ed eventi di audit da un client compatibile con MCP. Questi strumenti sono disponibili tramite [Adobe CX Coworker Gateway](overview.md) quando l&#39;organizzazione è abilitata e l&#39;account utente dispone delle autorizzazioni Experience Platform necessarie.
 
 >[!AVAILABILITY]
 >
->Lo strumento del prodotto Experience Platform si trova in Beta. L’accesso avviene solo su invito e richiede l’abilitazione dell’organizzazione Adobe. Vedere [Accedere agli strumenti di Gateway aziendale CX](access.md).
+>Lo strumento del prodotto Experience Platform si trova in Beta. L’accesso avviene solo su invito e richiede l’abilitazione dell’organizzazione Adobe. Consulta [Accedere agli strumenti di CX Coworker Gateway](access.md).
 
 ## Riepilogo
 
@@ -255,7 +255,7 @@ Recuperare i risultati più recenti della valutazione del controllo di integrit�
 
 >[!NOTE]
 >
->Questo strumento recupera solo i risultati della valutazione. Per risolvere un problema segnalato, utilizzare il pannello dei dettagli del controllo di integrità nell&#39;interfaccia utente [!DNL Experience Platform]. Consulta [Verifiche stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks). Le indicazioni di correzione automatica per i controlli di integrità supportati sono disponibili come abilità in [CX Coworker Chat](../coworker/chat/overview.md).
+>Questo strumento recupera solo i risultati della valutazione. Per risolvere un problema segnalato, utilizzare il pannello dei dettagli del controllo di integrità nell&#39;interfaccia utente [!DNL Experience Platform]. Consulta [Verifiche stato](https://experienceleague.adobe.com/it/docs/experience-platform/run-and-operate/health-checks). Le indicazioni di correzione automatica per i controlli di integrità supportati sono disponibili come abilità in [CX Coworker Chat](https://experienceleague.adobe.com/it/docs/coworker/content/chat/overview).
 
 **Funzionalità:** elenca tutti i risultati del controllo di integrità per la sandbox corrente, ottiene i risultati per un controllo denominato
 

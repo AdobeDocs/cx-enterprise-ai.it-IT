@@ -3,14 +3,14 @@ title: Trasparenza dei contenuti di IA generativa
 description: Scopri come Adobe allega automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni Adobe CX Enterprise.
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
-
 
 # Trasparenza dei contenuti di IA generativa
 
@@ -20,7 +20,7 @@ Nel mese di agosto 2026, Adobe sta gradualmente implementando il supporto dei me
 >
 >In seguito al rollout, i flussi di lavoro futuri che coinvolgono contenuti creati o modificati tramite IA avranno automaticamente il supporto per i metadati C2PA.
 
-Questa pagina contiene informazioni dettagliate su come Adobe gestisce l&#39;associazione automatica dei metadati C2PA tra le applicazioni Adobe CX Enterprise.
+Questa pagina contiene informazioni dettagliate su come Adobe gestisce l’allegato automatico dei metadati C2PA tra le applicazioni Adobe CX Enterprise.
 
 Le nuove normative impongono ai fornitori di tecnologie di intelligenza artificiale generative di supportare divulgazioni durevoli e leggibili da dispositivo automatico associate ai flussi di lavoro di contenuti generati e modificati da GenAI per una maggiore trasparenza.
 
@@ -28,7 +28,7 @@ In qualità di fornitore di strumenti, Adobe allega automaticamente metadati C2P
 
 ## Cosa cambia
 
-Con il lancio nell’agosto 2026, Adobe introdurrà il supporto per i metadati C2PA nelle applicazioni Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly e Adobe CX Enterprise.
+Con il lancio ad agosto 2026, Adobe introdurrà il supporto per i metadati C2PA nelle applicazioni Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly e Adobe CX Enterprise.
 
 Questa versione include:
 
@@ -72,7 +72,7 @@ Adobe fornisce [indicazioni](https://helpx.adobe.com/it/creative-cloud/apps/gene
 
 ## Disponibilità e versioni
 
-Queste funzioni verranno implementate durante **agosto 2026** nei flussi di lavoro aziendali supportati di Adobe CX.
+Queste funzionalità verranno implementate durante **agosto 2026** in tutti i flussi di lavoro di Adobe CX Enterprise supportati.
 
 >[!NOTE]
 >
@@ -90,9 +90,9 @@ Adobe fornisce la [documentazione](https://helpx.adobe.com/it/creative-cloud/app
 
 ## Applicazioni supportate in Adobe CX Enterprise {#supported-applications}
 
-Le applicazioni e i servizi Adobe riportati di seguito forniscono informazioni aggiuntive su come e quando i metadati C2PA vengono allegati ai contenuti qualificati all&#39;interno di determinate app CX Enterprise.
+Le seguenti applicazioni e servizi Adobe forniscono informazioni aggiuntive su come e quando i metadati C2PA vengono allegati ai contenuti qualificati all’interno di determinate app CX Enterprise.
 
-Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continuano a conservare i metadati C2PA esistenti man mano che le risorse supportate passano attraverso i flussi di lavoro Adobe. Questo aiuta a mantenere l’integrità delle informazioni sulla provenienza in tutto il supply chain dei contenuti.
+Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continuano a conservare i metadati C2PA esistenti man mano che le risorse supportate passano attraverso i flussi di lavoro di Adobe. Questo aiuta a mantenere l’integrità delle informazioni sulla provenienza in tutto il supply chain dei contenuti.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continu
 | GenStudio for Performance Marketing | [Documentazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentazione](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [Documentazione](https://experienceleague.adobe.com/it/docs/workfront/using/documents/c2pa-metadata-overview) |
-| Campagne CX Enterprise Collaborator (precedentemente HALO) | [Documentazione](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Campagne CX Enterprise Coworker (precedentemente HALO) | [Documentazione](https://experienceleague.adobe.com/it/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## Collegamenti correlati
 
@@ -123,7 +123,7 @@ Tuttavia, laddove applicabile, tutte le applicazioni Adobe CX Enterprise continu
 
 **Quali app Adobe applicano i metadati C2PA ai contenuti modificati o creati dall&#39;intelligenza artificiale generativa?**
 
-Le applicazioni Adobe CX Enterprise supportate allegano automaticamente i metadati C2PA ai contenuti qualificati generati da GenAI e modificati da GenAI. Per ulteriori informazioni sulle applicazioni Adobe CX Enterprise, consultare la sezione [Applicazioni supportate](#supported-applications).
+Le applicazioni Adobe CX Enterprise supportate allegano automaticamente i metadati C2PA ai contenuti qualificati generati e modificati da GenAI. Per ulteriori informazioni sulle applicazioni Adobe CX Enterprise, consulta la sezione [Applicazioni supportate](#supported-applications).
 
 **A quali tipi di contenuto Adobe aggiungono metadati C2PA?**
 
@@ -131,7 +131,7 @@ In generale, immagini, audio, video, documenti e testo rientrano nell’ambito d
 
 **Quali applicazioni in Adobe CX conservano i metadati C2PA durante la modifica e la pubblicazione?**
 
-Tutte le applicazioni Adobe CX Enterprise sono progettate per conservare i metadati C2PA man mano che i contenuti passano attraverso flussi di lavoro Adobe compatibili. La conservazione al di fuori delle applicazioni Adobe dipende dal fatto che le piattaforme esterne supportino i metadati C2PA.
+Tutte le applicazioni Adobe CX Enterprise sono progettate per preservare i metadati C2PA durante il trasferimento dei contenuti attraverso flussi di lavoro Adobe compatibili. La conservazione al di fuori delle applicazioni Adobe dipende dal fatto che le piattaforme esterne supportino i metadati C2PA.
 
 **Cosa succede quando più immagini generate da GenAI vengono combinate in un&#39;unica immagine?**
 

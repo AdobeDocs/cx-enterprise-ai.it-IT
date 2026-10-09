@@ -1,5 +1,5 @@
 ---
-title: Agentic AI nelle applicazioni aziendali CX
+title: IA agente nelle applicazioni CX Enterprise
 description: Scopri dove è disponibile l’IA agentica nelle applicazioni CX Enterprise.
 solution: Experience Cloud
 landing-page-name: ai
@@ -13,25 +13,25 @@ exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1132'
 ht-degree: 9%
 ---
 # Informazioni sull’intelligenza artificiale agente in Adobe CX Enterprise
 
-Adobe [Experience Platform Agent Orchestrator](../agents/agent-orchestrator.md) potenzia le funzionalità di IA per l&#39;analisi degli agenti nelle applicazioni aziendali CX.
+Adobe [Experience Platform Agent Orchestrator](../agents/agent-orchestrator.md) potenzia le funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise.
 
 Gli agenti consentono di automatizzare le attività, fornire informazioni più rapidamente e semplificare i flussi di lavoro. Di conseguenza, i team possono lavorare in modo più efficiente e ottenere più valore da CX Enterprise.
 
-Gli agenti di IA per l&#39;organizzazione CX sono disponibili in:
+Gli agenti di CX Enterprise AI sono disponibili in:
 
-* [Applicazioni aziendali CX esistenti](#existing-apps)
+* [Applicazioni CX Enterprise esistenti](#existing-apps)
 * [Applicazioni AI-first CX Enterprise](#ai-first-apps)
 
-Le sezioni seguenti descrivono questi due modi per abilitare l&#39;intelligenza artificiale agente in CX Enterprise.
+Le sezioni seguenti descrivono questi due modi per abilitare l’intelligenza artificiale agente in CX Enterprise.
 
-## Applicazioni aziendali CX esistenti {#existing-apps}
+## Applicazioni CX Enterprise esistenti {#existing-apps}
 
 Nelle applicazioni esistenti, è possibile utilizzare il linguaggio naturale per istruire gli agenti Adobe Experience Platform tramite l&#39;interfaccia di conversazione in [Assistente AI](../ai-assistant/ai-assistant-ui.md). L’Assistente AI è disponibile sia nella visualizzazione a schermo intero che nella barra a destra.
 
@@ -43,7 +43,7 @@ Gli agenti possono essere abilitati nelle app CX Enterprise esistenti per i clie
 
 L&#39;utilizzo di agenti di IA per l&#39;esecuzione di _processi agente_ comporta l&#39;utilizzo di crediti di IA. Ulteriori informazioni sui processi agente e sui crediti IA in _[Processi agente e consumo credito IA](ai-credit-consumption.md)_.
 
-Gli agenti di IA seguono _l&#39;input e la supervisione di_ e rispettano i controlli di accesso a livello di prodotto. È possibile eseguire solo job o accedere a dati che sono autorizzati a utilizzare nell&#39;applicazione CX Enterprise sottostante.
+Gli agenti di IA seguono _l&#39;input e la supervisione di_ e rispettano i controlli di accesso a livello di prodotto. È possibile eseguire processi o accedere solo ai dati che si è autorizzati a utilizzare nell&#39;applicazione CX Enterprise sottostante.
 
 ### Agenti di intelligenza artificiale nelle app CX Enterprise esistenti {#existing-apps-table}
 
@@ -68,7 +68,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 
 | Nome agente | Funzionalità | Applicazioni supportate |
 |---|----------|----------|
-| [CX Enterprise Coworker](../coworker/overview.md) | Agisce come compagno di squadra agente: pianifica il lavoro in più passaggi da un obiettivo in linguaggio naturale, lo esegue in tutti i sistemi Adobe e connessi, convalida i risultati e restituisce il lavoro completato per l’approvazione, riducendo la necessità di coordinare le attività manualmente. | <ul><li>Collaboratore aziendale CX (chat)</li><li>Collaboratore aziendale CX (campagne)</li></ul> |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/home) | Agisce come compagno di squadra agente: pianifica il lavoro in più passaggi da un obiettivo in linguaggio naturale, lo esegue in tutti i sistemi Adobe e connessi, convalida i risultati e restituisce il lavoro completato per l’approvazione, riducendo la necessità di coordinare le attività manualmente. | <ul><li>CX Enterprise Coworker (chat)</li><li>CX Enterprise Coworker (Campagne)</li></ul> |
 | [Agente di sperimentazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatizza, analizza e sintetizza le informazioni, in modo da identificare rapidamente esperimenti ad alto impatto e opportunità di crescita da un&#39;area di lavoro centralizzata, riducendo al contempo i processi manuali. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [Agente di ottimizzazione LLM](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home) | Migliora la visibilità, l’accuratezza e l’influenza negli ambienti di ricerca basati sull’intelligenza artificiale, fornisci informazioni approfondite sulla presenza dei brand nelle risposte generate dall’intelligenza artificiale, offre consigli sui contenuti prescrittivi e automatizza le correzioni di ottimizzazione. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/it/docs/experience-manager-sites-optimizer/content/home) | Ottimizza l’impatto aziendale rilevando e implementando automaticamente i miglioramenti apportati al sito web. Utilizzando l’intelligenza artificiale generativa e più tecnologie di monitoraggio, puoi aumentare l’acquisizione del traffico del sito, il coinvolgimento e altro ancora | <ul><li>AEM Sites Optimizer</li></ul> |
@@ -76,7 +76,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 
 ## Ulteriori informazioni su questo argomento
 
-* [Strumenti di gestione di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview#adobe-cx-enterprise-agentic-tools)
+* [Strumenti agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview#adobe-cx-enterprise-agentic-tools)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
 * [Pagina principale della documentazione di AI](https://experienceleague.adobe.com/it/docs/ai)
 * [Panoramica degli agenti in Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
