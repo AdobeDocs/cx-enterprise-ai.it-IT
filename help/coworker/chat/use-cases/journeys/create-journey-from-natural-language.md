@@ -11,10 +11,7 @@ jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 1%
@@ -26,7 +23,7 @@ La creazione di percorsi di clienti in genere richiede un’ampia configurazione
  
 Automatizzando il processo di configurazione iniziale, i team possono dedicare meno tempo alla creazione di percorsi da zero e più tempo al perfezionamento delle esperienze dei clienti e dei risultati di business.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496882/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## Vedi anche
 

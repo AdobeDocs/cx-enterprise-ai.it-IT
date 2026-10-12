@@ -11,10 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,4 +23,4 @@ Per capire perché le metriche cambiano spesso è necessario consultare più rap
  
 Utilizzando il linguaggio naturale, gli analisti e gli esperti di marketing possono porre domande sui propri dati, ricevere risultati visualizzati, identificare tendenze significative e individuare i fattori che determinano le prestazioni, il tutto in un’unica conversazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496858/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

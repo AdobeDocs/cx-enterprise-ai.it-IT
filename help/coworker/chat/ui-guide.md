@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -17,7 +14,7 @@ ht-degree: 4%
 
 Diventa orientato con l’interfaccia di Chat con i collaboratori. Questa guida tratta tutte le operazioni, dall’accesso all’app, alla navigazione nell’area di lavoro, fino al massimo dalle conversazioni, alla gestione della cronologia e alla personalizzazione della configurazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498573?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Accedere a Chat con i collaboratori
 
@@ -191,7 +188,7 @@ Seleziona Chat nella barra di navigazione per aprire la cronologia completa. Le 
 
 Configurazioni è il luogo in cui puoi personalizzare ciò che Cloud Chat può fare. Dispone di cinque schede: Abilità, server MCP, Marketplace, Plug-in e Memoria.
 
-### Competenza
+### Competenze
 
 Le abilità sono funzionalità specializzate che la chat di Coworker richiama automaticamente quando sono rilevanti, o che puoi attivare digitando / nella chat. La scheda Abilità elenca tutte le abilità installate e consente di aggiungerne altre.
 

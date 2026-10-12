@@ -1,18 +1,15 @@
 ---
-description: Scopri in pochi minuti come Chat con collaboratori utilizza un’interfaccia di conversazione per pianificare, eseguire e completare il lavoro di customer experience in Adobe e nei sistemi connessi.
-title: Panoramica della chat di Adobe CX Enterprise Collaborator
+description: Scopri come la chat di Coworker utilizza un’interfaccia conversazionale per pianificare, eseguire e completare in pochi minuti attività di customer experience nei sistemi Adobe e in quelli connessi.
+title: Panoramica di Adobe CX Enterprise Coworker Chat
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 0%
-
+source-wordcount: '741'
+ht-degree: 3%
 ---
-
-# Panoramica sulla chat di Adobe CX Enterprise Collaborator {#overview}
+# Panoramica di Adobe CX Enterprise Coworker Chat {#overview}
 
 Chat con i collaboratori è un’interfaccia conversazionale per il lavoro svolto con la customer experience. Descrivi un obiettivo in un linguaggio semplice (ad esempio, &quot;crea un pubblico per la promozione di yoga di primavera&quot; o, &quot;dimmi perché questo pubblico si è ridotto la settimana scorsa&quot;) e Chat collaboratrice pianifica il lavoro, lo esegue sul tuo Adobe e sui sistemi connessi, convalida i risultati e ti riporta il lavoro finito per l’approvazione.
 
@@ -24,7 +21,7 @@ Il valore: lavoro che prima si estendeva su più schermi, team e giorni ora si s
 
 >[!NOTE]
 >
->Chat con il collaboratore è un modulo di Adobe CX Enterprise Collaborator. Altri due moduli estendono la stessa base: Campagne collaboratori (alzati e avvia una campagna completa da una conversazione) e Progetti collaboratori (un’area di lavoro sempre attiva per flussi di lavoro end-to-end con più team). Questa pagina tratta la chat di lavoro.
+>Chat con i collaboratori è un modulo di Adobe CX Enterprise Coworker. Altri due moduli estendono la stessa base: Campagne collaboratori (alzati e avvia una campagna completa da una conversazione) e Progetti collaboratori (un’area di lavoro sempre attiva per flussi di lavoro end-to-end con più team). Questa pagina tratta la chat di lavoro.
 
 ## Un’evoluzione da AI Assistant
 
@@ -55,7 +52,7 @@ Le seguenti applicazioni CX Enterprise sono compatibili con Chat di lavoro:
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition (disponibile a breve)_
-* _Adobe Journey Optimizer B2B edition (disponibile a breve)_
+* _Adobe Journey Optimizer B2B Edition (disponibile a breve)_
 * _Customer Journey Analytics B2B edition (disponibile a breve)_
 
 ## Blocchi predefiniti
@@ -63,11 +60,11 @@ Le seguenti applicazioni CX Enterprise sono compatibili con Chat di lavoro:
 La chat di Coworker è alimentata dai blocchi predefiniti di Coworker. I seguenti elementi di base sono attualmente disponibili.
 
 * **Cablaggio preassemblato Enterprise:** il motore che trasforma l&#39;obiettivo in lavoro completato. Esegue un ciclo continuo di auto-correzione (motivo, selezione di un’abilità, esecuzione, convalida, ripetizione), recuperando dagli errori e lavorando in parallelo fino al completamento del lavoro, non solo ai tentativi.
-* **Abilità:** playbook riutilizzabili, in normale Markdown, per eseguire correttamente ogni attività. Chat con i collaboratori viene fornito con competenze per le attività più comuni attualmente eseguite dai clienti, con l&#39;obiettivo di coprire nel tempo il lavoro su tutte le applicazioni Adobe CX Enterprise.
+* **Abilità:** playbook riutilizzabili, in normale Markdown, per eseguire correttamente ogni attività. Chat con i collaboratori viene fornito con competenze per le attività più comuni di customer experience oggi e l’obiettivo è quello di coprire il lavoro su tutte le applicazioni Adobe CX Enterprise nel tempo.
 * **Connettori MCP:** hanno regolamentato l&#39;accesso per agire tra sistemi Adobe e di terze parti, con connettori predefiniti e l&#39;opzione di portare il tuo.
 * **Governance:** gate di approvazione, autorizzazioni ereditate dall&#39;organizzazione Adobe, controlli eseguiti prima dell&#39;esecuzione di un&#39;azione e un audit trail completo.
 * **Memoria:** Chat collaboratore apprende le tue preferenze, le tue decisioni e le tue correzioni in più sessioni, dall&#39;ambito delle regole a livello di organizzazione fino alle tue preferenze personali, in modo che diventi più nitido più lavori con esso.
 
 ## Panoramica video
 
->[!VIDEO](https://video.tv.adobe.com/v/3495973?captions=ita&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

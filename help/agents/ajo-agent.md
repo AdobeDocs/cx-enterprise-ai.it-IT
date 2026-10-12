@@ -4,7 +4,7 @@ description: Guida completa a Journey Agent, che consente agli utenti di creare,
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+TQID: 'https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
     internal-label: Email
+  - id: d2971708-e780-44bb-9e2a-72f139796afd
+    internal-label: Customer
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
@@ -48,7 +50,7 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 9%
@@ -66,7 +68,7 @@ Journey Agent è costituito da quattro attività principali:
 - **Creazione di contenuti per il canale**: genera, modifica e gestisci contenuti specifici per il canale (e-mail, push, SMS) per percorsi che utilizzano la generazione di contenuti basati sull&#39;intelligenza artificiale
 - **Analisi dei Percorsi**: analisi dei percorsi, rilevamento dei problemi, individuazione di informazioni e ottimizzazione del coinvolgimento dei clienti
 
-Inoltre, **Simulazione Percorso** è una funzionalità di Journey Optimizer che include [Simulazione Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, una funzionalità di intelligenza artificiale interna al prodotto e non relativa alla conversazione con tre funzionalità secondarie:
+Inoltre, **Simulazione Percorso** è una funzionalità di Journey Optimizer che include [Simulazione Percorso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, una funzionalità di intelligenza artificiale interna al prodotto e non relativa alla conversazione con tre funzionalità secondarie:
 
 - Generazione di utenti simulati
 - Generazione dei valori evento
@@ -310,7 +312,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Analisi percorso consente agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con Analisi Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e di pubblico, rilevare punti di abbandono dell’utente in un percorso e ottenere informazioni o consigli per migliorare le prestazioni.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 Per ulteriori informazioni, vedi [Analisi Percorso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} nella documentazione di Adobe Journey Optimizer.
 
@@ -500,7 +502,7 @@ La simulazione del percorso è disponibile per tutti i clienti Journey Optimizer
 
 Per utilizzare l&#39;intelligenza artificiale in **[!UICONTROL Simulazione]** (**[!UICONTROL Simulazione rapida]**, generazione di utenti simulati con intelligenza artificiale, **[!UICONTROL Generare valori evento]**), gli utenti richiedono l&#39;autorizzazione **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
-[Ulteriori informazioni sulle autorizzazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/permissions).
+[Ulteriori informazioni sulle autorizzazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,11 +564,11 @@ Inoltre, le seguenti funzionalità sono supportate dalla funzionalità Percorso 
 
 La simulazione potrebbe non supportare tutte le attività, i canali o le integrazioni supportati dalla modalità di test o da un percorso live e il comportamento potrebbe cambiare con il maturare della funzionalità.
 
-➡️ Ulteriori informazioni sulle [limitazioni della simulazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} nella documentazione di Journey Optimizer.
+➡️ Ulteriori informazioni sulle [limitazioni della simulazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} nella documentazione di Journey Optimizer.
 
 ## Vedi anche
 
 - [Agent Orchestrator](./agent-orchestrator.md), il livello agente che attiva Journey Agent e altri agenti Experience Platform.
 - [Strumenti Journey Optimizer in CX Coworker Gateway](../mcp/ajo-mcp.md), una superficie MCP di sola lettura per la revisione della configurazione di campagne e canali.
-- [Crea percorsi dal linguaggio naturale](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) e [Crea, modifica e gestisci le sfide di fidelizzazione](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), Casi di utilizzo di Chat con collaboratori che si basano sulla creazione di Percorsi.
+- [Crea percorsi dal linguaggio naturale](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) e [Crea, modifica e gestisci le sfide di fidelizzazione](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), Casi di utilizzo di Chat con collaboratori che si basano sulla creazione di Percorsi.
 - [Agente di supporto del prodotto](./product-support.md), per la risoluzione dei problemi di Journey Optimizer rilevati tramite l&#39;Assistente all&#39;intelligenza artificiale.

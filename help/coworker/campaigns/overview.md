@@ -1,18 +1,15 @@
 ---
-description: Scopri Adobe CX Enterprise Customer Campaigns, un’applicazione di marketing nativa per l’intelligenza artificiale che trasforma un singolo prompt in una campagna pronta per la revisione.
-title: Panoramica di Adobe CX Enterprise Collaborator
+description: Scopri Adobe CX Enterprise Coworker Campaigns, un’applicazione di marketing nativa per l’intelligenza artificiale che trasforma un singolo prompt in una campagna pronta per la revisione.
+title: Panoramica di Adobe CX Enterprise Coworker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
 ---
-# Panoramica delle campagne Adobe CX Enterprise Collaborator {#overview}
+# Panoramica delle campagne Adobe CX Enterprise Coworker {#overview}
 
 Campagne Coworker è un’applicazione di marketing nativa per l’intelligenza artificiale che consente di passare da un singolo prompt a una campagna completa pronta per la revisione.
 
@@ -114,7 +111,7 @@ Campagne collaboratore è un prodotto in fase di sviluppo attivo. Ecco cosa biso
 
 ## Panoramica video
 
->[!VIDEO](https://video.tv.adobe.com/v/3492813?captions=ita&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Durante la prova verranno fornite nuove funzionalità. Il tuo feedback aiuta a definire i prossimi sviluppi. Invia un feedback facendo clic sull’icona del feedback nel prodotto nell’intestazione.

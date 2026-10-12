@@ -1,18 +1,15 @@
 ---
-description: Scopri i miglioramenti e le correzioni introdotti nelle note sulla versione delle campagne Adobe CX Enterprise Collaborator.
-title: Note sulla versione delle campagne CX Enterprise Collaborator
+description: Scopri i miglioramenti e le correzioni di funzioni nelle note sulla versione di Adobe CX Enterprise Coworker Campaigns.
+title: Note sulla versione di CX Enterprise Coworker Campaigns
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '3590'
 ht-degree: 0%
 ---
-# Note sulla versione delle campagne Adobe CX Enterprise Collaborator {#release-notes}
+# Note sulla versione di Adobe CX Enterprise Coworker Campaigns {#release-notes}
 
 I rilasci delle campagne di collaborazione funzionano su un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni.
 
@@ -370,7 +367,7 @@ I rilasci delle campagne di collaborazione funzionano su un modello di distribuz
 
 * Le bacheche e gli elenchi di Campaign mantengono l’allineamento con i dettagli più recenti mentre lavori
 * Nella chat della campagna e in Agent Builder viene visualizzata una dichiarazione generativa di non responsabilità per l’intelligenza artificiale
-* I recapiti di contatto del supporto ora utilizzano l’indirizzo e-mail dedicato delle campagne CX per collaboratori
+* I dettagli di contatto del supporto ora utilizzano l’indirizzo e-mail dedicato alle campagne CX Coworker
 * La pagina Home di marketing rimuove la sezione della lista d’attesa e mostra più chiaramente il video principale
 * Più schermate rispettano automaticamente la lingua e i formati di data locali
 * Vari miglioramenti a livello di prestazioni e affidabilità in tutto il
