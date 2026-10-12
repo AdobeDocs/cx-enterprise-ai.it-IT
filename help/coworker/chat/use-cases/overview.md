@@ -7,24 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
+source-git-commit: af2a9b4bc7082fb4813739dc0a2e9ca10f1b8db5
 workflow-type: tm+mt
-source-wordcount: '7168'
+source-wordcount: '7107'
 ht-degree: 6%
 ---
 # Casi d’uso di Chat con i collaboratori {#use-cases}
 
 Chat con collaboratori consente di eseguire query, analizzare e agire sui dati di [!DNL Experience Platform] utilizzando il linguaggio naturale anziché navigare in più interfacce utente o scrivere query manualmente. Questa pagina cataloga i casi d’uso su cui i professionisti si basano maggiormente, organizzati per area di lavoro: approfondimenti sui dati, tipi di pubblico, percorsi, fedeltà, elementi fondamentali e strumenti sandbox. Ogni voce include l&#39;abilità richiamata, le applicazioni con cui lavora e i prompt di esempio che è possibile copiare, adattare ai propri dati e perfezionare attraverso la conversazione.
-
->[!NOTE]
->
->In arrivo:
->
->Nuove funzionalità per gli agenti di AEM tramite CX Enterprise Coworker, progettate per aiutarti a fare di più e più rapidamente.
->
->Tutti i clienti idonei avranno accesso alle funzionalità di agenti Adobe Experience Manager in Coworker, su base continua.
->
->Vedi anche [IA in AEM - Panoramica delle funzionalità agente in AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Esperienza del marchio
 
