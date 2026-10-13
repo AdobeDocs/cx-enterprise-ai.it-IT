@@ -1,20 +1,17 @@
 ---
-description: Sfoglia i modelli di prompt reali per le campagne Adobe CX Enterprise Collaborator, organizzati in base al caso d’uso per le campagne di acquisizione, coinvolgimento, eventi, conversione e conservazione.
+description: Cerca modelli di prompt reali per le campagne Adobe CX Enterprise Coworker, organizzati per caso d’uso in campagne di acquisizione, coinvolgimento, eventi, conversione e fidelizzazione.
 title: Casi di utilizzo delle campagne dei collaboratori
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # Casi d’uso {#use-cases}
 
-Di seguito sono riportati i modelli di prompt reali utilizzati dagli esperti di marketing per la crescita e il ciclo di vita nelle campagne Adobe CX Enterprise Customer Workers. Ognuna è creata per essere copiata, scambiata con il tuo pubblico e i tuoi dettagli del brand e perfezionata nella conversazione.
+Di seguito sono riportati i pattern di prompt reali utilizzati dagli esperti di marketing per la crescita e il ciclo di vita nelle campagne Adobe CX Enterprise Coworker. Ognuna è creata per essere copiata, scambiata con il tuo pubblico e i tuoi dettagli del brand e perfezionata nella conversazione.
 
 ## Come usare
 

@@ -3,15 +3,12 @@ description: Connetti l’account HubSpot a Campagne con Collaboratore utilizzan
 title: Connetti a HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # Connetti a HubSpot {#hubspot}
 
 Campagne Adobe Collaborator consente di collegare l’account HubSpot per richiamare gli elenchi di contatti.

@@ -10,10 +10,7 @@ jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 1%
@@ -30,5 +27,5 @@ Il video illustra il plug-in Fedeltà e la sua abilità di gestione delle sfide,
 ## Vedi anche
 
 - [Journey Agent](../../../../agents/ajo-agent.md), per altre funzionalità di IA per AJO disponibili tramite Chat con coorker, ad esempio creazione di percorsi, analisi e simulazione.
-- [Gestione delle richieste di fidelizzazione](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} nella documentazione di Adobe Journey Optimizer.
+- [Gestione delle richieste di fidelizzazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} nella documentazione di Adobe Journey Optimizer.
 - [Altri casi di utilizzo di Chat con collaboratori](../overview.md#journeys)

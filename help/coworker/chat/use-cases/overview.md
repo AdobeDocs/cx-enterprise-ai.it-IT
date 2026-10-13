@@ -4,10 +4,7 @@ title: Casi di utilizzo della chat del collaboratore
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: af2a9b4bc7082fb4813739dc0a2e9ca10f1b8db5
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '7107'
 ht-degree: 6%
@@ -93,7 +90,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ## Governance del brand
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Linee guida e ricerca dei segmenti | Recuperare le linee guida dettagliate del brand, definite per segmento, mercato o categoria | enterprise-context | Adobe Experience Manager (AEM) | &quot;Quali sono le linee guida per il tono di voce per questo marchio?&quot;<br>&quot;Elencare le categorie di attestazioni utilizzate nel settore verticale dell&#39;integrità&quot; |
 | Valutare i contenuti in base alle linee guida del brand | Valutare una pagina, un blocco di testo o un’immagine pubblicati/creati in base ai controlli del marchio configurati | aem-governance | Adobe Experience Manager (AEM) | &quot;Valutare questa pagina di destinazione in base alle linee guida di SecurBank&quot;<br>&quot;Questa tagline supera i controlli del tono di voce?&quot; |
@@ -105,7 +102,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ## Informazioni sui dati
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Recuperare i report e le metriche di CJA &amp; AA](data-insights/analytics-chat.md) | Eseguire query su CJA o AA in tempo reale per estrarre metriche, dimensioni, segmenti, visualizzazioni dati e suite di rapporti | `cja`, `aa` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;Mostra visualizzazioni pagina per gli ultimi 30 giorni&quot; <br> &quot;Elenca segmenti principali nella visualizzazione dati master&quot; |
 | Analisi comparativa | Confrontare le metriche su canali, periodi di tempo o segmenti affiancati | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;Confrontare i ricavi per canale, mese e mese&quot; <br> &quot;Come si presenta la conversione da PC portatile a desktop in questo trimestre?&quot; |
@@ -121,7 +118,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ## Tipi di pubblico
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Crea tipi di pubblico dal linguaggio naturale](audiences/create-audience-from-natural-language.md) | Orchestrare la creazione di tipi di pubblico dettagliati con l’approvazione dell’utente in ogni fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crea un pubblico di utenti che hanno acquistato negli ultimi 30 giorni&quot; <br> &quot;Crea un segmento per i membri fedeltà di alto valore in California&quot; |
 | Creare definizioni di PQL | Assembla le definizioni del pubblico da proprietà XDM, eventi comportamentali o tipi di pubblico esistenti; supporta l’aggregazione e le finestre temporali | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crea un PQL per gli utenti che hanno visualizzato più di 3 prodotti ma non hanno acquistato&quot; <br> &quot;Aggiungi una finestra temporale di 7 giorni alla condizione evento&quot; |
@@ -133,7 +130,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ## Percorsi
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Crea percorsi dal linguaggio naturale](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | Orchestrare la creazione di percorsi in AJO da un prompt di testo o da un’immagine o un diagramma di flusso caricati | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crea un percorso di benvenuto che invia un&#39;e-mail dopo l&#39;iscrizione, attende 3 giorni, quindi invia un follow-up&quot; <br> &quot;Crea un percorso da questa immagine di diagramma di flusso caricata&quot; |
 | [Analizzare i percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Rilevare sovrapposizioni di pubblico, conflitti di pianificazione e problemi di deduplicazione tra percorsi attivi | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;Il percorso di abbandono del carrello è in conflitto con altri percorsi?&quot; <br> &quot;Verifica la sovrapposizione del pubblico tra i miei percorsi attivi&quot; |
@@ -149,7 +146,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 ## Gestione dei contenuti Journey Optimizer
 
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Applica indicazioni per il brand](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Trova, seleziona e applica le linee guida approvate per il marchio, relative a voce, scrittura, immagini, terminologia e indicazioni legali per le campagne. | `brand-lookup` | Adobe Journey Optimizer (AJO) | &quot;Richiama le linee guida visive e di scrittura per il nostro marchio Acme.&quot; |
 | [Verifica preparazione contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Rivedi i contenuti della campagna per la voce del brand, la qualità editoriale, il coinvolgimento, la chiarezza e la prontezza. | `check-content-readiness` | Adobe Journey Optimizer (AJO) | &quot;Questa copia dell’e-mail è pronta per l’invio? Verifica la voce del brand, la chiarezza, l’accessibilità e la conformità.&quot; |
@@ -178,7 +175,7 @@ Chat con collaboratori consente di eseguire query, analizzare e agire sui dati d
 
 ## Fedeltà
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Creare, modificare e gestire le sfide relative alla fedeltà](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | Semplificare e accelerare la gestione dei programmi fedeltà | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crea una sfida che incoraggia i membri a provare una nuova bevanda stagionale&quot; <br> &quot;Mostra le sfide di fedeltà con i tassi di abbandono dei membri più elevati.&quot; |
 | [Analizzare le prestazioni del programma fedeltà](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | Eseguire query e analizzare i punti fedeltà, i livelli membro, i rimborsi e le metriche dei ricavi utilizzando il linguaggio naturale | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;Quanti punti fedeltà sono stati concessi nel mese di agosto 2026?&quot; <br> &quot;Mostra i ricavi totali del programma fedeltà suddivisi per giorno nel mese di agosto 2026.&quot; |
@@ -193,7 +190,7 @@ Utilizza Chat con collaboratori per pianificare, generare, valutare e perfeziona
 
 ### Copia messaggio
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Acquisire informazioni di marketing](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Acquisisce la strategia della campagna e definisce il mandato creativo. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | &quot;Crea una descrizione di marketing per il lancio stagionale del prodotto&quot; <br> &quot;Trasforma questa strategia della campagna in una descrizione di marketing&quot; |
 | [Acquisisci descrizione creativa](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Struttura la specifica di esecuzione della copia e crea la matrice del piano dei contenuti. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | &quot;Crea una descrizione creativa da questa descrizione di marketing approvata&quot; <br> &quot;Crea una matrice di piano dei contenuti per la nostra campagna e-mail e SMS&quot; |
@@ -208,7 +205,7 @@ Utilizza Chat con collaboratori per pianificare, generare, valutare e perfeziona
 
 ### Progettazione delle e-mail
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Componi e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Pianifica la struttura e lo stile dei blocchi in base a un obiettivo di marketing e agli input del brand. | `compose-email` | Adobe Journey Optimizer (AJO) | &quot;Pianifica un layout e-mail per il lancio del nostro prodotto utilizzando le linee guida per il marchio&quot; <br> &quot;Componi un&#39;e-mail di benvenuto con una sezione protagonista, elementi di rilievo del prodotto e un call to action&quot; |
 | [Genera e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Crea, adatta, modifica e perfeziona e-mail HTML da un piano di layout, uno screenshot o un collegamento di progettazione Figma. | `build-email` | Adobe Journey Optimizer (AJO) | &quot;Crea un HTML di posta elettronica da questo piano di layout approvato&quot; <br> &quot;Crea un&#39;e-mail da questo collegamento alla progettazione Figma&quot; |
@@ -228,7 +225,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ### Analisi e strategia degli esperimenti
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Sfogliare ed esplorare gli esperimenti | Cerca panoramiche, elenchi, conteggi, risultati non elaborati, approfondimenti e opportunità dell’esperimento | `experiment-explorer` | Adobe Target/Adobe Journey Optimizer | &quot;Mostrami i miei esperimenti&quot; · &quot;Elenca i test attivi&quot; · &quot;Quanti esperimenti sono in esecuzione?&quot; |
 | Analizzare le prestazioni dell’esperimento | Ottieni raggruppamenti del portfolio, controlli di integrità per singolo esperimento, resoconti esecutivi e rapporti per più esperimenti con metriche, facoltativamente arricchite con dati di CJA | `experiment-analysis` | Adobe Target/Adobe Journey Optimizer | &quot;Come stanno andando i miei test A/B?&quot; · &quot;Generare un rapporto per le mie attività con le metriche di CJA&quot; · &quot;Il test è valido?&quot; |
@@ -237,7 +234,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ### Attività e tipi di pubblico di Target
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Sfoglia entità di destinazione | Scopri, ispeziona e conta attività, offerte, tipi di pubblico, mbox, proprietà, aree di lavoro, configurazione AT.js, token di risposta e cronologia delle revisioni. Può anche acquisire uno screenshot delle esperienze forzate di un’attività | `target-browse` | Adobe Target | &quot;Elencare i miei test A/B&quot; · &quot;Quante attività sono state avviate questo mese?&quot; · &quot;Mostra dettagli della 12345 attività&quot; |
 | Analizzare le prestazioni dell’attività | Ottieni tassi di conversione, incremento, intervalli di affidabilità, ricavi e conteggi di esposizioni per una singola attività. Dichiara solo i fatti e non dichiara mai un vincitore | `target-analyze` | Adobe Target | &quot;Come si comporta l’attività X?&quot; · &quot;Mostrami l’incremento di conversione&quot; · &quot;Qual è l’AOV per il test di pagamento?&quot; |
@@ -253,7 +250,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ### Consigli
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Sfogliare le entità Consigli | Sfoglia e controlla i criteri, le raccolte, i progetti, le promozioni, le esclusioni, i cataloghi e i feed di Recommendations, oltre a ricevere consigli sulla pulizia e indicazioni sugli attributi del catalogo | `target-recs` | Adobe Target | &quot;Elencare i miei criteri di Recommendations&quot; · &quot;Quali progetti ho?&quot; · &quot;Quali record possiamo ripulire?&quot; |
 | Diagnosticare i problemi relativi ai consigli | Traccia l’attività, i criteri, il feed, la raccolta e la catena di progettazione per spiegare perché i consigli sono vuoti, obsoleti o non visualizzati | `target-recs-diagnose` | Adobe Target | &quot;Perché i miei consigli sono vuoti?&quot; · &quot;Perché la mia attività recs è stata &quot;risultati non pronti&quot; per 48 ore?&quot; |
@@ -261,7 +258,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ## Elementi fondamentali
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Conoscenza del prodotto e documentazione | Rispondi alle domande pratiche, concettuali, sulla risoluzione dei problemi e sulle best practice contenute nei documenti ufficiali di Adobe | `product-knowledge` | Tutte le candidature ammissibili | &quot;Come si imposta una destinazione di streaming?&quot; <br> &quot;Qual è la differenza tra segmentazione in batch e segmentazione in streaming?&quot; |
 | Query di entità Experience Platform/Journey Optimizer | Funge da punto di ingresso principale per domande sulle entità della piattaforma; passa a KG, all’individuazione dei campi o alle API in base alle esigenze | `operational-insights` | Tutte le candidature ammissibili | &quot;Quanti set di dati ho?&quot; <br> &quot;Mostra tutti i percorsi attivi&quot; <br> &quot;Elenca le mie destinazioni&quot; |
@@ -275,20 +272,20 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ## Gestione dati
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Trovare dati da ottimizzare o pulire](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Scopri se i dati di Experience Event possono essere ottimizzati presentando i set di dati più grandi, meno utilizzati o dimenticati come candidati per la pulizia o per i criteri di conservazione di un data lake | `List datasets` | Adobe Experience Platform | &quot;Ho la sensazione che i miei dati possano essere ottimizzati&quot; <br> &quot;Aiutami a comprendere il valore dei miei dati&quot; <br> &quot;Ottimizzare i miei dati sandbox&quot; <br> &quot;Pulire i miei set di dati sandbox&quot; |
 | [Verificare l&#39;utilizzo e gestire la conservazione per un set di dati](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Dopo aver individuato un set di dati che merita una visione più approfondita, scopri come viene utilizzato attivamente, modella l’impatto di un potenziale criterio di conservazione di un data lake e imposta, modifica o rimuovi tale criterio quando sei pronto, con la tua revisione e approvazione prima di qualsiasi modifica | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | &quot;Quanto attivamente viene utilizzato il set di dati degli eventi Web?&quot; <br> &quot;Quale sarebbe l’impatto se impostassi un periodo di conservazione di 60 giorni su questo set di dati?&quot; |
 
 ## Strumenti sandbox
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | [Spostamento di oggetti tra sandbox](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Migra facilmente schemi, tipi di pubblico e altre configurazioni di oggetti tra sandbox, con le dipendenze risolte automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Sposta lo schema Luma Loyalty Members Platinum dalla sandbox corrente alla sandbox di produzione&quot; <br> &quot;Promuovi il pubblico US Gold Loyalty Members allo stage&quot; |
 
 ## Avvisi cliente
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Gestire gli abbonamenti agli avvisi | Visualizza e gestisci gli abbonamenti agli avvisi tramite conversazioni in linguaggio naturale. | `alerts-subscribe` | Adobe Experience Platform | &quot;A quali avvisi sono abbonato?&quot;<br><br>&quot;Sottoscrivi questo avviso.&quot;<br><br>&quot;Rimuovi l&#39;abbonamento a questo avviso.&quot; |
 | Rivedi attività di avviso | Esaminare lo stato corrente dell&#39;avviso e l&#39;attività cronologica dell&#39;avviso per un periodo di tempo specificato. | `alerts-list` | Adobe Experience Platform | &quot;Cosa è successo nelle ultime 24 ore?&quot;<br><br>&quot;Quali avvisi sono stati attivati nelle ultime 24 ore?&quot;<br><br>&quot;Mostra gli avvisi attivi degli ultimi sette giorni.&quot; |
@@ -300,7 +297,7 @@ Utilizza Chat con collaboratori per sfogliare, analizzare e pianificare esperime
 
 ## Flusso di lavoro e pianificazione
 
-| Caso d&#39;uso | Descrizione | Competenza | Applicazione | Prompt di esempio |
+| Caso d&#39;uso | Descrizione | Competenze | Applicazione | Prompt di esempio |
 | --- | --- | --- | --- | --- |
 | Gestisci area di lavoro di Planning | Creare ed evolvere aree di lavoro, sezioni, tipi di record e campi di Workfront Planning per organizzare i programmi e tenere traccia del lavoro | `manage-workfront-planning`, `wf-planning-solution-architect` | Pianificazione Workfront | &quot;Creare un&#39;area di lavoro denominata MKG Hub e impostare tipi di record per tenere traccia dei programmi per area&quot; <br> &quot;Impostare i tipi di record e le relazioni necessari per tenere traccia dei programmi MKG per i diversi canali e area&quot; |
 | Gestisci record di Planning | Crea e aggiorna i record di pianificazione (campagne, resoconti) e i relativi valori dei campi in un’area di lavoro | `manage-workfront-planning` | Pianificazione Workfront | &quot;Crea una descrizione della campagna di lancio Autunno Brand con l&#39;obiettivo, il pubblico di destinazione e i messaggi chiave&quot; <br> &quot;Aggiorna la descrizione di lancio Autunno Brand con il budget e i canali principali&quot; |
