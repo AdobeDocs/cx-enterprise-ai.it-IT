@@ -4,10 +4,10 @@ description: Scopri Adobe CX Enterprise Coworker, un compagno di squadra basato 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
+source-git-commit: f7d9c1051261eecf2abe76849b70df57cb561696
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 15%
+source-wordcount: '951'
+ht-degree: 17%
 ---
 # Panoramica di CX Enterprise Coworker {#overview}
 
@@ -23,16 +23,16 @@ Che tu stia iniziando o desideri approfondire le tue competenze, queste playlist
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/it/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498573?captions=ita&format=jpeg}    
-*  https://experienceleague.adobe.com/it/playlists/coworker-customize-chat
+   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502338?captions=ita&format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -40,8 +40,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/it/playlists/coworker-get-started-with-chat" title="Introduzione a CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498573?captions=ita&format=jpeg" alt="Introduzione a CX Enterprise Coworker Chat"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="Introduzione a CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Introduzione a CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -49,11 +49,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/it/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Introduzione a CX Enterprise Coworker Chat">Introduzione a CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Introduzione a CX Enterprise Coworker Chat">Introduzione a CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">Scopri il valore di CX Enterprise Coworker Chat e inizia a eseguire casi d’uso.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/it/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Guarda</span>
                 </a>
             </div>
@@ -63,8 +63,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/it/playlists/coworker-customize-chat" title="Personalizzare CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502338?captions=ita&format=jpeg" alt="Personalizzare CX Enterprise Coworker Chat"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Personalizzare CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="Personalizzare CX Enterprise Coworker Chat"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -72,11 +72,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/it/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Personalizzare CX Enterprise Coworker Chat">Personalizza CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="Personalizzare CX Enterprise Coworker Chat">Personalizza CX Enterprise Coworker Chat</a>
                     </p>
                     <p class="is-size-6">Scopri come personalizzare Coworker con competenze riutilizzabili, integrazioni Enterprise, plug-in e memoria per fornire esperienze di intelligenza artificiale personalizzate, in base al contesto e specifiche per l’azienda, in base al funzionamento del team.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/it/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Guarda</span>
                 </a>
             </div>
@@ -95,9 +95,13 @@ CARDS
   {title = Transforming CX Workflows with Adobe CX Enterprise Coworker}
   {description = Explore real-world use cases that demonstrate how organizations can put Coworker to work to uncover insights, create audiences, optimize journeys, and deliver customer experiences faster and more efficiently.}
   {cta = Watch}
-*  https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008
+* https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
+  {cta = Watch}
+* https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021
+  {title = Harness the next frontier of agentic intelligence with CX Analytics in Coworker}
+  {description = See how Coworker helps analysts surface net-new intelligence from the data they already have, accelerate time-to-insight, and turn analysis into business outcomes.}
   {cta = Register}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -107,7 +111,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Trasformazione dei flussi di lavoro CX con Adobe CX Enterprise Coworker" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Trasformazione dei flussi di lavoro CX con Adobe CX Enterprise Coworker"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503884/?format=jpeg&nocache=1791910908082" alt="Trasformazione dei flussi di lavoro CX con Adobe CX Enterprise Coworker"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -129,8 +133,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Funzionalità B2C di pubblico e Percorso in Coworker" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Funzionalità B2C di pubblico e Percorso in Coworker"
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" title="Funzionalità B2C di pubblico e Percorso in Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504278/?format=jpeg&nocache=1791910908126" alt="Funzionalità B2C di pubblico e Percorso in Coworker"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -138,11 +142,34 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Funzionalità B2C di pubblico e Percorso in Coworker">Funzionalità B2C di pubblico e Percorso in Collaborator</a>
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Funzionalità B2C di pubblico e Percorso in Coworker">Funzionalità B2C di pubblico e Percorso in Collaborator</a>
                     </p>
                     <p class="is-size-6">Scopri come Coworker può eseguire flussi di lavoro end-to-end per l’orchestrazione dell’esperienza del cliente, aumentando la produttività e semplificando attività altrimenti tecniche o complesse.</p>
                 </div>
-                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Guarda</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Harness the next frontier of agentic intelligence with CX Analytics in Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" title="Sfruttare la prossima frontiera dell&apos;intelligenza artificiale con CX Analytics in Coworker" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="/assets/SiteConfig/21998-dx-Commercial-Social-Share-Image-Marketo.jpg" alt="Sfruttare la prossima frontiera dell&apos;intelligenza artificiale con CX Analytics in Coworker"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" target="_blank" rel="referrer" title="Sfruttare la prossima frontiera dell&apos;intelligenza artificiale con CX Analytics in Coworker">Sfruttare la prossima frontiera dell'intelligenza artificiale con CX Analytics in Coworker</a>
+                    </p>
+                    <p class="is-size-6">Scopri in che modo Coworker aiuta gli analisti a ottenere nuove informazioni dai dati già in loro possesso, ad accelerare il time-to-insight e a trasformare l’analisi in risultati di business.</p>
+                </div>
+                <a href="https://engage.adobe.com/ExpLeagueLive-261021.html?cid=cwkr-ovw-20261021" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Registra</span>
                 </a>
             </div>
