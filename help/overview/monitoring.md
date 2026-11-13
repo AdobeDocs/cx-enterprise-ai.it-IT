@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1024'
 ht-degree: 1%
-
 ---
-
 # Dashboard di monitoraggio di IA per agente
 
 Il dashboard di [!UICONTROL Monitoraggio] di Agentic AI offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull&#39;utilizzo e l&#39;adozione di Agentic AI. Visualizzare le tendenze di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents] e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
+
+>[!IMPORTANT]
+>
+>Le metriche in questo dashboard non riflettono l&#39;utilizzo di [!DNL Coworker]. Un dashboard di monitoraggio [!DNL Coworker] è in fase di sviluppo e verrà documentato quando sarà disponibile.
 
 **Disponibilità**
 
 * Attualmente, qualsiasi account con una licenza per almeno un’applicazione nativa di Experience Platform (Customer Journey Analytics, Journey Optimizer o Real-Time CDP) può accedere a questa dashboard
 * Le metriche di utilizzo e adozione per [applicazioni AI-first](agentic-ai.md#ai-first-cx-enterprise-applications) come Experimentation Accelerator, LLM Optimizer e Sites Optimizer non rientrano nell&#39;ambito di questa dashboard.
+* Un dashboard [!DNL Coworker] sarà presto disponibile.
 
 Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 
@@ -47,13 +50,13 @@ Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 | **Feedback** | Segnali sulla qualità della risposta e sulla soddisfazione degli utenti |
 | **Crediti IA** | Andamenti dei consumi di credito e saldo residuo |
 
-Nella documentazione di [Agentic AI in Adobe CX Enterprise](agentic-ai.md) sono elencati gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo nella tabella [Agentic AI agents nelle applicazioni CX Enterprise esistenti](agentic-ai.md#existing-apps-table).
+Nella documentazione di [Agentic AI in Adobe CX Enterprise](agentic-ai.md) sono elencati gli agenti nell&#39;ambito per il monitoraggio dell&#39;utilizzo nella tabella [Agentic AI agents in app CX Enterprise esistenti](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491874?captions=ita&learn=on)
 
 ## Abilita autorizzazioni dashboard {#permissions}
 
-Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti della home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
+Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti nella home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornan
    * **[!UICONTROL Visualizza dashboard personalizzati]**
    * **[!UICONTROL Gestione dashboard standard]**
 
-1. Per visualizzare le dashboard, tornare alla home di CX Enterprise, quindi fare clic su **[!UICONTROL Monitoraggio]**.
+1. Per visualizzare le dashboard, torna alla home di CX Enterprise, quindi fai clic su **[!UICONTROL Monitoraggio]**.
 
    ![Dashboard di monitoraggio di IA agente](assets/monitoring.png)
 
