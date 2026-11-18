@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 2%
-
 ---
-
 # Assistente IA
+
+Questo documento si applica all’Assistente IA (di nuova generazione). Per informazioni sull&#39;Assistente AI (versione precedente), leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) nella documentazione di Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Questo documento si applica all’Assistente IA (di nuova generazione). Per informazioni sull&#39;Assistente AI (versione precedente), leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) nella documentazione di Adobe Experience Platform.
+>Adobe CX Enterprise Coworker è un’evoluzione più potente e funzionale dell’Assistente all’intelligenza artificiale, realizzato per aiutare i tuoi utenti a fare di più e più rapidamente. Coworker sfrutta e amplia tutto ciò che il tuo team sta utilizzando per l’Assistente di intelligenza artificiale, consentendogli di automatizzare le attività di routine, aumentare la produttività e favorire decisioni più intelligenti e approfondite. [Ulteriori informazioni](https://business.adobe.com/it/products/cx-enterprise-coworker.html).
 
 Per un confronto tra Assistente IA (legacy) e Assistente IA (di nuova generazione), consulta la tabella seguente:
 
@@ -37,7 +37,7 @@ Per un confronto tra Assistente IA (legacy) e Assistente IA (di nuova generazion
 | Esperienza utente | L’Assistente AI (legacy) è disponibile solo in un pannello nella barra a destra. | AI Assistant (Next-Gen) è disponibile sia nel pannello della barra a destra che nell’esperienza coinvolgente a schermo intero. |
 | Ambito delle funzionalità | È possibile utilizzare l’Assistente AI (legacy) sia per conoscere il prodotto che per acquisire informazioni operative. | Puoi utilizzare l’Assistente all’intelligenza artificiale (di nuova generazione) per conoscere il prodotto, ottenere informazioni operative, acquisire competenze avanzate in ambito agente ed eseguire attività in più fasi. |
 | Architettura della piattaforma | L’Assistente IA (legacy) non è basato sullo stack di Agent Orchestrator. | L&#39;Assistente di intelligenza artificiale (di nuova generazione) è basato su [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator), che abilita l&#39;estensibilità e il coordinamento avanzato tra le funzionalità. |
-| Applicazione coperta | L’Assistente IA (legacy) è un’implementazione specifica per l’applicazione. | È possibile utilizzare AI Assistant (di nuova generazione) per un&#39;esperienza di AI Assistant unificata in tutte le applicazioni Adobe CX Enterprise. |
+| Applicazione coperta | L’Assistente IA (legacy) è un’implementazione specifica per l’applicazione. | È possibile utilizzare AI Assistant (di nuova generazione) per un’esperienza di AI Assistant unificata in tutte le applicazioni Adobe CX Enterprise. |
 | Modello di accesso e autorizzazione | Modello di accesso con ambito di applicazione allineato ai limiti dei singoli prodotti. | Tutti gli utenti possono accedere ad AI Assistant (Next-Gen) e agli agenti Experience Platform associati. **Nota**: <ul><li>**Adobe Experience Manager**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale (di nuova generazione) tramite [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control?lang=en). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati. |
 
 AI Assistant è uno strumento intelligente di intelligenza artificiale di tipo conversazionale che consente di aumentare la produttività e ridefinire il lavoro nelle applicazioni basate su Adobe Experience Platform. È possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
@@ -56,11 +56,11 @@ Nell&#39;interfaccia della home page di CX Enterprise, selezionare **[!UICONTROL
 
 +++Seleziona per visualizzare
 
-![La home di CX Enterprise con l&#39;icona Assistente AI selezionata nel menu di navigazione a sinistra.](./assets/ai-assistant/from-experience-cloud.png)
+![La CX Enterprise home con l&#39;icona Assistente AI selezionata nel menu di navigazione a sinistra.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-È inoltre possibile avviare AI Assistant dalle home page delle applicazioni CX Enterprise, come Experience Platform, Adobe Journey Optimizer e Customer Journey Analytics. Passa alla home page del prodotto, quindi seleziona l&#39;icona **Assistente IA** dall&#39;intestazione superiore per avviare il pannello chat dell&#39;Assistente IA nella barra a destra.
+Puoi anche avviare l’Assistente IA dalle home page di applicazioni CX Enterprise come Experience Platform, Adobe Journey Optimizer e Customer Journey Analytics. Passa alla home page del prodotto, quindi seleziona l&#39;icona **Assistente IA** dall&#39;intestazione superiore per avviare il pannello chat dell&#39;Assistente IA nella barra a destra.
 
 +++Seleziona per visualizzare
 
@@ -224,7 +224,7 @@ Viene visualizzata la finestra popup *[!UICONTROL Risposta da...]*. Utilizzare q
 
 | Origine delle informazioni | Descrizione | Esempi |
 | --- | --- | --- |
-| App | L&#39;applicazione CX Enterprise a cui si riferisce la query. | Experience Platform, Journey Optimizer, Customer Journey Analytics, ecc. |
+| App | L’applicazione CX Enterprise a cui si riferisce la query. | Experience Platform, Journey Optimizer, Customer Journey Analytics, ecc. |
 | Sandbox | La sandbox che contiene i set di dati o le informazioni a cui si riferisce la query. | Prod (VA7), Sviluppo |
 | Visualizzazione dati | Quando si utilizza l’Assistente IA con Customer Journey Analytics, l’impostazione della visualizzazione dati aiuta Data Insights Agent a comprendere: <ul><li>Quali set di dati eseguire la query</li><li>Quali componenti dati sono disponibili</li><li>Come strutturare le risposte relative ai dati</li><li>Quali visualizzazioni creare in Analysis Workspace</li></ul> | |
 

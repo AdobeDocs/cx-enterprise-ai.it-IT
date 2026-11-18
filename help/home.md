@@ -25,23 +25,18 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: 9dab42a742d258dd7d3dea3ae555a6f8b3ecac9b
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '800'
 ht-degree: 4%
 ---
 # IA nelle applicazioni CX Enterprise
 
-Questa guida descrive le funzionalità di intelligenza artificiale in Adobe CX Enterprise: intelligenza artificiale generativa, CX Enterprise Coworker, Assistente intelligenza artificiale e Agent Orchestrator.
+Questa guida presenta le funzionalità di intelligenza artificiale disponibili in Adobe CX Enterprise: Collaboratore, Assistente di intelligenza artificiale e Agent Orchestrator con gli agenti Experience Platform che gestisce. Inizia con la panoramica seguente per comprendere come si relazionano queste funzionalità, quindi segui i collegamenti per configurare l’accesso, monitorare l’utilizzo e ottenere il massimo da ciascuna.
 
-## Panoramica delle funzionalità di intelligenza artificiale
-
-Inizia qui per un primer su dove e come l’intelligenza artificiale viene utilizzata in CX Enterprise:
-
-- [Collaboratore](https://experienceleague.adobe.com/it/docs/coworker/content/home) è un primo compagno di squadra agente che pianifica, esegue, convalida e restituisce l&#39;esperienza del cliente e il lavoro di marketing finiti per la tua approvazione.
 - [Informazioni sull&#39;intelligenza artificiale generativa](./overview/generative-ai.md) descrive quali applicazioni CX Enterprise supportano l&#39;intelligenza artificiale generativa e l&#39;Assistente all&#39;intelligenza artificiale e come si confrontano.
 - [Informazioni sull&#39;IA per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;analisi per l&#39;utilizzo per l&#39;analisi per l&#39;utilizzo per l&#39;analisi per l&#39;analisi per l&#39;utilizzo per l&#39;utilizzo per le applicazioni CX Enterprise esistenti e per le applicazioni IA-first.](./overview/agentic-ai.md)
-- Il monitoraggio di [IA](./overview/monitoring.md) riguarda le dashboard che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di crediti AI da parte degli agenti.
+- [Il monitoraggio dell&#39;intelligenza artificiale](./overview/monitoring.md) copre le dashboard dell&#39;Assistente all&#39;intelligenza artificiale che tengono traccia dell&#39;adozione, dell&#39;utilizzo, del feedback e del consumo di credito dell&#39;intelligenza artificiale.
 - [Consumo crediti AI](./overview/ai-credit-consumption.md) spiega come i processi agente utilizzano i crediti AI, con tassi di consumo stimati per agente e tipo di processo.
 - [Trasparenza dei contenuti di IA generativa](./content-transparency.md) spiega in che modo Adobe associa automaticamente i metadati C2PA ai contenuti generati e modificati da GenAI nelle applicazioni CX Enterprise.
 - [Gli strumenti per agenti di CX Enterprise](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview) includono ulteriori competenze e strumenti per agenti che estendono gli agenti di CX Enterprise (esercitazioni video).
@@ -53,7 +48,7 @@ Coworker è un’evoluzione dell’Assistente all’intelligenza artificiale che
 Il collega include:
 
 - **[Chat collaboratore](https://experienceleague.adobe.com/it/docs/coworker/content/chat/overview)**: interfaccia di conversazione per l&#39;esplorazione dei dati, la convalida di tipi di pubblico e percorsi e il completamento di attività in più passaggi nelle applicazioni CX Enterprise.
-- **[Campagne collaboratori](https://experienceleague.adobe.com/it/docs/coworker/content/campaigns/overview)**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione di percorsi e la verifica in un&#39;unica esperienza di conversazione. Utilizza modelli incorporati, best practice e indicazioni per aiutare i team di piccole dimensioni a lanciare campagne in modo rapido. Ulteriori informazioni su [Adobe for Business](https://business.adobe.com/it/products/cx-enterprise-coworker/teams.html).
+- **[Collaboratore per team](https://experienceleague.adobe.com/it/docs/coworker/content/campaigns/overview)**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione di percorsi e la verifica in un&#39;unica esperienza di conversazione. Utilizza modelli incorporati, best practice e indicazioni per aiutare i team di piccole dimensioni a lanciare campagne in modo rapido. Ulteriori informazioni su [Adobe for Business](https://business.adobe.com/it/products/cx-enterprise-coworker/teams.html).
 - **Progetti collaboratori** (presto disponibile): area di lavoro unificata per automatizzare i flussi di lavoro di orchestrazione dell&#39;esperienza del cliente end-to-end, che consente ai team di coordinare attività, approvazioni ed esecuzione per gestire i risultati dalla strategia fino alla consegna. La documentazione dei progetti sarà presto disponibile.
 
 I clienti idonei vengono gradualmente trasferiti da Assistente AI e Agenti Experience Platform a Chat per collaboratori.
