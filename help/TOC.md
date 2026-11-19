@@ -3,10 +3,9 @@ audience: user
 user-guide-title: IA in CX Enterprise
 user-guide-description: Scopri come creare, configurare, integrare ed estendere l’Assistente all’intelligenza artificiale, il Coworker, gli agenti e gli MCP tramite documentazione pratica, linee guida per l’implementazione e materiali di riferimento.
 description: Scopri gli strumenti di intelligenza artificiale in CX Enterprise. Migliora la tua conoscenza del prodotto e acquisisci informazioni operative utilizzando l’intelligenza artificiale in CX Enterprise.
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 20%
@@ -57,5 +56,5 @@ ht-degree: 20%
     - {hide-from-toc}[Strumenti di Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Strumenti di Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Strumenti di Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/it/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
